@@ -27,7 +27,6 @@ module.exports = {
       .verify.elementNotPresent('.panel-body')
 
       .frame(0) //selects iframe - must call to select anything within iframe
-      //.waitForElementVisible('[data-id="44856863-ffe6-44d4-8787-e0dad3c93ecf"]', 1000)
       .assert.cssProperty('.bc-text', 'border-width', '1px')
       .frame(null)
       .end();
