@@ -1,6 +1,6 @@
 module.exports = {
   '@tags' : ['colorpanel'],
-  'open color panel' : function (browser) {
+  'open and close color panel' : function (browser) {
     browser
       .url('http://localhost:8080/')
       .waitForElementVisible('body', 1000)
