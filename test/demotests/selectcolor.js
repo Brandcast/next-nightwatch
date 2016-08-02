@@ -11,17 +11,25 @@ module.exports = {
       .click('div.btn[title="Color"]')
       .pause(500)
     //}
+
+
+    .frame(0) //selects iframe - must call for 
+      .waitForElementVisible('[data-id="44856863-ffe6-44d4-8787-e0dad3c93ecf"]', 1000)
+      .click('span[data-id="44856863-ffe6-44d4-8787-e0dad3c93ecf"]')
+      .frame(null) //closes iframe
     //select color
     .verify.elementPresent('.spectrum-color-band')
-    .click('.spectrum-color-band')
-    .end();
+    .moveToElement('.spectrum-color-band', 75, 25)
+    .mouseButtonClick()
+    //.end();
     //'close color panel' : function (browser) {
     //browser
-     // .assert.elementPresent('.panel-body.dormant')
-      //.click('.svg-container')
-      //.verify.elementNotPresent('.panel-body.dormant')
+     //.assert.elementPresent('.panel-body.dormant')
+      .click('.svg-container')
+      .pause(500)
+      .verify.elementNotPresent('.panel-body.dormant')
 
       
-      //.end();
+      .end();
     }
 };

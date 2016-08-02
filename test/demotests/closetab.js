@@ -7,6 +7,7 @@ module.exports = {
       //.doubleClick()
       .moveToElement('.tab-close-container', 1, 1)
       .click('.tab-close-container')
+      .end();
   },
   
   //'step two' : function (browser) {

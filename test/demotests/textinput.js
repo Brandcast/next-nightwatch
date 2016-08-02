@@ -5,6 +5,10 @@ module.exports = {
       .waitForElementVisible('body', 1000)
       .setValue('input[type=text]', '250')
       .verify.valueContains('input[type=text]', '400')
+      .pause(300)
+      .setValue('input[type=text]', '\u0008')
+      .verify.valueContains('input[type=text]', '100')
+      .pause(300)
       .end();
 
   },
