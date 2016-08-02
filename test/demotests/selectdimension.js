@@ -1,6 +1,6 @@
 module.exports = {
-  '@tags' : ['strokepanel'],
-  'open stroke panel' : function (browser) {
+  '@tags' : ['dimensionspanel'],
+  'open dimensions panel' : function (browser) {
     browser
       .url('http://localhost:8080/')
       .waitForElementVisible('body', 1000)
@@ -17,18 +17,19 @@ module.exports = {
       .frame(null) //closes iframe
 
       //selects stroke
-      .assert.elementPresent('div.btn[title="Stroke"]')
-      .click('div.btn[title="Stroke"]')
-      .verify.elementPresent('[id="border-all_2"]')
-      .click('[id="border-all_2"]')
+      .assert.elementPresent('div.btn[title="Dimensions"]')
+      .click('div.btn[title="Dimensions"]')
+      .verify.elementPresent('[id="width_2"]')
+      .setValue('input[type=text]', '50')
+      //.click('[id="border-all_2"]')
       
       //close stroke panel
       .click('.svg-container')
       .verify.elementNotPresent('.panel-body')
 
-      .frame(0) //selects iframe - must call to select anything within iframe
-      .assert.cssProperty('.bc-text', 'border-width', '1px')
-      .frame(null)
+      //.frame(0) //selects iframe - must call to select anything within iframe
+      //.assert.cssProperty('.bc-text', 'border-width', '1px')
+      //.frame(null)
       .end();
     }
 };
