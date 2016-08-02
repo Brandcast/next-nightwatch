@@ -8,7 +8,7 @@ module.exports = {
       .pause(300)
       .setValue('input[type=text]', '\u0008')
       .verify.valueContains('input[type=text]', '100')
-      .pause(300)
+      .pause(1000)
       .end();
 
   },

@@ -3,11 +3,13 @@ module.exports = {
     browser
       .url('http://localhost:8080/')
       .waitForElementVisible('body', 1000)
-      //.moveToElement('.page-item-container', 1, 1)
-      //.doubleClick()
-      .moveToElement('.tab-close-container', 1, 1)
-      .click('.tab-close-container')
-      .end();
+      .verify.elementPresent('h5')
+      .moveToElement('h5', 1, 1)
+      .doubleClick()
+      .waitForElementVisible('.tab-selected', 1000)
+      //.click('.tab-close-container')
+      //.pause(500)
+      //.end();
   },
   
   //'step two' : function (browser) {
