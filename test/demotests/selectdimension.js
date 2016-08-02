@@ -1,6 +1,6 @@
 module.exports = {
   '@tags' : ['dimensionspanel'],
-  'open dimensions panel' : function (browser) {
+  'open dimensions panel and set max width' : function (browser) {
     browser
       .url('http://localhost:8080/')
       .waitForElementVisible('body', 1000)
@@ -16,20 +16,21 @@ module.exports = {
       .click('.bc-text')
       .frame(null) //closes iframe
 
-      //selects stroke
+      //selects dimension
       .assert.elementPresent('div.btn[title="Dimensions"]')
       .click('div.btn[title="Dimensions"]')
-      .verify.elementPresent('[id="width_2"]')
-      .setValue('input[type=text]', '50')
-      //.click('[id="border-all_2"]')
+      .verify.elementPresent('.ui-wrapper[title="Max Width"]')
+      .setValue('input[type=text]', '500')
+      .verify.valueContains('input[type=text]', '500')
       
-      //close stroke panel
+      //close dimension panel
       .click('.svg-container')
       .verify.elementNotPresent('.panel-body')
 
-      //.frame(0) //selects iframe - must call to select anything within iframe
-      //.assert.cssProperty('.bc-text', 'border-width', '1px')
-      //.frame(null)
+      //verify dimension on container via ccs
+      .frame(0) //selects iframe - must call to select anything within iframe
+      .assert.cssProperty('.bc-text', 'max-width', '500px')
+      .frame(null)
       .end();
     }
 };

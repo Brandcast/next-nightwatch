@@ -1,15 +1,13 @@
 module.exports = {
-  'input test' : function (browser) {
+  'slider test' : function (browser) {
     browser
       .url('http://localhost:8080/')
       .waitForElementVisible('body', 1000)
-      .moveToElement('.vert-align-middle', 1, 1)
-      .mouseButtonDown('.vert-align-middle')
-      .moveToElement('.vert-align-middle',100 , 1) // Move to offset position of 200(x) 600(y)
-      //.mouseButtonUp(0)
-
-      //.setValue('input[type=text]', '\u0008')
-      //.verify.valueContains('input[type=text]', '100')
-      //.end();
+      .moveToElement('[id="slider1"]', 80, 4)
+      .mouseButtonDown(0)
+      .pause(300)
+      .moveToElement('[id="slider1"]', 15, 4)
+      .mouseButtonUp(0)
+      .end();
   },
 };
