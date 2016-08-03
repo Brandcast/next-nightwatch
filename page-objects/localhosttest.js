@@ -3,7 +3,7 @@ module.exports = {
     browser
       .url('http://localhost:8080/')
       .waitForElementVisible('body', 1000)
-      .end();
+      
       //.setValue('input[type=text]', 'nightwatch')
       // .findElement ('.map-item-container', 1000)
   },

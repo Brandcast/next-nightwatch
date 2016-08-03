@@ -1,9 +1,9 @@
 {
-  "src_folders" : ["tests"],
-  "output_folder" : "reports",
+  "src_folders" : ["./tests"],
+  "output_folder" : "./reports",
   "custom_commands_path" : "./examples/custom-commands",
   "custom_assertions_path" : "",
-  "page_objects_path" : "page-objects",
+  "page_objects_path" : "./page-objects",
   "globals_path" : "",
   "live_output" : false,
   "parallel_process_delay" : 10,
