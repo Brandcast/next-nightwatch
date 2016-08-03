@@ -2,7 +2,7 @@ module.exports = {
   'step one' : function (browser) {
     browser
       .url('http://localhost:8080/')
-      .waitForElementVisible('@sitelist', 1000)
+      .waitForElementVisible('brand', 1000)
       .end();
   },
 };
