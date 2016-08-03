@@ -1,0 +1,319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "add",
+		"selected_items":
+		[
+			[
+				"add",
+				"Project: Add Folder"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kelli/Sites/nightwatch/page-objects/localhosttest.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/sitemapsearch.js",
+		"/Users/kelli/Sites/nightwatch/bin/nightwatch.json",
+		"/Users/kelli/Sites/nightwatch/test/demotests/selectcolor.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/textinput.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/selectcolumn.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/opencolorpanel.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/textinputx2.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/colorpanel.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/opensite:colorpanel.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/selectcolorsitemap.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/iframeloads.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/contentloads.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/diggsearch.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/opensite.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/strokepanel.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/listwindowresize.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/closesite.js",
+		"/Users/kelli/Sites/nightwatch/test/demotests/slider.js",
+		"/Users/kelli/Sites/nightwatch/test/sampletests/simple/demotest2.js",
+		"/Users/kelli/Sites/nightwatch/test/sampletests/mixed/sample.js",
+		"/Users/kelli/Sites/nightwatch/test/sampletests/simple/localhosttest.js",
+		"/Users/kelli/Sites/cucumber-js/features/step_definitions/localhosttest_steps.js",
+		"/Users/kelli/Sites/cucumber-js/features/samesteptest.feature",
+		"/Users/kelli/Sites/nightwatch/test/sampletests/async/sample.js",
+		"/Users/kelli/Sites/cucumber-js/bin/cucumber.js",
+		"/Users/kelli/Sites/cucumber-js/lib/cucumber.js",
+		"/Users/kelli/Sites/cucumber-js/cucumber.js",
+		"/Users/kelli/Sites/cucumber-js/bower.json",
+		"/Users/kelli/Sites/cucumber-js/spec/cucumber_spec.js",
+		"/Users/kelli/Sites/cucumber-js/features/step_definitions/calculate_steps.js",
+		"/Users/kelli/Sites/cucumber-js/features/belly.feature",
+		"/Users/kelli/Sites/cucumber-js/package.json",
+		"/Users/kelli/Downloads/mocha-selenium-master/bin/mocha-selenium.js",
+		"/Users/kelli/Sites/cucumber-js/features/step_definitions/belly_steps.js",
+		"/Users/kelli/Sites/cucumber-js/features/step_definitions/file_steps.js",
+		"/Users/kelli/Sites/cucumber-js/nodejs-cucumber-sample/features/step_definitions/calculator.js",
+		"/Users/kelli/Sites/cucumber-js/features/step_definitions/grocery_list_steps.js",
+		"/Users/kelli/Sites/cucumber-js/example/example.js",
+		"/Users/kelli/Sites/Brandcast/test/webdriver/specs/text.test.js",
+		"/Users/kelli/Sites/Brandcast/Makefile",
+		"/Users/kelli/Sites/cucumber-js/nodejs-cucumber-sample/features/calculator.feature",
+		"/Users/kelli/Sites/cucumber-js/features/step_definition_timeouts.feature",
+		"/Users/kelli/Sites/cucumber-js/nodejs-cucumber-sample/features/step_definitions/README.md",
+		"/Users/kelli/Sites/Brandcast/test/webdriver/wdio.conf.js",
+		"/Users/kelli/Sites/Brandcast/test/webdriver/specs/org.test.js",
+		"/Users/kelli/Sites/Brandcast/package.json",
+		"/Users/kelli/Sites/Brandcast/webpack.config.admin.js",
+		"/Users/kelli/Sites/Brandcast/dist/assets/js/libs/webpack.admin.js",
+		"/Users/kelli/Sites/Brandcast/test/webdriver/secrets.js",
+		"/Users/kelli/test/specs/spec.js",
+		"/Users/kelli/webdriverio-test/test.js",
+		"/Users/kelli/Desktop/node-react-master/code/node/day1-09-nodejs-app2.js",
+		"/Users/kelli/Desktop/node-react-master/code/node/day1-08-nodejs-app.js",
+		"/Users/kelli/Downloads/node-react-master/code/node/day1-06-modules-step1.js",
+		"/Applications/XAMPP/xamppfiles/phpmyadmin/sql/upgrade_tables_mysql_4_1_2+.sql",
+		"/Users/kelli/server.js",
+		"/Users/kelli/Desktop/node-react-master/slides/node/node.md",
+		"/Users/kelli/Desktop/node-react-master/code/node/day1-03-controlStructures-switch-statement.js",
+		"/Users/kelli/Desktop/httpcreate.js",
+		"/Users/kelli/Downloads/node-react-master/code/node/day1-05-modules-basic.js",
+		"/Users/kelli/Downloads/node-react-master/slides/meditation.md",
+		"/Users/kelli/Sites/Brandcast/node_modules/npm/node_modules/npm-registry-client/test/fixtures/@npm/npm-registry-client/cache.json",
+		"/Users/kelli/Sites/Brandcast/packages/bc-screenshots/screenshots/index.js",
+		"/Users/kelli/Desktop/Home_files/require.admin.responsive.v7.3.6.js",
+		"/Users/kelli/Sites/Brandcast/modules/bc-seed/lib/permissions/permissions.js",
+		"/Users/kelli/Sites/Brandcast/modules/bc-seed/lib/components/view-components.js",
+		"/Users/kelli/bc-screenshots/screenshots/httpbrandcastdotcom.brandcast.comagencies-stage.png",
+		"/Users/kelli/bc-screenshots/urls"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			".bc-spec.js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"page",
+			"webdriver",
+			"function",
+			"browser",
+			"the",
+			"cli_step",
+			"page-item-container",
+			"  }",
+			"Given",
+			"in component json, but likely doesnt exist anymore",
+			"Users/sean/Sites/Brandcast",
+			"h"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "textinput.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"calculate_steps.js",
+				"features/step_definitions/calculate_steps.js"
+			],
+			[
+				"wdio",
+				"test/webdriver/wdio.conf.js"
+			],
+			[
+				"org.",
+				"test/webdriver/specs/org.test.js"
+			],
+			[
+				"prot",
+				"test/webdriver/specs/prototype.test.js"
+			],
+			[
+				"bc-seed/script/",
+				"modules/bc-seed/scripts/components/components.js"
+			],
+			[
+				"page-builder.js",
+				"packages/bc-page-builder/client/page-builder/views/page-builder-card.js"
+			],
+			[
+				"page-builder-item.js",
+				"packages/bc-page-builder/client/page-builder/views/page-builder-item.js"
+			],
+			[
+				"view-components.",
+				"modules/bc-seed/lib/components/view-components.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"webpack.admin.js",
+				"assets/js/libs/webpack.admin.js"
+			],
+			[
+				"default",
+				"bin/build/default"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"webpack",
+				"webpack.config.admin.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"seed/viewcom",
+				"Brandcast/modules/bc-seed/lib/components/view-components.js"
+			],
+			[
+				"permissions.js",
+				"Brandcast/modules/bc-seed/lib/permissions/permissions.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
