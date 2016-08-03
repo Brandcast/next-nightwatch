@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="localhosttest"
+    errors="0" failures="1" hostname="" id="" package="localhosttest" skipped="0"
+    tests="1" time="5.254" timestamp="Wed, 03 Aug 2016 23:47:57 GMT">
+  
+    <testcase name="step one" time="5.254" assertions="1">  <failure message="Timed out while waiting for element &lt;@sitelist&gt; to be present for 1000 milliseconds.">    at Object.module.exports.step one (/Users/kelli/Sites/nightwatch/test/demotests/localhosttest.js:5:8)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
