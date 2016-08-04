@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="localhosttest"
-    errors="0" failures="1" hostname="" id="" package="localhosttest" skipped="0"
-    tests="1" time="5.204" timestamp="Wed, 03 Aug 2016 23:58:27 GMT">
+    errors="0" failures="0" hostname="" id="" package="localhosttest" skipped="0"
+    tests="1" time="4.511" timestamp="Thu, 04 Aug 2016 18:16:57 GMT">
   
-    <testcase name="step one" time="5.204" assertions="1">  <failure message="Timed out while waiting for element &lt;brand&gt; to be present for 1000 milliseconds.">    at Object.module.exports.step one (/Users/kelli/Sites/nightwatch/test/demotests/localhosttest.js:5:8)</failure>
+    <testcase name="step one" time="4.511" assertions="1">
 
     
     </testcase>

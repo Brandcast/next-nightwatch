@@ -1,8 +1,10 @@
 module.exports = {
   'step one' : function (browser) {
-    browser
-      .url('http://localhost:8080/')
-      .waitForElementVisible('brand', 1000)
-      .end();
+    var page = browser.page.localhosttest();
+
+    page.navigate()
+      .waitForElementVisible('@sitelist', 1000)
+      
+    browser.end();
   },
 };
