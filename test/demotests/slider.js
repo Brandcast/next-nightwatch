@@ -8,6 +8,7 @@ module.exports = {
       .pause(300)
       .moveToElement('[id="slider1"]', 15, 4)
       .mouseButtonUp(0)
+      .pause(1000)
       .end();
   },
 };
