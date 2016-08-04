@@ -3,8 +3,9 @@ module.exports = {
     var page = browser.page.pageload();
 
     page.navigate()
-      .waitForElementVisible('@sitelist', 1000)
+      .pageload();
       
     browser.end();
   },
 };
+
