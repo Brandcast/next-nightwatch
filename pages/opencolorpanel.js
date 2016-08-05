@@ -2,7 +2,7 @@ var opencolorpanelCommands = {
   opencolorpanel: function() {
     this.verify.elementPresent('@colorpanelbtn')
       .click('div.btn[title="Color"]')
-      .verify.elementPresent('.overlay-label', "Color");
+      .verify.containsText('.overlay-label', 'Color')
   }
 };
 
