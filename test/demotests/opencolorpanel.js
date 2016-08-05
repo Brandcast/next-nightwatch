@@ -7,17 +7,9 @@ module.exports = {
       .moveToElement('h5', 1, 1)
       .doubleClick()
 
-      .assert.elementPresent('div.btn[title="Color"]')
-      .click('div.btn[title="Color"]')
-      .pause(500)
-      .end();
+      page = browser.page.opencolorpanel();
+      page.opencolorpanel()
+      
+      browser.end();
   },
-  
-  //'step two' : function (browser) {
-    //browser
-     // .click('button[name=btnG]')
-      //.pause(1000)
-      //.assert.containsText('#main', 'Night Watch')
-     //.end(); 
-  //}
 };
