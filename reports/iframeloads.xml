@@ -3,17 +3,17 @@
             failures="0"
             tests="1">
 
-  <testsuite name="opensitewithpo"
-    errors="1" failures="0" hostname="" id="" package="opensitewithpo" skipped="0"
-    tests="1" time="0.01900" timestamp="Fri, 05 Aug 2016 16:58:44 GMT">
+  <testsuite name="iframeloads"
+    errors="1" failures="0" hostname="" id="" package="iframeloads" skipped="0"
+    tests="1" time="0.01000" timestamp="Fri, 05 Aug 2016 17:05:11 GMT">
   
-    <testcase name="step one" time="0.01900" assertions="0">
+    <testcase name="test" time="0.01000" assertions="0">
     </testcase>
       <system-err>
-          Error while running [Opensitewithpo / step one]:
+          Error while running [Iframeloads / test]:
 
-  TypeError: undefined is not a function
-    at Object.module.exports.step one (/Users/kelli/Sites/nightwatch/test/demotests/opensitewithpo.js:9:10)
+  ReferenceError: page is not defined
+    at Object.module.exports.test (/Users/kelli/Sites/nightwatch/test/demotests/iframeloads.js:9:7)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)

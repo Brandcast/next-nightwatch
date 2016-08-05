@@ -3,7 +3,7 @@ module.exports = {
     var page = browser.page.pageload();
 
     page.navigate()
-      .pageload();
+      page.pageload();
 
     page = browser.page.opensite();
     page.opensite();

@@ -6,6 +6,8 @@ module.exports = {
       .verify.elementPresent('h5')
       .moveToElement('h5', 1, 1)
       .doubleClick()
+      .verify.elementPresent('.tab.selected')
+      .verify.elementPresent('.tab')
       .end()
 
   },

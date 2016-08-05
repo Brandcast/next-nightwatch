@@ -1,5 +1,5 @@
-var opensiteCommands = {
-  opensite: function() {
+var opencolorpanelCommands = {
+  opencolorpanel: function() {
     this.verify.elementPresent('@site')
       .moveToElement('@site', 1, 1);
     
@@ -10,10 +10,10 @@ var opensiteCommands = {
 };
 
 module.exports = {
-  commands: [opensiteCommands],
+  commands: [opencolorpanelCommands],
   elements: {
-    site: {
-    	selector: 'h5'
+    colorpanelbtn: {
+    	selector: 'div.btn[title="Color"]'
     }
   }
 };
