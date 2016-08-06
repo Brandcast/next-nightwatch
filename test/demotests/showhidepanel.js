@@ -8,13 +8,7 @@ module.exports = {
 
         page = browser.page.openshowhidepanel();
         page.openshowhidepanel()
-      //.assert.elementPresent('div.btn[title="Dimensions"]')
-      //.click('div.btn[title="Dimensions"]')
-      //.pause(500)
-    //}
-
-    //'close dimensions panel' : function (browser) {
-    //browser
+  
       browser.assert.elementPresent('.panel-body')
       .click('.svg-container')
       .verify.elementNotPresent('.panel-body')

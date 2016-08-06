@@ -5,9 +5,9 @@
 
   <testsuite name="localhosttest"
     errors="0" failures="0" hostname="" id="" package="localhosttest" skipped="0"
-    tests="1" time="4.015" timestamp="Fri, 05 Aug 2016 22:25:50 GMT">
+    tests="1" time="4.198" timestamp="Fri, 05 Aug 2016 23:16:59 GMT">
   
-    <testcase name="step one" time="4.015" assertions="1">
+    <testcase name="step one" time="4.198" assertions="1">
 
     
     </testcase>
