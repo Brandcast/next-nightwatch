@@ -5,9 +5,9 @@
 
   <testsuite name="potests"
     errors="0" failures="0" hostname="" id="" package="potests" skipped="0"
-    tests="1" time="4.138" timestamp="Fri, 05 Aug 2016 23:17:18 GMT">
+    tests="1" time="4.152" timestamp="Mon, 08 Aug 2016 17:02:31 GMT">
   
-    <testcase name="step one" time="4.138" assertions="1">
+    <testcase name="step one" time="4.152" assertions="1">
 
     
     </testcase>

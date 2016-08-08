@@ -5,15 +5,15 @@
 
   <testsuite name="strokepanel"
     errors="1" failures="0" hostname="" id="" package="strokepanel" skipped="0"
-    tests="1" time="0.02100" timestamp="Fri, 05 Aug 2016 18:42:49 GMT">
+    tests="1" time="0.03200" timestamp="Mon, 08 Aug 2016 23:53:21 GMT">
   
-    <testcase name="open stroke panel" time="0.02100" assertions="0">
+    <testcase name="open stroke panel" time="0.03200" assertions="0">
     </testcase>
       <system-err>
           Error while running [Strokepanel / open stroke panel]:
 
-  TypeError: Cannot read property &#39;end&#39; of undefined
-    at Object.module.exports.open stroke panel (/Users/kelli/Sites/nightwatch/test/demotests/strokepanel.js:17:7)
+  TypeError: undefined is not a function
+    at Object.module.exports.open stroke panel (/Users/kelli/Sites/nightwatch/test/demotests/strokepanel.js:10:14)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)

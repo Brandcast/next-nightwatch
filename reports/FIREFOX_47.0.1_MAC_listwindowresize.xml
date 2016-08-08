@@ -5,9 +5,9 @@
 
   <testsuite name="listwindowresize"
     errors="0" failures="0" hostname="" id="" package="listwindowresize" skipped="0"
-    tests="1" time="6.973" timestamp="Fri, 05 Aug 2016 23:16:52 GMT">
+    tests="1" time="6.876" timestamp="Mon, 08 Aug 2016 17:02:04 GMT">
   
-    <testcase name="brandlist window resize" time="6.973" assertions="2">
+    <testcase name="brandlist window resize" time="6.876" assertions="2">
 
     
 
