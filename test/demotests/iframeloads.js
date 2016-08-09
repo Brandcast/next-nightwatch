@@ -1,13 +1,17 @@
 module.exports = {
   'test' : function (browser) {
-    browser
-      .url('http://localhost:8080/')
-      .waitForElementVisible('body', 1000)
-      .verify.elementPresent('h5')
-      .moveToElement('h5', 1, 1)
-      .doubleClick()
-      .assert.elementPresent('iframe')
-      .end();
+    var page = browser.page.pageload();
+
+    page.navigate()
+      page.pageload();
+    
+    page = browser.page.opensite();
+      page.opensite();
+
+    page = browser.page.iframepresent();
+      page.iframepresent();
+      
+      browser.end();
   },
   
   //'step two' : function (browser) {

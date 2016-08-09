@@ -5,9 +5,13 @@
 
   <testsuite name="selectstroke"
     errors="0" failures="0" hostname="" id="" package="selectstroke" skipped="0"
-    tests="1" time="6.162" timestamp="Tue, 09 Aug 2016 00:02:46 GMT">
+    tests="1" time="6.054" timestamp="Tue, 09 Aug 2016 21:15:09 GMT">
   
-    <testcase name="open stroke panel" time="6.162" assertions="7">
+    <testcase name="open stroke panel" time="6.054" assertions="9">
+
+    
+
+    
 
     
 

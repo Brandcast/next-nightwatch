@@ -3,11 +3,11 @@
             failures="0"
             tests="1">
 
-  <testsuite name="colorpanel"
-    errors="1" failures="0" hostname="" id="" package="colorpanel" skipped="0"
-    tests="1" time="0.006000" timestamp="Tue, 09 Aug 2016 21:03:05 GMT">
+  <testsuite name="closetab"
+    errors="1" failures="0" hostname="" id="" package="closetab" skipped="0"
+    tests="1" time="0.008000" timestamp="Tue, 09 Aug 2016 21:04:51 GMT">
   
-    <testcase name="test" time="0.006000" assertions="0">
+    <testcase name="close site tab" time="0.008000" assertions="0">
     </testcase>
       <system-err>
           Error while running [Closetab / close site tab]:

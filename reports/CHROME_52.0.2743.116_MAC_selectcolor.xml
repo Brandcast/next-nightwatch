@@ -5,17 +5,9 @@
 
   <testsuite name="selectcolor"
     errors="0" failures="0" hostname="" id="" package="selectcolor" skipped="0"
-    tests="1" time="6.468" timestamp="Tue, 09 Aug 2016 21:20:02 GMT">
+    tests="1" time="5.086" timestamp="Tue, 09 Aug 2016 21:04:56 GMT">
   
-    <testcase name="open color panel" time="6.468" assertions="11">
-
-    
-
-    
-
-    
-
-    
+    <testcase name="open color panel" time="5.086" assertions="7">
 
     
 

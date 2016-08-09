@@ -5,7 +5,7 @@
 
   <testsuite name="selectcolumn"
     errors="1" failures="0" hostname="" id="" package="selectcolumn" skipped="0"
-    tests="1" time="0.002000" timestamp="Tue, 09 Aug 2016 21:03:18 GMT">
+    tests="1" time="0.002000" timestamp="Tue, 09 Aug 2016 21:05:01 GMT">
   
     <testcase name="test" time="0.002000" assertions="0">
     </testcase>

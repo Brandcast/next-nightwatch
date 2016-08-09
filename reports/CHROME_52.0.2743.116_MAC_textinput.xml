@@ -5,9 +5,9 @@
 
   <testsuite name="textinput"
     errors="0" failures="0" hostname="" id="" package="textinput" skipped="0"
-    tests="1" time="4.301" timestamp="Tue, 09 Aug 2016 21:03:48 GMT">
+    tests="1" time="3.029" timestamp="Tue, 09 Aug 2016 21:05:23 GMT">
   
-    <testcase name="input test" time="4.301" assertions="3">
+    <testcase name="input test" time="3.029" assertions="3">
 
     
 
