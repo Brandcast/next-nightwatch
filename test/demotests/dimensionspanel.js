@@ -1,23 +1,17 @@
 module.exports = {
   '@tags' : ['dimensionspanel'],
   'open dimensions panel' : function (browser) {
-    browser
-      .url('http://localhost:8080/')
-      .waitForElementVisible('body', 1000)
-      
+     var page = browser.page.pageload();
 
-        page = browser.page.opendimensionspanel();
+      page.navigate()
+        page.pageload();
+
+      page = browser.page.opendimensionspanel();
         page.opendimensionspanel()
-      //.assert.elementPresent('div.btn[title="Dimensions"]')
-      //.click('div.btn[title="Dimensions"]')
-      //.pause(500)
-    //}
+     
+      page = browser.page.closepanel();  
+        page.closepanel();
 
-    //'close dimensions panel' : function (browser) {
-    //browser
-      browser.assert.elementPresent('.panel-body')
-      .click('.svg-container')
-      .verify.elementNotPresent('.panel-body')
-      .end();
+      browser.end();
     }
 };

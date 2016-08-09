@@ -1,14 +1,15 @@
 module.exports = {
   'test' : function (browser) {
-    browser
-      .url('http://localhost:8080/')
-      .waitForElementVisible('body', 1000)
-      .verify.elementPresent('h5')
-      .moveToElement('h5', 1, 1)
-      .doubleClick()
+     var page = browser.page.pageload();
 
-      page = browser.page.opencolorpanel();
+    page.navigate()
+      page.pageload();
+
+    page = browser.page.opencolorpanel();
       page.opencolorpanel()
+
+     page = browser.page.closepanel();  
+        page.closepanel();
       
       browser.end();
   },

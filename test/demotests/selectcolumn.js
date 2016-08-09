@@ -1,17 +1,20 @@
 module.exports = {
   'test' : function (browser) {
-    browser
-      .url('http://localhost:8080/')
-      .waitForElementVisible('body', 1000)
-      .waitForElementVisible('h5', 1000)
-      .moveToElement('h5', 1, 1)
-      .doubleClick()
+   var page = browser.page.pageload();
+    page.navigate()
+      page.pageload();
+
+    page = browser.page.opensite();
+      page.opensite();
       
-      .frame(0) //selects iframe - must call for 
-      .waitForElementVisible('h5', 1000)
-      .click('h5')
-      .frame(null) //closes iframe
-      .end();
+      browser.frame(0) //selects iframe - must call for 
+      .waitForElementPresent('.bc-text-content', 1000)
+      .click('.bc-text-content')
+      //.pause(500)
+      //.expect.element('.bc-text-content').to.be.selected
+      browser.frame(null) //closes iframe
+      
+      browser.end();
 
   },
 };

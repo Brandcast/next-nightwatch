@@ -1,14 +1,14 @@
 module.exports = {
   'test' : function (browser) {
-    browser
-      .url('http://localhost:8080/')
-      .waitForElementVisible('body', 1000)
-      .verify.elementPresent('h5')
-      .moveToElement('h5', 1, 1)
-      .doubleClick()
-      .verify.elementPresent('.tab.selected')
-      .verify.elementPresent('.tab')
-      .end()
+    var page = browser.page.pageload();
+
+    page.navigate()
+      page.pageload();
+
+      browser.verify.elementPresent('.tab.selected')
+      browser.verify.elementPresent('.tab')
+      
+      browser.end()
 
   },
 };

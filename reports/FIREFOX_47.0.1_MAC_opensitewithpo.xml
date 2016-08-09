@@ -5,9 +5,9 @@
 
   <testsuite name="opensitewithpo"
     errors="0" failures="0" hostname="" id="" package="opensitewithpo" skipped="0"
-    tests="1" time="5.041" timestamp="Mon, 08 Aug 2016 17:02:26 GMT">
+    tests="1" time="4.976" timestamp="Tue, 09 Aug 2016 00:02:17 GMT">
   
-    <testcase name="step one" time="5.041" assertions="4">
+    <testcase name="step one" time="4.976" assertions="4">
 
     
 

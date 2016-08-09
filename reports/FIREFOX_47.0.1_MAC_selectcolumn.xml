@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="selectcolumn"
-    errors="0" failures="0" hostname="" id="" package="selectcolumn" skipped="0"
-    tests="1" time="5.560" timestamp="Mon, 08 Aug 2016 17:02:42 GMT">
+    errors="0" failures="1" hostname="" id="" package="selectcolumn" skipped="0"
+    tests="1" time="5.867" timestamp="Tue, 09 Aug 2016 01:11:49 GMT">
   
-    <testcase name="test" time="5.560" assertions="3">
+    <testcase name="test" time="5.867" assertions="6">
 
     
 
     
+
+    
+
+    
+
+      <failure message="Expected element &lt;.bc-text-content&gt; to be selected">    at Object.module.exports.test (/Users/kelli/Sites/nightwatch/test/demotests/selectcolumn.js:14:15)</failure>
 
     
     </testcase>
