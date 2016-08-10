@@ -2,7 +2,8 @@ var colorspectrumCommands = {
   colorspectrum: function() {
     this.verify.elementPresent('@colorspectrum')
       .moveToElement('@colorspectrum', 75, 25)
-      .mouseButtonClick()
+      this.api.mouseButtonClick()
+          
   }
 };
 

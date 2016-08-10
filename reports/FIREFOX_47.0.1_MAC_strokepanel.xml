@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="1">
 
   <testsuite name="strokepanel"
-    errors="1" failures="0" hostname="" id="" package="strokepanel" skipped="0"
-    tests="1" time="0.002000" timestamp="Tue, 09 Aug 2016 21:03:48 GMT">
+    errors="0" failures="0" hostname="" id="" package="strokepanel" skipped="0"
+    tests="1" time="4.619" timestamp="Wed, 10 Aug 2016 16:43:47 GMT">
   
-    <testcase name="open stroke panel" time="0.002000" assertions="0">
+    <testcase name="open stroke panel" time="4.619" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
   

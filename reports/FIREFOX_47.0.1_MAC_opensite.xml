@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="1">
 
   <testsuite name="opensite"
-    errors="1" failures="0" hostname="" id="" package="opensite" skipped="0"
-    tests="1" time="0.005000" timestamp="Tue, 09 Aug 2016 21:03:10 GMT">
+    errors="0" failures="0" hostname="" id="" package="opensite" skipped="0"
+    tests="1" time="4.076" timestamp="Wed, 10 Aug 2016 16:42:59 GMT">
   
-    <testcase name="test" time="0.005000" assertions="0">
+    <testcase name="test" time="4.076" assertions="3">
+
+    
+
+    
+
+    
     </testcase>
   
   

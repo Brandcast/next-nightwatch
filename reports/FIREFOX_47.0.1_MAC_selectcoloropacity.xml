@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="selectcoloropacity"
+    errors="0" failures="0" hostname="" id="" package="selectcoloropacity" skipped="0"
+    tests="1" time="6.596" timestamp="Wed, 10 Aug 2016 19:08:58 GMT">
+  
+    <testcase name="open color panel" time="6.596" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
