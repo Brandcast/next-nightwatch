@@ -27,8 +27,8 @@ module.exports = {
     
         //verify color applied via css
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        assert.cssProperty('.bc-text', 'color', 'rgba(191, 122, 122, 1)')
-        .frame(null)
+        browser.assert.cssProperty('.bc-text', 'color', 'rgba(191, 122, 122, 1)')
+        browser.frame(null)
         .end();
     }
 };

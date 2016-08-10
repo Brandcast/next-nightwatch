@@ -6,11 +6,11 @@ module.exports = {
       page.navigate()
         page.pageload();
 
-      browser.assert.elementPresent('div.btn[title="Color"]')
-      .click('div.btn[title="Color"]')
-      .pause(500)
+   
+    page = browser.page.opencolorpanel();
+      page.opencolorpanel()
 
-      .resizeWindow(640,960)
+      browser.resizeWindow(640,960)
       .pause(500)
 
       .maximizeWindow()

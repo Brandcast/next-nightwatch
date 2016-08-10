@@ -5,24 +5,24 @@
 
   <testsuite name="selectcoloropacity"
     errors="1" failures="0" hostname="" id="" package="selectcoloropacity" skipped="0"
-    tests="1" time="0.07600" timestamp="Wed, 10 Aug 2016 18:36:13 GMT">
+    tests="1" time="0.05900" timestamp="Wed, 10 Aug 2016 23:23:29 GMT">
   
-    <testcase name="open color panel" time="0.07600" assertions="0">
+    <testcase name="open color opacity panel" time="0.05900" assertions="0">
     </testcase>
       <system-err>
-          Error while running [Selectcoloropacity / open color panel]:
+          Error while running [Selectcoloropacity / open color opacity panel]:
 
-  Error: No selector property for element &quot;opacityinputtext&quot; Instead found properties: selector,parent,name
-    at new Element (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/element.js:11:11)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/page-utils.js:39:35
-    at Array.forEach (native)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/page-utils.js:35:24
-    at Array.forEach (native)
-    at module.exports.createElements (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/page-utils.js:34:14)
-    at Object.Page (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/page.js:19:6)
-    at Object.parent.(anonymous function) [as opacityinputtext] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/api.js:469:16)
-    at Object.module.exports.open color panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:26:27)
+  TypeError: undefined is not a function
+    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:28:23)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
       </system-err>
   
   

@@ -5,9 +5,9 @@
 
   <testsuite name="selectcolumn"
     errors="0" failures="0" hostname="" id="" package="selectcolumn" skipped="0"
-    tests="1" time="5.512" timestamp="Wed, 10 Aug 2016 16:43:03 GMT">
+    tests="1" time="5.234" timestamp="Wed, 10 Aug 2016 23:18:14 GMT">
   
-    <testcase name="test" time="5.512" assertions="5">
+    <testcase name="test" time="5.234" assertions="5">
 
     
 

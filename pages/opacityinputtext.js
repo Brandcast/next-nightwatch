@@ -1,8 +1,7 @@
 var opacityinputtextCommands = {
 opacityinputtext: function() {
-    this.verify.elementPresent('@opacitymenu')
-      .setValue('@opacityinputtext', '\u0008')
-      //.verify.valueContains('input[type=text]', '100')
+    this.verify.elementPresent('@opacitymenu')      
+      .verify.valueContains('input[type=text]', '100')
   }
 };
 
