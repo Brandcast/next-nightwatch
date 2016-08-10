@@ -1,6 +1,6 @@
 module.exports = {
   '@tags' : ['colorpanel'],
-  'open color panel' : function (browser) {
+  'open color opacity panel' : function (browser) {
      var page = browser.page.pageload();
 
       page.navigate()
@@ -22,7 +22,7 @@ module.exports = {
       page = browser.page.colorspectrum();  
         page.colorspectrum();
       
-      //browser.verify.elementPresent('.ui-wrapper[title="A"] .select-input-wrapper input[type=text]')
+      //browser.verify.elementPresent('.ui-wrapper[title="A"] .slider-wrapper input[type=range]')
 
       page = browser.page.opacityinputtext();  
         page.opacityinputtext();
