@@ -1,18 +1,14 @@
 module.exports = {
-  'test' : function (browser) {
-    browser
-      .url('http://localhost:8080/')
-      .waitForElementVisible('body', 1000)
-      .assert.containsText('span', 'SiteMap')
-      .end();
+  'site map work search on span' : function (browser) {
+   var page = browser.page.pageload();
 
-  },
-  
-  //'step two' : function (browser) {
-    //browser
-     // .click('button[name=btnG]')
-      //.pause(1000)
-      //.assert.containsText('#main', 'Night Watch')
-     //.end(); 
-  //}
+    page.navigate()
+      page.pageload();
+
+    page = browser.page.opensitemap();
+      page.opensitemap(); 
+      
+      browser.assert.containsText('span', 'SiteMap')
+      browser.end();
+    },
 };

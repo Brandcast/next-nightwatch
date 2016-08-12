@@ -6,6 +6,9 @@ module.exports = {
       page.navigate()
         page.pageload();
     
+      page = browser.page.opensitemap();
+        page.opensitemap();
+
       page = browser.page.opensite();
         page.opensite();
 

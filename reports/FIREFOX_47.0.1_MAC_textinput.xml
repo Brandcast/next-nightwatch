@@ -4,18 +4,16 @@
             tests="1">
 
   <testsuite name="textinput"
-    errors="0" failures="0" hostname="" id="" package="textinput" skipped="0"
-    tests="1" time="4.662" timestamp="Wed, 10 Aug 2016 23:19:01 GMT">
+    errors="0" failures="0" hostname="" id="" package="textinput" skipped="1"
+    tests="1" time="0.000" timestamp="Thu, 11 Aug 2016 20:36:02 GMT">
   
-    <testcase name="input test" time="4.662" assertions="3">
-
+  
     
-
-    
-
-    
+    <testcase
+      name="input test">
+      <skipped />
     </testcase>
-  
+    
   
   </testsuite>
 </testsuites>

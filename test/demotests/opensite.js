@@ -5,13 +5,19 @@ module.exports = {
     page.navigate()
       page.pageload();
 
-      browser.verify.elementPresent('.tab.selected')
-      browser.verify.elementPresent('.tab')
+    page = browser.page.opensitemap();
+    	page.opensitemap();
       
-      browser.end()
 
+      browser.frame('iframe') //selects iframe - must call to select anything within iframe
+        .waitForElementVisible('iframe', 1000)
+        .moveToElement('iframe', 25, 25)
+        .doubleClick()
+        .frame(null) 
+     //page = browser.page.opensite();
+    	//page.opensite();
+
+      //browser.end()
   },
 };
 
-//.verify.elementPresent('h5[title="About Us (page2)"]', 1, 1')
-      //.moveToElement('h5[title="About Us (page2)"]', 1, 1)

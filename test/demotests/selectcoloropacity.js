@@ -5,6 +5,9 @@ module.exports = {
 
       page.navigate()
         page.pageload();
+
+      page = browser.page.opensitemap();
+        page.opensitemap();
     
       page = browser.page.opensite();
         page.opensite();
@@ -32,7 +35,7 @@ module.exports = {
           //.pause(300)
       browser.moveToElement('.ui-wrapper[title="A"] .slider-wrapper input[type=range]', 15, 6)
        browser.moveToElement('.ui-wrapper[title="A"] .slider-wrapper input[type=range]', 94, 6)
-          //.mouseButtonUp(0)
+          .mouseButtonUp(0)
       
       //page = browser.page.closepanel();  
         //page.closepanel();

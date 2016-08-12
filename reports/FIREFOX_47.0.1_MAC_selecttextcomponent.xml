@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="selecttextcomponent"
+    errors="1" failures="0" hostname="" id="" package="selecttextcomponent" skipped="0"
+    tests="1" time="0.01800" timestamp="Thu, 11 Aug 2016 20:35:45 GMT">
+  
+    <testcase name="test" time="0.01800" assertions="0">
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

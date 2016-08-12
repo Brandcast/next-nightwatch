@@ -3,18 +3,18 @@
             failures="0"
             tests="1">
 
-  <testsuite name="closetab"
-    errors="1" failures="0" hostname="" id="" package="closetab" skipped="0"
-    tests="1" time="0.02000" timestamp="Thu, 11 Aug 2016 20:44:30 GMT">
+  <testsuite name="opensite"
+    errors="1" failures="0" hostname="" id="" package="opensite" skipped="0"
+    tests="1" time="0.04900" timestamp="Thu, 11 Aug 2016 23:11:59 GMT">
   
-    <testcase name="close site tab" time="0.02000" assertions="0">
+    <testcase name="test" time="0.04900" assertions="0">
     </testcase>
       <system-err>
-          Error while running [Closetab / close site tab]:
+          Error while running [Opensite / test]:
 
   TypeError: undefined is not a function
-    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:5:10)
-    at Object.module.exports.close site tab (/Users/kelli/Sites/nightwatch/test/demotests/closetab.js:11:12)
+    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:5:15)
+    at Object.module.exports.test (/Users/kelli/Sites/nightwatch/test/demotests/opensite.js:12:11)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
