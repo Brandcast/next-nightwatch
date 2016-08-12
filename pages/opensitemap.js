@@ -1,9 +1,16 @@
 var opensitemapCommands = {
   opensitemap: function() {
-    this.verify.elementPresent('@newwebsitebtn')
-        this.api.click('.btn-text-label')
-                .pause(500)
-                .verify.elementPresent('.site-map-container')
+        this.api.resizeWindow(1050,7500)
+        .pause(500)
+        .moveToElement('.welcome-screen', 630,350)
+        .mouseButtonClick()
+        .verify.elementPresent('iframe')
+
+
+    //this.verify.elementPresent('@newwebsitebtn')
+      //  this.api.click('.btn-text-label')
+        //        .pause(500)
+          //      .verify.elementPresent('.site-map-container')
        //.waitforElementVisible('.site-map-container', 1000)         
   },
 };
