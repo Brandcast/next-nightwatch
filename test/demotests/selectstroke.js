@@ -6,8 +6,8 @@ module.exports = {
     page.navigate()
       page.pageload();
     
-    page = browser.page.opensite();
-      page.opensite();
+    page = browser.page.opensitemap();
+      page.opensitemap();
 
     page = browser.page.opensite();
       page.opensite(); 
@@ -19,9 +19,11 @@ module.exports = {
       .frame(null) //closes iframe
 
       //selects stroke
-      .assert.elementPresent('div.btn[title="Stroke"]')
-      .click('div.btn[title="Stroke"]')
-      .verify.elementPresent('[id="border-all_2"]')
+      
+      page = browser.page.openstrokepanel();
+        page.openstrokepanel()
+
+      browser.verify.elementPresent('[id="border-all_2"]')
       .click('[id="border-all_2"]')
       
       //close stroke panel

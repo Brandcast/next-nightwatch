@@ -6,8 +6,11 @@ module.exports = {
     page.navigate()
       page.pageload();
     
+    page = browser.page.opensitemap();
+      page.opensitemap();
+
     page = browser.page.opensite();
-      page.opensite();
+      page.opensite(); 
 
       //selects column
      browser.frame(0) //selects iframe - must call to select anything within iframe
@@ -16,11 +19,13 @@ module.exports = {
       .frame(null) //closes iframe
 
       //selects dimension
-      .assert.elementPresent('div.btn[title="Dimensions"]')
-      .click('div.btn[title="Dimensions"]')
-      .verify.elementPresent('.ui-wrapper[title="Max Width"]')
-      .setValue('input[type=text]', '500')
-      .verify.valueContains('input[type=text]', '500')
+      
+    page = browser.page.opendimensionspanel();
+      page.opendimensionspanel()
+
+      browser.verify.elementPresent('.ui-wrapper[title="Max Width"]')
+        .setValue('input[type=text]', '500')
+        .verify.valueContains('input[type=text]', '500')
       
       //close dimension panel
       .click('.svg-container')

@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="1"
+<testsuites errors="0"
+            failures="0"
             tests="1">
 
   <testsuite name="sitewindowresize"
-    errors="1" failures="1" hostname="" id="" package="sitewindowresize" skipped="0"
-    tests="1" time="6.899" timestamp="Fri, 12 Aug 2016 23:51:34 GMT">
+    errors="0" failures="0" hostname="" id="" package="sitewindowresize" skipped="0"
+    tests="1" time="13.08" timestamp="Sat, 13 Aug 2016 01:59:45 GMT">
   
-    <testcase name="site resizeWindow" time="6.899" assertions="3">
+    <testcase name="site resizeWindow" time="13.08" assertions="3">
 
     
 
-      <failure message="Testing if element &lt;overlay-label drag-handle&gt; contains text: &quot;Color&quot;. Element could not be located.">    at Object.opencolorpanelCommands.opencolorpanel (/Users/kelli/Sites/nightwatch/pages/opencolorpanel.js:5:15)
-    at Object.module.exports.site resizeWindow (/Users/kelli/Sites/nightwatch/test/demotests/sitewindowresize.js:9:14)</failure>
+    
 
     
     </testcase>

@@ -2,7 +2,7 @@ var openstrokepanelCommands = {
   openstrokepanel: function() {
     this.verify.elementPresent('@strokepanelbtn')
       .click('div.ui-wrapper[title="Stroke"]')
-      .verify.containsText('.overlay-label drag-handle', 'Stroke')
+      .verify.containsText('.overlay-label.drag-handle', 'Stroke')
   }
 };
 

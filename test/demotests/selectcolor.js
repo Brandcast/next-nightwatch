@@ -11,9 +11,6 @@ module.exports = {
 
       page = browser.page.opensite();
         page.opensite();
-
-      page = browser.page.opencolorpanel();
-        page.opencolorpanel()
     //}
 
       browser.frame(0) //selects iframe - must call to select anything within iframe
@@ -21,6 +18,8 @@ module.exports = {
         .click('.bc-text')
         .frame(null) //closes iframe
 
+      page = browser.page.opencolorpanel();
+        page.opencolorpanel();
 
       page = browser.page.colorspectrum();  
         page.colorspectrum();
@@ -30,7 +29,7 @@ module.exports = {
     
         //verify color applied via css
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        browser.assert.cssProperty('.bc-text', 'color', 'rgba(191, 122, 122, 1)')
+        browser.assert.cssProperty('.bc-text', 'color', 'rgba(68, 68, 68, 1)')
         browser.frame(null)
         .end();
     }

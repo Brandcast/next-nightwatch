@@ -2,7 +2,7 @@ var opendimensionspanelCommands = {
   opendimensionspanel: function() {
     this.verify.elementPresent('@dimensionspanelbtn')
       .click('@dimensionspanelbtn')
-      .verify.containsText('.overlay-label drag-handle', "Dimensions");
+      .verify.containsText('.overlay-label.drag-handle', "Dimensions");
   }
 };
 

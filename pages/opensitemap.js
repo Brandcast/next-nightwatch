@@ -4,6 +4,7 @@ var opensitemapCommands = {
         .pause(500)
         .moveToElement('.welcome-screen', 630,350)
         .mouseButtonClick()
+        .pause(300)
         .verify.elementPresent('iframe')
 
 

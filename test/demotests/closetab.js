@@ -10,8 +10,8 @@ module.exports = {
     var page = browser.page.opensitemap();
       page.opensitemap();  
     
-    //page = browser.page.opensite();
-      //page.opensite();
+    page = browser.page.opensite();
+      page.opensite();
     
     page = browser.page.closetab();
       page.closetab();

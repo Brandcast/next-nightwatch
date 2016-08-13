@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="1"
+<testsuites errors="0"
+            failures="0"
             tests="1">
 
   <testsuite name="selectcolor"
-    errors="1" failures="1" hostname="" id="" package="selectcolor" skipped="0"
-    tests="1" time="11.84" timestamp="Fri, 12 Aug 2016 23:50:25 GMT">
+    errors="0" failures="0" hostname="" id="" package="selectcolor" skipped="0"
+    tests="1" time="14.24" timestamp="Sat, 13 Aug 2016 01:57:56 GMT">
   
-    <testcase name="open color panel" time="11.84" assertions="11">
+    <testcase name="open color panel" time="14.24" assertions="11">
 
     
 
@@ -17,9 +17,6 @@
 
     
 
-      <failure message="Testing if element &lt;overlay-label drag-handle&gt; contains text: &quot;Color&quot;. Element could not be located.">    at Object.opencolorpanelCommands.opencolorpanel (/Users/kelli/Sites/nightwatch/pages/opencolorpanel.js:5:15)
-    at Object.module.exports.open color panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcolor.js:16:14)</failure>
-
     
 
     
@@ -28,7 +25,9 @@
 
     
 
-      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;color: rgba(191, 122, 122, 1)&quot;.">    at Object.module.exports.open color panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcolor.js:33:24)</failure>
+    
+
+    
 
     
     </testcase>
