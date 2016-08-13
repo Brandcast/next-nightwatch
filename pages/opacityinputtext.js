@@ -9,10 +9,10 @@ module.exports = {
   commands: [opacityinputtextCommands],
   elements: {
     opacitymenu: {
-      selector: '.ui-wrapper[title="A"]'
+      selector: '.ui-wrapper[title="Opacity"]'
     },
     opacityinputtext: {
-    	selector: '.ui-wrapper[title="A"] .select-input-wrapper input[type=text]'
+    	selector: '.ui-wrapper[title="Opacity"] .select-input-wrapper input[type=text]'
     }
   }
 };

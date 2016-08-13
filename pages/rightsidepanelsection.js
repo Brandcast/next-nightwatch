@@ -4,16 +4,16 @@ module.exports = {
   	 selector: '.toolbar vertical position-right animated fadeInRight',
   	 elements: {
     	colorpanelbtn: {
-    		selector: 'div.btn[title="Color"]'
+    		selector: 'div.ui-wrapper[title="Color"]'
     	},
     	strokepanelbtn: {
-    		selector: 'div.btn[title="Stroke"]'
+    		selector: 'div.ui-wrapper[title="Stroke"]'
 		},
 		dimensionspanelbtn: {
-    		selector: 'div.btn[title="Dimensions"]'
+    		selector: 'div.ui-wrapper[title="Dimensions"]'
     	},
     	 showhidepanelbtn: {
-    		selector: 'div.btn[title="Show or Hide"]'
+    		selector: 'div.ui-wrapper[title="Show or Hide"]'
     	},
     }
 	}

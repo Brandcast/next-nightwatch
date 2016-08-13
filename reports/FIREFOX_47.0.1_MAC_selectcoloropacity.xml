@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="0"
+<testsuites errors="2"
+            failures="1"
             tests="1">
 
   <testsuite name="selectcoloropacity"
-    errors="1" failures="0" hostname="" id="" package="selectcoloropacity" skipped="0"
-    tests="1" time="0.01600" timestamp="Thu, 11 Aug 2016 20:35:45 GMT">
+    errors="2" failures="1" hostname="" id="" package="selectcoloropacity" skipped="0"
+    tests="1" time="12.95" timestamp="Fri, 12 Aug 2016 23:50:37 GMT">
   
-    <testcase name="open color opacity panel" time="0.01600" assertions="0">
+    <testcase name="open color opacity panel" time="12.95" assertions="10">
+
+      <failure message="Testing if element &lt;iframe&gt; is present.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:7:17)
+    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:10:14)</failure>
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;overlay-label drag-handle&gt; contains text: &quot;Color&quot;. Element could not be located.">    at Object.opencolorpanelCommands.opencolorpanel (/Users/kelli/Sites/nightwatch/pages/opencolorpanel.js:5:15)
+    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:24:14)</failure>
+
+    
+
+      <failure message="Testing if element &lt;.ui-wrapper[title=&quot;A&quot;]&gt; is present.">    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:30:22)</failure>
+
+      <failure message="Timed out while waiting for element &lt;.ui-wrapper[title=&quot;A&quot;] .slider-wrapper input[type=range]&gt; to be present for 1000 milliseconds.">    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:32:16)</failure>
+
+    
     </testcase>
   
   

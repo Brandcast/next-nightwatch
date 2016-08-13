@@ -20,10 +20,10 @@ module.exports = {
         //.moveToElement('iframe', 25, 25)
         //.doubleClick()
         //.frame(null) 
-     //page = browser.page.opensite();
-    	//page.opensite();
+     page = browser.page.opensite();
+    	page.opensite();
 
-      //browser.end()
+      browser.end()
   },
 };
 

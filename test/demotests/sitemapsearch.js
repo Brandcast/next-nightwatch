@@ -7,6 +7,9 @@ module.exports = {
 
     page = browser.page.opensitemap();
       page.opensitemap(); 
+
+    page = browser.page.opensite();
+      page.opensite(); 
       
       browser.assert.containsText('span', 'SiteMap')
       browser.end();

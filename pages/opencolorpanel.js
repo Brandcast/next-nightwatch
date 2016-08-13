@@ -1,8 +1,8 @@
 var opencolorpanelCommands = {
   opencolorpanel: function() {
     this.verify.elementPresent('@colorpanelbtn')
-      .click('div.btn[title="Color"]')
-      .verify.containsText('.overlay-label', 'Color')
+      .click('div.ui-wrapper[title="Color"]')
+      .verify.containsText('.overlay-label drag-handle', 'Color')
   }
 };
 
@@ -10,7 +10,7 @@ module.exports = {
   commands: [opencolorpanelCommands],
   elements: {
     colorpanelbtn: {
-    	selector: 'div.btn[title="Color"]'
+    	selector: 'div.ui-wrapper[title="Color"]'
     }
   }
 };

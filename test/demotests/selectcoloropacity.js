@@ -12,8 +12,7 @@ module.exports = {
       page = browser.page.opensite();
         page.opensite();
 
-      page = browser.page.opencolorpanel();
-        page.opencolorpanel()
+     
     //}
 
       browser.frame(0) //selects iframe - must call to select anything within iframe
@@ -21,7 +20,9 @@ module.exports = {
         .click('.bc-text')
         .frame(null) //closes iframe
 
-
+      page = browser.page.opencolorpanel();
+        page.opencolorpanel();
+        
       page = browser.page.colorspectrum();  
         page.colorspectrum();
       

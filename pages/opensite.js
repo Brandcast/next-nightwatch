@@ -5,7 +5,12 @@ var opensiteCommands = {
         .moveToElement('iframe', 25, 25)
         .doubleClick()
         .frame(null) 
-
+      
+      this.api.frame('iframe') //selects iframe - must call to select anything within iframe
+        .waitForElementVisible('iframe', 1000)
+        .moveToElement('iframe', 25, 25)
+        .doubleClick()
+        .frame(null) 
     //this.api.pause(500)
       //.verify.elementPresent('iframe')
       //this.api.frame(0)

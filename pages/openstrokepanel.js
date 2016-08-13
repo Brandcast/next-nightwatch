@@ -1,8 +1,8 @@
 var openstrokepanelCommands = {
   openstrokepanel: function() {
     this.verify.elementPresent('@strokepanelbtn')
-      .click('div.btn[title="Stroke"]')
-      .verify.containsText('.overlay-label', 'Stroke')
+      .click('div.ui-wrapper[title="Stroke"]')
+      .verify.containsText('.overlay-label drag-handle', 'Stroke')
   }
 };
 
@@ -10,7 +10,7 @@ module.exports = {
   commands: [openstrokepanelCommands],
   elements: {
     strokepanelbtn: {
-    	selector: 'div.btn[title="Stroke"]'
+    	selector: 'div.ui-wrapper[title="Stroke"]'
     }
   }
 };

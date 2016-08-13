@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
+<testsuites errors="3"
+            failures="1"
             tests="1">
 
   <testsuite name="strokepanel"
-    errors="0" failures="0" hostname="" id="" package="strokepanel" skipped="0"
-    tests="1" time="5.051" timestamp="Thu, 11 Aug 2016 20:35:57 GMT">
+    errors="3" failures="1" hostname="" id="" package="strokepanel" skipped="0"
+    tests="1" time="5.047" timestamp="Fri, 12 Aug 2016 23:51:41 GMT">
   
-    <testcase name="open stroke panel" time="5.051" assertions="5">
+    <testcase name="open stroke panel" time="5.047" assertions="5">
 
     
 
-    
+      <failure message="Testing if element &lt;overlay-label drag-handle&gt; contains text: &quot;Stroke&quot;. Element could not be located.">    at Object.openstrokepanelCommands.openstrokepanel (/Users/kelli/Sites/nightwatch/pages/openstrokepanel.js:5:15)
+    at Object.module.exports.open stroke panel (/Users/kelli/Sites/nightwatch/test/demotests/strokepanel.js:9:14)</failure>
 
-    
+      <failure message="Testing if element &lt;.panel-body&gt; is present.">    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:3:17)
+    at Object.module.exports.open stroke panel (/Users/kelli/Sites/nightwatch/test/demotests/strokepanel.js:12:14)</failure>
 
     
 

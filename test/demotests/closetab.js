@@ -13,8 +13,8 @@ module.exports = {
     //page = browser.page.opensite();
       //page.opensite();
     
-    //page = browser.page.closetab();
-      //page.closetab();
+    page = browser.page.closetab();
+      page.closetab();
       
       browser.end();
   },

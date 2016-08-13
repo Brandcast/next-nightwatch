@@ -9,6 +9,9 @@ module.exports = {
     page = browser.page.opensite();
       page.opensite();
 
+    page = browser.page.opensite();
+      page.opensite(); 
+
       //selects column
      browser.frame(0) //selects iframe - must call to select anything within iframe
       .waitForElementVisible('.bc-text', 1000)

@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="1"
+<testsuites errors="0"
+            failures="0"
             tests="1">
 
   <testsuite name="sitemapsearch"
-    errors="1" failures="1" hostname="" id="" package="sitemapsearch" skipped="0"
-    tests="1" time="7.711" timestamp="Thu, 11 Aug 2016 22:30:55 GMT">
+    errors="0" failures="0" hostname="" id="" package="sitemapsearch" skipped="0"
+    tests="1" time="11.13" timestamp="Fri, 12 Aug 2016 23:51:15 GMT">
   
-    <testcase name="site map work search on span" time="7.711" assertions="2">
+    <testcase name="site map work search on span" time="11.13" assertions="5">
 
-      <failure message="Testing if element &lt;span&gt; contains text: &quot;SiteMap&quot;.">    at Object.module.exports.site map work search on span (/Users/kelli/Sites/nightwatch/test/demotests/sitemapsearch.js:11:22)</failure>
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;@newwebsitebtn&quot; using: css selector
-    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:4:18)
-    at Object.module.exports.site map work search on span (/Users/kelli/Sites/nightwatch/test/demotests/sitemapsearch.js:9:12)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
   
   </testsuite>
