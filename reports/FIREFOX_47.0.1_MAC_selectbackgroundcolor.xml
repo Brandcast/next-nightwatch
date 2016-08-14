@@ -5,9 +5,9 @@
 
   <testsuite name="selectbackgroundcolor"
     errors="0" failures="1" hostname="" id="" package="selectbackgroundcolor" skipped="0"
-    tests="1" time="14.78" timestamp="Sun, 14 Aug 2016 05:55:09 GMT">
+    tests="1" time="14.60" timestamp="Sun, 14 Aug 2016 06:09:48 GMT">
   
-    <testcase name="select background color" time="14.78" assertions="10">
+    <testcase name="select background color" time="14.60" assertions="10">
 
     
 
@@ -25,7 +25,8 @@
 
     
 
-      <failure message="Expected element &lt;.btn::before&gt; to be selected - element was not found">    at Object.module.exports.select background color (/Users/kelli/Sites/nightwatch/test/demotests/selectbackgroundcolor.js:31:17)</failure>
+      <failure message="Expected element &lt;[title=&quot;Fill Color&quot;]&gt; to be selected">    at Object.selectbackgroundcolorbtnCommands.selectbackgroundcolorbtn (/Users/kelli/Sites/nightwatch/pages/selectbackgroundcolorbtn.js:5:16)
+    at Object.module.exports.select background color (/Users/kelli/Sites/nightwatch/test/demotests/selectbackgroundcolor.js:28:14)</failure>
 
     
     </testcase>

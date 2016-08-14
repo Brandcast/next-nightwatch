@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="selectstrokecolor"
+    errors="1" failures="0" hostname="" id="" package="selectstrokecolor" skipped="0"
+    tests="1" time="0.07700" timestamp="Sun, 14 Aug 2016 06:13:19 GMT">
+  
+    <testcase name="select background color" time="0.07700" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Selectstrokecolor / select background color]:
+
+  Error: strokeolorbtn was not found in &quot;selectstrokecolorbtn&quot;. Available elements: strokecolorbtn
+    at getElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
+    at Object.elementPresent (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:78:32)
+    at Object.selectstrokecolorbtnCommands.selectstrokecolorbtn (/Users/kelli/Sites/nightwatch/pages/selectstrokecolorbtn.js:3:17)
+    at Object.module.exports.select background color (/Users/kelli/Sites/nightwatch/test/demotests/selectstrokecolor.js:28:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

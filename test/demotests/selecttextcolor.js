@@ -24,8 +24,8 @@ module.exports = {
       page = browser.page.colorspectrum();  
         page.colorspectrum();
           
-      page = browser.page.selectbackgroundcolorbtn();  
-        page.selectbackgroundcolorbtn();
+      page = browser.page.selecttextcolorbtn();  
+        page.selecttextcolorbtn();
       
       page = browser.page.closepanel();  
         page.closepanel();

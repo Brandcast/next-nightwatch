@@ -5,9 +5,9 @@
 
   <testsuite name="selectbackgroundcolor"
     errors="1" failures="0" hostname="" id="" package="selectbackgroundcolor" skipped="0"
-    tests="1" time="0.07100" timestamp="Sun, 14 Aug 2016 05:31:53 GMT">
+    tests="1" time="0.06900" timestamp="Sun, 14 Aug 2016 05:58:49 GMT">
   
-    <testcase name="select background color" time="0.07100" assertions="0">
+    <testcase name="select background color" time="0.06900" assertions="0">
     </testcase>
       <system-err>
           Error while running [Selectbackgroundcolor / select background color]:

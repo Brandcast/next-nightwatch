@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="selectstrokecolor"
+    errors="0" failures="1" hostname="" id="" package="selectstrokecolor" skipped="0"
+    tests="1" time="13.31" timestamp="Sun, 14 Aug 2016 06:14:16 GMT">
+  
+    <testcase name="select background color" time="13.31" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Expected element &lt;.ui-wrapper size18 right current[title=&quot;Stroke Color&quot;] .btn&gt; to be selected - element was not found">    at Object.selectstrokecolorbtnCommands.selectstrokecolorbtn (/Users/kelli/Sites/nightwatch/pages/selectstrokecolorbtn.js:5:16)
+    at Object.module.exports.select background color (/Users/kelli/Sites/nightwatch/test/demotests/selectstrokecolor.js:28:14)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
