@@ -3,17 +3,17 @@
             failures="0"
             tests="1">
 
-  <testsuite name="selectcoloropacity"
-    errors="1" failures="0" hostname="" id="" package="selectcoloropacity" skipped="0"
-    tests="1" time="0.07900" timestamp="Sun, 14 Aug 2016 05:02:46 GMT">
+  <testsuite name="selectbackgroundcolor"
+    errors="1" failures="0" hostname="" id="" package="selectbackgroundcolor" skipped="0"
+    tests="1" time="0.07100" timestamp="Sun, 14 Aug 2016 05:31:53 GMT">
   
-    <testcase name="open color opacity panel" time="0.07900" assertions="0">
+    <testcase name="select background color" time="0.07100" assertions="0">
     </testcase>
       <system-err>
-          Error while running [Selectcoloropacity / open color opacity panel]:
+          Error while running [Selectbackgroundcolor / select background color]:
 
-  ReferenceError: assert is not defined
-    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:41:7)
+  TypeError: undefined is not a function
+    at Object.module.exports.select background color (/Users/kelli/Sites/nightwatch/test/demotests/selectbackgroundcolor.js:27:27)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
