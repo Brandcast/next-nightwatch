@@ -1,9 +1,8 @@
 var selectbackgroundcolorbtnCommands = {
   selectbackgroundcolorbtn: function() {
-    this.verify.elementPresent('@fillbtn')
-       .click('@fillbtn')
-       .expect.element('[title="Fill Color"]').to.be.selected
-       //browser.waitForElementVisible('@opacityslider', 1000);
+    this.verify.elementPresent('@fillcolorbtn')
+       .click('@fillcolorbtn')
+        .expect.element('@fillcolorbtn').to.be.enabled
         
 
   }
@@ -12,7 +11,7 @@ var selectbackgroundcolorbtnCommands = {
 module.exports = {
   commands: [selectbackgroundcolorbtnCommands],
   elements: {
-   fillbtn : {
+   fillcolorbtn : {
     	selector: '[title="Fill Color"] .btn'
     }
   }

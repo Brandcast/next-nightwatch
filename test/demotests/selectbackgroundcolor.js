@@ -1,6 +1,6 @@
 module.exports = {
   '@tags' : ['colorpanel'],
-  'select stroke color' : function (browser) {
+  'select background color' : function (browser) {
      var page = browser.page.pageload();
 
       page.navigate()

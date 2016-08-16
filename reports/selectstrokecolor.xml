@@ -5,24 +5,24 @@
 
   <testsuite name="selectstrokecolor"
     errors="1" failures="0" hostname="" id="" package="selectstrokecolor" skipped="0"
-    tests="1" time="0.07700" timestamp="Sun, 14 Aug 2016 06:13:19 GMT">
+    tests="1" time="0.05600" timestamp="Tue, 16 Aug 2016 18:04:04 GMT">
   
-    <testcase name="select background color" time="0.07700" assertions="0">
+    <testcase name="select background color" time="0.05600" assertions="0">
     </testcase>
       <system-err>
           Error while running [Selectstrokecolor / select background color]:
 
-  Error: strokeolorbtn was not found in &quot;selectstrokecolorbtn&quot;. Available elements: strokecolorbtn
-    at getElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
-    at Object.elementPresent (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:78:32)
-    at Object.selectstrokecolorbtnCommands.selectstrokecolorbtn (/Users/kelli/Sites/nightwatch/pages/selectstrokecolorbtn.js:3:17)
-    at Object.module.exports.select background color (/Users/kelli/Sites/nightwatch/test/demotests/selectstrokecolor.js:28:14)
+  TypeError: undefined is not a function
+    at Object.module.exports.select background color (/Users/kelli/Sites/nightwatch/test/demotests/selectstrokecolor.js:22:27)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
     at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
     at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
       </system-err>
   
   

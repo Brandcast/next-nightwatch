@@ -1,6 +1,6 @@
 module.exports = {
   '@tags' : ['colorpanel'],
-  'select background color' : function (browser) {
+  'select stroke color' : function (browser) {
      var page = browser.page.pageload();
 
       page.navigate()
@@ -18,27 +18,24 @@ module.exports = {
         .click('.bc-text')
         .frame(null) //closes iframe
 
-      
-      page = browser.page.openstokepanel();
-        page.openstrokepanel();
-
       page = browser.page.opencolorpanel();
         page.opencolorpanel();
 
       page = browser.page.selectstrokecolorbtn();  
-        page.selectstrokecolorbtn();
+        page.selectstrokecolorbtn()
+      
       
       page = browser.page.colorspectrum();  
         page.colorspectrum();
           
       
-      //page = browser.page.closepanel();  
-        //page.closepanel();
+      page = browser.page.closepanel();  
+        page.closepanel();
     
         //verify color applied via css
-      //browser.frame(0) //selects iframe - must call to select anything within iframe
-        //browser.assert.cssProperty('.bc-text', 'color', 'rgba(68, 68, 68, 1)')
-        //browser.frame(null)
-        //browser.end();
+      browser.frame(0) //selects iframe - must call to select anything within iframe
+        browser.expect.element('.bc-text').to.have.css('border-color').which.does.not.equal('#444')
+        browser.frame(null)
+        browser.end();
     }
 };

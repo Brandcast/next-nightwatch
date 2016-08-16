@@ -2,7 +2,7 @@ var selecttextcolorbtnCommands = {
   selecttextcolorbtn: function() {
     this.verify.elementPresent('@textcolorbtn')
        .click('@textcolorbtn')
-       //.expect.element('[title="Text Color"]').to.be.selected   
+       .expect.element('@textcolorbtn').to.be.enabled  
 
   }
 };
