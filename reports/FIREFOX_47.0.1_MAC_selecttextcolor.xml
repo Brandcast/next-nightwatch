@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="selecttextcolor"
-    errors="0" failures="1" hostname="" id="" package="selecttextcolor" skipped="0"
-    tests="1" time="14.58" timestamp="Sun, 14 Aug 2016 06:10:50 GMT">
+    errors="0" failures="0" hostname="" id="" package="selecttextcolor" skipped="0"
+    tests="1" time="12.72" timestamp="Tue, 16 Aug 2016 17:34:58 GMT">
   
-    <testcase name="select background color" time="14.58" assertions="10">
+    <testcase name="select text color" time="12.72" assertions="12">
 
     
 
@@ -25,8 +25,11 @@
 
     
 
-      <failure message="Expected element &lt;.ui-wrapper size18 right current[title=&quot;Text Color&quot;] .btn&gt; to be selected - element was not found">    at Object.selecttextcolorbtnCommands.selecttextcolorbtn (/Users/kelli/Sites/nightwatch/pages/selecttextcolorbtn.js:5:16)
-    at Object.module.exports.select background color (/Users/kelli/Sites/nightwatch/test/demotests/selecttextcolor.js:28:14)</failure>
+    
+
+    
+
+    
 
     
     </testcase>

@@ -5,9 +5,9 @@
 
   <testsuite name="showhidepanel"
     errors="0" failures="0" hostname="" id="" package="showhidepanel" skipped="0"
-    tests="1" time="7.641" timestamp="Sat, 13 Aug 2016 01:59:09 GMT">
+    tests="1" time="5.925" timestamp="Tue, 16 Aug 2016 17:01:49 GMT">
   
-    <testcase name="openshowhidepanel" time="7.641" assertions="5">
+    <testcase name="openshowhidepanel" time="5.925" assertions="5">
 
     
 

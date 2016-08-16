@@ -5,9 +5,9 @@
 
   <testsuite name="selectcoloropacity"
     errors="0" failures="1" hostname="" id="" package="selectcoloropacity" skipped="0"
-    tests="1" time="16.11" timestamp="Sun, 14 Aug 2016 05:03:02 GMT">
+    tests="1" time="15.69" timestamp="Tue, 16 Aug 2016 17:00:25 GMT">
   
-    <testcase name="open color opacity panel" time="16.11" assertions="13">
+    <testcase name="open color opacity panel" time="15.69" assertions="13">
 
     
 

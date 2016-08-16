@@ -18,14 +18,19 @@ module.exports = {
         .click('.bc-text')
         .frame(null) //closes iframe
 
+      
+      page = browser.page.openstokepanel();
+        page.openstrokepanel();
+
       page = browser.page.opencolorpanel();
         page.opencolorpanel();
 
+      page = browser.page.selectstrokecolorbtn();  
+        page.selectstrokecolorbtn();
+      
       page = browser.page.colorspectrum();  
         page.colorspectrum();
           
-      page = browser.page.selectstrokecolorbtn();  
-        page.selectstrokecolorbtn();
       
       //page = browser.page.closepanel();  
         //page.closepanel();
