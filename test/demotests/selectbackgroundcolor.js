@@ -18,8 +18,6 @@ module.exports = {
         .click('.bc-text')
         .frame(null) //closes iframe
 
-      
-
       page = browser.page.opencolorpanel();
         page.opencolorpanel();
 
@@ -34,8 +32,7 @@ module.exports = {
     
         //verify color applied via css
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        //browser.assert.cssProperty('.bc-text', 'color', 'rgba(68, 68, 68, 1)')
-        browser.expect.element('.bc-text').to.have.css('background-color').which.does.not.equal('#444')
+        browser.assert.cssProperty('.bc-text', 'background-color', 'rgba(191, 122, 122, 1)')
         browser.frame(null)
         browser.end();
     }

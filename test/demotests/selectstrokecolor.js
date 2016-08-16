@@ -24,17 +24,15 @@ module.exports = {
       page = browser.page.selectstrokecolorbtn();  
         page.selectstrokecolorbtn()
       
-      
       page = browser.page.colorspectrum();  
         page.colorspectrum();
           
-      
       page = browser.page.closepanel();  
         page.closepanel();
     
         //verify color applied via css
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        browser.expect.element('.bc-text').to.have.css('border-color').which.does.not.equal('#444')
+        browser.assert.cssProperty('.bc-text', 'border-color', 'rgba(191, 122, 122, 1)')
         browser.frame(null)
         browser.end();
     }

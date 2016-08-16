@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="selecttextcolor"
+    errors="1" failures="0" hostname="" id="" package="selecttextcolor" skipped="0"
+    tests="1" time="0.07500" timestamp="Tue, 16 Aug 2016 18:23:35 GMT">
+  
+    <testcase name="select text color" time="0.07500" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Selecttextcolor / select text color]:
+
+  Error: fillcolorbtn was not found in &quot;selecttextcolorbtn&quot;. Available elements: textcolorbtn
+    at getElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
+    at Object.element (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:78:32)
+    at Object.selecttextcolorbtnCommands.selecttextcolorbtn (/Users/kelli/Sites/nightwatch/pages/selecttextcolorbtn.js:5:16)
+    at Object.module.exports.select text color (/Users/kelli/Sites/nightwatch/test/demotests/selecttextcolor.js:25:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
