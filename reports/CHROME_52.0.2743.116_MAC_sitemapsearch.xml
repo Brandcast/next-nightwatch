@@ -5,9 +5,15 @@
 
   <testsuite name="sitemapsearch"
     errors="0" failures="0" hostname="" id="" package="sitemapsearch" skipped="0"
-    tests="1" time="2.878" timestamp="Tue, 09 Aug 2016 21:05:10 GMT">
+    tests="1" time="6.511" timestamp="Wed, 17 Aug 2016 18:23:07 GMT">
   
-    <testcase name="test" time="2.878" assertions="2">
+    <testcase name="site map work search on span" time="6.511" assertions="5">
+
+    
+
+    
+
+    
 
     
 

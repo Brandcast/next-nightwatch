@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="selectcoloropacity"
-    errors="0" failures="1" hostname="" id="" package="selectcoloropacity" skipped="0"
-    tests="1" time="14.05" timestamp="Tue, 16 Aug 2016 17:55:38 GMT">
+    errors="0" failures="0" hostname="" id="" package="selectcoloropacity" skipped="0"
+    tests="1" time="13.84" timestamp="Wed, 17 Aug 2016 20:58:59 GMT">
   
-    <testcase name="open color opacity panel" time="14.05" assertions="13">
+    <testcase name="open color opacity panel" time="13.84" assertions="13">
 
     
 
@@ -31,7 +31,7 @@
 
     
 
-      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;color: rgba(191, 122, 122, 0.98)&quot;.">    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:41:15)</failure>
+    
 
     
     </testcase>

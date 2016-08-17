@@ -30,7 +30,7 @@ module.exports = {
           .mouseButtonDown(0)
           .pause(300)
       browser.moveToElement('.ui-wrapper[title="Opacity"] .slider-wrapper input[type=range]', 15, 6)
-      browser.moveToElement('.ui-wrapper[title="Opacity"] .slider-wrapper input[type=range]', 75, 6)
+      browser.moveToElement('.ui-wrapper[title="Opacity"] .slider-wrapper input[type=range]', 70, 6)
           .mouseButtonUp(0)
       
       page = browser.page.closepanel();  
@@ -38,8 +38,8 @@ module.exports = {
     
         //verify color applied via css
       browser.frame(0) //selects iframe - must call to select anything within iframe
-      .assert.cssProperty('.bc-text', 'color', 'rgba(191, 122, 122, 0.98)')
+      .assert.cssProperty('.bc-text', 'background-color', 'rgba(191, 122, 122, 0.91)')
       browser.frame(null);
-        browser.end();
+      browser.end();
     }
 };

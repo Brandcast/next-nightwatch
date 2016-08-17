@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="1">
 
   <testsuite name="localhosttest"
-    errors="1" failures="0" hostname="" id="" package="localhosttest" skipped="0"
-    tests="1" time="0.004000" timestamp="Tue, 09 Aug 2016 21:04:56 GMT">
+    errors="0" failures="0" hostname="" id="" package="localhosttest" skipped="0"
+    tests="1" time="3.343" timestamp="Wed, 17 Aug 2016 18:21:16 GMT">
   
-    <testcase name="step one" time="0.004000" assertions="0">
+    <testcase name="step one" time="3.343" assertions="1">
+
+    
     </testcase>
   
   

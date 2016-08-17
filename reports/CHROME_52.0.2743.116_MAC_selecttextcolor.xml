@@ -5,9 +5,9 @@
 
   <testsuite name="selecttextcolor"
     errors="0" failures="0" hostname="" id="" package="selecttextcolor" skipped="0"
-    tests="1" time="7.533" timestamp="Tue, 16 Aug 2016 23:29:59 GMT">
+    tests="1" time="29.79" timestamp="Wed, 17 Aug 2016 18:22:28 GMT">
   
-    <testcase name="select text color" time="7.533" assertions="13">
+    <testcase name="select text color" time="29.79" assertions="13">
 
     
 

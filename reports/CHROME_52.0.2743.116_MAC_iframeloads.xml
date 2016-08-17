@@ -5,9 +5,13 @@
 
   <testsuite name="iframeloads"
     errors="0" failures="0" hostname="" id="" package="iframeloads" skipped="0"
-    tests="1" time="5.059" timestamp="Tue, 09 Aug 2016 21:04:51 GMT">
+    tests="1" time="6.149" timestamp="Wed, 17 Aug 2016 18:21:03 GMT">
   
-    <testcase name="test" time="5.059" assertions="3">
+    <testcase name="test" time="6.149" assertions="5">
+
+    
+
+    
 
     
 

@@ -5,9 +5,9 @@
 
   <testsuite name="selectstroke"
     errors="0" failures="1" hostname="" id="" package="selectstroke" skipped="0"
-    tests="1" time="4.550" timestamp="Tue, 09 Aug 2016 21:05:06 GMT">
+    tests="1" time="8.772" timestamp="Wed, 17 Aug 2016 18:22:11 GMT">
   
-    <testcase name="open stroke panel" time="4.550" assertions="7">
+    <testcase name="open stroke panel" time="8.772" assertions="10">
 
     
 
@@ -19,7 +19,13 @@
 
     
 
-      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;border-width: 1px&quot;.">    at Object.module.exports.open stroke panel (/Users/kelli/Sites/nightwatch/test/demotests/selectstroke.js:30:15)</failure>
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;border-width: 1px&quot;.">    at Object.module.exports.open stroke panel (/Users/kelli/Sites/nightwatch/test/demotests/selectstroke.js:34:15)</failure>
 
     
     </testcase>
