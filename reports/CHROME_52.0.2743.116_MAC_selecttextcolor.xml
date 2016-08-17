@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="selecttextcolor"
+    errors="0" failures="0" hostname="" id="" package="selecttextcolor" skipped="0"
+    tests="1" time="7.533" timestamp="Tue, 16 Aug 2016 23:29:59 GMT">
+  
+    <testcase name="select text color" time="7.533" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

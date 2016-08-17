@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="selectcoloropacity"
+    errors="0" failures="1" hostname="" id="" package="selectcoloropacity" skipped="0"
+    tests="1" time="8.986" timestamp="Tue, 16 Aug 2016 23:29:44 GMT">
+  
+    <testcase name="open color opacity panel" time="8.986" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;color: rgba(191, 122, 122, 0.98)&quot;.">    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:41:15)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
