@@ -5,9 +5,9 @@
 
   <testsuite name="selectcolorswatches"
     errors="0" failures="0" hostname="" id="" package="selectcolorswatches" skipped="0"
-    tests="1" time="14.89" timestamp="Wed, 17 Aug 2016 17:01:38 GMT">
+    tests="1" time="13.90" timestamp="Wed, 17 Aug 2016 23:59:05 GMT">
   
-    <testcase name="select black, white, and tranparent swatches in color panel" time="14.89" assertions="21">
+    <testcase name="select black, white, and tranparent swatches in color panel" time="13.90" assertions="21">
 
     
 

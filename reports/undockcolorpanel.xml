@@ -5,15 +5,15 @@
 
   <testsuite name="undockcolorpanel"
     errors="1" failures="0" hostname="" id="" package="undockcolorpanel" skipped="0"
-    tests="1" time="0.06300" timestamp="Wed, 17 Aug 2016 23:25:52 GMT">
+    tests="1" time="0.08800" timestamp="Thu, 18 Aug 2016 18:18:17 GMT">
   
-    <testcase name="undock color panel" time="0.06300" assertions="0">
+    <testcase name="undock color panel" time="0.08800" assertions="0">
     </testcase>
       <system-err>
           Error while running [Undockcolorpanel / undock color panel]:
 
-  TypeError: undefined is not a function
-    at Object.undockpanelCommands.undockpanel (/Users/kelli/Sites/nightwatch/pages/undockpanel.js:5:8)
+  ReferenceError: verify is not defined
+    at Object.undockpanelCommands.undockpanel (/Users/kelli/Sites/nightwatch/pages/undockpanel.js:9:7)
     at Object.module.exports.undock color panel (/Users/kelli/Sites/nightwatch/test/demotests/undockcolorpanel.js:19:14)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29

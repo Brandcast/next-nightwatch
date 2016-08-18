@@ -14,10 +14,17 @@ module.exports = {
 
       page = browser.page.opencolorpanel();
         page.opencolorpanel();
+
+      browser.getLocation(".panel-body.dormant", function (location) {
+          console.log(location.value.x, location.value.y);
+         });
       
       page = browser.page.undockpanel();
         page.undockpanel();
 
+      browser.getLocation(".panel-body.dormant", function (location) {
+          console.log(location.value.x, location.value.y);
+         });
         browser.end();
   }
 };

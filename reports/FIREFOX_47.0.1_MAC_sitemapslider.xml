@@ -5,9 +5,9 @@
 
   <testsuite name="sitemapslider"
     errors="0" failures="0" hostname="" id="" package="sitemapslider" skipped="0"
-    tests="1" time="10.21" timestamp="Wed, 17 Aug 2016 17:03:12 GMT">
+    tests="1" time="10.02" timestamp="Thu, 18 Aug 2016 00:00:35 GMT">
   
-    <testcase name="slider test" time="10.21" assertions="3">
+    <testcase name="slider test" time="10.02" assertions="3">
 
     
 

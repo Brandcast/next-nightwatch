@@ -8,7 +8,7 @@ module.exports = {
     page = browser.page.opensitemap();
     	page.opensitemap();
       
-      browser.end()
+      //browser.end()
   },
 };
 
