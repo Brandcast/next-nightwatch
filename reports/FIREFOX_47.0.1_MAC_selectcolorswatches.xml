@@ -1,53 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="selectcolorswatches"
-    errors="0" failures="0" hostname="" id="" package="selectcolorswatches" skipped="0"
-    tests="1" time="13.90" timestamp="Wed, 17 Aug 2016 23:59:05 GMT">
+    errors="0" failures="1" hostname="" id="" package="selectcolorswatches" skipped="0"
+    tests="1" time="7.457" timestamp="Fri, 19 Aug 2016 17:25:37 GMT">
   
-    <testcase name="select black, white, and tranparent swatches in color panel" time="13.90" assertions="21">
+    <testcase name="select black, white, and tranparent swatches in color panel" time="7.457" assertions="3">
 
-    
+      <failure message="Testing if element &lt;iframe&gt; is present.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:8:17)
+    at Object.module.exports.select black, white, and tranparent swatches in color panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcolorswatches.js:10:14)</failure>
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+      <failure message="Timed out while waiting for element &lt;iframe&gt; to be present for 1000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:4:10)
+    at Object.module.exports.select black, white, and tranparent swatches in color panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcolorswatches.js:13:14)</failure>
 
     
     </testcase>

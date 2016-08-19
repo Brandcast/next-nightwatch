@@ -5,37 +5,15 @@
 
   <testsuite name="entertexthexcode"
     errors="0" failures="1" hostname="" id="" package="entertexthexcode" skipped="0"
-    tests="1" time="13.18" timestamp="Wed, 17 Aug 2016 23:57:37 GMT">
+    tests="1" time="8.095" timestamp="Fri, 19 Aug 2016 17:24:34 GMT">
   
-    <testcase name="open color panel" time="13.18" assertions="15">
+    <testcase name="open color panel" time="8.095" assertions="3">
 
-    
+      <failure message="Testing if element &lt;iframe&gt; is present.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:8:17)
+    at Object.module.exports.open color panel (/Users/kelli/Sites/nightwatch/test/demotests/entertexthexcode.js:10:14)</failure>
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;background-color: #7fff00&quot;.">    at Object.module.exports.open color panel (/Users/kelli/Sites/nightwatch/test/demotests/entertexthexcode.js:39:24)</failure>
+      <failure message="Timed out while waiting for element &lt;iframe&gt; to be present for 1000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:4:10)
+    at Object.module.exports.open color panel (/Users/kelli/Sites/nightwatch/test/demotests/entertexthexcode.js:13:14)</failure>
 
     
     </testcase>

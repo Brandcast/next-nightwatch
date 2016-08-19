@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="filterspanel"
+    errors="0" failures="0" hostname="" id="" package="filterspanel" skipped="0"
+    tests="1" time="7.321" timestamp="Fri, 19 Aug 2016 18:43:32 GMT">
+  
+    <testcase name="openshowhidepanel" time="7.321" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

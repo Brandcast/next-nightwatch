@@ -5,9 +5,9 @@
 
   <testsuite name="colorpanel"
     errors="0" failures="0" hostname="" id="" package="colorpanel" skipped="0"
-    tests="1" time="6.067" timestamp="Wed, 17 Aug 2016 23:57:25 GMT">
+    tests="1" time="5.930" timestamp="Fri, 19 Aug 2016 17:24:22 GMT">
   
-    <testcase name="test" time="6.067" assertions="5">
+    <testcase name="test" time="5.930" assertions="5">
 
     
 

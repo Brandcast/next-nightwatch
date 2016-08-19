@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="selectfiltersgrayscale"
+    errors="0" failures="0" hostname="" id="" package="selectfiltersgrayscale" skipped="0"
+    tests="1" time="15.16" timestamp="Fri, 19 Aug 2016 20:47:02 GMT">
+  
+    <testcase name="open filters panel" time="15.16" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

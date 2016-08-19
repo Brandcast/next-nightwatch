@@ -2,7 +2,7 @@ var opensitemapCommands = {
   opensitemap: function() {
         this.api.resizeWindow(1050,1250)
         .pause(500)
-        .moveToElement('.welcome-screen', 400,525)
+        .moveToElement('.welcome-screen', 400,555)
         .mouseButtonClick()
         .pause(300)
         .verify.elementPresent('iframe')
