@@ -5,9 +5,9 @@
 
   <testsuite name="selectdimension"
     errors="0" failures="0" hostname="" id="" package="selectdimension" skipped="0"
-    tests="1" time="10.85" timestamp="Mon, 22 Aug 2016 21:01:18 GMT">
+    tests="1" time="13.86" timestamp="Tue, 23 Aug 2016 17:02:10 GMT">
   
-    <testcase name="open dimensions panel and set max width" time="10.85" assertions="11">
+    <testcase name="open dimensions panel and set max width" time="13.86" assertions="11">
 
     
 

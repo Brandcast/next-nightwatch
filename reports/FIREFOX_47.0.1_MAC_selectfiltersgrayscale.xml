@@ -5,9 +5,9 @@
 
   <testsuite name="selectfiltersgrayscale"
     errors="0" failures="1" hostname="" id="" package="selectfiltersgrayscale" skipped="0"
-    tests="1" time="12.15" timestamp="Mon, 22 Aug 2016 21:01:28 GMT">
+    tests="1" time="13.82" timestamp="Tue, 23 Aug 2016 17:02:24 GMT">
   
-    <testcase name="open filters panel" time="12.15" assertions="12">
+    <testcase name="open filters panel" time="13.82" assertions="9">
 
     
 
@@ -23,13 +23,8 @@
 
     
 
-    
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;filter: grayscale(91%)&quot;.">    at Object.module.exports.open filters panel (/Users/kelli/Sites/nightwatch/test/demotests/selectfiltersgrayscale.js:38:15)</failure>
+      <failure message="Timed out while waiting for element &lt;.ui-wrapper[title=&quot;Grayscale&quot;] input[type=range]&gt; to be visible for 1000 milliseconds.">    at Object.grayscalesliderCommands.grayscaleslider (/Users/kelli/Sites/nightwatch/pages/grayscaleslider.js:5:9)
+    at Object.module.exports.open filters panel (/Users/kelli/Sites/nightwatch/test/demotests/selectfiltersgrayscale.js:24:14)</failure>
 
     
     </testcase>

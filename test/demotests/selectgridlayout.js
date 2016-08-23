@@ -27,20 +27,29 @@ module.exports = {
       browser.verify.elementPresent('[title="Gutter Width"]')
       browser.moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 50, 6)
           .mouseButtonDown(0)
-          //.getValue('.select-input-wrapper input[type=text]', function (result) {
-            //console.log(result.value);
-          //});
+            .frame(0) //selects iframe - must call to select anything within iframe
+            .waitForElementVisible('.focus-grid-content.padding-5', 1000)
+            .click('.bc-text')
+            .frame(null) //closes iframe
           .moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 10, 6)
+            .frame(0) //selects iframe - must call to select anything within iframe
+            .waitForElementVisible('.focus-grid-content.padding-0', 1000)
+            .click('.bc-text')
+            .frame(null) //closes iframe
           .moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 80, 6)
-          .moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 140, 6)
-          .mouseButtonDown(0)
-      //page = browser.page.closepanel();  
-        //page.closepanel();
-    
-        //verify color applied via css
-      //browser.frame(0) //selects iframe - must call to select anything within iframe
-        //browser.assert.cssProperty('.bc-text', 'color', 'rgba(191, 122, 122, 1)')
-        //browser.frame(null)
-        browser.end();
+            .frame(0) //selects iframe - must call to select anything within iframe
+            .waitForElementVisible('.focus-grid-content.padding-9', 1000)
+            .click('.bc-text')
+            .frame(null) //closes iframe
+          .moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 150, 6)
+            .frame(0) //selects iframe - must call to select anything within iframe
+            .waitForElementVisible('.focus-grid-content.padding-15', 1000)
+            .click('.bc-text')
+            .frame(null) //closes iframe
+          .mouseButtonUp(0)
+      page = browser.page.closepanel();  
+      page.closepanel();
+      
+      browser.end();
     }
 };

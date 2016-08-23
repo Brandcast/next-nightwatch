@@ -5,9 +5,9 @@
 
   <testsuite name="entertexthexcode"
     errors="0" failures="1" hostname="" id="" package="entertexthexcode" skipped="0"
-    tests="1" time="12.29" timestamp="Mon, 22 Aug 2016 20:59:35 GMT">
+    tests="1" time="13.43" timestamp="Tue, 23 Aug 2016 17:00:19 GMT">
   
-    <testcase name="open color panel" time="12.29" assertions="15">
+    <testcase name="open color panel" time="13.43" assertions="15">
 
     
 

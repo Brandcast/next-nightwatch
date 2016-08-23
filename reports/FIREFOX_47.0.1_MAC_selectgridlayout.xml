@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="selectgridlayout"
-    errors="0" failures="0" hostname="" id="" package="selectgridlayout" skipped="0"
-    tests="1" time="12.89" timestamp="Tue, 23 Aug 2016 01:15:22 GMT">
+    errors="0" failures="1" hostname="" id="" package="selectgridlayout" skipped="0"
+    tests="1" time="12.33" timestamp="Tue, 23 Aug 2016 22:33:00 GMT">
   
-    <testcase name="select text color" time="12.89" assertions="11">
+    <testcase name="select text color" time="12.33" assertions="13">
 
     
 
@@ -28,6 +28,10 @@
     
 
     
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.focus-grid-content.padding-0&gt; to be present for 1000 milliseconds.">    at Object.module.exports.select text color (/Users/kelli/Sites/nightwatch/test/demotests/selectgridlayout.js:39:14)</failure>
 
     
     </testcase>
