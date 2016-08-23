@@ -5,9 +5,17 @@
 
   <testsuite name="selectgridlayout"
     errors="0" failures="0" hostname="" id="" package="selectgridlayout" skipped="0"
-    tests="1" time="10.27" timestamp="Fri, 19 Aug 2016 21:37:20 GMT">
+    tests="1" time="12.89" timestamp="Tue, 23 Aug 2016 01:15:22 GMT">
   
-    <testcase name="select text color" time="10.27" assertions="7">
+    <testcase name="select text color" time="12.89" assertions="11">
+
+    
+
+    
+
+    
+
+    
 
     
 

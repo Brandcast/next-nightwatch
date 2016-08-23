@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="listwindowresize"
-    errors="0" failures="1" hostname="" id="" package="listwindowresize" skipped="0"
-    tests="1" time="8.357" timestamp="Fri, 19 Aug 2016 17:24:49 GMT">
+    errors="0" failures="0" hostname="" id="" package="listwindowresize" skipped="0"
+    tests="1" time="8.579" timestamp="Mon, 22 Aug 2016 21:00:02 GMT">
   
-    <testcase name="brandlist window resize" time="8.357" assertions="4">
+    <testcase name="brandlist window resize" time="8.579" assertions="4">
 
-      <failure message="Testing if element &lt;iframe&gt; is present.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:8:17)
-    at Object.module.exports.brandlist window resize (/Users/kelli/Sites/nightwatch/test/demotests/listwindowresize.js:10:14)</failure>
+    
 
     
 

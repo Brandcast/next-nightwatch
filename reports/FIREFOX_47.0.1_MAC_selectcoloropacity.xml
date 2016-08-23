@@ -5,15 +5,33 @@
 
   <testsuite name="selectcoloropacity"
     errors="0" failures="1" hostname="" id="" package="selectcoloropacity" skipped="0"
-    tests="1" time="7.307" timestamp="Fri, 19 Aug 2016 17:25:30 GMT">
+    tests="1" time="12.93" timestamp="Mon, 22 Aug 2016 21:01:05 GMT">
   
-    <testcase name="open color opacity panel" time="7.307" assertions="3">
+    <testcase name="open color opacity panel" time="12.93" assertions="13">
 
-      <failure message="Testing if element &lt;iframe&gt; is present.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:8:17)
-    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:10:14)</failure>
+    
 
-      <failure message="Timed out while waiting for element &lt;iframe&gt; to be present for 1000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:4:10)
-    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:13:14)</failure>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;background-color: rgba(191, 122, 122, 0.91)&quot;.">    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:41:15)</failure>
 
     
     </testcase>

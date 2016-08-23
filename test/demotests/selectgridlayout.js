@@ -1,5 +1,5 @@
 module.exports = {
-  '@tags' : ['colorpanel'],
+  '@tags' : ['dimensionspanel', 'grid'],
   'select text color' : function (browser) {
      var page = browser.page.pageload();
 
@@ -21,9 +21,19 @@ module.exports = {
        page = browser.page.gridbtn();  
         page.gridbtn();
 
-     // page = browser.page.colorspectrum();  
-        //page.colorspectrum();
+      page = browser.page.opendimensionspanel();  
+        page.opendimensionspanel();
       
+      browser.verify.elementPresent('[title="Gutter Width"]')
+      browser.moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 50, 6)
+          .mouseButtonDown(0)
+          //.getValue('.select-input-wrapper input[type=text]', function (result) {
+            //console.log(result.value);
+          //});
+          .moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 10, 6)
+          .moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 80, 6)
+          .moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 140, 6)
+          .mouseButtonDown(0)
       //page = browser.page.closepanel();  
         //page.closepanel();
     
@@ -31,6 +41,6 @@ module.exports = {
       //browser.frame(0) //selects iframe - must call to select anything within iframe
         //browser.assert.cssProperty('.bc-text', 'color', 'rgba(191, 122, 122, 1)')
         //browser.frame(null)
-        //browser.end();
+        browser.end();
     }
 };

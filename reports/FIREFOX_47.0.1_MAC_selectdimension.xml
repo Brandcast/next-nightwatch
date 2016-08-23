@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="selectdimension"
-    errors="0" failures="1" hostname="" id="" package="selectdimension" skipped="0"
-    tests="1" time="7.232" timestamp="Fri, 19 Aug 2016 17:25:45 GMT">
+    errors="0" failures="0" hostname="" id="" package="selectdimension" skipped="0"
+    tests="1" time="10.85" timestamp="Mon, 22 Aug 2016 21:01:18 GMT">
   
-    <testcase name="open dimensions panel and set max width" time="7.232" assertions="3">
+    <testcase name="open dimensions panel and set max width" time="10.85" assertions="11">
 
-      <failure message="Testing if element &lt;iframe&gt; is present.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:8:17)
-    at Object.module.exports.open dimensions panel and set max width (/Users/kelli/Sites/nightwatch/test/demotests/selectdimension.js:10:12)</failure>
+    
 
-      <failure message="Timed out while waiting for element &lt;iframe&gt; to be present for 1000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:4:10)
-    at Object.module.exports.open dimensions panel and set max width (/Users/kelli/Sites/nightwatch/test/demotests/selectdimension.js:13:12)</failure>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>

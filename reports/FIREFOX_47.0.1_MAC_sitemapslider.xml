@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="sitemapslider"
-    errors="0" failures="1" hostname="" id="" package="sitemapslider" skipped="0"
-    tests="1" time="7.173" timestamp="Fri, 19 Aug 2016 17:26:34 GMT">
+    errors="0" failures="0" hostname="" id="" package="sitemapslider" skipped="0"
+    tests="1" time="9.241" timestamp="Mon, 22 Aug 2016 21:03:01 GMT">
   
-    <testcase name="slider test" time="7.173" assertions="3">
+    <testcase name="slider test" time="9.241" assertions="3">
 
-      <failure message="Testing if element &lt;iframe&gt; is present.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:8:17)
-    at Object.module.exports.slider test (/Users/kelli/Sites/nightwatch/test/demotests/sitemapslider.js:9:12)</failure>
+    
 
-      <failure message="Timed out while waiting for element &lt;iframe&gt; to be present for 1000 milliseconds.">    at Object.module.exports.slider test (/Users/kelli/Sites/nightwatch/test/demotests/sitemapslider.js:12:10)</failure>
+    
 
     
     </testcase>
