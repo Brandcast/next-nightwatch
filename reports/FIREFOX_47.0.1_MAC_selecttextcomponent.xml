@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
             tests="1">
 
   <testsuite name="selecttextcomponent"
-    errors="0" failures="0" hostname="" id="" package="selecttextcomponent" skipped="0"
-    tests="1" time="11.79" timestamp="Tue, 23 Aug 2016 17:03:50 GMT">
+    errors="1" failures="0" hostname="" id="" package="selecttextcomponent" skipped="0"
+    tests="1" time="10.74" timestamp="Wed, 24 Aug 2016 18:06:33 GMT">
   
-    <testcase name="test" time="11.79" assertions="5">
+    <testcase name="test" time="10.74" assertions="5">
 
     
 

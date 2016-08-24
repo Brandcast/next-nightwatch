@@ -5,14 +5,14 @@
 
   <testsuite name="closetab"
     errors="0" failures="0" hostname="" id="" package="closetab" skipped="0"
-    tests="2" time="8.033" timestamp="Wed, 24 Aug 2016 21:16:59 GMT">
+    tests="2" time="8.635" timestamp="Wed, 24 Aug 2016 21:20:44 GMT">
   
-    <testcase name="close site tab" time="5.558" assertions="1">
+    <testcase name="close site tab" time="5.948" assertions="1">
 
     
     </testcase>
   
-    <testcase name="open site map and close tab" time="2.475" assertions="2">
+    <testcase name="open site map and close tab" time="2.687" assertions="2">
 
     
 

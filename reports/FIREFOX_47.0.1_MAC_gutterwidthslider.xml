@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="gutterwidthslider"
+    errors="1" failures="1" hostname="" id="" package="gutterwidthslider" skipped="0"
+    tests="1" time="13.23" timestamp="Wed, 24 Aug 2016 18:03:11 GMT">
+  
+    <testcase name="select text color" time="13.23" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.bc-grid-container.bc-grid-wrapper&gt; is present.">    at Object.gridbtnCommands.gridbtn (/Users/kelli/Sites/nightwatch/pages/gridbtn.js:8:19)
+    at Object.module.exports.select text color (/Users/kelli/Sites/nightwatch/test/demotests/gutterwidthslider.js:22:14)</failure>
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.focus-grid-content.padding-5&gt; to be present for 1000 milliseconds.">    at Object.module.exports.select text color (/Users/kelli/Sites/nightwatch/test/demotests/gutterwidthslider.js:31:14)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

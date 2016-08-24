@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
             tests="1">
 
   <testsuite name="sitemapsearch"
-    errors="0" failures="0" hostname="" id="" package="sitemapsearch" skipped="0"
-    tests="1" time="13.28" timestamp="Tue, 23 Aug 2016 17:04:08 GMT">
+    errors="1" failures="0" hostname="" id="" package="sitemapsearch" skipped="0"
+    tests="1" time="13.39" timestamp="Wed, 24 Aug 2016 18:06:51 GMT">
   
-    <testcase name="site map work search on span" time="13.28" assertions="5">
+    <testcase name="site map work search on span" time="13.39" assertions="5">
 
     
 

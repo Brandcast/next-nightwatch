@@ -5,7 +5,7 @@ var gridbtnCommands = {
         .expect.element('@gridbtn').to.be.enabled
 
         this.api.frame(0)
-          .verify.elementPresent('.bc-grid-container.bc-grid-wrapper')
+          .verify.elementPresent('.focused.bc-grid-wrapper')
             .frame(null)
   }
 };

@@ -1,6 +1,6 @@
 module.exports = {
-  '@tags' : ['colorpanel', 'colorswatch'],
-  'select black, white, and tranparent swatches in color panel' : function (browser) {
+  '@tags' : ['showhidepanel', 'mobile'],
+  'select hide on mobile' : function (browser) {
      var page = browser.page.pageload();
 
       page.navigate()
