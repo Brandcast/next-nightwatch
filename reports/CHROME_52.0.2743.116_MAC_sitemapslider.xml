@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
             tests="1">
 
   <testsuite name="sitemapslider"
-    errors="0" failures="0" hostname="" id="" package="sitemapslider" skipped="0"
-    tests="1" time="7.001" timestamp="Wed, 17 Aug 2016 18:23:14 GMT">
+    errors="1" failures="0" hostname="" id="" package="sitemapslider" skipped="0"
+    tests="1" time="0.01800" timestamp="Thu, 25 Aug 2016 21:02:49 GMT">
   
-    <testcase name="slider test" time="7.001" assertions="3">
-
-    
-
-    
-
-    
+    <testcase name="slider test" time="0.01800" assertions="0">
     </testcase>
   
   

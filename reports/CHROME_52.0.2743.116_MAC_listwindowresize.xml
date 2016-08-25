@@ -4,20 +4,16 @@
             tests="1">
 
   <testsuite name="listwindowresize"
-    errors="0" failures="0" hostname="" id="" package="listwindowresize" skipped="0"
-    tests="1" time="6.968" timestamp="Wed, 17 Aug 2016 18:21:09 GMT">
+    errors="0" failures="0" hostname="" id="" package="listwindowresize" skipped="1"
+    tests="1" time="0.000" timestamp="Thu, 25 Aug 2016 21:02:41 GMT">
   
-    <testcase name="brandlist window resize" time="6.968" assertions="4">
-
+  
     
-
-    
-
-    
-
-    
+    <testcase
+      name="brandlist window resize w/color panel">
+      <skipped />
     </testcase>
-  
+    
   
   </testsuite>
 </testsuites>

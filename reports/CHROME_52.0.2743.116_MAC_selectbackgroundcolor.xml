@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="3">
 
   <testsuite name="selectbackgroundcolor"
     errors="0" failures="0" hostname="" id="" package="selectbackgroundcolor" skipped="0"
-    tests="1" time="7.823" timestamp="Wed, 17 Aug 2016 18:21:30 GMT">
+    tests="3" time="5.404" timestamp="Thu, 25 Aug 2016 22:05:07 GMT">
   
-    <testcase name="select background color" time="7.823" assertions="13">
+    <testcase name="Step 1: page load" time="3.945" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: set text color to red" time="1.314" assertions="8">
 
     
 
@@ -24,14 +29,9 @@
     
 
     
-
-    
-
-    
-
-    
-
-    
+    </testcase>
+  
+    <testcase name="Step 3: verify text color is set" time="0.1450" assertions="1">
 
     
     </testcase>

@@ -1,27 +1,20 @@
 module.exports = {
-  'test' : function (browser) {
+  'step 1: page load' : function (browser) {
     var page = browser.page.pageload();
 
     page.navigate()
       page.pageload();
     
-    page = browser.page.opensitemap();
-      page.opensitemap();
+    //page = browser.page.opensitemap();
+      //page.opensitemap();
 
-    page = browser.page.opensite();
-      page.opensite();
-
+    //page = browser.page.opensite();
+      //page.opensite();
+},
+  'step 2: verify iframe is present' : function (browser) {
     page = browser.page.iframepresent();
       page.iframepresent();
       
-      browser.end();
-  },
-  
-  //'step two' : function (browser) {
-    //browser
-     // .click('button[name=btnG]')
-      //.pause(1000)
-      //.assert.containsText('#main', 'Night Watch')
-     //.end(); 
-  //}
+    browser.end();
+  }
 };

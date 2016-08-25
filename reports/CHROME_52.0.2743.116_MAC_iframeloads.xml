@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="iframeloads"
     errors="0" failures="0" hostname="" id="" package="iframeloads" skipped="0"
-    tests="1" time="6.149" timestamp="Wed, 17 Aug 2016 18:21:03 GMT">
+    tests="2" time="3.864" timestamp="Thu, 25 Aug 2016 21:02:37 GMT">
   
-    <testcase name="test" time="6.149" assertions="5">
+    <testcase name="step 1: page load" time="3.754" assertions="1">
 
     
-
-    
-
-    
-
-    
+    </testcase>
+  
+    <testcase name="step 2: verify iframe is present" time="0.1100" assertions="1">
 
     
     </testcase>

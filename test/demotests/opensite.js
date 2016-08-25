@@ -1,4 +1,5 @@
 module.exports = {
+  '@disabled': true,
   'test' : function (browser) {
     var page = browser.page.pageload();
 

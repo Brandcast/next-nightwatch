@@ -1,6 +1,7 @@
 module.exports = {
+  '@disabled': true,
   '@tags' : ['brandlist', 'windowresize'],
-  'brandlist window resize' : function (browser) {
+  'brandlist window resize w/color panel' : function (browser) {
      var page = browser.page.pageload();
 
       page.navigate()

@@ -4,16 +4,16 @@
             tests="1">
 
   <testsuite name="opensitemap"
-    errors="0" failures="0" hostname="" id="" package="opensitemap" skipped="0"
-    tests="1" time="4.659" timestamp="Wed, 17 Aug 2016 18:21:26 GMT">
+    errors="0" failures="0" hostname="" id="" package="opensitemap" skipped="1"
+    tests="1" time="0.000" timestamp="Thu, 25 Aug 2016 21:02:45 GMT">
   
-    <testcase name="test" time="4.659" assertions="2">
-
+  
     
-
-    
+    <testcase
+      name="test">
+      <skipped />
     </testcase>
-  
+    
   
   </testsuite>
 </testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="undockcolorpanel"
+    errors="1" failures="0" hostname="" id="" package="undockcolorpanel" skipped="0"
+    tests="1" time="0.02500" timestamp="Thu, 25 Aug 2016 21:03:04 GMT">
+  
+    <testcase name="undock color panel" time="0.02500" assertions="0">
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

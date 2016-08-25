@@ -1,5 +1,5 @@
 module.exports = {
-  'step one' : function (browser) {
+  'step one: page load' : function (browser) {
     var page = browser.page.pageload();
 
     page.navigate()

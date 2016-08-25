@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
             tests="1">
 
   <testsuite name="sitemapsearch"
-    errors="0" failures="0" hostname="" id="" package="sitemapsearch" skipped="0"
-    tests="1" time="6.511" timestamp="Wed, 17 Aug 2016 18:23:07 GMT">
+    errors="1" failures="0" hostname="" id="" package="sitemapsearch" skipped="0"
+    tests="1" time="0.01200" timestamp="Thu, 25 Aug 2016 21:02:49 GMT">
   
-    <testcase name="site map work search on span" time="6.511" assertions="5">
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase name="site map work search on span" time="0.01200" assertions="0">
     </testcase>
   
   
