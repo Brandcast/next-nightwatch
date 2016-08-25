@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="1">
+            failures="0"
+            tests="4">
 
   <testsuite name="entertexthexcode"
-    errors="0" failures="1" hostname="" id="" package="entertexthexcode" skipped="0"
-    tests="1" time="8.551" timestamp="Wed, 17 Aug 2016 18:20:55 GMT">
+    errors="0" failures="0" hostname="" id="" package="entertexthexcode" skipped="0"
+    tests="4" time="5.574" timestamp="Thu, 25 Aug 2016 18:36:21 GMT">
   
-    <testcase name="open color panel" time="8.551" assertions="15">
+    <testcase name="step 1: load page" time="3.495" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="step 2: select text component in iframe and open color panel" time="0.7930" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 3: select text color, enter hex code, and close panel" time="1.137" assertions="7">
 
     
 
@@ -22,20 +36,9 @@
     
 
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;background-color: #7fff00&quot;.">    at Object.module.exports.open color panel (/Users/kelli/Sites/nightwatch/test/demotests/entertexthexcode.js:39:24)</failure>
+    </testcase>
+  
+    <testcase name="step 4: verify text componet has text color hex code" time="0.1490" assertions="1">
 
     
     </testcase>

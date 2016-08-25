@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="colorpanel"
     errors="0" failures="0" hostname="" id="" package="colorpanel" skipped="0"
-    tests="1" time="4.088" timestamp="Wed, 17 Aug 2016 18:20:46 GMT">
+    tests="2" time="4.407" timestamp="Thu, 25 Aug 2016 18:33:31 GMT">
   
-    <testcase name="test" time="4.088" assertions="5">
+    <testcase name="step 1: load page" time="3.744" assertions="1">
 
     
+    </testcase>
+  
+    <testcase name="step 2: open and close color panel" time="0.6630" assertions="4">
 
     
 

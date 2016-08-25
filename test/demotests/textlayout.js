@@ -1,6 +1,6 @@
 module.exports = {
   '@tags' : ['textlayout'],
-  'select text layout' : function (browser) {
+  'step 1: load page' : function (browser) {
      var page = browser.page.pageload();
 
       page.navigate()
@@ -11,7 +11,9 @@ module.exports = {
 
       //page = browser.page.opensite();
         //page.opensite();
-    //}
+    },
+
+    'step 2: select textlayout' : function (browser) {
 
       browser.frame(0) //selects iframe - must call to select anything within iframe
         .waitForElementVisible('.bc-text', 1000)

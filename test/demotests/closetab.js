@@ -1,12 +1,12 @@
 module.exports = {
-  'close site tab' : function (browser) {
+  'step 1: load page' : function (browser) {
     var page = browser.page.pageload();
 
     page.navigate()
       page.pageload();
 
     },
-  'open site map and close tab' : function (browser) {
+  'step 2: close tab' : function (browser) {
     //var page = browser.page.opensitemap();
       //page.opensitemap();  
     

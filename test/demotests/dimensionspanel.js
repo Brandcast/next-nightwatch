@@ -1,17 +1,19 @@
 module.exports = {
   '@tags' : ['dimensionspanel'],
-  'open dimensions panel' : function (browser) {
-     var page = browser.page.pageload();
+    'step 1: load page' : function (browser) {
+      var page = browser.page.pageload();
 
-      page.navigate()
-        page.pageload();
+        page.navigate()
+          page.pageload();
+    },
 
-      page = browser.page.opendimensionspanel();
-        page.opendimensionspanel()
+      'step 2: open and clsoe dimensions panel' : function (browser) {
+        page = browser.page.opendimensionspanel();
+          page.opendimensionspanel()
      
-      page = browser.page.closepanel();  
-        page.closepanel();
+        page = browser.page.closepanel();  
+          page.closepanel();
 
-      browser.end();
+        browser.end();
     }
 };

@@ -1,12 +1,13 @@
 module.exports = {
-  '@tags' : ['dimensionspanel'],
-  'openshowhidepanel' : function (browser) {
-   var page = browser.page.pageload();
+  '@tags' : ['filterspanel'],
+    'Step 1: page load' : function (browser) {
+      var page = browser.page.pageload();
 
-    page.navigate()
-      page.pageload();
-      
+      page.navigate()
+        page.pageload();
+  },    
 
+    'Step 2: open and close filters panel' : function (browser) {
       page = browser.page.openfilterspanel();
         page.openfilterspanel()
   
