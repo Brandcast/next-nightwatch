@@ -32,8 +32,8 @@ module.exports = {
       'Step 3: verify background color is set' : function (browser) {
           //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.cssProperty('.bc-text', 'background-color', 'rgba(68, 68, 68, 1)')
+          browser.assert.cssProperty('.focused.component-wrapper', 'background-color', 'rgba(191, 122, 122, 1)')
           browser.frame(null)
-          ///.end();
+          .end();
     }
 };

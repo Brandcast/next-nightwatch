@@ -32,7 +32,7 @@ module.exports = {
           page.closepanel();
     },
 
-    'Step 3: verify text color is set' : function (browser) {
+    'Step 3: verify text color is red' : function (browser) {
         //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
           browser.assert.cssProperty('.bc-text', 'color', 'rgba(191, 122, 122, 1)')

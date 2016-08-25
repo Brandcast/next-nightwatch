@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="0"
-            tests="1">
+<testsuites errors="0"
+            failures="1"
+            tests="4">
 
   <testsuite name="selectfiltersgrayscale"
-    errors="1" failures="0" hostname="" id="" package="selectfiltersgrayscale" skipped="0"
-    tests="1" time="0.01800" timestamp="Thu, 25 Aug 2016 21:02:45 GMT">
+    errors="0" failures="1" hostname="" id="" package="selectfiltersgrayscale" skipped="0"
+    tests="4" time="5.988" timestamp="Thu, 25 Aug 2016 23:10:32 GMT">
   
-    <testcase name="open filters panel" time="0.01800" assertions="0">
+    <testcase name="Step 1: page load" time="3.788" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select grayscale" time="1.428" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select grayscale via slider" time="0.6220" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: select grayscale via slider" time="0.1500" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property &quot;filter: grayscale(91%)&quot;.">    at Object.module.exports.Step 4: select grayscale via slider (/Users/kelli/Sites/nightwatch/test/demotests/selectfiltersgrayscale.js:42:18)</failure>
+
+    
     </testcase>
   
   

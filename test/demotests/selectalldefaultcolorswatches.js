@@ -27,7 +27,7 @@ module.exports = {
 
          //verify color applied via css
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        browser.assert.cssProperty('.bc-text', 'background-color', 'rgba(0, 0, 0, 0)')
+        browser.assert.cssProperty('.focused.component-wrapper', 'background-color', 'rgba(0, 0, 0, 1)')
         browser.frame(null)
     },     
       
@@ -40,8 +40,10 @@ module.exports = {
     
         //verify color applied via css
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        browser.assert.cssProperty('.bc-text', 'border-color', 'rgb(255, 255, 255)')
+        browser.assert.cssProperty('.focused.component-wrapper', 'border-color', 'rgb(255, 255, 255)')
         browser.frame(null)
+        
+       browser.end();
     },
       
     //'Step 4: text color set to transparent' : function (browser) {
@@ -54,12 +56,11 @@ module.exports = {
 
         //verify color applied via css
       //browser.frame(0) //selects iframe - must call to select anything within iframe
-        //browser.assert.cssProperty('.bc-text', 'color', 'transparent')
+        //browser.assert.cssProperty('.focused.component-wrapper', 'color', 'transparent')
         //browser.frame(null)
 
      // page = browser.page.closepanel();  
       //  page.closepanel();
 
-     //   browser.end();
-    //}
+    //},
 };

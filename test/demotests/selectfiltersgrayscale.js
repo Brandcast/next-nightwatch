@@ -1,42 +1,46 @@
 module.exports = {
-  '@tags' : ['filterspanel'],
-  'open filters panel' : function (browser) {
-     var page = browser.page.pageload();
+  '@tags' : ['filterspanel', 'grayscale'],
+    'Step 1: page load' : function (browser) {
+      var page = browser.page.pageload();
 
-      page.navigate()
-        page.pageload();
+        page.navigate()
+          page.pageload();
 
-      page = browser.page.opensitemap();
-        page.opensitemap();
+       //page = browser.page.opensitemap();
+          //page.opensitemap();
     
-      page = browser.page.opensite();
-        page.opensite();
-
-      browser.frame(0) //selects iframe - must call to select anything within iframe
-        .waitForElementVisible('.bc-text', 1000)
-        .click('.bc-text')
-        .frame(null) //closes iframe
-
-      page = browser.page.openfilterspanel();
-        page.openfilterspanel();
+        //page = browser.page.opensite();
+          //page.opensite();
+    },
       
-      page = browser.page.grayscaleslider();  
-        page.grayscaleslider();
-        
-      browser.moveToElement('.ui-wrapper[title="Grayscale"] .slider-wrapper input[type=range]', 50, 6)
-          .mouseButtonDown(0)
-          .pause(300)
-      browser.moveToElement('.ui-wrapper[title="Grayscale"] .slider-wrapper input[type=range]', 15, 6)
-      browser.moveToElement('.ui-wrapper[title="Grayscale"] .slider-wrapper input[type=range]', 70, 6)
-          .mouseButtonUp(0)
+      'Step 2: open filters panel and select grayscale' : function (browser) {
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .waitForElementVisible('.bc-text', 1000)
+          .click('.bc-text')
+          .frame(null) //closes iframe
+
+        page = browser.page.openfilterspanel();
+          page.openfilterspanel();
       
-      page = browser.page.closepanel();  
-        page.closepanel();
-    
-        //verify color applied via css
-      browser.frame(0) //selects iframe - must call to select anything within iframe
-      .assert.cssProperty('.bc-text', 'filter', 'grayscale(91%)')
-      browser.frame(null);
-      browser.end();
+        page = browser.page.grayscaleslider();  
+          page.grayscaleslider();
+    },
+
+      'Step 3: select grayscale via slider' : function (browser) { 
+        browser.moveToElement('.ui-wrapper[title="Grayscale"] .slider-wrapper input[type=range]', 50, 6)
+            .mouseButtonDown(0)
+        browser.moveToElement('.ui-wrapper[title="Grayscale"] .slider-wrapper input[type=range]', 15, 6)
+        browser.moveToElement('.ui-wrapper[title="Grayscale"] .slider-wrapper input[type=range]', 70, 6)
+            .mouseButtonUp(0)
+      
+        page = browser.page.closepanel();  
+          page.closepanel();
+    },
+      
+      'Step 4: verify grayscale is applied' : function (browser) { 
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+         .assert.cssProperty('.focused.component-wrapper', 'filter', 'grayscale(91%)')
+        browser.frame(null);
+        browser.end();
     }
 };
