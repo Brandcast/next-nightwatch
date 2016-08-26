@@ -5,9 +5,9 @@
 
   <testsuite name="selectdimension"
     errors="0" failures="0" hostname="" id="" package="selectdimension" skipped="0"
-    tests="3" time="5.545" timestamp="Fri, 26 Aug 2016 17:27:52 GMT">
+    tests="3" time="6.786" timestamp="Fri, 26 Aug 2016 18:22:27 GMT">
   
-    <testcase name="Step 1: page load" time="4.364" assertions="3">
+    <testcase name="Step 1: page load" time="4.896" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open dimensions panel and select max width from drop down menu" time="1.037" assertions="7">
+    <testcase name="Step 2: open dimensions panel and select max width from drop down menu" time="1.718" assertions="7">
 
     
 
@@ -33,7 +33,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify max width is applied" time="0.1440" assertions="1">
+    <testcase name="Step 3: verify max width is applied" time="0.1720" assertions="1">
 
     
     </testcase>

@@ -1,5 +1,5 @@
 module.exports = {
-  'test' : function (browser) {
+  'Step 1: page load' : function (browser) {
    var page = browser.page.pageload();
     page.navigate()
       page.pageload();
@@ -9,12 +9,12 @@ module.exports = {
 
     page = browser.page.opensite();
       page.opensite();
-      
+  },   
+    'Step 2: click-on text component' : function (browser) {
       browser.frame(0) //selects iframe - must call for 
       .waitForElementPresent('.bc-text', 1000)
-      .click('.bc-text')
-      //.pause(500)
-      //.expect.element('.bc-text-content').to.be.selected
+      .click('.bc-text-content')
+      .expect.element('.bc-text-content').to.be.selected
       browser.frame(null) //closes iframe
       
       browser.end();

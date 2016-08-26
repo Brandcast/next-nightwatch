@@ -1,6 +1,6 @@
 module.exports = {
-  '@tags' : ['colorpanel'], 
-  'select stroke color' : function (browser) {
+  '@tags' : ['colorpanel', 'strokecolor'], 
+  'Step 1: page load' : function (browser) {
      var page = browser.page.pageload();
 
       page.navigate()
@@ -11,8 +11,9 @@ module.exports = {
 
       page = browser.page.opensite();
         page.opensite();
-    //}
+    },
 
+    'Step 2: select stroke color' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
         .waitForElementVisible('.bc-text', 1000)
         .click('.bc-text')
@@ -30,14 +31,13 @@ module.exports = {
         browser.verify.elementPresent('.swatch[title="R=0 G=0 B=0 A=100%"]')
         .click('.swatch[title="R=0 G=0 B=0 A=100%"]')
         .verify.valueContains('.color-hex-input-wrapper input[type=text]', '#000000') 
-        //browser.waitForElementVisible('.swatch[title=("R=0 G=0 B=0 A=100%")]', 500);
           
-      //page = browser.page.closepanel();  
-        //page.closepanel();
-    
-        //verify color applied via css
-      //browser.frame(0) //selects iframe - must call to select anything within iframe
-        //browser.assert.cssProperty('.bc-text', 'border-color', 'rgba(191, 122, 122, 1)')
+      page = browser.page.closepanel();  
+        page.closepanel();
+    },
+        'Step 3: verify color applied via css': function (browser) {
+      browser.frame(0) //selects iframe - must call to select anything within iframe
+        //.assert.cssProperty('.component-wrapper .bc-text', 'border-color', 'rgba(0, 0, 0, 1)')
         //browser.frame(null)
         //browser.end();
     }

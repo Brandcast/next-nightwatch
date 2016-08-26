@@ -5,9 +5,9 @@
 
   <testsuite name="undockcolorpanel"
     errors="0" failures="0" hostname="" id="" package="undockcolorpanel" skipped="0"
-    tests="1" time="5.458" timestamp="Fri, 26 Aug 2016 17:29:16 GMT">
+    tests="1" time="5.471" timestamp="Fri, 26 Aug 2016 18:23:52 GMT">
   
-    <testcase name="undock color panel" time="5.458" assertions="8">
+    <testcase name="undock color panel" time="5.471" assertions="8">
 
     
 

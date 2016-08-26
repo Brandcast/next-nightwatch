@@ -1,10 +1,12 @@
 module.exports = {
   '@tags' : ['strokepanel'],
-  'open stroke panel' : function (browser) {
+  'Step 1: page load' : function (browser) {
     var page = browser.page.pageload();
       page.navigate()
         page.pageload();
-      
+   },
+
+   'Step 2: open stroke panel' : function (browser) {   
       page = browser.page.openstrokepanel();
         page.openstrokepanel();
       

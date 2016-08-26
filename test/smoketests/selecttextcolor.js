@@ -1,6 +1,6 @@
 module.exports = {
-  '@tags' : ['colorpanel'],
-  'select text color' : function (browser) {
+  '@tags' : ['colorpanel', 'textcolor'],
+  'Step 1: page load' : function (browser) {
      var page = browser.page.pageload();
 
       page.navigate()
@@ -11,8 +11,9 @@ module.exports = {
 
       page = browser.page.opensite();
         page.opensite();
-    //}
+    }
 
+    'Step 2: select text color' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
         .waitForElementVisible('.bc-text', 1000)
         .click('.bc-text')
@@ -29,7 +30,9 @@ module.exports = {
       
       page = browser.page.closepanel();  
         page.closepanel();
+    },
     
+    'Step 3: verify text color' : function (browser) {
         //verify color applied via css
       browser.frame(0) //selects iframe - must call to select anything within iframe
         browser.assert.cssProperty('.bc-text', 'color', 'rgba(191, 122, 122, 1)')

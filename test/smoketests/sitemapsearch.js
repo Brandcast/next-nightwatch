@@ -1,5 +1,5 @@
 module.exports = {
-  'site map work search on span' : function (browser) {
+  'Step 1: page load' : function (browser) {
    var page = browser.page.pageload();
 
     page.navigate()
@@ -10,7 +10,9 @@ module.exports = {
 
     page = browser.page.opensite();
       page.opensite(); 
-      
+    },
+
+    'Step 2: "site map" word search on span' : function (browser) {  
       browser.assert.containsText('span', 'SiteMap')
       browser.end();
     },
