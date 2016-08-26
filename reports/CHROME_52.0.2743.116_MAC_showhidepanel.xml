@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="showhidepanel"
     errors="0" failures="0" hostname="" id="" package="showhidepanel" skipped="0"
-    tests="1" time="4.194" timestamp="Fri, 26 Aug 2016 18:23:23 GMT">
+    tests="2" time="4.099" timestamp="Fri, 26 Aug 2016 22:17:23 GMT">
   
-    <testcase name="openshowhidepanel" time="4.194" assertions="5">
+    <testcase name="Step 1: page load" time="3.542" assertions="1">
 
     
+    </testcase>
+  
+    <testcase name="Step 2: open and close show/hide panel" time="0.5570" assertions="4">
 
     
 

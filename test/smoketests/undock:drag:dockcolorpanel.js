@@ -1,5 +1,5 @@
 module.exports = {
-'@tags' : ['colorpanel' 'undock', 'dock'],
+'@tags' : ['colorpanel', 'undock', 'dock'],
    'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
 

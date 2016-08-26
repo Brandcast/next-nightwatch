@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="strokepanel"
     errors="0" failures="0" hostname="" id="" package="strokepanel" skipped="0"
-    tests="1" time="4.119" timestamp="Fri, 26 Aug 2016 18:23:38 GMT">
+    tests="2" time="3.977" timestamp="Fri, 26 Aug 2016 22:17:38 GMT">
   
-    <testcase name="open stroke panel" time="4.119" assertions="5">
+    <testcase name="Step 1: page load" time="3.483" assertions="1">
 
     
+    </testcase>
+  
+    <testcase name="Step 2: open stroke panel" time="0.4940" assertions="4">
 
     
 

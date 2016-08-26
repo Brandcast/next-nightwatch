@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="sitemapsearch"
     errors="0" failures="0" hostname="" id="" package="sitemapsearch" skipped="0"
-    tests="1" time="4.983" timestamp="Fri, 26 Aug 2016 18:23:27 GMT">
+    tests="2" time="5.060" timestamp="Fri, 26 Aug 2016 22:17:27 GMT">
   
-    <testcase name="site map work search on span" time="4.983" assertions="4">
+    <testcase name="Step 1: page load" time="4.630" assertions="3">
 
     
 
     
 
     
+    </testcase>
+  
+    <testcase name="Step 2: &quot;site map&quot; word search on span" time="0.4300" assertions="1">
 
     
     </testcase>

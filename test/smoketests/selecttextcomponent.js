@@ -1,4 +1,5 @@
 module.exports = {
+  '@disabled': true,
   'Step 1: page load' : function (browser) {
    var page = browser.page.pageload();
     page.navigate()
@@ -13,11 +14,11 @@ module.exports = {
     'Step 2: click-on text component' : function (browser) {
       browser.frame(0) //selects iframe - must call for 
       .waitForElementPresent('.bc-text', 1000)
-      .click('.bc-text-content')
-      .expect.element('.bc-text-content').to.be.selected
-      browser.frame(null) //closes iframe
+      .click('.bc-text')
+      .expect.element('.bc-text').to.be.selected
+      //browser.frame(null) //closes iframe
       
-      browser.end();
+      //browser.end();
 
   },
 };

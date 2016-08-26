@@ -11,7 +11,7 @@ module.exports = {
 
       page = browser.page.opensite();
         page.opensite();
-    }
+    },
 
     'Step 2: select text color' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
