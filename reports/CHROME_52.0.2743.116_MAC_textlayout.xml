@@ -5,14 +5,14 @@
 
   <testsuite name="textlayout"
     errors="0" failures="0" hostname="" id="" package="textlayout" skipped="0"
-    tests="2" time="4.151" timestamp="Fri, 26 Aug 2016 00:12:44 GMT">
+    tests="2" time="4.575" timestamp="Fri, 26 Aug 2016 17:29:05 GMT">
   
-    <testcase name="step 1: load page" time="3.496" assertions="1">
+    <testcase name="step 1: load page" time="3.886" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 2: select textlayout" time="0.6550" assertions="4">
+    <testcase name="step 2: select textlayout" time="0.6890" assertions="4">
 
     
 

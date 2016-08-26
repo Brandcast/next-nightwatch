@@ -4,16 +4,16 @@
             tests="1">
 
   <testsuite name="opensite"
-    errors="0" failures="0" hostname="" id="" package="opensite" skipped="1"
-    tests="1" time="0.000" timestamp="Fri, 26 Aug 2016 00:11:44 GMT">
+    errors="0" failures="0" hostname="" id="" package="opensite" skipped="0"
+    tests="1" time="4.721" timestamp="Fri, 26 Aug 2016 17:27:24 GMT">
   
-  
+    <testcase name="test" time="4.721" assertions="2">
+
     
-    <testcase
-      name="test">
-      <skipped />
+
+    
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

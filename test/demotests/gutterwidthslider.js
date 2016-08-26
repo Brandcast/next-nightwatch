@@ -6,11 +6,11 @@ module.exports = {
         page.navigate()
           page.pageload();
     
-        //page = browser.page.opensitemap();
-          //page.opensitemap();
+        page = browser.page.opensitemap();
+          page.opensitemap();
 
-        //page = browser.page.opensite();
-          //page.opensite();
+        page = browser.page.opensite();
+          page.opensite();
     },
 
     'Step 2: select text component (in iframe), click grid layout button, and open dimensions panel' : function (browser) {

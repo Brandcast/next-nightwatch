@@ -11,8 +11,8 @@ module.exports = {
       page.opensite();
       
       browser.frame(0) //selects iframe - must call for 
-      .waitForElementPresent('.bc-text-content', 1000)
-      .click('.bc-text-content')
+      .waitForElementPresent('.bc-text', 1000)
+      .click('.bc-text')
       //.pause(500)
       //.expect.element('.bc-text-content').to.be.selected
       browser.frame(null) //closes iframe
@@ -21,7 +21,3 @@ module.exports = {
 
   },
 };
-
-//.verify.elementPresent('h5[title="About Us (page2)"]', 1, 1')
-      //.moveToElement('h5[title="About Us (page2)"]', 1, 1)
-      // .click('span[data-id="44856863-ffe6-44d4-8787-e0dad3c93ecf"]')

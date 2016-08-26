@@ -5,11 +5,11 @@ module.exports = {
     page.navigate()
       page.pageload();
     
-    //page = browser.page.opensitemap();
-      //page.opensitemap();
+    page = browser.page.opensitemap();
+      page.opensitemap();
 
-    //page = browser.page.opensite();
-      //page.opensite();
+    page = browser.page.opensite();
+      page.opensite();
 },
   'step 2: verify iframe is present' : function (browser) {
     page = browser.page.iframepresent();

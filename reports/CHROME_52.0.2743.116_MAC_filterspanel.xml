@@ -5,14 +5,14 @@
 
   <testsuite name="filterspanel"
     errors="0" failures="0" hostname="" id="" package="filterspanel" skipped="0"
-    tests="2" time="4.163" timestamp="Fri, 26 Aug 2016 00:11:22 GMT">
+    tests="2" time="4.206" timestamp="Fri, 26 Aug 2016 17:26:58 GMT">
   
-    <testcase name="Step 1: page load" time="3.551" assertions="1">
+    <testcase name="Step 1: page load" time="3.642" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 2: open and close filters panel" time="0.6120" assertions="4">
+    <testcase name="Step 2: open and close filters panel" time="0.5640" assertions="4">
 
     
 

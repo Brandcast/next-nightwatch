@@ -1,5 +1,5 @@
 module.exports = {
-'@disabled': true,
+//'@disabled': true,
   'test' : function (browser) {
     var page = browser.page.pageload();
 
@@ -7,7 +7,7 @@ module.exports = {
       page.pageload();
 
     page = browser.page.opensitemap();
-    	page.opensitemap();
+    	browser.page.opensitemap();
       
       browser.end()
   },

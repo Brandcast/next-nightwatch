@@ -5,16 +5,9 @@
 
   <testsuite name="selecthideonmobile"
     errors="0" failures="1" hostname="" id="" package="selecthideonmobile" skipped="0"
-    tests="3" time="4.371" timestamp="Fri, 26 Aug 2016 00:12:15 GMT">
+    tests="3" time="5.207" timestamp="Fri, 26 Aug 2016 17:28:10 GMT">
   
-    <testcase name="Step 1: page load" time="3.544" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Step 2: select hide on mobile" time="0.6940" assertions="4">
-
-    
+    <testcase name="Step 1: page load" time="4.443" assertions="3">
 
     
 
@@ -23,7 +16,18 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on mobile" time="0.1330" assertions="1">  <failure message="Testing if element &lt;.bc-text.bc-mobile-hidden&gt; is present.">    at Object.module.exports.Step 3: verify text component is hidden on mobile (/Users/kelli/Sites/nightwatch/test/demotests/selecthideonmobile.js:31:23)</failure>
+    <testcase name="Step 2: select hide on mobile" time="0.6330" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify text component is hidden on mobile" time="0.1310" assertions="1">  <failure message="Testing if element &lt;.bc-text.bc-mobile-hidden&gt; is present.">    at Object.module.exports.Step 3: verify text component is hidden on mobile (/Users/kelli/Sites/nightwatch/test/demotests/selecthideonmobile.js:31:23)</failure>
 
     
     </testcase>

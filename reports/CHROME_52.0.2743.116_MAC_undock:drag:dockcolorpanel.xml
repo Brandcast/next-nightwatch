@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="1">
 
   <testsuite name="undock:drag:dockcolorpanel"
-    errors="1" failures="0" hostname="" id="" package="undock:drag:dockcolorpanel" skipped="0"
-    tests="1" time="0.01300" timestamp="Fri, 26 Aug 2016 00:12:48 GMT">
+    errors="0" failures="0" hostname="" id="" package="undock:drag:dockcolorpanel" skipped="0"
+    tests="1" time="6.216" timestamp="Fri, 26 Aug 2016 17:29:09 GMT">
   
-    <testcase name="undock color panel" time="0.01300" assertions="0">
+    <testcase name="undock color panel" time="6.216" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
   

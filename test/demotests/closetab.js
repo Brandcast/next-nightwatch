@@ -7,11 +7,11 @@ module.exports = {
 
     },
   'step 2: close tab' : function (browser) {
-    //var page = browser.page.opensitemap();
-      //page.opensitemap();  
+    var page = browser.page.opensitemap();
+      page.opensitemap();  
     
-    //page = browser.page.opensite();
-      //page.opensite();
+    page = browser.page.opensite();
+      page.opensite();
     
     page = browser.page.closetab();
       page.closetab();
