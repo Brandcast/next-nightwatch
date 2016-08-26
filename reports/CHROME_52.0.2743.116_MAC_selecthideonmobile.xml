@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="0"
-            tests="1">
+<testsuites errors="0"
+            failures="1"
+            tests="3">
 
   <testsuite name="selecthideonmobile"
-    errors="1" failures="0" hostname="" id="" package="selecthideonmobile" skipped="0"
-    tests="1" time="0.03300" timestamp="Thu, 25 Aug 2016 21:02:45 GMT">
+    errors="0" failures="1" hostname="" id="" package="selecthideonmobile" skipped="0"
+    tests="3" time="4.371" timestamp="Fri, 26 Aug 2016 00:12:15 GMT">
   
-    <testcase name="select hide on mobile" time="0.03300" assertions="0">
+    <testcase name="Step 1: page load" time="3.544" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: select hide on mobile" time="0.6940" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify text component is hidden on mobile" time="0.1330" assertions="1">  <failure message="Testing if element &lt;.bc-text.bc-mobile-hidden&gt; is present.">    at Object.module.exports.Step 3: verify text component is hidden on mobile (/Users/kelli/Sites/nightwatch/test/demotests/selecthideonmobile.js:31:23)</failure>
+
+    
     </testcase>
   
   

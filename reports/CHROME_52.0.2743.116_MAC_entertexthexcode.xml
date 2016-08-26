@@ -5,31 +5,14 @@
 
   <testsuite name="entertexthexcode"
     errors="0" failures="0" hostname="" id="" package="entertexthexcode" skipped="0"
-    tests="4" time="5.724" timestamp="Thu, 25 Aug 2016 21:02:16 GMT">
+    tests="4" time="5.295" timestamp="Fri, 26 Aug 2016 00:11:16 GMT">
   
-    <testcase name="step 1: load page" time="3.644" assertions="1">
+    <testcase name="step 1: load page" time="3.488" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 2: select text component in iframe and open color panel" time="0.7490" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="step 3: select text color, enter hex code, and close panel" time="1.179" assertions="7">
-
-    
-
-    
-
-    
-
-    
+    <testcase name="step 2: select text component in iframe and open color panel" time="0.6840" assertions="3">
 
     
 
@@ -38,7 +21,24 @@
     
     </testcase>
   
-    <testcase name="step 4: verify text componet has text color hex code" time="0.1520" assertions="1">
+    <testcase name="step 3: select text color, enter hex code, and close panel" time="0.9880" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 4: verify text componet has text color hex code" time="0.1350" assertions="1">
 
     
     </testcase>

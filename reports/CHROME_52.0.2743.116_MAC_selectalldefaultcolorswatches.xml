@@ -5,14 +5,14 @@
 
   <testsuite name="selectalldefaultcolorswatches"
     errors="0" failures="0" hostname="" id="" package="selectalldefaultcolorswatches" skipped="0"
-    tests="3" time="5.611" timestamp="Thu, 25 Aug 2016 22:44:10 GMT">
+    tests="3" time="4.953" timestamp="Fri, 26 Aug 2016 00:11:44 GMT">
   
-    <testcase name="Step 1: page load" time="3.802" assertions="1">
+    <testcase name="Step 1: page load" time="3.380" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 2: background color set to black" time="1.158" assertions="6">
+    <testcase name="Step 2: background color set to black" time="0.9840" assertions="6">
 
     
 
@@ -27,7 +27,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: stroke color set to white" time="0.6510" assertions="5">
+    <testcase name="Step 3: stroke color set to white" time="0.5890" assertions="5">
 
     
 

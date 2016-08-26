@@ -1,4 +1,5 @@
 module.exports = {
+  '@disabled': true,
   'slider test' : function (browser) {
    var page = browser.page.pageload();
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="selecttextolor"
+    errors="0" failures="1" hostname="" id="" package="selecttextolor" skipped="0"
+    tests="3" time="5.053" timestamp="Fri, 26 Aug 2016 00:12:25 GMT">
+  
+    <testcase name="Step 1: page load" time="3.572" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: set text color to red" time="1.302" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify text color is red" time="0.1790" assertions="1">  <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;color: rgba(191, 122, 122, 1)&quot;.">    at Object.module.exports.Step 3: verify text color is red (/Users/kelli/Sites/nightwatch/test/demotests/selecttextolor.js:38:26)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

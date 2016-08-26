@@ -5,34 +5,34 @@
 
   <testsuite name="selectfiltersgrayscale"
     errors="0" failures="1" hostname="" id="" package="selectfiltersgrayscale" skipped="0"
-    tests="4" time="5.988" timestamp="Thu, 25 Aug 2016 23:10:32 GMT">
+    tests="4" time="5.536" timestamp="Fri, 26 Aug 2016 00:12:05 GMT">
   
-    <testcase name="Step 1: page load" time="3.788" assertions="1">
+    <testcase name="Step 1: page load" time="3.616" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select grayscale" time="1.428" assertions="5">
+    <testcase name="Step 2: open filters panel and select grayscale" time="1.300" assertions="5">
 
     
 
     
 
     
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 3: select grayscale via slider" time="0.6220" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: select grayscale via slider" time="0.1500" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property &quot;filter: grayscale(91%)&quot;.">    at Object.module.exports.Step 4: select grayscale via slider (/Users/kelli/Sites/nightwatch/test/demotests/selectfiltersgrayscale.js:42:18)</failure>
+    <testcase name="Step 3: select grayscale via slider" time="0.4900" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: verify grayscale is applied" time="0.1300" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property &quot;filter: grayscale(91%)&quot;.">    at Object.module.exports.Step 4: verify grayscale is applied (/Users/kelli/Sites/nightwatch/test/demotests/selectfiltersgrayscale.js:42:18)</failure>
 
     
     </testcase>

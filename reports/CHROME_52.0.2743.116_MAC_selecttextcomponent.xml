@@ -5,9 +5,9 @@
 
   <testsuite name="selecttextcomponent"
     errors="1" failures="0" hostname="" id="" package="selecttextcomponent" skipped="0"
-    tests="1" time="0.02900" timestamp="Thu, 25 Aug 2016 21:02:45 GMT">
+    tests="1" time="0.02400" timestamp="Fri, 26 Aug 2016 00:12:25 GMT">
   
-    <testcase name="test" time="0.02900" assertions="0">
+    <testcase name="test" time="0.02400" assertions="0">
     </testcase>
   
   

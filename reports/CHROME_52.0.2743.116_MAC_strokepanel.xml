@@ -5,9 +5,9 @@
 
   <testsuite name="strokepanel"
     errors="0" failures="0" hostname="" id="" package="strokepanel" skipped="0"
-    tests="1" time="4.117" timestamp="Thu, 25 Aug 2016 21:02:56 GMT">
+    tests="1" time="4.036" timestamp="Fri, 26 Aug 2016 00:12:40 GMT">
   
-    <testcase name="open stroke panel" time="4.117" assertions="5">
+    <testcase name="open stroke panel" time="4.036" assertions="5">
 
     
 
