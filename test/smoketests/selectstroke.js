@@ -31,8 +31,8 @@ module.exports = {
 
       'Step 3: verify text component has 4 sided border' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper', 'border-width', '1px')
+          .assert.cssProperty('.focused.component-wrapper', 'border', '1px')
         browser.frame(null)
-        browser.end();
+       // browser.end();
     }
 };

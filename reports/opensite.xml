@@ -5,16 +5,16 @@
 
   <testsuite name="opensite"
     errors="1" failures="0" hostname="" id="" package="opensite" skipped="0"
-    tests="1" time="0.02800" timestamp="Fri, 12 Aug 2016 22:48:36 GMT">
+    tests="1" time="0.03800" timestamp="Mon, 29 Aug 2016 20:30:14 GMT">
   
-    <testcase name="test" time="0.02800" assertions="0">
+    <testcase name="test" time="0.03800" assertions="0">
     </testcase>
       <system-err>
           Error while running [Opensite / test]:
 
   TypeError: undefined is not a function
-    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:3:14)
-    at Object.module.exports.test (/Users/kelli/Sites/nightwatch/test/demotests/opensite.js:15:11)
+    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:9:8)
+    at Object.module.exports.test (/Users/kelli/Sites/nightwatch/test/smoketests/opensite.js:10:11)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)

@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
             tests="2">
 
   <testsuite name="textlayout"
-    errors="0" failures="0" hostname="" id="" package="textlayout" skipped="0"
-    tests="2" time="4.954" timestamp="Fri, 26 Aug 2016 22:17:42 GMT">
+    errors="1" failures="0" hostname="" id="" package="textlayout" skipped="1"
+    tests="2" time="0.02400" timestamp="Mon, 29 Aug 2016 21:50:07 GMT">
   
-    <testcase name="step 1: load page" time="4.322" assertions="3">
-
-    
-
-    
-
-    
+    <testcase name="step 1: load page" time="0.02400" assertions="0">
     </testcase>
   
-    <testcase name="step 2: select textlayout" time="0.6320" assertions="4">
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
+    
+    <testcase
+      name="step 2: select textlayout">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

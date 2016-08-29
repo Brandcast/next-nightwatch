@@ -1,45 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
             tests="3">
 
   <testsuite name="selecttextcolor"
-    errors="0" failures="0" hostname="" id="" package="selecttextcolor" skipped="0"
-    tests="3" time="5.704" timestamp="Fri, 26 Aug 2016 22:17:07 GMT">
+    errors="1" failures="0" hostname="" id="" package="selecttextcolor" skipped="2"
+    tests="3" time="0.01900" timestamp="Mon, 29 Aug 2016 21:49:54 GMT">
   
-    <testcase name="Step 1: page load" time="4.374" assertions="3">
-
-    
-
-    
-
-    
+    <testcase name="Step 1: page load" time="0.01900" assertions="0">
     </testcase>
   
-    <testcase name="Step 2: select text color" time="1.212" assertions="8">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
-    <testcase name="Step 3: verify text color" time="0.1180" assertions="1">
-
     
+    <testcase
+      name="Step 2: select text color">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="Step 3: verify text color">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

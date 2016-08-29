@@ -2,11 +2,11 @@ var opensitemapCommands = {
   opensitemap: function() {
         this.api.resizeWindow(1050,1250)
         .pause(500)
-        //.moveToElement('.welcome-screen', 400,555)
-        //.moveToElement('.welcome-screen', 400,355)
-        //.mouseButtonClick()
-        //.pause(300)
-        this.verify.elementPresent('.ruler')
+        this.verify.elementPresent('.open-fail-test')
+        //.moveToElement('.container-clear', 400,555)
+        //.moveToElement('.container-clear', 400,355)
+        .mouseButtonClick('.open-fail-test')
+        //this.verify.elementPresent('.ruler')
       },
     };
 
