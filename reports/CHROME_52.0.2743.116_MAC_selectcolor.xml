@@ -5,9 +5,9 @@
 
   <testsuite name="selectcolor"
     errors="0" failures="0" hostname="" id="" package="selectcolor" skipped="0"
-    tests="3" time="6.902" timestamp="Mon, 29 Aug 2016 22:43:08 GMT">
+    tests="3" time="7.012" timestamp="Mon, 29 Aug 2016 23:07:39 GMT">
   
-    <testcase name="Step 1: page load" time="5.591" assertions="5">
+    <testcase name="Step 1: page load" time="5.485" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: set text component background color to red" time="1.154" assertions="6">
+    <testcase name="Step 2: set text component background color to red" time="1.383" assertions="6">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify background color is set" time="0.1570" assertions="1">
+    <testcase name="Step 3: verify background color is set" time="0.1440" assertions="1">
 
     
     </testcase>

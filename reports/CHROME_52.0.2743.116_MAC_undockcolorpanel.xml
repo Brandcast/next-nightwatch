@@ -5,9 +5,9 @@
 
   <testsuite name="undockcolorpanel"
     errors="0" failures="0" hostname="" id="" package="undockcolorpanel" skipped="0"
-    tests="3" time="6.207" timestamp="Mon, 29 Aug 2016 22:44:51 GMT">
+    tests="3" time="6.316" timestamp="Mon, 29 Aug 2016 23:09:16 GMT">
   
-    <testcase name="Step 1: page load" time="5.270" assertions="5">
+    <testcase name="Step 1: page load" time="5.418" assertions="5">
 
     
 
@@ -20,14 +20,14 @@
     
     </testcase>
   
-    <testcase name="Step 2: open color panel and consol log the x/y coordinates" time="0.5390" assertions="2">
+    <testcase name="Step 2: open color panel and consol log the x/y coordinates" time="0.5160" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 3: open color panel and consol log the x/y coordinates" time="0.3980" assertions="3">
+    <testcase name="Step 3: open color panel and consol log the x/y coordinates" time="0.3820" assertions="3">
 
     
 

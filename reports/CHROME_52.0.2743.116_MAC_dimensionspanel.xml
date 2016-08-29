@@ -5,14 +5,14 @@
 
   <testsuite name="dimensionspanel"
     errors="0" failures="0" hostname="" id="" package="dimensionspanel" skipped="0"
-    tests="2" time="4.113" timestamp="Mon, 29 Aug 2016 22:42:12 GMT">
+    tests="2" time="4.124" timestamp="Mon, 29 Aug 2016 23:06:42 GMT">
   
-    <testcase name="step 1: load page" time="3.294" assertions="1">
+    <testcase name="step 1: load page" time="3.253" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 2: open and clsoe dimensions panel" time="0.8190" assertions="4">
+    <testcase name="step 2: open and clsoe dimensions panel" time="0.8710" assertions="4">
 
     
 

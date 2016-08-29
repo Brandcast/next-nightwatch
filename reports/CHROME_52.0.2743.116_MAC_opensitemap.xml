@@ -5,14 +5,14 @@
 
   <testsuite name="opensitemap"
     errors="0" failures="0" hostname="" id="" package="opensitemap" skipped="0"
-    tests="2" time="3.925" timestamp="Mon, 29 Aug 2016 22:42:57 GMT">
+    tests="2" time="3.907" timestamp="Mon, 29 Aug 2016 23:07:28 GMT">
   
-    <testcase name="step 1: load page" time="3.260" assertions="1">
+    <testcase name="step 1: load page" time="3.168" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="0.6650" assertions="2">
+    <testcase name="step 2: open site map" time="0.7390" assertions="2">
 
     
 
