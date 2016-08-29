@@ -1,32 +1,56 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="4">
 
   <testsuite name="entertexthexcode"
-    errors="1" failures="0" hostname="" id="" package="entertexthexcode" skipped="3"
-    tests="4" time="0.01600" timestamp="Mon, 29 Aug 2016 21:49:39 GMT">
+    errors="0" failures="0" hostname="" id="" package="entertexthexcode" skipped="0"
+    tests="4" time="7.373" timestamp="Mon, 29 Aug 2016 22:42:16 GMT">
   
-    <testcase name="step 1: load page" time="0.01600" assertions="0">
+    <testcase name="step 1: load page" time="5.054" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
+    <testcase name="step 2: select text component in iframe and open color panel" time="1.029" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="step 3: select text color, enter hex code, and close panel" time="1.144" assertions="7">
+
     
-    <testcase
-      name="step 2: select text component in iframe and open color panel">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="step 4: verify text componet has text color hex code" time="0.1460" assertions="1">
+
     
-    <testcase
-      name="step 3: select text color, enter hex code, and close panel">
-      <skipped />
     </testcase>
-    
-    <testcase
-      name="step 4: verify text componet has text color hex code">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

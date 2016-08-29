@@ -22,17 +22,17 @@ module.exports = {
        page = browser.page.openstrokepanel();
           page.openstrokepanel()
 
-        browser.verify.elementPresent('[id="border-all_2"]')
-          .click('[id="border-all_2"]')
+        browser.verify.elementPresent('[data-automation-id="apply-stroke-to-all-sides"]')
+          .click('[data-automation-id="apply-stroke-to-all-sides"]')
   
        page = browser.page.closepanel();  
          page.closepanel();
     },
 
-      'Step 3: verify text component has 4 sided border' : function (browser) {
-        browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.focused.component-wrapper', 'border', '1px')
-        browser.frame(null)
-       // browser.end();
+    'Step 3: verify text component has 4 sided border' : function (browser) {
+      browser.frame(0) //selects iframe - must call to select anything within iframe
+        .assert.cssProperty('.focused.component-wrapper', 'border-width', '1px')
+      browser.frame(null)
+     browser.end();
     }
 };

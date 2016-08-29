@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="2">
 
   <testsuite name="iframeloads"
-    errors="1" failures="0" hostname="" id="" package="iframeloads" skipped="1"
-    tests="2" time="0.01600" timestamp="Mon, 29 Aug 2016 21:49:43 GMT">
+    errors="0" failures="0" hostname="" id="" package="iframeloads" skipped="0"
+    tests="2" time="5.848" timestamp="Mon, 29 Aug 2016 22:42:42 GMT">
   
-    <testcase name="step 1: page load" time="0.01600" assertions="0">
+    <testcase name="step 1: page load" time="5.508" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
-  
+    <testcase name="step 2: verify iframe is present" time="0.3400" assertions="1">
+
     
-    <testcase
-      name="step 2: verify iframe is present">
-      <skipped />
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

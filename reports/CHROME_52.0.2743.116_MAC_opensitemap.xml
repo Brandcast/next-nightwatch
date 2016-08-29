@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="opensitemap"
     errors="0" failures="0" hostname="" id="" package="opensitemap" skipped="0"
-    tests="1" time="3.468" timestamp="Mon, 29 Aug 2016 22:04:42 GMT">
+    tests="2" time="3.925" timestamp="Mon, 29 Aug 2016 22:42:57 GMT">
   
-    <testcase name="test" time="3.468" assertions="1">
+    <testcase name="step 1: load page" time="3.260" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open site map" time="0.6650" assertions="2">
+
+    
 
     
     </testcase>

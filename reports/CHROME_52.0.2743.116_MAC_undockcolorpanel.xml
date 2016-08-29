@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="3">
 
   <testsuite name="undockcolorpanel"
-    errors="1" failures="0" hostname="" id="" package="undockcolorpanel" skipped="2"
-    tests="3" time="0.01800" timestamp="Mon, 29 Aug 2016 21:50:08 GMT">
+    errors="0" failures="0" hostname="" id="" package="undockcolorpanel" skipped="0"
+    tests="3" time="6.207" timestamp="Mon, 29 Aug 2016 22:44:51 GMT">
   
-    <testcase name="Step 1: page load" time="0.01800" assertions="0">
+    <testcase name="Step 1: page load" time="5.270" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
+    <testcase name="Step 2: open color panel and consol log the x/y coordinates" time="0.5390" assertions="2">
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: open color panel and consol log the x/y coordinates" time="0.3980" assertions="3">
+
     
-    <testcase
-      name="Step 2: open color panel and consol log the x/y coordinates">
-      <skipped />
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 3: open color panel and consol log the x/y coordinates">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

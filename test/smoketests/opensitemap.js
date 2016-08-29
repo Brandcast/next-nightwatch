@@ -1,13 +1,14 @@
 module.exports = {
-//'@disabled': true,
-  'test' : function (browser) {
+  'step 1: load page' : function (browser) {
     var page = browser.page.pageload();
 
     page.navigate()
       page.pageload();
 
-    page = browser.page.opensitemap();
-    	browser.page.opensitemap();
+    },
+  'step 2: open site map' : function (browser) {
+    var page = browser.page.opensitemap();
+      page.opensitemap(); 
       
       browser.end()
   },

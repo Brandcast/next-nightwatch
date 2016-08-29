@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="3">
 
   <testsuite name="selectstroke"
-    errors="1" failures="0" hostname="" id="" package="selectstroke" skipped="2"
-    tests="3" time="0.02500" timestamp="Mon, 29 Aug 2016 21:49:54 GMT">
+    errors="0" failures="0" hostname="" id="" package="selectstroke" skipped="0"
+    tests="3" time="6.820" timestamp="Mon, 29 Aug 2016 23:04:49 GMT">
   
-    <testcase name="Step 1: page load" time="0.02500" assertions="0">
+    <testcase name="Step 1: page load" time="5.703" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
+    <testcase name="Step 2: open stroke panel and select 4 sided border" time="1.054" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: verify text component has 4 sided border" time="0.06300" assertions="1">
+
     
-    <testcase
-      name="Step 2: open stroke panel and select 4 sided border">
-      <skipped />
     </testcase>
-    
-    <testcase
-      name="Step 3: verify text component has 4 sided border">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

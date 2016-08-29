@@ -1,27 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="3">
 
   <testsuite name="selectstrokecolor"
-    errors="1" failures="0" hostname="" id="" package="selectstrokecolor" skipped="2"
-    tests="3" time="0.01600" timestamp="Mon, 29 Aug 2016 21:49:54 GMT">
+    errors="0" failures="0" hostname="" id="" package="selectstrokecolor" skipped="0"
+    tests="3" time="6.764" timestamp="Mon, 29 Aug 2016 22:43:58 GMT">
   
-    <testcase name="Step 1: page load" time="0.01600" assertions="0">
+    <testcase name="Step 1: page load" time="5.392" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
+    <testcase name="Step 2: select stroke color" time="1.358" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
-    
-    <testcase
-      name="Step 2: select stroke color">
-      <skipped />
+    <testcase name="Step 3: verify color applied via css" time="0.01400" assertions="0">
     </testcase>
-    
-    <testcase
-      name="Step 3: verify color applied via css">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>
