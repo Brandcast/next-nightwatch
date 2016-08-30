@@ -1,4 +1,5 @@
 module.exports = {
+  '@disabled': true,
   '@tags' : ['dimensionspanel', 'hideoverflow'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -29,12 +30,29 @@ module.exports = {
 
       page = browser.page.closepanel();  
         page.closepanel();
-    },
+  },
       
-    'Step 3: verify "hide overflow" is applied' : function (browser) {
+    'Step 4: verify "hide overflow" is applied' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
         .assert.cssProperty('.focused.component-wrapper', 'overflow', 'hidden')
       browser.frame(null)
+  },
+
+    'Step 5: uncheck "hide overflow" button' : function (browser) {
+      page = browser.page.opendimensionspanel();
+        page.opendimensionspanel()
+
+    page = browser.page.hideoverflowbtn();
+        page.hideoverflowbtn()
+
+      page = browser.page.closepanel();  
+        page.closepanel();
+  },
+      
+    'Step 6: verify "hide overflow" is not applied' : function (browser) {
+      browser.frame(0) //selects iframe - must call to select anything within iframe
+        .assert.cssProperty('.focused.component-wrapper', 'overflow', 'initial')
+      browser.frame(null)
       browser.end();
-    }
+  },
 };
