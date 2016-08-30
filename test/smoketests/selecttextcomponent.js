@@ -1,5 +1,6 @@
 module.exports = {
   '@disabled': true,
+  '@tags' : ['textcomponent'],
   'Step 1: page load' : function (browser) {
    var page = browser.page.pageload();
     page.navigate()

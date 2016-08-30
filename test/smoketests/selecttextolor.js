@@ -1,5 +1,5 @@
 module.exports = {
-  '@tags' : ['colorpanel', 'backgroundcolor'],
+  '@tags' : ['colorpanel', 'textcolor'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
 
