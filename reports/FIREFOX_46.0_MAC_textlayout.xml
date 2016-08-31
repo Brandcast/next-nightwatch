@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="textlayout"
+    errors="0" failures="0" hostname="" id="" package="textlayout" skipped="0"
+    tests="2" time="33.06" timestamp="Tue, 30 Aug 2016 23:47:45 GMT">
+  
+    <testcase name="step 1: load page" time="29.86" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: select textlayout" time="3.196" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

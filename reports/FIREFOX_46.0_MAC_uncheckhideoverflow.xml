@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="uncheckhideoverflow"
+    errors="0" failures="0" hostname="" id="" package="uncheckhideoverflow" skipped="6"
+    tests="6" time="0.000" timestamp="Tue, 30 Aug 2016 23:48:18 GMT">
+  
+  
+    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 2: open dimensions panel">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: check &quot;hide overflow&quot; button">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 4: verify &quot;hide overflow&quot; is applied">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 5: uncheck &quot;hide overflow&quot; button">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 6: verify &quot;hide overflow&quot; is not applied">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

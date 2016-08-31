@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
+<testsuites errors="3"
+            failures="1"
             tests="2">
 
   <testsuite name="showhidepanel"
-    errors="0" failures="0" hostname="" id="" package="showhidepanel" skipped="0"
-    tests="2" time="3.866" timestamp="Mon, 29 Aug 2016 23:08:43 GMT">
+    errors="3" failures="1" hostname="" id="" package="showhidepanel" skipped="0"
+    tests="2" time="10.12" timestamp="Tue, 30 Aug 2016 21:59:16 GMT">
   
-    <testcase name="Step 1: page load" time="3.254" assertions="1">
+    <testcase name="Step 1: page load" time="4.069" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 2: open and close show/hide panel" time="0.6120" assertions="4">
+    <testcase name="Step 2: open and close show/hide panel" time="6.053" assertions="4">  <failure message="Testing if element &lt;div.ui-wrapper[title=&quot;Show/Hide On Device&quot;]&gt; is present.">    at Object.openshowhidepanelCommands.openshowhidepanel (/Users/kelli/Sites/nightwatch/pages/openshowhidepanel.js:3:17)
+    at Object.module.exports.Step 2: open and close show/hide panel (/Users/kelli/Sites/nightwatch/test/smoketests/showhidepanel.js:11:14)</failure>
 
-    
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Show/Hide On Device&quot;. Element could not be located.">    at Object.openshowhidepanelCommands.openshowhidepanel (/Users/kelli/Sites/nightwatch/pages/openshowhidepanel.js:5:15)
+    at Object.module.exports.Step 2: open and close show/hide panel (/Users/kelli/Sites/nightwatch/test/smoketests/showhidepanel.js:11:14)</failure>
 
-    
+      <failure message="Testing if element &lt;.panel-body&gt; is present.">    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:3:17)
+    at Object.module.exports.Step 2: open and close show/hide panel (/Users/kelli/Sites/nightwatch/test/smoketests/showhidepanel.js:14:14)</failure>
 
     
 

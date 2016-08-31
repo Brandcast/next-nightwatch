@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="selectcoloropacity"
+    errors="0" failures="1" hostname="" id="" package="selectcoloropacity" skipped="1"
+    tests="3" time="33.36" timestamp="Tue, 30 Aug 2016 23:41:29 GMT">
+  
+    <testcase name="Step 1: page load" time="26.26" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open color panel and select opacity via slider" time="7.094" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.ui-wrapper[title=&quot;Opacity&quot;] input[type=range]&gt; to be visible for 1000 milliseconds.">    at Object.selectopacityCommands.selectopacity (/Users/kelli/Sites/nightwatch/pages/selectopacity.js:5:9)
+    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/smoketests/selectcoloropacity.js:29:16)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 3: verify opacity">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

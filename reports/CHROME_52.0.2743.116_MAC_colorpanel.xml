@@ -5,14 +5,14 @@
 
   <testsuite name="colorpanel"
     errors="0" failures="0" hostname="" id="" package="colorpanel" skipped="0"
-    tests="2" time="4.313" timestamp="Mon, 29 Aug 2016 23:06:38 GMT">
+    tests="2" time="9.058" timestamp="Tue, 30 Aug 2016 21:54:23 GMT">
   
-    <testcase name="step 1: load page" time="3.312" assertions="1">
+    <testcase name="step 1: load page" time="6.898" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 2: open and close color panel" time="1.001" assertions="4">
+    <testcase name="step 2: open and close color panel" time="2.160" assertions="4">
 
     
 

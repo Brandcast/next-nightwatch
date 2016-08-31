@@ -34,9 +34,9 @@ module.exports = {
             .waitForElementVisible('.bc-grid.padding-5', 1000)
             //.click('.bc-text')
             .frame(null) //closes iframe
-          .moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 10, 6)
+          .moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 0, 6)
             .frame(0) //selects iframe - must call to select anything within iframe
-            .waitForElementVisible('.bc-grid.padding-1', 1000)
+            .waitForElementVisible('.bc-grid.padding-0', 1000)
             //.click('.bc-text')
             .frame(null) //closes iframe
           .moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 80, 6)

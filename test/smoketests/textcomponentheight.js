@@ -25,6 +25,8 @@ module.exports = {
        page = browser.page.heightdropdown();
         page.heightdropdown()
 
+      //browser.sendKeys('\u2193')
+
       page = browser.page.closepanel();  
         page.closepanel();
     //},
@@ -34,5 +36,5 @@ module.exports = {
           //.assert.cssProperty('.focused.component-wrapper', 'max-width', '500px')
         //browser.frame(null)
         browser.end();
-    }
+    },
 };

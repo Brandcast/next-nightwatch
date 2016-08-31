@@ -5,14 +5,14 @@
 
   <testsuite name="sitewindowresize"
     errors="0" failures="0" hostname="" id="" package="sitewindowresize" skipped="0"
-    tests="2" time="5.497" timestamp="Mon, 29 Aug 2016 23:08:53 GMT">
+    tests="2" time="10.74" timestamp="Tue, 30 Aug 2016 21:59:42 GMT">
   
-    <testcase name="Step 1: page load" time="3.193" assertions="1">
+    <testcase name="Step 1: page load" time="7.514" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step two: open color panel and resize browser window" time="2.304" assertions="2">
+    <testcase name="Step two: open color panel and resize browser window" time="3.226" assertions="2">
 
     
 
