@@ -27,19 +27,19 @@ module.exports = {
     },
 
       'Step 3: select opacity via slider' : function (browser) { 
-        browser.moveToElement('.ui-wrapper[title="Opacity"] .slider-wrapper input[type=range]', 30, 6)
+        browser.moveToElement('.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .slider-wrapper input[type=range]', 2,4)
         .mouseButtonDown(0)
-        //browser.moveToElement('.ui-wrapper[title="Grayscale"] .slider-wrapper input[type=range]', 15, 6)
-        //browser.moveToElement('.ui-wrapper[title="Grayscale"] .slider-wrapper input[type=range]', 50, 6)
+        browser.moveToElement('.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .slider-wrapper input[type=range]', 15, 6)
+        browser.moveToElement('.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .slider-wrapper input[type=range]', 50, 6)
         .mouseButtonUp(0)
       
         //page = browser.page.closepanel();  
           //page.closepanel();
     //},
       
-      //'Step 4: verify grayscale is applied' : function (browser) { 
+      //'Step 4: verify opacity is applied' : function (browser) { 
         //browser.frame(0) //selects iframe - must call to select anything within iframe
-         //.assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.86)')
+         //.assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'opacity(0.86)')
         //browser.frame(null);
       //browser.end();
     }
