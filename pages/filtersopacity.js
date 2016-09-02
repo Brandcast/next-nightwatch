@@ -1,8 +1,8 @@
 var filtersopacitysliderCommands = {
 filtersopacityslider: function() {
     this.verify.elementPresent('@opacitymenu')
-        .click('@opacityinput')
-        //.waitforElementVisible('@opacityslider', 1000)
+        this.click('@opacityinput')
+          //this.waitforElementVisible('[data-automation-id="opacity-slider"]', 1000)
   }
 };
 
@@ -12,11 +12,11 @@ module.exports = {
     opacitymenu: {
       selector: '.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"]'
     },
-    opacityslider: {
-      selector: '.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .slider-wrapper input[type=range]'
-    },
+    //opacityslider: {
+      //selector: '[data-automation-id="opacity-slider"]'
+    //},
     opacityinput: {
-    	selector: '.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .select-input-wrapper'
+    	selector: '.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .select-input-wrapper input[type="text"]'
     }
   }
 };

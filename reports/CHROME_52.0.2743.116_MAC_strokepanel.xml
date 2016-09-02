@@ -5,14 +5,14 @@
 
   <testsuite name="strokepanel"
     errors="0" failures="0" hostname="" id="" package="strokepanel" skipped="0"
-    tests="2" time="10.24" timestamp="Tue, 30 Aug 2016 21:59:53 GMT">
+    tests="2" time="9.140" timestamp="Thu, 01 Sep 2016 17:53:24 GMT">
   
-    <testcase name="Step 1: page load" time="8.243" assertions="1">
+    <testcase name="Step 1: page load" time="7.332" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 2: open stroke panel" time="1.995" assertions="4">
+    <testcase name="Step 2: open stroke panel" time="1.808" assertions="4">
 
     
 

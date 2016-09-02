@@ -1,5 +1,5 @@
-var grayscalesliderCommands = {
-  grayscaleslider: function() {
+var grayscaleinputCommands = {
+ grayscaleinput: function() {
     this.verify.elementPresent('.ui-wrapper[title="Grayscale"]')
        .click('.ui-wrapper[title="Grayscale"] .select-input-container')
        .waitForElementVisible('.ui-wrapper[title="Grayscale"] input[type=range]', 1000);
@@ -9,7 +9,7 @@ var grayscalesliderCommands = {
 };
 
 module.exports = {
-  commands: [grayscalesliderCommands],
+  commands: [grayscaleinputCommands],
   elements: {
     grayscaleslider: {
     	selector: '.ui-wrapper[title="Grayscale"] input[type=range]'

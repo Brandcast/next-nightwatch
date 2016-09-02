@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="5">
+
+  <testsuite name="nightwatch"
+    errors="1" failures="0" hostname="" id="" package="nightwatch" skipped="1"
+    tests="5" time="1.963" timestamp="Thu, 01 Sep 2016 17:48:08 GMT">
+  
+    <testcase name="createClient" time="1.951" assertions="0">
+    </testcase>
+  
+    <testcase name="init" time="0.005000" assertions="0">
+    </testcase>
+  
+    <testcase name="api" time="0.000" assertions="0">
+    </testcase>
+  
+    <testcase name="client" time="0.007000" assertions="0">
+    </testcase>
+  
+  
+    
+    <testcase
+      name="start">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

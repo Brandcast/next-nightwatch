@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="mochatest"
+    errors="1" failures="0" hostname="" id="" package="mochatest" skipped="2"
+    tests="3" time="0.8590" timestamp="Thu, 01 Sep 2016 17:48:04 GMT">
+  
+    <testcase name="addBefore" time="0.8590" assertions="0">
+    </testcase>
+  
+  
+    
+    <testcase
+      name="addAfter">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="add">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

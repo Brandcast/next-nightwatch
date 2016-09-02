@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="globals"
+    errors="1" failures="0" hostname="" id="" package="globals" skipped="2"
+    tests="3" time="0.008000" timestamp="Thu, 01 Sep 2016 17:48:04 GMT">
+  
+    <testcase name="runGroupGlobal" time="0.008000" assertions="0">
+    </testcase>
+  
+  
+    
+    <testcase
+      name="interceptStartFn">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="restoreStartFn">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

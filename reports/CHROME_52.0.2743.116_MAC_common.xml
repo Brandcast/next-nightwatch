@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="common"
+    errors="1" failures="0" hostname="" id="" package="common" skipped="1"
+    tests="2" time="0.008000" timestamp="Thu, 01 Sep 2016 17:47:49 GMT">
+  
+    <testcase name="require" time="0.008000" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Common / require]:
+
+  TypeError: Arguments to path.join must be strings
+    at Object.posix.join (path.js:488:13)
+    at Object.module.exports.require (/Users/kelli/Sites/nightwatch/test/common.js:6:25)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+  Error while running [Globals / runGroupGlobal]:
+
+  TypeError: undefined is not a function
+    at /Users/kelli/Sites/nightwatch/test/lib/globals.js:12:16
+    at FSReqWrap.oncomplete (fs.js:95:15)
+  Error while running [Mochatest / addBefore]:
+
+  TypeError: object is not a function
+    at /Users/kelli/Sites/nightwatch/test/lib/globals/commands.js:11:9
+    at Nightwatch.&lt;anonymous&gt; (/Users/kelli/Sites/nightwatch/test/lib/nightwatch.js:31:9)
+    at Nightwatch.g (events.js:199:16)
+    at Nightwatch.emit (events.js:118:17)
+    at HttpRequest.&lt;anonymous&gt; (/Users/kelli/Sites/nightwatch/lib/index.js:473:12)
+    at HttpRequest.emit (events.js:118:17)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/kelli/Sites/nightwatch/lib/http/request.js:157:16)
+    at IncomingMessage.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+  Error while running [Nightwatch / client]:
+
+  TypeError: undefined is not a function
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="resolve">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
