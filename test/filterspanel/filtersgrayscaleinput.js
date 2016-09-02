@@ -59,9 +59,9 @@ module.exports = {
         .verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', "")
     },
 
-    'Step 5: enter grayscale via keystoke' : function (browser) { 
+    'Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', "")
-        .keys('\u2191')
+        //.keys('\u8593')
         //.keys('2')
         //.keys('5')
         //.keys(browser.Keys.RETURN)

@@ -1,46 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="5">
 
   <testsuite name="filtersgrayscaleinput"
-    errors="0" failures="1" hostname="" id="" package="filtersgrayscaleinput" skipped="4"
-    tests="5" time="11.92" timestamp="Fri, 02 Sep 2016 00:11:24 GMT">
+    errors="0" failures="0" hostname="" id="" package="filtersgrayscaleinput" skipped="0"
+    tests="5" time="14.81" timestamp="Fri, 02 Sep 2016 00:18:06 GMT">
   
-    <testcase name="Step 1: page load" time="11.92" assertions="4">
+    <testcase name="Step 1: page load" time="10.98" assertions="5">
 
     
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-automation-id=&quot;page-item-preview&quot;]&gt; to be present for 1000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:3:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/filterspanel/filtersgrayscaleinput.js:13:18)</failure>
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 2: open filters panel and select grayscale" time="2.415" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: enter grayscale via setvalue function" time="0.5560" assertions="4">
+
     
-    <testcase
-      name="Step 2: open filters panel and select grayscale">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: enter grayscale via keystoke" time="0.6550" assertions="4">
+
     
-    <testcase
-      name="Step 3: enter grayscale via setvalue function">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow" time="0.2050" assertions="1">
+
     
-    <testcase
-      name="Step 4: enter grayscale via keystoke">
-      <skipped />
     </testcase>
-    
-    <testcase
-      name="Step 5: enter grayscale via keystoke">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>
