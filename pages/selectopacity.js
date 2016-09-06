@@ -1,8 +1,8 @@
 var selectopacityCommands = {
   selectopacity: function() {
-    this.verify.elementPresent('.ui-wrapper[title="Opacity"]')
-       .click('.ui-wrapper[title="Opacity"] .select-input-container')
-       .waitForElementVisible('.ui-wrapper[title="Opacity"] input[type=range]', 1000);
+    this.verify.elementPresent('.ui-wrapper.left.auto-width border-bottom-divide[title="Opacity"] .select-input-container input[type="text"]')
+       .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .select-input-container input[type="text"]')
+       .waitForElementVisible('[data-automation-id="opacity-slider"]', 1000);
         
 
   }
@@ -12,7 +12,7 @@ module.exports = {
   commands: [selectopacityCommands],
   elements: {
     opacityslider: {
-    	selector: '.ui-wrapper[title="Opacity"] input[type=range]'
+    	selector: '[data-automation-id="opacity-slider"]'
     }
   }
 };

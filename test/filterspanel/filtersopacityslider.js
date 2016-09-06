@@ -20,11 +20,15 @@ module.exports = {
           .frame(null) //closes iframe
 
         page = browser.page.openfilterspanel();
-          page.openfilterspanel();
-      
-        page = browser.page.filtersopacityslider();  
-          page.filtersopacityslider();
-    },
+          page.openfilterspanel();   
+
+        browser.verify.elementPresent('[title="Opacity"]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .select-input-container input[type="text"]')
+        .waitForElementVisible('[data-automation-id="opacity-slider"]', 1000);
+
+        //page = browser.page.selectopacity();  
+          //browser.page.selectopacity();
+    }, 
 
       'Step 3: select opacity via slider' : function (browser) { 
         browser.moveToElement('[data-automation-id="opacity-slider"]', 2,6)
