@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="filtersblurslider"
+    errors="0" failures="0" hostname="" id="" package="filtersblurslider" skipped="4"
+    tests="4" time="0.000" timestamp="Tue, 06 Sep 2016 23:39:24 GMT">
+  
+  
+    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 2: open filters panel and select blur">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: select blur via slider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 4: verify blur is applied">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

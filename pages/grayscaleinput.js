@@ -1,9 +1,9 @@
 var grayscaleinputCommands = {
  grayscaleinput: function() {
     this.verify.elementPresent('.ui-wrapper[title="Grayscale"]')
-       .click('[data-automation-id="opacity-slider"]', 1000);
-        
-
+       .click('.ui-wrapper[title="Grayscale"] .select-input-container')
+       .waitForElementVisible('.ui-wrapper[title="Grayscale"] input[type="text"]', 1000);
+      
   }
 };
 

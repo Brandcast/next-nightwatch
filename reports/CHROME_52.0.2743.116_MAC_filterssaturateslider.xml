@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="filterssaturateslider"
+    errors="0" failures="0" hostname="" id="" package="filterssaturateslider" skipped="0"
+    tests="4" time="15.05" timestamp="Tue, 06 Sep 2016 23:40:57 GMT">
+  
+    <testcase name="Step 1: page load" time="10.70" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select saturate" time="2.929" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select saturate via slider" time="1.205" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: verify saturate is applied" time="0.2180" assertions="1">
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

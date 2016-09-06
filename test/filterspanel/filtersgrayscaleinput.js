@@ -21,9 +21,13 @@ module.exports = {
 
         page = browser.page.openfilterspanel();
           page.openfilterspanel();
+
+        browser.verify.elementPresent('.ui-wrapper[title="Grayscale"]')
+        .click('.ui-wrapper[title="Grayscale"] .select-input-container')
+        .waitForElementVisible('.ui-wrapper[title="Grayscale"] input[type=range]', 1000)
       
-        page = browser.page.grayscaleinput();  
-          page.grayscaleinput();
+        //page = browser.page.grayscaleinput();  
+          //page.grayscaleinput();
     },
 
       'Step 3: enter grayscale via setvalue function' : function (browser) { 
@@ -61,24 +65,25 @@ module.exports = {
 
     'Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', "")
-        //.keys('\u8593')
-        //.keys('2')
-        //.keys('5')
-        //.keys(browser.Keys.RETURN)
-        //.verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', '25')
+        .keys('2')
+        .keys('5')
+        .keys(browser.Keys.RETURN)
+        .keys(browser.Keys.ARROW_UP)
+        .keys(browser.Keys.ARROW_UP)
+        .verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', '27')
+        .keys(browser.Keys.ARROW_DOWN)
+        .verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', '26')
 
-
-         //browser.frame(0) //selects iframe - must call to select anything within iframe
-         //.assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.25)')
-         //browser.frame(null)
-        //page = browser.page.closepanel();  
-          //page.closepanel();
-    //},
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.26)')
+        browser.frame(null)
+        
+        page = browser.page.closepanel();  
+          page.closepanel();
       
-      //'Step 4: verify grayscale is applied' : function (browser) { 
-        //browser.frame(0) //selects iframe - must call to select anything within iframe
-         //.assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.86)')
-        //browser.frame(null);
-      //browser.end();
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.26)')
+        browser.frame(null);
+      browser.end();
     }
 };
