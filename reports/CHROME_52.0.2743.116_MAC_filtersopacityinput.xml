@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="filtersopacityinput"
+    errors="0" failures="0" hostname="" id="" package="filtersopacityinput" skipped="0"
+    tests="5" time="15.87" timestamp="Wed, 07 Sep 2016 01:34:21 GMT">
+  
+    <testcase name="Step 1: page load" time="11.72" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select opacity" time="1.737" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: enter opacity via setvalue function" time="0.5910" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: enter opacity via keystoke" time="0.6790" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: enter incrementally inscrease/decrease opacity via up/down arrow" time="1.142" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
