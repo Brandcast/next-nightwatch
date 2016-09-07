@@ -22,8 +22,8 @@ module.exports = {
         page = browser.page.openfilterspanel();
           page.openfilterspanel();
       
-        page = browser.page.filtersgrayscale();  
-          page.filtersgrayscale();
+        page = browser.page.grayscaleinput();  
+          page.grayscaleinput();
     },
 
       'Step 3: select grayscale via slider' : function (browser) { 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="4">
 
   <testsuite name="selectfiltersgrayscale"
-    errors="1" failures="0" hostname="" id="" package="selectfiltersgrayscale" skipped="2"
-    tests="4" time="12.12" timestamp="Tue, 06 Sep 2016 23:09:22 GMT">
+    errors="0" failures="0" hostname="" id="" package="selectfiltersgrayscale" skipped="0"
+    tests="4" time="15.73" timestamp="Wed, 07 Sep 2016 18:16:06 GMT">
   
-    <testcase name="Step 1: page load" time="12.10" assertions="5">
+    <testcase name="Step 1: page load" time="12.08" assertions="5">
 
     
 
@@ -20,21 +20,31 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select grayscale" time="0.01300" assertions="0">
+    <testcase name="Step 2: open filters panel and select grayscale" time="2.479" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
+    <testcase name="Step 3: select grayscale via slider" time="0.8410" assertions="2">
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 4: verify grayscale is applied" time="0.3370" assertions="1">
+
     
-    <testcase
-      name="Step 3: select grayscale via slider">
-      <skipped />
     </testcase>
-    
-    <testcase
-      name="Step 4: verify grayscale is applied">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>
