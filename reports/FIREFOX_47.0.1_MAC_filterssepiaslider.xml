@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="4">
+
+  <testsuite name="filterssepiaslider"
+    errors="1" failures="0" hostname="" id="" package="filterssepiaslider" skipped="2"
+    tests="4" time="20.79" timestamp="Wed, 07 Sep 2016 20:00:02 GMT">
+  
+    <testcase name="Step 1: page load" time="20.74" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Filterssepiaslider / Step 2: open filters panel and select sepia]:
+
+  TypeError: undefined is not a function
+    at Object.module.exports.Step 2: open filters panel and select sepia (/Users/kelli/Sites/nightwatch/test/filterspanel/filterssepiaslider.js:27:17)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
+      </system-err>
+  
+    <testcase name="Step 2: open filters panel and select sepia" time="0.05200" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Filterssepiaslider / Step 2: open filters panel and select sepia]:
+
+  TypeError: undefined is not a function
+    at Object.module.exports.Step 2: open filters panel and select sepia (/Users/kelli/Sites/nightwatch/test/filterspanel/filterssepiaslider.js:27:17)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Step 3: select sepia via slider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 4: verify sepia is applied">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

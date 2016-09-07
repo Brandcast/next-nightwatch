@@ -5,9 +5,9 @@
 
   <testsuite name="filtersinvertslider"
     errors="0" failures="0" hostname="" id="" package="filtersinvertslider" skipped="0"
-    tests="4" time="15.04" timestamp="Tue, 06 Sep 2016 23:40:25 GMT">
+    tests="4" time="17.07" timestamp="Wed, 07 Sep 2016 20:06:23 GMT">
   
-    <testcase name="Step 1: page load" time="11.57" assertions="5">
+    <testcase name="Step 1: page load" time="12.88" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select invert" time="2.311" assertions="5">
+    <testcase name="Step 2: open filters panel and select invert" time="2.905" assertions="5">
 
     
 
@@ -33,14 +33,14 @@
     
     </testcase>
   
-    <testcase name="Step 3: select invert via slider" time="0.8360" assertions="2">
+    <testcase name="Step 3: select invert via slider" time="1.051" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: verify invert is applied" time="0.3250" assertions="1">
+    <testcase name="Step 4: verify invert is applied" time="0.2310" assertions="1">
 
     
     </testcase>

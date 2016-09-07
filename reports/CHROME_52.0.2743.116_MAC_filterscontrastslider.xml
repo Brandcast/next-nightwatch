@@ -5,9 +5,9 @@
 
   <testsuite name="filterscontrastslider"
     errors="0" failures="0" hostname="" id="" package="filterscontrastslider" skipped="0"
-    tests="4" time="14.74" timestamp="Tue, 06 Sep 2016 23:39:39 GMT">
+    tests="4" time="17.06" timestamp="Wed, 07 Sep 2016 20:05:12 GMT">
   
-    <testcase name="Step 1: page load" time="10.71" assertions="5">
+    <testcase name="Step 1: page load" time="10.25" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select contrast" time="2.824" assertions="5">
+    <testcase name="Step 2: open filters panel and select contrast" time="5.714" assertions="5">
 
     
 
@@ -33,14 +33,14 @@
     
     </testcase>
   
-    <testcase name="Step 3: select contrast via slider" time="0.9810" assertions="2">
+    <testcase name="Step 3: select contrast via slider" time="0.9010" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: verify contrast is applied" time="0.2340" assertions="1">
+    <testcase name="Step 4: verify contrast is applied" time="0.2030" assertions="1">
 
     
     </testcase>

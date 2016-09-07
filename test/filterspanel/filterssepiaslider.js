@@ -24,7 +24,7 @@ module.exports = {
 
         browser.verify.elementPresent('[title="Sepia"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-input-container input[type="text"]')
-        .waitForElementVisible('[data-automation-id="sepia-slider"]', 1000);
+        .verify.elementPresent('[data-automation-id="sepia-slider"]');
 
         //page = browser.page.selectopacity();  
           //browser.page.selectopacity();
@@ -43,8 +43,10 @@ module.exports = {
       
       'Step 4: verify sepia is applied' : function (browser) { 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.86)')
+          .waitForElementVisible('.bc-text', 1000)
+          .click('.bc-text')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.86)')
         browser.frame(null);
-      browser.end();
+      //browser.end();
     }
 };

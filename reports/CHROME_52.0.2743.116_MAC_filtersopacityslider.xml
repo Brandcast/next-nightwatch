@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="4">
 
   <testsuite name="filtersopacityslider"
-    errors="0" failures="0" hostname="" id="" package="filtersopacityslider" skipped="0"
-    tests="4" time="16.48" timestamp="Tue, 06 Sep 2016 23:40:40 GMT">
+    errors="0" failures="1" hostname="" id="" package="filtersopacityslider" skipped="3"
+    tests="4" time="10.15" timestamp="Wed, 07 Sep 2016 20:06:58 GMT">
   
-    <testcase name="Step 1: page load" time="12.59" assertions="5">
+    <testcase name="Step 1: page load" time="10.15" assertions="5">
 
     
 
@@ -15,36 +15,29 @@
 
     
 
-    
+      <failure message="Timed out while waiting for element &lt;[data-automation-id=&quot;page-item-preview&quot;]&gt; to be visible for 1000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:7:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/filterspanel/filtersopacityslider.js:13:18)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select opacity" time="2.561" assertions="5">
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
-    <testcase name="Step 3: select opacity via slider" time="1.028" assertions="2">
-
     
-
-    
+    <testcase
+      name="Step 2: open filters panel and select opacity">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 4: verify opacity is applied" time="0.2990" assertions="1">
-
     
+    <testcase
+      name="Step 3: select opacity via slider">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="Step 4: verify opacity is applied">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
