@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="filtershuerotatedropdown"
+    errors="0" failures="0" hostname="" id="" package="filtershuerotatedropdown" skipped="0"
+    tests="3" time="13.85" timestamp="Wed, 07 Sep 2016 01:21:19 GMT">
+  
+    <testcase name="Step 1: page load" time="11.26" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select Hue Rotate" time="1.345" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select Hue Rotate via drop-down-menu" time="1.241" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
