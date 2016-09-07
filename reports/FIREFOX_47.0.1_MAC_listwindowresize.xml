@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="1">
 
   <testsuite name="listwindowresize"
-    errors="1" failures="0" hostname="" id="" package="listwindowresize" skipped="0"
-    tests="1" time="11.70" timestamp="Wed, 24 Aug 2016 18:03:34 GMT">
+    errors="0" failures="0" hostname="" id="" package="listwindowresize" skipped="1"
+    tests="1" time="0.000" timestamp="Wed, 07 Sep 2016 17:48:53 GMT">
   
-    <testcase name="brandlist window resize" time="11.70" assertions="4">
-
+  
     
-
-    
-
-    
-
-    
+    <testcase
+      name="brandlist window resize w/color panel">
+      <skipped />
     </testcase>
-  
+    
   
   </testsuite>
 </testsuites>

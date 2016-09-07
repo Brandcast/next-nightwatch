@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="1"
-            tests="1">
+<testsuites errors="0"
+            failures="0"
+            tests="3">
 
   <testsuite name="selectdimension"
-    errors="1" failures="1" hostname="" id="" package="selectdimension" skipped="0"
-    tests="1" time="12.49" timestamp="Wed, 24 Aug 2016 18:05:01 GMT">
+    errors="0" failures="0" hostname="" id="" package="selectdimension" skipped="0"
+    tests="3" time="25.17" timestamp="Wed, 07 Sep 2016 17:51:06 GMT">
   
-    <testcase name="open dimensions panel and set max width" time="12.49" assertions="11">
+    <testcase name="Step 1: page load" time="20.65" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open dimensions panel and select max width from drop down menu" time="4.286" assertions="7">
 
     
 
@@ -22,12 +35,9 @@
     
 
     
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;max-width: 500px&quot;.">    at Object.module.exports.open dimensions panel and set max width (/Users/kelli/Sites/nightwatch/test/demotests/selectdimension.js:36:15)</failure>
+    </testcase>
+  
+    <testcase name="Step 3: verify max width is applied" time="0.2350" assertions="1">
 
     
     </testcase>

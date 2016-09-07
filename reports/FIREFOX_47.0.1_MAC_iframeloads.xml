@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="iframeloads"
-    errors="1" failures="0" hostname="" id="" package="iframeloads" skipped="0"
-    tests="1" time="9.877" timestamp="Wed, 24 Aug 2016 18:03:24 GMT">
+    errors="0" failures="0" hostname="" id="" package="iframeloads" skipped="0"
+    tests="2" time="20.90" timestamp="Wed, 07 Sep 2016 17:48:32 GMT">
   
-    <testcase name="test" time="9.877" assertions="5">
+    <testcase name="step 1: page load" time="19.77" assertions="5">
 
     
 
@@ -16,6 +16,11 @@
     
 
     
+
+    
+    </testcase>
+  
+    <testcase name="step 2: verify iframe is present" time="1.135" assertions="1">
 
     
     </testcase>

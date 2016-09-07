@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="dimensionspanel"
     errors="0" failures="0" hostname="" id="" package="dimensionspanel" skipped="0"
-    tests="1" time="7.247" timestamp="Wed, 24 Aug 2016 18:02:43 GMT">
+    tests="2" time="13.13" timestamp="Wed, 07 Sep 2016 17:46:48 GMT">
   
-    <testcase name="open dimensions panel" time="7.247" assertions="5">
+    <testcase name="step 1: load page" time="9.808" assertions="1">
 
     
+    </testcase>
+  
+    <testcase name="step 2: open and clsoe dimensions panel" time="3.318" assertions="4">
 
     
 

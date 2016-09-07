@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="1">
+            failures="0"
+            tests="2">
 
   <testsuite name="gridlayout"
-    errors="0" failures="1" hostname="" id="" package="gridlayout" skipped="0"
-    tests="1" time="8.077" timestamp="Wed, 24 Aug 2016 23:39:41 GMT">
+    errors="0" failures="0" hostname="" id="" package="gridlayout" skipped="0"
+    tests="2" time="21.48" timestamp="Wed, 07 Sep 2016 17:47:38 GMT">
   
-    <testcase name="select gridl layout" time="8.077" assertions="6">
+    <testcase name="Step 1: page load" time="18.34" assertions="5">
 
     
 
@@ -17,7 +17,18 @@
 
     
 
-      <failure message="Testing if element &lt;div.btn-sudo-dom current.btn-sudo-dom-label[title=&quot;grid&quot;]&gt; is present.">    at Object.module.exports.select gridl layout (/Users/kelli/Sites/nightwatch/test/demotests/gridlayout.js:24:22)</failure>
+    
+    </testcase>
+  
+    <testcase name="Step 2: click text component and then select grid layout" time="3.140" assertions="5">
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>

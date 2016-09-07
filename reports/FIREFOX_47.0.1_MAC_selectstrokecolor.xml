@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="0"
-            tests="1">
+<testsuites errors="0"
+            failures="1"
+            tests="3">
 
   <testsuite name="selectstrokecolor"
-    errors="1" failures="0" hostname="" id="" package="selectstrokecolor" skipped="0"
-    tests="1" time="12.17" timestamp="Wed, 24 Aug 2016 18:06:07 GMT">
+    errors="0" failures="1" hostname="" id="" package="selectstrokecolor" skipped="2"
+    tests="3" time="5.822" timestamp="Wed, 07 Sep 2016 17:52:07 GMT">
   
-    <testcase name="select stroke color" time="12.17" assertions="11">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase name="Step 1: page load" time="5.822" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 1000 milliseconds.">    at Object.pageloadCommands.pageload (/Users/kelli/Sites/nightwatch/pages/pageload.js:3:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/smoketests/selectstrokecolor.js:7:14)</failure>
 
     
     </testcase>
   
+  
+    
+    <testcase
+      name="Step 2: select stroke color">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: verify color applied via css">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

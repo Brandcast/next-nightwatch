@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="1"
-            failures="1"
-            tests="1">
+            failures="0"
+            tests="4">
 
   <testsuite name="selectfiltersgrayscale"
-    errors="1" failures="1" hostname="" id="" package="selectfiltersgrayscale" skipped="0"
-    tests="1" time="14.04" timestamp="Wed, 24 Aug 2016 18:05:13 GMT">
+    errors="1" failures="0" hostname="" id="" package="selectfiltersgrayscale" skipped="2"
+    tests="4" time="20.19" timestamp="Wed, 07 Sep 2016 17:51:31 GMT">
   
-    <testcase name="open filters panel" time="14.04" assertions="12">
+    <testcase name="Step 1: page load" time="20.17" assertions="5">
 
     
 
@@ -16,24 +16,25 @@
     
 
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;filter: grayscale(91%)&quot;.">    at Object.module.exports.open filters panel (/Users/kelli/Sites/nightwatch/test/demotests/selectfiltersgrayscale.js:38:15)</failure>
 
     
     </testcase>
   
+    <testcase name="Step 2: open filters panel and select grayscale" time="0.02000" assertions="0">
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 3: select grayscale via slider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 4: verify grayscale is applied">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

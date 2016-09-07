@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="1"
             failures="1"
-            tests="1">
+            tests="3">
 
   <testsuite name="selectcoloropacity"
-    errors="1" failures="1" hostname="" id="" package="selectcoloropacity" skipped="0"
-    tests="1" time="13.98" timestamp="Wed, 24 Aug 2016 18:04:47 GMT">
+    errors="1" failures="1" hostname="" id="" package="selectcoloropacity" skipped="1"
+    tests="3" time="32.93" timestamp="Wed, 07 Sep 2016 17:50:33 GMT">
   
-    <testcase name="open color opacity panel" time="13.98" assertions="13">
+    <testcase name="Step 1: page load" time="22.37" assertions="5">
 
     
 
@@ -16,26 +16,34 @@
     
 
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;background-color: rgba(191, 122, 122, 0.91)&quot;.">    at Object.module.exports.open color opacity panel (/Users/kelli/Sites/nightwatch/test/demotests/selectcoloropacity.js:41:15)</failure>
 
     
     </testcase>
   
+    <testcase name="Step 2: open color panel and select opacity via slider" time="10.56" assertions="6">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.ui-wrapper.left.auto-width border-bottom-divide[title=&quot;Opacity&quot;] .select-input-container input[type=&quot;text&quot;]&gt; is present.">    at Object.selectopacityCommands.selectopacity (/Users/kelli/Sites/nightwatch/pages/selectopacity.js:3:17)
+    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/smoketests/selectcoloropacity.js:29:16)</failure>
+
+      <failure message="Timed out while waiting for element &lt;[data-automation-id=&quot;opacity-slider&quot;]&gt; to be present for 1000 milliseconds.">    at Object.selectopacityCommands.selectopacity (/Users/kelli/Sites/nightwatch/pages/selectopacity.js:5:9)
+    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/smoketests/selectcoloropacity.js:29:16)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 3: verify opacity">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

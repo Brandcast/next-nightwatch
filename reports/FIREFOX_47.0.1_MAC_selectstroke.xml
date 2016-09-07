@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="1"
-            tests="1">
+            tests="3">
 
   <testsuite name="selectstroke"
-    errors="1" failures="1" hostname="" id="" package="selectstroke" skipped="0"
-    tests="1" time="12.94" timestamp="Wed, 24 Aug 2016 18:05:54 GMT">
+    errors="0" failures="1" hostname="" id="" package="selectstroke" skipped="2"
+    tests="3" time="7.350" timestamp="Wed, 07 Sep 2016 17:51:59 GMT">
   
-    <testcase name="open stroke panel" time="12.94" assertions="10">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.bc-text&gt; has css property &quot;border-width: 1px&quot;.">    at Object.module.exports.open stroke panel (/Users/kelli/Sites/nightwatch/test/demotests/selectstroke.js:34:15)</failure>
+    <testcase name="Step 1: page load" time="7.350" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 1000 milliseconds.">    at Object.pageloadCommands.pageload (/Users/kelli/Sites/nightwatch/pages/pageload.js:3:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/smoketests/selectstroke.js:7:14)</failure>
 
     
     </testcase>
   
+  
+    
+    <testcase
+      name="Step 2: open stroke panel and select 4 sided border">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: verify text component has 4 sided border">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

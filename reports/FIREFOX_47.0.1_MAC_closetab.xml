@@ -5,19 +5,79 @@
 
   <testsuite name="closetab"
     errors="0" failures="0" hostname="" id="" package="closetab" skipped="0"
-    tests="2" time="8.033" timestamp="Wed, 24 Aug 2016 21:16:59 GMT">
+    tests="2" time="23.46" timestamp="Wed, 07 Sep 2016 17:46:12 GMT">
   
-    <testcase name="close site tab" time="5.558" assertions="1">
+    <testcase name="step 1: load page" time="9.767" assertions="1">
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Opacity&quot;] .select-input-container input[type=&quot;text&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.selectopacityCommands.selectopacity (/Users/kelli/Sites/nightwatch/pages/selectopacity.js:4:9)
+    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/smoketests/selectcoloropacity.js:29:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+  Error while running [Selectfiltersgrayscale / Step 2: open filters panel and select grayscale]:
+
+  TypeError: undefined is not a function
+    at Object.module.exports.Step 2: open filters panel and select grayscale (/Users/kelli/Sites/nightwatch/test/smoketests/selectfiltersgrayscale.js:25:29)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
+      </system-err>
   
-    <testcase name="open site map and close tab" time="2.475" assertions="2">
+    <testcase name="step 2: close tab" time="13.70" assertions="6">
+
+    
+
+    
+
+    
+
+    
 
     
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Opacity&quot;] .select-input-container input[type=&quot;text&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.selectopacityCommands.selectopacity (/Users/kelli/Sites/nightwatch/pages/selectopacity.js:4:9)
+    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/smoketests/selectcoloropacity.js:29:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+  Error while running [Selectfiltersgrayscale / Step 2: open filters panel and select grayscale]:
+
+  TypeError: undefined is not a function
+    at Object.module.exports.Step 2: open filters panel and select grayscale (/Users/kelli/Sites/nightwatch/test/smoketests/selectfiltersgrayscale.js:25:29)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
+      </system-err>
   
   
   </testsuite>
