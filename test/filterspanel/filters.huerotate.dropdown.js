@@ -62,9 +62,15 @@ module.exports = {
          browser.frame(0) //selects iframe - must call to select anything within iframe
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(90deg)')
          browser.frame(null)
+
+         page = browser.page.closepanel();  
+          page.closepanel();
     },
 
       'Step 6: select Hue Rotate 0deg via drop-down-menu' : function (browser) {
+        page = browser.page.openfilterspanel();
+          page.openfilterspanel();
+          
          browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')
          .verify.elementPresent('[value="0deg"]')
          .keys(['0', browser.Keys.ENTER])
