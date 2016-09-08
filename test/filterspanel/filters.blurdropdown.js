@@ -24,7 +24,7 @@ module.exports = {
 
         browser.verify.elementPresent('[title="Blur"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] .select-input-container .select-triangle-wrapper')
-        //.waitForElementVisible('[data-automation-id="blur-drop-down"]', 1000);
+        //.waitForElementVisible('[data-qa-id="blur-drop-down"]', 1000);
 
     }, 
 

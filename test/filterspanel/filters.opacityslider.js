@@ -1,5 +1,5 @@
 module.exports = {
-  '@tags' : ['filterspanel', 'grayscale'],
+  '@tags' : ['filterspanel', 'opacity'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
 
@@ -13,7 +13,7 @@ module.exports = {
             page.opensite();
     },
       
-      'Step 2: open filters panel and select grayscale' : function (browser) {
+      'Step 2: open filters panel and select opacity' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .waitForElementVisible('.bc-text', 1000)
           .click('.bc-text')
@@ -22,30 +22,28 @@ module.exports = {
         page = browser.page.openfilterspanel();
           page.openfilterspanel();   
 
-        browser.verify.elementPresent('[title="Grayscale"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Grayscale"] .select-input-container input[type="text"]')
-        .waitForElementVisible('[data-automation-id="grayscale-slider"]', 1000);
+        browser.verify.elementPresent('[title="Opacity"]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .select-input-container input[type="text"]')
+        .waitForElementVisible('[data-qa-id="opacity-slider"]', 1000);
 
         //page = browser.page.selectopacity();  
           //browser.page.selectopacity();
     }, 
 
-      'Step 3: select grayscale via slider' : function (browser) { 
-        browser.moveToElement('[data-automation-id="grayscale-slider"]', 2,6)
+      'Step 3: select opacity via slider' : function (browser) { 
+        browser.moveToElement('[data-qa-id="opacity-slider"]', 2,6)
         .mouseButtonDown(0)
-        browser.moveToElement('[data-automation-id="grayscale-slider"]', 15, 6)
-        browser.moveToElement('[data-automation-id="grayscale-slider"]', 50, 6)
+        browser.moveToElement('[data-qa-id="opacity-slider"]', 15, 6)
+        browser.moveToElement('[data-qa-id="opacity-slider"]', 50, 6)
         .mouseButtonUp(0)
       
         page = browser.page.closepanel();  
           page.closepanel();
     },
       
-      'Step 4: verify grayscale is applied' : function (browser) { 
+      'Step 4: verify opacity is applied' : function (browser) { 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.86)')
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'opacity(0.86)')
         browser.frame(null);
       browser.end();
     }

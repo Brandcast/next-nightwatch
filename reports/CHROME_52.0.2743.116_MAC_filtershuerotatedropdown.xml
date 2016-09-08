@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="3">
 
   <testsuite name="filtershuerotatedropdown"
-    errors="0" failures="0" hostname="" id="" package="filtershuerotatedropdown" skipped="0"
-    tests="3" time="16.95" timestamp="Wed, 07 Sep 2016 20:06:06 GMT">
+    errors="0" failures="1" hostname="" id="" package="filtershuerotatedropdown" skipped="0"
+    tests="3" time="21.01" timestamp="Wed, 07 Sep 2016 21:18:47 GMT">
   
-    <testcase name="Step 1: page load" time="13.39" assertions="5">
+    <testcase name="Step 1: page load" time="14.43" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select Hue Rotate" time="2.093" assertions="4">
+    <testcase name="Step 2: open filters panel and select Hue Rotate" time="5.490" assertions="4">
 
     
 
@@ -31,15 +31,13 @@
     
     </testcase>
   
-    <testcase name="Step 3: select Hue Rotate via drop-down-menu" time="1.468" assertions="5">
+    <testcase name="Step 3: select Hue Rotate via drop-down-menu" time="1.086" assertions="4">
 
     
 
     
 
-    
-
-    
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: hue-rotate(180deg)&quot;.">    at Object.module.exports.Step 3: select Hue Rotate via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filtershuerotatedropdown.js:42:18)</failure>
 
     
     </testcase>

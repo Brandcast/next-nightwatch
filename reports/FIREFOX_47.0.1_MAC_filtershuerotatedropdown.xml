@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="filtershuerotatedropdown"
+    errors="0" failures="1" hostname="" id="" package="filtershuerotatedropdown" skipped="0"
+    tests="3" time="28.07" timestamp="Wed, 07 Sep 2016 21:17:48 GMT">
+  
+    <testcase name="Step 1: page load" time="23.73" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select Hue Rotate" time="3.634" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select Hue Rotate via drop-down-menu" time="0.7080" assertions="3">
+
+      <failure message="Testing if value of &lt;[title=&quot;Hue Rotate&quot;] input[type=text]&gt; contains: &quot;50deg&quot;.">    at Object.module.exports.Step 3: select Hue Rotate via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filtershuerotatedropdown.js:34:17)</failure>
+
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: hue-rotate(50deg)&quot;.">    at Object.module.exports.Step 3: select Hue Rotate via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filtershuerotatedropdown.js:38:18)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

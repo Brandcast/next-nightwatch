@@ -24,7 +24,7 @@ module.exports = {
 
         browser.verify.elementPresent('[title="Hue Rotate"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')
-        //.waitForElementVisible('[data-automation-id="hue-rotate-drop-down"]', 1000);
+        //.waitForElementVisible('[data-qa-id="hue-rotate-drop-down"]', 1000);
 
     }, 
 
@@ -38,14 +38,14 @@ module.exports = {
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(50deg)')
          browser.frame(null)
 
-          //browser.frame(0) //selects iframe - must call to select anything within iframe
-         //.assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(180deg)')
-          //browser.frame(null)
+          browser.frame(0) //selects iframe - must call to select anything within iframe
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(180deg)')
+          browser.frame(null)
 
-         //browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')
-         //.verify.elementPresent('[value="180deg"]')
-         //.keys('1')
-         //.verify.valueContains('[title="Hue Rotate"] input[type=text]', '180deg')
+         browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')
+         .verify.elementPresent('[value="180deg"]')
+         .keys('1')
+         .verify.valueContains('[title="Hue Rotate"] input[type=text]', '180deg')
 
          // browser.frame(0) //selects iframe - must call to select anything within iframe
          //.assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(180deg)')

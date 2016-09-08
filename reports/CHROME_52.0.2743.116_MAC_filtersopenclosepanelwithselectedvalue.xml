@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="filtersopenclosepanelwithselectedvalue"
+    errors="0" failures="0" hostname="" id="" package="filtersopenclosepanelwithselectedvalue" skipped="0"
+    tests="6" time="19.89" timestamp="Wed, 07 Sep 2016 22:22:12 GMT">
+  
+    <testcase name="Step 1: page load" time="13.97" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select blur" time="2.420" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select blur 5px via drop-down-menu" time="0.7700" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: close panel, then reopen panel and verify selected value is applied" time="1.215" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: clear value via setvalue + delete key" time="0.6120" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 6: close panel, then reopen panel and verify value remains empty" time="0.9090" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -22,8 +22,8 @@ module.exports = {
        page = browser.page.openstrokepanel();
           page.openstrokepanel()
 
-        browser.verify.elementPresent('[data-automation-id="apply-stroke-to-all-sides"]')
-          .click('[data-automation-id="apply-stroke-to-all-sides"]')
+        browser.verify.elementPresent('[data-qa-id="apply-stroke-to-all-sides"]')
+          .click('[data-qa-id="apply-stroke-to-all-sides"]')
   
        page = browser.page.closepanel();  
          page.closepanel();
