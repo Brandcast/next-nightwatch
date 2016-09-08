@@ -12,7 +12,7 @@ module.exports = {
   commands: [selectopacityCommands],
   elements: {
     opacityslider: {
-    	selector: '[data-automation-id="opacity-slider"]'
+    	selector: '[data-qa-id="opacity-slider"]'
     }
   }
 };
