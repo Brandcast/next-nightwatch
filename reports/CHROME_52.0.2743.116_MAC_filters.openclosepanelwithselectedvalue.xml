@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="6">
 
   <testsuite name="filters.openclosepanelwithselectedvalue"
-    errors="0" failures="1" hostname="" id="" package="filters.openclosepanelwithselectedvalue" skipped="5"
-    tests="6" time="10.41" timestamp="Wed, 07 Sep 2016 23:52:28 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.openclosepanelwithselectedvalue" skipped="0"
+    tests="6" time="19.81" timestamp="Thu, 08 Sep 2016 18:38:45 GMT">
   
-    <testcase name="Step 1: page load" time="10.41" assertions="5">
+    <testcase name="Step 1: page load" time="13.13" assertions="5">
 
     
 
@@ -15,39 +15,68 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-automation-id=&quot;page-item-preview&quot;]&gt; to be present for 1000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:7:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.openclosepanelwithselectedvalue.js:13:18)</failure>
+    
 
     
     </testcase>
   
+    <testcase name="Step 2: open filters panel and select blur" time="2.811" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: select blur 5px via drop-down-menu" time="0.8710" assertions="3">
+
     
-    <testcase
-      name="Step 2: open filters panel and select blur">
-      <skipped />
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: close panel, then reopen panel and verify selected value is applied" time="1.296" assertions="6">
+
     
-    <testcase
-      name="Step 3: select blur 5px via drop-down-menu">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: clear value via setvalue + delete key" time="0.5370" assertions="2">
+
     
-    <testcase
-      name="Step 4: close panel, then reopen panel and verify selected value is applied">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="Step 6: close panel, then reopen panel and verify value remains empty" time="1.158" assertions="6">
+
     
-    <testcase
-      name="Step 5: clear value via setvalue + delete key">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 6: close panel, then reopen panel and verify value remains empty">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

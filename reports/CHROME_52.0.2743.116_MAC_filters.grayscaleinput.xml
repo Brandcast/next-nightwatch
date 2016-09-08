@@ -5,9 +5,9 @@
 
   <testsuite name="filters.grayscaleinput"
     errors="0" failures="0" hostname="" id="" package="filters.grayscaleinput" skipped="0"
-    tests="5" time="19.90" timestamp="Wed, 07 Sep 2016 23:50:42 GMT">
+    tests="5" time="18.22" timestamp="Thu, 08 Sep 2016 18:36:55 GMT">
   
-    <testcase name="Step 1: page load" time="12.76" assertions="5">
+    <testcase name="Step 1: page load" time="13.06" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select grayscale" time="4.575" assertions="5">
+    <testcase name="Step 2: open filters panel and select grayscale" time="2.770" assertions="5">
 
     
 
@@ -33,7 +33,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter grayscale via setvalue function" time="0.5400" assertions="4">
+    <testcase name="Step 3: enter grayscale via setvalue function" time="0.5940" assertions="4">
 
     
 
@@ -44,7 +44,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter grayscale via keystoke" time="0.5540" assertions="4">
+    <testcase name="Step 4: enter grayscale via keystoke" time="0.6200" assertions="4">
 
     
 
@@ -55,7 +55,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow" time="1.466" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow" time="1.178" assertions="7">
 
     
 

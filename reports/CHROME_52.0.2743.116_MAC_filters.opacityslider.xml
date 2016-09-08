@@ -5,9 +5,9 @@
 
   <testsuite name="filters.opacityslider"
     errors="0" failures="0" hostname="" id="" package="filters.opacityslider" skipped="0"
-    tests="4" time="18.44" timestamp="Wed, 07 Sep 2016 23:52:09 GMT">
+    tests="4" time="17.71" timestamp="Thu, 08 Sep 2016 18:38:28 GMT">
   
-    <testcase name="Step 1: page load" time="14.04" assertions="5">
+    <testcase name="Step 1: page load" time="13.87" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select opacity" time="2.950" assertions="5">
+    <testcase name="Step 2: open filters panel and select opacity" time="2.401" assertions="5">
 
     
 
@@ -33,14 +33,14 @@
     
     </testcase>
   
-    <testcase name="Step 3: select opacity via slider" time="1.301" assertions="2">
+    <testcase name="Step 3: select opacity via slider" time="1.248" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: verify opacity is applied" time="0.1470" assertions="1">
+    <testcase name="Step 4: verify opacity is applied" time="0.1930" assertions="1">
 
     
     </testcase>

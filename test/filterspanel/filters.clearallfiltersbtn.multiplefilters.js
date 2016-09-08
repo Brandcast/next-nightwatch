@@ -25,11 +25,11 @@ module.exports = {
 
       'Step 3: select saturate, hue rotate, and invert filters' : function (browser) { 
         browser.verify.elementPresent('[title="Saturate"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-input-wrapper input[type=text]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-input-container .select-input-wrapper input[type="text"]')
         .moveToElement('[data-qa-id="saturate-slider"]', 50, 6)
         .mouseButtonDown(0)
         .mouseButtonUp(0) 
-        .verify.valueContains('[title="Saturate"] input[type=text]', '172')
+        .verify.valueContains('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] input[type="text"]', '172')
 
         browser.verify.elementPresent('[title="Hue Rotate"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')
@@ -45,6 +45,8 @@ module.exports = {
         .mouseButtonUp(0)
         .verify.valueContains('[title="Invert"] input[type=text]', '86')
 
+        page = browser.page.closepanel();  
+          page.closepanel();
     },
       
       'Step 4: verify saturate, hue rotate, and invert is applied via css on the text component' : function (browser) { 
@@ -55,14 +57,32 @@ module.exports = {
         browser.frame(null);
     },  
       
-      'Step 5: click "clear all filters" button' : function (browser) { 
-       // browser.verify.elementPresent('.btn-text-label["Clear All Filters"]')
+      'Step 5: click "clear all filters" button' : function (browser) {
+        page = browser.page.openfilterspanel();
+          page.openfilterspanel();
 
-        //page = browser.page.clearallfilterspanel();
-          //.page.clearallfilterspanel();
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .waitForElementVisible('.bc-text', 1000)
+          .click('.bc-text')
+          .frame(null) //closes iframe
+
+        page = browser.page.clearallfiltersbtn();
+          page.clearallfiltersbtn();
+    },
+
+      'Step 6: verify sepia input field is clear and css is no longer applied' : function (browser) { 
+        browser.verify.valueContains('[title="Saturate"] input[type=text]', '')
+        browser.verify.valueContains('[title="Hue Rotate"] input[type=text]', '')
+        browser.verify.valueContains('[title="Invert"] input[type=text]', '')
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .waitForElementVisible('.bc-text', 1000)
+          .click('.bc-text')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
+        browser.frame(null);
          
          page = browser.page.closepanel();  
           page.closepanel();
-      //browser.end();
+      browser.end();
     }
 };

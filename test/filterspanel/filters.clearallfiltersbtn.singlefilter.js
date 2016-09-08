@@ -29,13 +29,16 @@ module.exports = {
     }, 
 
       'Step 3: select sepia via slider' : function (browser) { 
-        //browser.moveToElement('[data-qa-id="sepia-slider"]', 2,6)
         browser.moveToElement('[data-qa-id="sepia-slider"]', 50, 6)
         .mouseButtonDown(0)
         .mouseButtonUp(0) 
+        .verify.valueContains('[title="Sepia"] input[type=text]', '86')
+
+        page = browser.page.closepanel();  
+          page.closepanel();
     },
       
-      'Step 4: verify sepia is applied' : function (browser) { 
+      'Step 4: verify sepia is applied via css' : function (browser) { 
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .waitForElementVisible('.bc-text', 1000)
           .click('.bc-text')
@@ -44,11 +47,26 @@ module.exports = {
     },  
       
       'Step 5: click "clear all filters" button' : function (browser) { 
-       browser.useCSS('.btn-text-label').click('//*[contains(text(), "Clear All Filters")]')
-       // browser.verify.elementPresent('.btn-text-label["Clear All Filters"]')
+         page = browser.page.openfilterspanel();
+          page.openfilterspanel();
 
-        //page = browser.page.clearallfilterspanel();
-          //.page.clearallfilterspanel();
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .waitForElementVisible('.bc-text', 1000)
+          .click('.bc-text')
+          .frame(null) //closes iframe
+
+        page = browser.page.clearallfiltersbtn();
+          page.clearallfiltersbtn();
+    },
+
+      'Step 6: verify sepia input field is clear and css is no longer applied' : function (browser) { 
+        browser.verify.valueContains('[title="Sepia"] input[type=text]', '')
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .waitForElementVisible('.bc-text', 1000)
+          .click('.bc-text')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
+        browser.frame(null);
          
          page = browser.page.closepanel();  
           page.closepanel();

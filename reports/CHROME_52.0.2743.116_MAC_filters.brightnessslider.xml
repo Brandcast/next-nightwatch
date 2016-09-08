@@ -5,9 +5,9 @@
 
   <testsuite name="filters.brightnessslider"
     errors="0" failures="0" hostname="" id="" package="filters.brightnessslider" skipped="0"
-    tests="4" time="18.42" timestamp="Wed, 07 Sep 2016 23:49:32 GMT">
+    tests="4" time="18.82" timestamp="Thu, 08 Sep 2016 18:35:34 GMT">
   
-    <testcase name="Step 1: page load" time="12.45" assertions="5">
+    <testcase name="Step 1: page load" time="11.13" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select brightness" time="4.680" assertions="5">
+    <testcase name="Step 2: open filters panel and select brightness" time="6.415" assertions="5">
 
     
 
@@ -33,14 +33,14 @@
     
     </testcase>
   
-    <testcase name="Step 3: select brightness via slider" time="1.131" assertions="2">
+    <testcase name="Step 3: select brightness via slider" time="1.038" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: verify brightness is applied" time="0.1670" assertions="1">
+    <testcase name="Step 4: verify brightness is applied" time="0.2360" assertions="1">
 
     
     </testcase>
