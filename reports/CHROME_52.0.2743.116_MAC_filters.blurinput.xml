@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="filters.blurinput"
+    errors="0" failures="0" hostname="" id="" package="filters.blurinput" skipped="0"
+    tests="5" time="25.19" timestamp="Fri, 09 Sep 2016 00:11:43 GMT">
+  
+    <testcase name="Step 1: page load" time="17.89" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select blur" time="4.328" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: enter blur via setvalue function" time="0.4800" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: enter blur via keystoke" time="0.8210" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: enter incrementally inscrease/decrease blur via up/down arrow" time="1.667" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
