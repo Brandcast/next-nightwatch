@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="undockshowhidepanel"
+    errors="0" failures="0" hostname="" id="" package="undockshowhidepanel" skipped="0"
+    tests="3" time="30.89" timestamp="Fri, 09 Sep 2016 23:22:49 GMT">
+  
+    <testcase name="Step 1: page load" time="27.15" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and consol log the x/y coordinates" time="2.499" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: open filters panel and consol log the x/y coordinates" time="1.232" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
