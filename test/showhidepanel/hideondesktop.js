@@ -1,5 +1,5 @@
 module.exports = {
-  '@tags' : ['showhidepanel', 'hidden'],
+  '@tags' : ['showhidepanel', 'hidden', 'desktop'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
 

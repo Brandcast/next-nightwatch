@@ -1,5 +1,5 @@
 module.exports = {
-  '@tags' : ['filterspanel', 'blur'],
+  '@tags' : ['filterspanel', 'input', 'blur'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
 

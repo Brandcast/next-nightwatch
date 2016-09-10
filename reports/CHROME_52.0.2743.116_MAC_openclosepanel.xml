@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="openclosepanel"
+    errors="0" failures="0" hostname="" id="" package="openclosepanel" skipped="0"
+    tests="5" time="21.04" timestamp="Sat, 10 Sep 2016 01:07:45 GMT">
+  
+    <testcase name="Step 1: page load" time="12.35" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: select hide on all devices" time="5.771" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: close panel via x button and reopen panel" time="0.7800" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: deselect hide on all devices" time="1.563" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: close panel via panel button and reopen panel" time="0.5760" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

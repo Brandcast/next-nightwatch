@@ -33,18 +33,25 @@ module.exports = {
       'Step 3: select saturate via slider' : function (browser) { 
         browser.moveToElement('[data-qa-id="saturate-slider"]', 2,6)
         .mouseButtonDown(0)
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(0)')
+        browser.frame(null);
+
         browser.moveToElement('[data-qa-id="saturate-slider"]', 15, 6)
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(0.42)')
+        browser.frame(null);
+
         browser.moveToElement('[data-qa-id="saturate-slider"]', 50, 6)
         .mouseButtonUp(0)
-      
-        page = browser.page.closepanel();  
-          page.closepanel();
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(1.72)')
+        browser.frame(null);
     },
       
-      'Step 4: verify saturate is applied' : function (browser) { 
-        browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(1.72)')
-        browser.frame(null);
+      'Step 4: closepanel' : function (browser) {  
+        page = browser.page.closepanel();  
+          page.closepanel();
       browser.end();
     }
 };

@@ -1,5 +1,5 @@
 module.exports = {
-  '@tags' : ['showhidepanel', 'hidden', 'tablet'],
+  '@tags' : ['showhidepanel', 'hidden'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
 
@@ -22,18 +22,27 @@ module.exports = {
        page = browser.page.openshowhidepanel();
          page.openshowhidepanel();
 
+        page = browser.page.desktopbtn();  
+          page.desktopbtn();
+
         page = browser.page.tabletlandscapebtn();  
           page.tabletlandscapebtn();
+
+        page = browser.page.tabletportraitbtn();  
+          page.tabletportraitbtn();
+
+        page = browser.page.mobilebtn();  
+          page.mobilebtn();
     },
        
       'Step 3: verify text component is hidden on mobile' : function (browser) { 
        browser.frame(0) //selects iframe - must call to select anything within iframe
-       browser.assert.elementPresent('.focused.bc-tablet-landscape-hidden.component-wrapper.bc-text-wrapper')
+       browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
          browser.frame(null)
 
-       page = browser.page.closepanel();  
-         page.closepanel();
+       //page = browser.page.closepanel();  
+         //page.closepanel();
 
-          browser.end();
+          //browser.end();
     }
 };

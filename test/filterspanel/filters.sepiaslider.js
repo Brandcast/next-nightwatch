@@ -33,19 +33,25 @@ module.exports = {
       'Step 3: select sepia via slider' : function (browser) { 
         browser.moveToElement('[data-qa-id="sepia-slider"]', 2,6)
         .mouseButtonDown(0)
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.02)')
+        browser.frame(null);
+
         browser.moveToElement('[data-qa-id="sepia-slider"]', 15, 6)
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.02)')
+        browser.frame(null);
+
         browser.moveToElement('[data-qa-id="sepia-slider"]', 50, 6)
         .mouseButtonUp(0)
-      
-        page = browser.page.closepanel();  
-          page.closepanel();
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.02)')
+        browser.frame(null);
     },
       
-      'Step 4: verify sepia is applied' : function (browser) { 
-        browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.86)')
+      'Step 4: close panel' : function (browser) { 
+           page = browser.page.closepanel();  
+          page.closepanel();
         browser.frame(null);
       //browser.end();
     }

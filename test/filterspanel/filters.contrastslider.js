@@ -33,18 +33,25 @@ module.exports = {
       'Step 3: select contrast via slider' : function (browser) { 
         browser.moveToElement('[data-qa-id="contrast-slider"]', 2,6)
         .mouseButtonDown(0)
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(0)')
+        browser.frame(null);
+        
         browser.moveToElement('[data-qa-id="contrast-slider"]', 15, 6)
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(1.05)')
+        browser.frame(null);
+
         browser.moveToElement('[data-qa-id="contrast-slider"]', 50, 6)
         .mouseButtonUp(0)
-      
-        page = browser.page.closepanel();  
-          page.closepanel();
-    },
-      
-      'Step 4: verify contrast is applied' : function (browser) { 
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(4.3)')
-        browser.frame(null);
+        browser.frame(null);  
+    },
+      
+      'Step 4: close panel' : function (browser) { 
+        page = browser.page.closepanel();  
+          page.closepanel();
       browser.end();
     }
 };

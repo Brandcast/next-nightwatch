@@ -1,5 +1,5 @@
 module.exports = {
-'@tags' : ['filterspanel', 'undock'],
+'@tags' : ['showshidepanel', 'undock'],
    'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
 
@@ -13,7 +13,7 @@ module.exports = {
         page.opensite(); 
   },
 
-    'Step 2: open filters panel and consol log the x/y coordinates' : function (browser) {
+    'Step 2: open show/hide panel and consol log the x/y coordinates' : function (browser) {
       page = browser.page.openshowhidepanel();
         page.openshowhidepanel();
 
@@ -22,7 +22,7 @@ module.exports = {
          });
   }, 
     
-    'Step 3: open filters panel and consol log the x/y coordinates' : function (browser) {
+    'Step 3: open show/hide panel and consol log the x/y coordinates' : function (browser) {
       page = browser.page.undockpanel();
         page.undockpanel();
 

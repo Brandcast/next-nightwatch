@@ -5,9 +5,9 @@
 
   <testsuite name="undockfilterspanel"
     errors="0" failures="0" hostname="" id="" package="undockfilterspanel" skipped="0"
-    tests="3" time="18.70" timestamp="Thu, 08 Sep 2016 19:00:26 GMT">
+    tests="3" time="17.14" timestamp="Fri, 09 Sep 2016 20:53:25 GMT">
   
-    <testcase name="Step 1: page load" time="15.71" assertions="5">
+    <testcase name="Step 1: page load" time="14.48" assertions="5">
 
     
 
@@ -20,14 +20,14 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and consol log the x/y coordinates" time="1.602" assertions="2">
+    <testcase name="Step 2: open filters panel and consol log the x/y coordinates" time="1.589" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 3: open filters panel and consol log the x/y coordinates" time="1.389" assertions="3">
+    <testcase name="Step 3: open filters panel and consol log the x/y coordinates" time="1.077" assertions="3">
 
     
 
