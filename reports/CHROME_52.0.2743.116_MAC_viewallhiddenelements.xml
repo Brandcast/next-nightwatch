@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="4">
+
+  <testsuite name="viewallhiddenelements"
+    errors="0" failures="1" hostname="" id="" package="viewallhiddenelements" skipped="0"
+    tests="4" time="20.19" timestamp="Mon, 12 Sep 2016 22:08:20 GMT">
+  
+    <testcase name="Step 1: page load" time="11.91" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: select hide on all devices" time="6.990" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify text component is hidden on all devices" time="0.1220" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: verify &quot;view all elements&quot; button is selected" time="1.166" assertions="4">
+
+      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current [title=&quot;View All Hidden Elements&quot;]&gt; is present.">    at Object.viewallhiddenelementsbtnCommands.viewallhiddenelementsbtn (/Users/kelli/Sites/nightwatch/pages/viewallhiddenelementsbtn.js:5:20)
+    at Object.module.exports.Step 4: verify &quot;view all elements&quot; button is selected (/Users/kelli/Sites/nightwatch/test/showhidepanel/viewallhiddenelements.js:45:16)</failure>
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,7 +1,8 @@
 var tabletlandscapebtnCommands = {
   tabletlandscapebtn: function() {
     this.verify.elementPresent('@tabletlandscapebtn')
-       .click('@tabletlandscapebtn') 
+       .click('@tabletlandscapebtn')
+       .verify.elementPresent('.ui-wrapper.auto-width.current[title="Hide On Tablet Landscape"] .btn')
   }
 };
 

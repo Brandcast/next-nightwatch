@@ -5,9 +5,9 @@
 
   <testsuite name="hideondesktop"
     errors="0" failures="0" hostname="" id="" package="hideondesktop" skipped="0"
-    tests="3" time="16.14" timestamp="Fri, 09 Sep 2016 21:45:53 GMT">
+    tests="3" time="18.73" timestamp="Mon, 12 Sep 2016 20:07:16 GMT">
   
-    <testcase name="Step 1: page load" time="12.08" assertions="5">
+    <testcase name="Step 1: page load" time="12.72" assertions="5">
 
     
 
@@ -20,7 +20,9 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on mobile" time="3.471" assertions="4">
+    <testcase name="Step 2: select hide on mobile" time="5.251" assertions="5">
+
+    
 
     
 
@@ -31,7 +33,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on mobile" time="0.5840" assertions="3">
+    <testcase name="Step 3: verify text component is hidden on mobile" time="0.7550" assertions="3">
 
     
 

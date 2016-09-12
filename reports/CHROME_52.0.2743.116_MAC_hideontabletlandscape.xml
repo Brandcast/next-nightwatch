@@ -5,9 +5,9 @@
 
   <testsuite name="hideontabletlandscape"
     errors="0" failures="0" hostname="" id="" package="hideontabletlandscape" skipped="0"
-    tests="3" time="15.66" timestamp="Fri, 09 Sep 2016 21:46:26 GMT">
+    tests="3" time="16.73" timestamp="Mon, 12 Sep 2016 20:07:52 GMT">
   
-    <testcase name="Step 1: page load" time="11.22" assertions="5">
+    <testcase name="Step 1: page load" time="11.76" assertions="5">
 
     
 
@@ -20,7 +20,9 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on mobile" time="3.991" assertions="4">
+    <testcase name="Step 2: select hide on mobile" time="4.411" assertions="5">
+
+    
 
     
 
@@ -31,7 +33,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on mobile" time="0.4510" assertions="3">
+    <testcase name="Step 3: verify text component is hidden on mobile" time="0.5610" assertions="3">
 
     
 
