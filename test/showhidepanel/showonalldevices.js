@@ -83,7 +83,7 @@ module.exports = {
           browser.expect.element('.focused.component-wrapper.bc-text-wrapper').to.have.css('display').which.does.not.equal('none')
         browser.frame(null)
 
-        browser.resizeWindow(1020,750)
+        browser.resizeWindow(1280,1024)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
           browser.assert.elementPresent('.focused.component-wrapper.bc-text-wrapper')
