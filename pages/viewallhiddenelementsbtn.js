@@ -2,7 +2,7 @@ var viewallhiddenelementsbtnCommands = {
   viewallhiddenelementsbtn: function() {
     this.verify.elementPresent('@viewallhiddenelementsbtn')
        .click('@viewallhiddenelementsbtn') 
-       this.verify.elementPresent('.ui-wrapper.auto-width.current [title="View All Hidden Elements"]')
+       this.verify.elementPresent('.ui-wrapper.auto-width.current[title="View All Hidden Elements"] .btn')
   }
 };
 

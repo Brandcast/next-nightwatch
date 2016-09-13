@@ -5,9 +5,9 @@
 
   <testsuite name="hideontabletportrait"
     errors="0" failures="0" hostname="" id="" package="hideontabletportrait" skipped="0"
-    tests="3" time="17.11" timestamp="Mon, 12 Sep 2016 20:08:08 GMT">
+    tests="3" time="18.16" timestamp="Tue, 13 Sep 2016 01:47:56 GMT">
   
-    <testcase name="Step 1: page load" time="11.42" assertions="5">
+    <testcase name="Step 1: page load" time="12.87" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on mobile" time="5.143" assertions="5">
+    <testcase name="Step 2: select hide on tablet portrait" time="3.586" assertions="5">
 
     
 
@@ -33,7 +33,9 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on mobile" time="0.5460" assertions="3">
+    <testcase name="Step 3: verify text component is hidden on tablet portrait" time="1.704" assertions="4">
+
+    
 
     
 

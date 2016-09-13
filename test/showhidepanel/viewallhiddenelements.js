@@ -1,5 +1,5 @@
 module.exports = {
-  '@tags' : ['showhidepanel', 'hidden'],
+  '@tags' : ['showhidepanel', 'show', 'mobile', 'tablet', 'desktop'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
 
@@ -37,12 +37,26 @@ module.exports = {
        
       'Step 3: verify text component is hidden on all devices' : function (browser) { 
        browser.frame(0) //selects iframe - must call to select anything within iframe
-       browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
-         browser.frame(null)
+        browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
+       browser.frame(null)
     },
+      
       'Step 4: verify "view all elements" button is selected' : function (browser) { 
         page = browser.page.viewallhiddenelementsbtn();
           page.viewallhiddenelementsbtn();
+
+        //browser.frame(0) //selects iframe - must call to select anything within iframe
+          //browser.assert.cssClassPresent('.root show-mq-hidden outline-view', '.root.show-mq-hidden.outline-view')
+       // browser.frame(null)
+    // },
+
+    //   'Step 5: resize browser window to desktop and verify ' : function (browser) { 
+    //     browser.resizeWindow(640,960)
+
+        //browser.frame(0) //selects iframe - must call to select anything within iframe
+           //browser.expect.element('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper').to.not.have.css('display');
+          //browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
+        //browser.frame(null)
 
        page = browser.page.closepanel();  
          page.closepanel();

@@ -13,7 +13,7 @@ module.exports = {
           page.opensite();
     },
 
-    'Step 2: select hide on mobile' : function (browser) {
+    'Step 2: select hide on tablet landscape' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .waitForElementVisible('.bc-text', 1000)
          .click('.bc-text')
@@ -26,10 +26,13 @@ module.exports = {
           page.tabletlandscapebtn();
     },
        
-      'Step 3: verify text component is hidden on mobile' : function (browser) { 
-       browser.frame(0) //selects iframe - must call to select anything within iframe
-       browser.assert.elementPresent('.focused.bc-tablet-landscape-hidden.component-wrapper.bc-text-wrapper')
-         browser.frame(null)
+      'Step 3: verify text component is hidden on tablet landscape' : function (browser) { 
+        browser.resizeWindow(1020,750)
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.assert.elementPresent('.focused.bc-tablet-landscape-hidden.component-wrapper.bc-text-wrapper')
+          browser.expect.element('.focused.bc-tablet-landscape-hidden.component-wrapper.bc-text-wrapper').to.have.css('display').which.equals('none')
+        browser.frame(null)
 
        page = browser.page.closepanel();  
          page.closepanel();
