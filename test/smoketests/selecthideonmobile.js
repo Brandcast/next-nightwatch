@@ -28,7 +28,7 @@ module.exports = {
        
       'Step 3: verify text component is hidden on mobile' : function (browser) { 
        browser.frame(0) //selects iframe - must call to select anything within iframe
-       browser.assert.elementPresent('.bc-text.bc-mobile-hidden')
+       browser.assert.elementPresent('.focused bc-mobile-hidden component-wrapper bc-text-wrapper')
          browser.frame(null)
 
        page = browser.page.closepanel();  
