@@ -48,7 +48,7 @@ module.exports = {
         //browser.frame(0) //selects iframe - must call to select anything within iframe
           //browser.assert.cssClassPresent('.root show-mq-hidden outline-view', '.root.show-mq-hidden.outline-view')
        // browser.frame(null)
-    // },
+   },
 
     //   'Step 5: resize browser window to desktop and verify ' : function (browser) { 
     //     browser.resizeWindow(640,960)

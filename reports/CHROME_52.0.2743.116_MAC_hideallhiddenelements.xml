@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="6"
-            failures="1"
-            tests="5">
+<testsuites errors="0"
+            failures="0"
+            tests="6">
 
   <testsuite name="hideallhiddenelements"
-    errors="6" failures="1" hostname="" id="" package="hideallhiddenelements" skipped="1"
-    tests="5" time="24.55" timestamp="Tue, 13 Sep 2016 00:35:52 GMT">
+    errors="0" failures="0" hostname="" id="" package="hideallhiddenelements" skipped="0"
+    tests="6" time="28.14" timestamp="Tue, 13 Sep 2016 03:45:18 GMT">
   
-    <testcase name="Step 1: page load" time="14.92" assertions="5">
+    <testcase name="Step 1: page load" time="15.46" assertions="5">
 
     
 
@@ -19,78 +19,8 @@
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Desktop&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.desktopbtnCommands.desktopbtn (/Users/kelli/Sites/nightwatch/pages/desktopbtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:40:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Tablet Landscape&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.tabletlandscapebtnCommands.tabletlandscapebtn (/Users/kelli/Sites/nightwatch/pages/tabletlandscapebtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:43:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Tablet Portrait&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.tabletportraitbtnCommands.tabletportraitbtn (/Users/kelli/Sites/nightwatch/pages/tabletportraitbtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:46:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Phone&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.mobilebtnCommands.mobilebtn (/Users/kelli/Sites/nightwatch/pages/mobilebtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:49:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-  Error while running [Hideallhiddenelements / Step 5: verify &quot;view all hidden elements&quot; button is deselected]:
-
-  TypeError: undefined is not a function
-    at Object.module.exports.Step 5: verify &quot;view all hidden elements&quot; button is deselected (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:54:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    at process._tickCallback (node.js:355:11)
-      </system-err>
   
-    <testcase name="Step 2: select &quot;view all hidden elments&quot; devices" time="2.595" assertions="5">
+    <testcase name="Step 2: select &quot;view all hidden elments&quot; button" time="2.693" assertions="5">
 
     
 
@@ -102,259 +32,75 @@ ERROR: Unable to locate element: &quot;[title=&quot;Hide On Phone&quot;] .btn&qu
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Desktop&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.desktopbtnCommands.desktopbtn (/Users/kelli/Sites/nightwatch/pages/desktopbtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:40:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Tablet Landscape&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.tabletlandscapebtnCommands.tabletlandscapebtn (/Users/kelli/Sites/nightwatch/pages/tabletlandscapebtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:43:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Tablet Portrait&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.tabletportraitbtnCommands.tabletportraitbtn (/Users/kelli/Sites/nightwatch/pages/tabletportraitbtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:46:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Phone&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.mobilebtnCommands.mobilebtn (/Users/kelli/Sites/nightwatch/pages/mobilebtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:49:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-  Error while running [Hideallhiddenelements / Step 5: verify &quot;view all hidden elements&quot; button is deselected]:
-
-  TypeError: undefined is not a function
-    at Object.module.exports.Step 5: verify &quot;view all hidden elements&quot; button is deselected (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:54:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    at process._tickCallback (node.js:355:11)
-      </system-err>
   
-    <testcase name="Step 4: select hide on all devices" time="7.010" assertions="10">
+    <testcase name="Step 3: select &quot;hide&quot; on all devices, resize browser window, then verify display does not equal none and class is hidden" time="5.187" assertions="16">
 
-      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Show/Hide On Device&quot;. Element could not be located.">    at Object.openshowhidepanelCommands.openshowhidepanel (/Users/kelli/Sites/nightwatch/pages/openshowhidepanel.js:5:15)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:37:15)</failure>
+    
 
-      <failure message="Testing if element &lt;[title=&quot;Hide On Desktop&quot;] .btn&gt; is present.">    at Object.desktopbtnCommands.desktopbtn (/Users/kelli/Sites/nightwatch/pages/desktopbtn.js:3:17)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:40:16)</failure>
+    
 
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Desktop&quot;] .btn&gt; is present.">    at Object.desktopbtnCommands.desktopbtn (/Users/kelli/Sites/nightwatch/pages/desktopbtn.js:5:17)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:40:16)</failure>
+    
 
-      <failure message="Testing if element &lt;[title=&quot;Hide On Tablet Landscape&quot;] .btn&gt; is present.">    at Object.tabletlandscapebtnCommands.tabletlandscapebtn (/Users/kelli/Sites/nightwatch/pages/tabletlandscapebtn.js:3:17)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:43:16)</failure>
+    
 
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Tablet Landscape&quot;] .btn&gt; is present.">    at Object.tabletlandscapebtnCommands.tabletlandscapebtn (/Users/kelli/Sites/nightwatch/pages/tabletlandscapebtn.js:5:16)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:43:16)</failure>
+    
 
-      <failure message="Testing if element &lt;[title=&quot;Hide On Tablet Portrait&quot;] .btn&gt; is present.">    at Object.tabletportraitbtnCommands.tabletportraitbtn (/Users/kelli/Sites/nightwatch/pages/tabletportraitbtn.js:3:17)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:46:16)</failure>
+    
 
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Tablet Portrait&quot;] .btn&gt; is present.">    at Object.tabletportraitbtnCommands.tabletportraitbtn (/Users/kelli/Sites/nightwatch/pages/tabletportraitbtn.js:5:20)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:46:16)</failure>
+    
 
-      <failure message="Testing if element &lt;[title=&quot;Hide On Phone&quot;] .btn&gt; is present.">    at Object.mobilebtnCommands.mobilebtn (/Users/kelli/Sites/nightwatch/pages/mobilebtn.js:3:17)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:49:16)</failure>
+    
 
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Phone&quot;] .btn&gt; is present.">    at Object.mobilebtnCommands.mobilebtn (/Users/kelli/Sites/nightwatch/pages/mobilebtn.js:5:20)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:49:16)</failure>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Desktop&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.desktopbtnCommands.desktopbtn (/Users/kelli/Sites/nightwatch/pages/desktopbtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:40:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Tablet Landscape&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.tabletlandscapebtnCommands.tabletlandscapebtn (/Users/kelli/Sites/nightwatch/pages/tabletlandscapebtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:43:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Tablet Portrait&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.tabletportraitbtnCommands.tabletportraitbtn (/Users/kelli/Sites/nightwatch/pages/tabletportraitbtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:46:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Phone&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.mobilebtnCommands.mobilebtn (/Users/kelli/Sites/nightwatch/pages/mobilebtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:49:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-  Error while running [Hideallhiddenelements / Step 5: verify &quot;view all hidden elements&quot; button is deselected]:
+  
+    <testcase name="Step 4: verify &quot;view all hidden elements&quot; button is deselected" time="0.5390" assertions="2">
 
-  TypeError: undefined is not a function
-    at Object.module.exports.Step 5: verify &quot;view all hidden elements&quot; button is deselected (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:54:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    at process._tickCallback (node.js:355:11)
-      </system-err>
-  
-    <testcase name="Step 5: verify &quot;view all hidden elements&quot; button is deselected" time="0.02500" assertions="0">
-    </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Desktop&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.desktopbtnCommands.desktopbtn (/Users/kelli/Sites/nightwatch/pages/desktopbtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:40:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Tablet Landscape&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.tabletlandscapebtnCommands.tabletlandscapebtn (/Users/kelli/Sites/nightwatch/pages/tabletlandscapebtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:43:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Tablet Portrait&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.tabletportraitbtnCommands.tabletportraitbtn (/Users/kelli/Sites/nightwatch/pages/tabletportraitbtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:46:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;[title=&quot;Hide On Phone&quot;] .btn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.mobilebtnCommands.mobilebtn (/Users/kelli/Sites/nightwatch/pages/mobilebtn.js:4:9)
-    at Object.module.exports.Step 4: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:49:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-  Error while running [Hideallhiddenelements / Step 5: verify &quot;view all hidden elements&quot; button is deselected]:
+    
 
-  TypeError: undefined is not a function
-    at Object.module.exports.Step 5: verify &quot;view all hidden elements&quot; button is deselected (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:54:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    at process._tickCallback (node.js:355:11)
-      </system-err>
-  
-  
     
-    <testcase
-      name="Step 6: verify &quot;view all elements&quot; button is selected">
-      <skipped />
     </testcase>
+  
+    <testcase name="Step 5: resize browser window, then verify display equals none and class is hidden" time="2.341" assertions="8">
+
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 6: verify &quot;view all elements&quot; button is selected" time="1.920" assertions="2">
+
+    
+
+    
+    </testcase>
+  
   
   </testsuite>
 </testsuites>

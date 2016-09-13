@@ -13,7 +13,7 @@ module.exports = {
           page.opensite();
     },
 
-    'Step 2: select hide on mobile' : function (browser) {
+    'Step 2: select hide on desktop' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .waitForElementVisible('.bc-text', 1000)
          .click('.bc-text')
@@ -26,7 +26,7 @@ module.exports = {
           page.desktopbtn();
     },
        
-      'Step 3: verify text component is hidden on mobile' : function (browser) { 
+      'Step 3: verify text component is hidden on desktop' : function (browser) { 
         browser.resizeWindow(1280,1024)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe

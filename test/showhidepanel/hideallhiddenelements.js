@@ -13,7 +13,7 @@ module.exports = {
           page.opensite();
     },
 
-      'Step 2: select "view all hidden elments" devices' : function (browser) {
+      'Step 2: select "view all hidden elments" button' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .waitForElementVisible('.bc-text', 1000)
          .click('.bc-text')
@@ -24,44 +24,86 @@ module.exports = {
 
         page = browser.page.viewallhiddenelementsbtn();
           page.viewallhiddenelementsbtn();
-    //},
-       
-      //'Step 3: verify "view all hidden elements" is applied' : function (browser) { 
-       //browser.frame(0) //selects iframe - must call to select anything within iframe
-        //browser.verify.elementPresent('.root.show-mq-hidden.outline-view')
-       //browser.frame(null)
     },
       
-      'Step 4: select hide on all devices' : function (browser) { 
-         page = browser.page.openshowhidepanel();
-         page.openshowhidepanel();
-
+      'Step 3: select "hide" on all devices, resize browser window, then verify display does not equal none and class is hidden' : function (browser) { 
         page = browser.page.desktopbtn();  
           page.desktopbtn();
+
+         browser.resizeWindow(1280,1024)
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.assert.elementPresent('.focused.bc-desktop-hidden.component-wrapper.bc-text-wrapper')
+          browser.expect.element('.focused.bc-desktop-hidden.component-wrapper.bc-text-wrapper').to.have.css('display').which.does.not.equal('none')
+        browser.frame(null)
 
         page = browser.page.tabletlandscapebtn();  
           page.tabletlandscapebtn();
 
+         browser.resizeWindow(1020,750)
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.component-wrapper.bc-text-wrapper')
+          browser.expect.element('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.component-wrapper.bc-text-wrapper').to.have.css('display').which.does.not.equal('none')
+        browser.frame(null)
+
         page = browser.page.tabletportraitbtn();  
           page.tabletportraitbtn();
 
+          browser.resizeWindow(800,815)
+        
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.component-wrapper.bc-text-wrapper')
+           browser.expect.element('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.component-wrapper.bc-text-wrapper').to.have.css('display').which.does.not.equal('none')
+        browser.frame(null)
+
         page = browser.page.mobilebtn();  
           page.mobilebtn();
+
+          browser.resizeWindow(540,930)
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+           browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
+           browser.expect.element('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper').to.have.css('display').which.does.not.equal('none')
+        browser.frame(null)
     },
       
-      'Step 5: verify "view all hidden elements" button is deselected' : function (browser) {
+      'Step 4: verify "view all hidden elements" button is deselected' : function (browser) {
         page = browser.page.hideallhiddenelementsbtn();
           page.hideallhiddenelementsbtn();
     },
 
-      'Step 6: verify "view all elements" button is selected' : function (browser) {
-        browser.resizeWindow(640,960)
+      'Step 5: resize browser window, then verify display equals none and class is hidden' : function (browser) {
+         browser.resizeWindow(540,930)
 
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+           browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
+           browser.expect.element('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper').to.have.css('display').which.equals('none')
+        browser.frame(null)
+        
+        browser.resizeWindow(800,815)
 
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+           browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
+           browser.expect.element('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper').to.have.css('display').which.equals('none')
+        browser.frame(null)
 
+        browser.resizeWindow(1020,750)
 
-       page = browser.page.closepanel();  
-         page.closepanel();
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+           browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
+           browser.expect.element('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper').to.have.css('display').which.equals('none')
+        browser.frame(null)
+
+         browser.resizeWindow(1280,1024)
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+           browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
+           browser.expect.element('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper').to.have.css('display').which.equals('none')
+        browser.frame(null)
+    
+        page = browser.page.closepanel();  
+          page.closepanel();
 
           browser.end();
     }

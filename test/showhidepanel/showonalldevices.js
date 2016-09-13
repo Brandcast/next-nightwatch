@@ -60,6 +60,35 @@ module.exports = {
           browser.assert.elementNotPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
           browser.assert.elementPresent('.focused.component-wrapper.bc-text-wrapper')
         browser.frame(null)
+    },
+
+      'Step 6: resize browser widnoow to mobile, tablet, and desktop and verify dispaly:none is not applied' : function (browser) { 
+        browser.resizeWindow(540,930)
+       
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.expect.element('.focused.component-wrapper.bc-text-wrapper').to.have.css('display').which.does.not.equal('none')
+        browser.frame(null)
+
+        browser.resizeWindow(800,815)
+        
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.assert.elementPresent('.focused.component-wrapper.bc-text-wrapper')
+          browser.expect.element('.focused.component-wrapper.bc-text-wrapper').to.have.css('display').which.does.not.equal('none')
+        browser.frame(null)
+
+        browser.resizeWindow(1020,750)
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.assert.elementPresent('.focused.component-wrapper.bc-text-wrapper')
+          browser.expect.element('.focused.component-wrapper.bc-text-wrapper').to.have.css('display').which.does.not.equal('none')
+        browser.frame(null)
+
+        browser.resizeWindow(1020,750)
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.assert.elementPresent('.focused.component-wrapper.bc-text-wrapper')
+          browser.expect.element('.focused.component-wrapper.bc-text-wrapper').to.have.css('display').which.does.not.equal('none')
+        browser.frame(null)
 
          page = browser.page.closepanel();  
           page.closepanel();
