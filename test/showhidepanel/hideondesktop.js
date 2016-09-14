@@ -10,7 +10,8 @@ module.exports = {
           page.opensitemap();
 
         page = browser.page.opensite();
-          page.opensite();
+          page.opensite();  
+
     },
 
     'Step 2: select hide on desktop' : function (browser) {

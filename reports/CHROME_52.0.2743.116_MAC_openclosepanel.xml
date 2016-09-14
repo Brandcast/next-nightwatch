@@ -4,10 +4,10 @@
             tests="5">
 
   <testsuite name="openclosepanel"
-    errors="0" failures="1" hostname="" id="" package="openclosepanel" skipped="0"
-    tests="5" time="19.85" timestamp="Mon, 12 Sep 2016 20:08:25 GMT">
+    errors="0" failures="1" hostname="" id="" package="openclosepanel" skipped="4"
+    tests="5" time="17.72" timestamp="Wed, 14 Sep 2016 00:20:03 GMT">
   
-    <testcase name="Step 1: page load" time="11.02" assertions="5">
+    <testcase name="Step 1: page load" time="17.72" assertions="5">
 
     
 
@@ -15,85 +15,34 @@
 
     
 
-    
+      <failure message="Timed out while waiting for element &lt;.page-status-container [data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 2000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:9:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/showhidepanel/openclosepanel.js:13:16)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 2: select hide on all devices" time="6.091" assertions="12">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
-    <testcase name="Step 3: close panel via x button and reopen panel" time="0.7810" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 2: select hide on all devices">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 4: deselect hide on all devices" time="1.431" assertions="9">
-
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Desktop&quot;] .btn&gt; is present.">    at Object.desktopbtnCommands.desktopbtn (/Users/kelli/Sites/nightwatch/pages/desktopbtn.js:5:17)
-    at Object.module.exports.Step 4: deselect hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/openclosepanel.js:56:16)</failure>
-
     
-
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Tablet Landscape&quot;] .btn&gt; is present.">    at Object.tabletlandscapebtnCommands.tabletlandscapebtn (/Users/kelli/Sites/nightwatch/pages/tabletlandscapebtn.js:5:16)
-    at Object.module.exports.Step 4: deselect hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/openclosepanel.js:59:16)</failure>
-
-    
-
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Tablet Portrait&quot;] .btn&gt; is present.">    at Object.tabletportraitbtnCommands.tabletportraitbtn (/Users/kelli/Sites/nightwatch/pages/tabletportraitbtn.js:5:20)
-    at Object.module.exports.Step 4: deselect hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/openclosepanel.js:62:16)</failure>
-
-    
-
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Phone&quot;] .btn&gt; is present.">    at Object.mobilebtnCommands.mobilebtn (/Users/kelli/Sites/nightwatch/pages/mobilebtn.js:5:20)
-    at Object.module.exports.Step 4: deselect hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/openclosepanel.js:65:16)</failure>
-
-    
-
-    
+    <testcase
+      name="Step 3: close panel via x button and reopen panel">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 3: close panel via panel button and reopen panel" time="0.5210" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Step 4: deselect hide on all devices">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="Step 3: close panel via panel button and reopen panel">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

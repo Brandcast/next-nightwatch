@@ -3,10 +3,10 @@ var newwebsitebtnCommands = {
     this.api.resizeWindow(1050,1250)
 
     this.verify.elementPresent('@newwebsitebtn')
-    .moveToElement('@newwebsitebtn', 2, 2);
+    .moveToElement('@newwebsitebtn', 4, 4);
 
     this.api.mouseButtonClick()
-    this.verify.elementPresent('.ruler')
+    //this.verify.elementPresent('.ruler')
   },
 };
 
@@ -15,7 +15,7 @@ module.exports = {
   commands: [newwebsitebtnCommands],
  elements: {
     newwebsitebtn: {
-    	selector: '.btn-text-label'
+    	selector: '[data-qa-id="new-website-button"]'
     }
   }
 };

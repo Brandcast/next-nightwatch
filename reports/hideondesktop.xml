@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="hideondesktop"
+    errors="1" failures="0" hostname="" id="" package="hideondesktop" skipped="2"
+    tests="3" time="0.06500" timestamp="Wed, 14 Sep 2016 00:35:27 GMT">
+  
+    <testcase name="Step 1: page load" time="0.06500" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Hideondesktop / Step 1: page load]:
+
+  TypeError: undefined is not a function
+    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:9:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideondesktop.js:13:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Step 2: select hide on desktop">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: verify text component is hidden on desktop">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

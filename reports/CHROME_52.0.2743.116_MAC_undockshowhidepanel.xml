@@ -5,9 +5,9 @@
 
   <testsuite name="undockshowhidepanel"
     errors="0" failures="1" hostname="" id="" package="undockshowhidepanel" skipped="2"
-    tests="3" time="11.46" timestamp="Mon, 12 Sep 2016 20:09:01 GMT">
+    tests="3" time="14.30" timestamp="Wed, 14 Sep 2016 00:21:04 GMT">
   
-    <testcase name="Step 1: page load" time="11.46" assertions="5">
+    <testcase name="Step 1: page load" time="14.30" assertions="5">
 
     
 
@@ -15,7 +15,7 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be visible for 1000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:7:10)
+      <failure message="Timed out while waiting for element &lt;.page-status-container [data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 2000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:9:10)
     at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/showhidepanel/undockshowhidepanel.js:13:14)</failure>
 
     

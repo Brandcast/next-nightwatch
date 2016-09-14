@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="4">
 
   <testsuite name="undock:drag:dockshowhidepanel"
-    errors="0" failures="0" hostname="" id="" package="undock:drag:dockshowhidepanel" skipped="0"
-    tests="4" time="15.15" timestamp="Mon, 12 Sep 2016 20:08:45 GMT">
+    errors="0" failures="1" hostname="" id="" package="undock:drag:dockshowhidepanel" skipped="3"
+    tests="4" time="14.92" timestamp="Wed, 14 Sep 2016 00:20:49 GMT">
   
-    <testcase name="Step 1: page load" time="11.07" assertions="5">
+    <testcase name="Step 1: page load" time="14.92" assertions="5">
 
     
 
@@ -15,40 +15,29 @@
 
     
 
-    
+      <failure message="Timed out while waiting for element &lt;.page-status-container [data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 2000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:9:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/showhidepanel/undock:drag:dockshowhidepanel.js:13:14)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 2: Undock filters panel" time="2.460" assertions="5">
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
-    <testcase name="Step 3: drag filters panel around screen and console log x/y values" time="1.157" assertions="2">
-
     
-
-    
+    <testcase
+      name="Step 2: Undock filters panel">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 4: dock filters panel" time="0.4620" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Step 3: drag filters panel around screen and console log x/y values">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="Step 4: dock filters panel">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

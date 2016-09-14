@@ -8,12 +8,12 @@ module.exports = {
 
     },
   'step 2: select "new website" button' : function (browser) {
+     browser.pause(500)
+
     var page = browser.page.newwebsitebtn();
       page.newwebsitebtn(); 
 
-    browser.pause(500)
-      
-      browser.end()
+      //browser.end()
   },
 };
 

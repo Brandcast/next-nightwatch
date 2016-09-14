@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="6">
 
   <testsuite name="showonalldevices"
-    errors="0" failures="0" hostname="" id="" package="showonalldevices" skipped="0"
-    tests="6" time="23.27" timestamp="Tue, 13 Sep 2016 02:10:03 GMT">
+    errors="0" failures="1" hostname="" id="" package="showonalldevices" skipped="5"
+    tests="6" time="14.33" timestamp="Wed, 14 Sep 2016 00:20:21 GMT">
   
-    <testcase name="Step 1: page load" time="16.05" assertions="5">
+    <testcase name="Step 1: page load" time="14.33" assertions="5">
 
     
 
@@ -15,88 +15,39 @@
 
     
 
-    
+      <failure message="Timed out while waiting for element &lt;.page-status-container [data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 2000 milliseconds.">    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:9:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/showhidepanel/showonalldevices.js:13:16)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 2: select hide on all devices" time="3.155" assertions="11">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on all devices" time="0.03900" assertions="1">
-
     
+    <testcase
+      name="Step 2: select hide on all devices">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 4: select show on all devices" time="1.276" assertions="8">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 3: verify text component is hidden on all devices">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 5: verify hidden not applied to text component" time="0.08400" assertions="2">
-
     
-
-    
+    <testcase
+      name="Step 4: select show on all devices">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 6: resize browser widnoow to mobile, tablet, and desktop and verify dispaly:none is not applied" time="2.673" assertions="9">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 5: verify hidden not applied to text component">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="Step 6: resize browser widnoow to mobile, tablet, and desktop and verify dispaly:none is not applied">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

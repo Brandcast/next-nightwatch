@@ -14,6 +14,8 @@ module.exports = {
     page = browser.page.opensite();
     	page.opensite();
 
+      browser.waitforElementPresent('.site-map-leaf');
+
       browser.end()
   },
 };
