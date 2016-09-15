@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
+<testsuites errors="1"
+            failures="1"
             tests="5">
 
   <testsuite name="filters.invertinput"
-    errors="0" failures="0" hostname="" id="" package="filters.invertinput" skipped="0"
-    tests="5" time="19.03" timestamp="Fri, 09 Sep 2016 20:50:34 GMT">
+    errors="1" failures="1" hostname="" id="" package="filters.invertinput" skipped="2"
+    tests="5" time="26.43" timestamp="Thu, 15 Sep 2016 18:13:58 GMT">
   
-    <testcase name="Step 1: page load" time="12.46" assertions="5">
+    <testcase name="Step 1: page load" time="14.80" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select invert" time="3.997" assertions="5">
+    <testcase name="Step 2: open filters panel and select invert" time="7.899" assertions="5">
 
     
 
@@ -33,45 +33,27 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter invert via setvalue function" time="0.5500" assertions="4">
+    <testcase name="Step 3: enter invert via setvalue function" time="3.736" assertions="3">
 
-    
+      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Invert&quot;] input[type=text]&gt; contains: &quot;25&quot;.">    at Object.module.exports.Step 3: enter invert via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertinput.js:37:17)</failure>
 
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 4: enter invert via keystoke" time="0.6120" assertions="4">
-
-    
-
-    
-
-    
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property -webkit-filter. Element or attribute could not be located.">    at Object.module.exports.Step 3: enter invert via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertinput.js:40:18)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease invert via up/down arrow" time="1.410" assertions="7">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
+    
+    <testcase
+      name="Step 4: enter invert via keystoke">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 5: enter incrementally inscrease/decrease invert via up/down arrow">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

@@ -6,17 +6,18 @@ module.exports = {
     page.navigate()
       page.pageload();
 
-    },
-  'step 2: open site map' : function (browser) {
-    var page = browser.page.opensitemap();
+    page = browser.page.openwebsitebtn();
+          page.openwebsitebtn();
+  },
+    
+    'step 2: open site map' : function (browser) {
+      var page = browser.page.opensitemap();
       page.opensitemap(); 
   
-    page = browser.page.opensite();
-    	page.opensite();
-
-      browser.waitforElementPresent('.site-map-leaf');
-
-      browser.end()
+      page = browser.page.opensite();
+       page.opensite();
+  
+     browser.end()
   },
 };
 

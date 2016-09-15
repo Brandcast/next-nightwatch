@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="2"
+<testsuites errors="0"
+            failures="0"
             tests="3">
 
   <testsuite name="hideonmobile"
-    errors="1" failures="2" hostname="" id="" package="hideonmobile" skipped="0"
-    tests="3" time="24.78" timestamp="Wed, 14 Sep 2016 00:26:28 GMT">
+    errors="0" failures="0" hostname="" id="" package="hideonmobile" skipped="0"
+    tests="3" time="25.51" timestamp="Thu, 15 Sep 2016 21:53:41 GMT">
   
-    <testcase name="Step 1: page load" time="16.71" assertions="4">
+    <testcase name="Step 1: page load" time="18.54" assertions="5">
+
+    
 
     
 
@@ -17,21 +19,8 @@
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.page-status-container [data-qa-id=&quot;page-item-preview&quot;]&quot; using: css selector
-    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:10:9)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideonmobile.js:13:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 2: select hide on mobile" time="7.663" assertions="5">
+    <testcase name="Step 2: select hide on mobile" time="4.914" assertions="5">
 
     
 
@@ -39,42 +28,21 @@
 
     
 
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Phone&quot;] .btn&gt; is present.">    at Object.mobilebtnCommands.mobilebtn (/Users/kelli/Sites/nightwatch/pages/mobilebtn.js:5:20)
-    at Object.module.exports.Step 2: select hide on mobile (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideonmobile.js:26:16)</failure>
+    
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.page-status-container [data-qa-id=&quot;page-item-preview&quot;]&quot; using: css selector
-    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:10:9)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideonmobile.js:13:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 3: verify text component is hidden on mobile" time="0.4040" assertions="1">  <failure message="Testing if element &lt;.focused.bc-mobile-hidden.component-wrapper.bc-text-wrapper&gt; is present.">    at Object.module.exports.Step 3: verify text component is hidden on mobile (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideonmobile.js:33:26)</failure>
+    <testcase name="Step 3: verify text component is hidden on mobile" time="2.057" assertions="4">
+
+    
+
+    
+
+    
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.page-status-container [data-qa-id=&quot;page-item-preview&quot;]&quot; using: css selector
-    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:10:9)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideonmobile.js:13:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
   
   </testsuite>

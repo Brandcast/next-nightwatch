@@ -5,6 +5,9 @@ module.exports = {
 
         page.navigate()
           page.pageload();
+
+        page = browser.page.openwebsitebtn();
+          page.openwebsitebtn();
     },
 
       'step 2: open and clsoe dimensions panel' : function (browser) {

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
+<testsuites errors="1"
+            failures="1"
             tests="6">
 
   <testsuite name="filters.huerotate.dropdown"
-    errors="0" failures="0" hostname="" id="" package="filters.huerotate.dropdown" skipped="0"
-    tests="6" time="22.66" timestamp="Fri, 09 Sep 2016 20:49:51 GMT">
+    errors="1" failures="1" hostname="" id="" package="filters.huerotate.dropdown" skipped="3"
+    tests="6" time="26.38" timestamp="Thu, 15 Sep 2016 18:13:07 GMT">
   
-    <testcase name="Step 1: page load" time="12.72" assertions="5">
+    <testcase name="Step 1: page load" time="15.46" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select Hue Rotate" time="4.277" assertions="3">
+    <testcase name="Step 2: open filters panel and select Hue Rotate" time="6.102" assertions="3">
 
     
 
@@ -29,64 +29,34 @@
     
     </testcase>
   
-    <testcase name="Step 3: select Hue Rotate 50deg via drop-down-menu" time="0.9860" assertions="4">
+    <testcase name="Step 3: select Hue Rotate 50deg via drop-down-menu" time="4.827" assertions="4">
 
     
 
-    
+      <failure message="Testing if value of &lt;[title=&quot;Hue Rotate&quot;] input[type=text]&gt; contains: &quot;50deg&quot;.">    at Object.module.exports.Step 3: select Hue Rotate 50deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:31:17)</failure>
 
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 4: select Hue Rotate 180deg via drop-down-menu" time="1.206" assertions="5">
-
-    
-
-    
-
-    
-
-    
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property -webkit-filter. Element or attribute could not be located.">    at Object.module.exports.Step 3: select Hue Rotate 50deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:35:18)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 5: select Hue Rotate 90deg via drop-down-menu" time="1.725" assertions="7">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
-    <testcase name="Step 6: select Hue Rotate 0deg via drop-down-menu" time="1.748" assertions="7">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 4: select Hue Rotate 180deg via drop-down-menu">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="Step 5: select Hue Rotate 90deg via drop-down-menu">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 6: select Hue Rotate 0deg via drop-down-menu">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

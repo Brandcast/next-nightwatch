@@ -5,12 +5,15 @@ module.exports = {
 
         page.navigate()
           page.pageload();
-    
-      page = browser.page.opensitemap();
-        page.opensitemap();
 
-      page = browser.page.opensite();
-        page.opensite();
+        page = browser.page.openwebsitebtn();
+          page.openwebsitebtn();
+    
+        page = browser.page.opensitemap();
+          page.opensitemap();
+
+        page = browser.page.opensite();
+          page.opensite();
     },
   
     'Step 2: click text component and then select grid layout' : function (browser) {

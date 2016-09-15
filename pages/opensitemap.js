@@ -1,12 +1,11 @@
 var opensitemapCommands = {
   opensitemap: function() {
-    this.api.resizeWindow(1050,1250)
+    this.verify.elementPresent('.website-tile-container')
 
-    this.verify.elementPresent('[data-qa-id="open-website-button"]')
-    .moveToElement('[data-qa-id="open-website-button"]', 2, 2);
+    this.waitForElementVisible('[data-qa-id="page-item-preview"]', 5000)
+    .moveToElement('[data-qa-id="page-item-preview"]', 2, 2);
 
-    this.api.mouseButtonClick()
-    this.verify.elementPresent('.ruler')
+     this.api.doubleClick(); 
   },
 };
 
@@ -14,7 +13,7 @@ var opensitemapCommands = {
 module.exports = {
   commands: [opensitemapCommands],
  elements: {
-    newwebsitebtn: {
+    opensitemap: {
     	selector: '.btn-text-label'
     }
   }

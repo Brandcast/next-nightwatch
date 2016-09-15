@@ -6,6 +6,9 @@ module.exports = {
         page.navigate()
           page.pageload();
 
+        page = browser.page.openwebsitebtn();
+          page.openwebsitebtn();
+
         page = browser.page.opensitemap();
             page.opensitemap();
     
@@ -23,7 +26,7 @@ module.exports = {
           page.openfilterspanel();   
 
         browser.verify.elementPresent('[title="Blur"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] .select-input-container .select-triangle-wrapper')
+        .click('[title="Blur"] .select-input-container .select-triangle-wrapper')
         //.waitForElementVisible('[data-qa-id="blur-drop-down"]', 1000);
 
     }, 

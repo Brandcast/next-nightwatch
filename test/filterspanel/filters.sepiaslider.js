@@ -6,6 +6,9 @@ module.exports = {
         page.navigate()
           page.pageload();
 
+        page = browser.page.openwebsitebtn();
+          page.openwebsitebtn();
+
         page = browser.page.opensitemap();
             page.opensitemap();
     
@@ -31,21 +34,21 @@ module.exports = {
     }, 
 
       'Step 3: select sepia via slider' : function (browser) { 
-        browser.moveToElement('[data-qa-id="sepia-slider"]', 2,6)
+        browser.moveToElement('[data-qa-id="sepia-slider"]', 10,6)
         .mouseButtonDown(0)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.02)')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.12)')
         browser.frame(null);
 
-        browser.moveToElement('[data-qa-id="sepia-slider"]', 15, 6)
+        browser.moveToElement('[data-qa-id="sepia-slider"]', 30, 6)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.02)')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.49)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="sepia-slider"]', 50, 6)
         .mouseButtonUp(0)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.02)')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.86)')
         browser.frame(null);
     },
       

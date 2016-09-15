@@ -1,6 +1,6 @@
 var pageloadCommands = {
   pageload: function() {
-    this.waitForElementVisible('@pageload', 1000)
+    this.waitForElementVisible('@pageload', 3000)
   }
 };
 
