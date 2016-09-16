@@ -6,6 +6,8 @@ var openwebsitebtnCommands = {
     .moveToElement('[data-qa-id="open-website-button"]', 2, 2);
 
     this.api.mouseButtonClick();
+
+    this.verify.containsText('.overlay-label.drag-handle', 'New Website')
   },
 };
 

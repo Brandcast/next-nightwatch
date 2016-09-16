@@ -13,7 +13,10 @@ module.exports = {
     var page = browser.page.newwebsitebtn();
       page.newwebsitebtn(); 
 
-      browser.end()
+      page = browser.page.newwebsitenameinput();
+        page.newwebsitenameinput();
+
+      //browser.end()
   },
 };
 

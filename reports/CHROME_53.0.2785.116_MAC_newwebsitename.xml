@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="newwebsitename"
+    errors="0" failures="1" hostname="" id="" package="newwebsitename" skipped="0"
+    tests="2" time="6.954" timestamp="Fri, 16 Sep 2016 23:54:08 GMT">
+  
+    <testcase name="step 1: load page" time="5.799" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="step 2: select &quot;new website&quot; button" time="1.155" assertions="3">
+
+    
+
+      <failure message="Expected element &lt;.text-input-wrapper [name=&quot;websiteName&quot;]&gt; to be selected">    at Object.newwebsitenameinputCommands.newwebsitenameinput (/Users/kelli/Sites/nightwatch/pages/newwebsitenameinput.js:5:17)
+    at Object.module.exports.step 2: select &quot;new website&quot; button (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:17:14)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
