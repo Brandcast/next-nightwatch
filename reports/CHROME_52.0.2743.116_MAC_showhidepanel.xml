@@ -5,14 +5,14 @@
 
   <testsuite name="showhidepanel"
     errors="0" failures="0" hostname="" id="" package="showhidepanel" skipped="0"
-    tests="2" time="10.90" timestamp="Wed, 14 Sep 2016 23:30:20 GMT">
+    tests="2" time="4.868" timestamp="Fri, 16 Sep 2016 18:38:13 GMT">
   
-    <testcase name="Step 1: page load" time="9.557" assertions="1">
+    <testcase name="Step 1: page load" time="4.325" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 2: open and close show/hide panel" time="1.345" assertions="4">
+    <testcase name="Step 2: open and close show/hide panel" time="0.5430" assertions="4">
 
     
 

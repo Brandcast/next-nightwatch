@@ -5,9 +5,9 @@
 
   <testsuite name="undockshowhidepanel"
     errors="0" failures="0" hostname="" id="" package="undockshowhidepanel" skipped="0"
-    tests="3" time="20.31" timestamp="Thu, 15 Sep 2016 06:52:37 GMT">
+    tests="3" time="8.677" timestamp="Fri, 16 Sep 2016 17:18:00 GMT">
   
-    <testcase name="Step 1: page load" time="17.27" assertions="5">
+    <testcase name="Step 1: page load" time="7.455" assertions="5">
 
     
 
@@ -20,14 +20,14 @@
     
     </testcase>
   
-    <testcase name="Step 2: open show/hide panel and consol log the x/y coordinates" time="2.158" assertions="2">
+    <testcase name="Step 2: open show/hide panel and consol log the x/y coordinates" time="0.7180" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 3: open show/hide panel and consol log the x/y coordinates" time="0.8860" assertions="3">
+    <testcase name="Step 3: open show/hide panel and consol log the x/y coordinates" time="0.5040" assertions="3">
 
     
 

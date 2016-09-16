@@ -5,9 +5,11 @@
 
   <testsuite name="selecthideonmobile"
     errors="0" failures="1" hostname="" id="" package="selecthideonmobile" skipped="0"
-    tests="3" time="19.47" timestamp="Wed, 14 Sep 2016 23:30:01 GMT">
+    tests="3" time="9.057" timestamp="Fri, 16 Sep 2016 18:38:04 GMT">
   
-    <testcase name="Step 1: page load" time="15.65" assertions="5">
+    <testcase name="Step 1: page load" time="7.627" assertions="6">
+
+    
 
     
 
@@ -20,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on mobile" time="3.620" assertions="5">
+    <testcase name="Step 2: select hide on mobile" time="1.259" assertions="5">
 
     
 
@@ -33,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on mobile" time="0.1990" assertions="1">  <failure message="Testing if element &lt;.focused bc-mobile-hidden component-wrapper bc-text-wrapper&gt; is present.">    at Object.module.exports.Step 3: verify text component is hidden on mobile (/Users/kelli/Sites/nightwatch/test/smoketests/selecthideonmobile.js:31:23)</failure>
+    <testcase name="Step 3: verify text component is hidden on mobile" time="0.1710" assertions="1">  <failure message="Testing if element &lt;.focused bc-mobile-hidden component-wrapper bc-text-wrapper&gt; is present.">    at Object.module.exports.Step 3: verify text component is hidden on mobile (/Users/kelli/Sites/nightwatch/test/smoketests/selecthideonmobile.js:37:23)</failure>
 
     
     </testcase>
