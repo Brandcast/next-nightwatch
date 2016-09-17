@@ -7,7 +7,7 @@ var openwebsitebtnCommands = {
 
     this.api.mouseButtonClick();
 
-    this.verify.containsText('.overlay-label.drag-handle', 'New Website')
+    this.verify.containsText('.overlay-label.drag-handle', 'Open Website')
   },
 };
 

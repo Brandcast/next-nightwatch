@@ -39,6 +39,6 @@ module.exports = {
         //browser.frame(0) //selects iframe - must call to select anything within iframe
           //.assert.cssProperty('.focused.component-wrapper', 'max-width', '500px')
         //browser.frame(null)
-        //browser.end();
+        browser.end();
     },
 };

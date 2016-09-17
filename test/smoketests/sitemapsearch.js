@@ -16,7 +16,7 @@ module.exports = {
     },
 
     'Step 2: "site map" word search on span' : function (browser) {  
-      browser.assert.containsText('span', 'SiteMap')
+      browser.assert.containsText('.tab-text span', 'SiteMap')
       browser.end();
     },
 };

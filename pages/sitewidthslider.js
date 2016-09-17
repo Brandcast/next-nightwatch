@@ -1,5 +1,5 @@
 var sitewidthsliderCommands = {
-  opensite: function() {
+  sitewidthslider: function() {
     this.verify.elementPresent('@sitewidthslider')
       .moveToElement('@sitewidthslider', 80, 4)
       .mouseButtonDown(0)

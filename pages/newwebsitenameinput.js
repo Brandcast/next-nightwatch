@@ -10,7 +10,7 @@ module.exports = {
   commands: [newwebsitenameinputCommands],
   elements: {
    newwebsitenameinput : {
-    	selector: '.text-input-wrapper [name="websiteName"]'
+    	selector: '.text-input [name="websiteName"]'
     }
   }
 };

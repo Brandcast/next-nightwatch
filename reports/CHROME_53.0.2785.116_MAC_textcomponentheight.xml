@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="textcomponentheight"
+    errors="0" failures="0" hostname="" id="" package="textcomponentheight" skipped="0"
+    tests="2" time="8.888" timestamp="Sat, 17 Sep 2016 00:14:37 GMT">
+  
+    <testcase name="Step 1: page load" time="6.743" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open dimensions panel and select height from drop down menu" time="2.145" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
