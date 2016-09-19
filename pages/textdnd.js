@@ -11,7 +11,7 @@ var textdndCommands = {
 };
 
 module.exports = {
-  commands: [sitewidthsliderCommands],
+  commands: [textdndCommands],
   elements: {
     text: {
     	selector:'[title="Text"] .btn'

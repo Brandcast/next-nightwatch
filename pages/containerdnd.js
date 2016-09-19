@@ -8,11 +8,10 @@ var containerdndCommands = {
 
     this.verify.elementPresent('[data-qa-id="/container1"]')
   }
-  }
 };
 
 module.exports = {
-  commands: [sitewidthsliderCommands],
+  commands: [containerdndCommands],
   elements: {
     container: {
     	selector:'[title="Container"] .btn'

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="1"
             tests="4">
 
   <testsuite name="checkhideoverflow"
-    errors="1" failures="1" hostname="" id="" package="checkhideoverflow" skipped="0"
-    tests="4" time="8.610" timestamp="Sat, 17 Sep 2016 00:12:54 GMT">
+    errors="0" failures="1" hostname="" id="" package="checkhideoverflow" skipped="2"
+    tests="4" time="13.49" timestamp="Sat, 17 Sep 2016 05:35:07 GMT">
   
-    <testcase name="Step 1: page load" time="6.188" assertions="6">
+    <testcase name="Step 1: page load" time="12.24" assertions="6">
 
     
 
@@ -21,82 +21,24 @@
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.focused.component-wrapper&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-      </system-err>
   
-    <testcase name="Step 2: open dimensions panel" time="1.528" assertions="3">
-
-    
-
-    
+    <testcase name="Step 2: open dimensions panel" time="1.245" assertions="1">  <failure message="Timed out while waiting for element &lt;.bc-text&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Step 2: open dimensions panel (/Users/kelli/Sites/nightwatch/test/smoketests/checkhideoverflow.js:21:10)</failure>
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.focused.component-wrapper&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-      </system-err>
   
-    <testcase name="Step 3: check &quot;hide overflow&quot; button" time="0.3960" assertions="3">
-
+  
     
-
-    
-
-    
+    <testcase
+      name="Step 3: check &quot;hide overflow&quot; button">
+      <skipped />
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.focused.component-wrapper&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-      </system-err>
-  
-    <testcase name="Step 4: verify &quot;hide overflow&quot; is applied" time="0.4980" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property overflow. Element or attribute could not be located.">    at Object.module.exports.Step 4: verify &quot;hide overflow&quot; is applied (/Users/kelli/Sites/nightwatch/test/smoketests/checkhideoverflow.js:39:17)</failure>
-
     
+    <testcase
+      name="Step 4: verify &quot;hide overflow&quot; is applied">
+      <skipped />
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.focused.component-wrapper&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-      </system-err>
-  
+    
   
   </testsuite>
 </testsuites>

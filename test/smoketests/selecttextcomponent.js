@@ -22,7 +22,7 @@ module.exports = {
       .expect.element('.bc-text').to.be.selected
       //browser.frame(null) //closes iframe
       
-      //browser.end();
+      browser.end();
 
   },
 };

@@ -11,7 +11,7 @@ var imagedndCommands = {
 };
 
 module.exports = {
-  commands: [sitewidthsliderCommands],
+  commands: [imagedndCommands],
   elements: {
     image: {
     	selector:'[title="Image"] .btn'

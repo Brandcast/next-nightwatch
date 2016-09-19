@@ -11,7 +11,7 @@ var griddndCommands = {
 };
 
 module.exports = {
-  commands: [sitewidthsliderCommands],
+  commands: [griddndCommands],
   elements: {
     grid: {
     	selector:'[title="Grid"] .btn'

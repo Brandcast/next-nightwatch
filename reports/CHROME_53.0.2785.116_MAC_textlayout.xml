@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="2">
 
   <testsuite name="textlayout"
-    errors="0" failures="0" hostname="" id="" package="textlayout" skipped="0"
-    tests="2" time="9.190" timestamp="Sat, 17 Sep 2016 00:14:46 GMT">
+    errors="0" failures="1" hostname="" id="" package="textlayout" skipped="0"
+    tests="2" time="8.727" timestamp="Sat, 17 Sep 2016 05:37:17 GMT">
   
-    <testcase name="step 1: load page" time="7.929" assertions="6">
+    <testcase name="step 1: load page" time="7.478" assertions="6">
 
     
 
@@ -22,13 +22,7 @@
     
     </testcase>
   
-    <testcase name="step 2: select textlayout" time="1.261" assertions="4">
-
-    
-
-    
-
-    
+    <testcase name="step 2: select textlayout" time="1.249" assertions="1">  <failure message="Timed out while waiting for element &lt;.bc-text&gt; to be present for 1000 milliseconds.">    at Object.module.exports.step 2: select textlayout (/Users/kelli/Sites/nightwatch/test/smoketests/textlayout.js:22:10)</failure>
 
     
     </testcase>

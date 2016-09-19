@@ -1,6 +1,6 @@
 module.exports = {
   '@disabled': true,
-  'slider test' : function (browser) {
+  'step 1: page load and open sitemap' : function (browser) {
    var page = browser.page.pageload();
 
     page.navigate()
@@ -11,7 +11,9 @@ module.exports = {
    
     page = browser.page.opensitemap();
       page.opensitemap(); 
+  },
 
+  'step 2: sitemap slider' : function (browser) {
     browser.frame('iframe') //selects iframe - must call to select anything within iframe
         .waitForElementVisible('iframe', 1000)
         .moveToElement('iframe', 25, 25)

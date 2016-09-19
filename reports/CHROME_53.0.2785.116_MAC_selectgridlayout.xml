@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="3">
 
   <testsuite name="selectgridlayout"
-    errors="0" failures="0" hostname="" id="" package="selectgridlayout" skipped="0"
-    tests="3" time="10.10" timestamp="Sat, 17 Sep 2016 00:13:59 GMT">
+    errors="0" failures="1" hostname="" id="" package="selectgridlayout" skipped="1"
+    tests="3" time="9.494" timestamp="Sat, 17 Sep 2016 05:36:25 GMT">
   
-    <testcase name="Step 1: page load" time="7.908" assertions="8">
+    <testcase name="Step 1: page load" time="8.295" assertions="8">
 
     
 
@@ -26,32 +26,18 @@
     
     </testcase>
   
-    <testcase name="Step 2: select grid layout and open dimensions panel" time="1.517" assertions="6">
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase name="Step 2: select grid layout and open dimensions panel" time="1.199" assertions="1">  <failure message="Timed out while waiting for element &lt;.bc-text&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Step 2: select grid layout and open dimensions panel (/Users/kelli/Sites/nightwatch/test/smoketests/selectgridlayout.js:24:10)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 3: apply and verify 5 gutter width via slider" time="0.6750" assertions="4">
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
+    
+    <testcase
+      name="Step 3: apply and verify 5 gutter width via slider">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

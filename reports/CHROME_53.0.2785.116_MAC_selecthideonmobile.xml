@@ -4,10 +4,10 @@
             tests="3">
 
   <testsuite name="selecthideonmobile"
-    errors="0" failures="1" hostname="" id="" package="selecthideonmobile" skipped="0"
-    tests="3" time="9.281" timestamp="Sat, 17 Sep 2016 00:14:09 GMT">
+    errors="0" failures="1" hostname="" id="" package="selecthideonmobile" skipped="1"
+    tests="3" time="11.30" timestamp="Sat, 17 Sep 2016 05:36:34 GMT">
   
-    <testcase name="Step 1: page load" time="7.403" assertions="8">
+    <testcase name="Step 1: page load" time="9.971" assertions="8">
 
     
 
@@ -26,24 +26,18 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on mobile" time="1.747" assertions="5">
-
-    
-
-    
-
-    
-
-    
+    <testcase name="Step 2: select hide on mobile" time="1.333" assertions="1">  <failure message="Timed out while waiting for element &lt;.bc-text&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Step 2: select hide on mobile (/Users/kelli/Sites/nightwatch/test/smoketests/selecthideonmobile.js:24:11)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on mobile" time="0.1310" assertions="1">  <failure message="Testing if element &lt;.focused bc-mobile-hidden component-wrapper bc-text-wrapper&gt; is present.">    at Object.module.exports.Step 3: verify text component is hidden on mobile (/Users/kelli/Sites/nightwatch/test/smoketests/selecthideonmobile.js:37:23)</failure>
-
-    
-    </testcase>
   
+    
+    <testcase
+      name="Step 3: verify text component is hidden on mobile">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
