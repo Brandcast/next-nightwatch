@@ -5,6 +5,9 @@ module.exports = {
 
       page.navigate()
         page.pageload();
+
+      page = browser.page.openwebsitebtn();
+        page.openwebsitebtn();
     
       page = browser.page.opensitemap();
         page.opensitemap();
@@ -35,7 +38,7 @@ module.exports = {
     'Step 3: verify text color' : function (browser) {
         //verify color applied via css
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        browser.assert.cssProperty('.bc-text', 'color', 'rgba(191, 122, 122, 1)')
+        browser.assert.cssProperty('.focused.component-wrapper', 'color', 'rgba(191, 122, 122, 1)')
         browser.frame(null)
         browser.end();
     }

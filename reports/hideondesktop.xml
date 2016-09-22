@@ -5,15 +5,15 @@
 
   <testsuite name="hideondesktop"
     errors="1" failures="0" hostname="" id="" package="hideondesktop" skipped="2"
-    tests="3" time="0.06500" timestamp="Wed, 14 Sep 2016 00:35:27 GMT">
+    tests="3" time="0.05400" timestamp="Thu, 22 Sep 2016 20:35:55 GMT">
   
-    <testcase name="Step 1: page load" time="0.06500" assertions="0">
+    <testcase name="Step 1: page load" time="0.05400" assertions="0">
     </testcase>
       <system-err>
           Error while running [Hideondesktop / Step 1: page load]:
 
   TypeError: undefined is not a function
-    at Object.opensiteCommands.opensite (/Users/kelli/Sites/nightwatch/pages/opensite.js:9:10)
+    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:5:8)
     at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideondesktop.js:13:16)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29

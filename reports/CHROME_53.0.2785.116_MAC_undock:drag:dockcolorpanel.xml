@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="3"
+            tests="4">
+
+  <testsuite name="undock:drag:dockcolorpanel"
+    errors="4" failures="3" hostname="" id="" package="undock:drag:dockcolorpanel" skipped="0"
+    tests="4" time="9.208" timestamp="Wed, 21 Sep 2016 21:24:10 GMT">
+  
+    <testcase name="Step 1: page load" time="6.314" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: Undock color panel" time="1.605" assertions="5">
+
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Color&quot;. Element could not be located.">    at Object.opencolorpanelCommands.opencolorpanel (/Users/kelli/Sites/nightwatch/pages/opencolorpanel.js:5:15)
+    at Object.module.exports.Step 2: Undock color panel (/Users/kelli/Sites/nightwatch/test/colorpanel/undock:drag:dockcolorpanel.js:21:14)</failure>
+
+      <failure message="Testing if element &lt;.panel.direction-left.direction-down.react-draggable&gt; is present.">    at Object.undockpanelCommands.undockpanel (/Users/kelli/Sites/nightwatch/pages/undockpanel.js:3:17)
+    at Object.module.exports.Step 2: Undock color panel (/Users/kelli/Sites/nightwatch/test/colorpanel/undock:drag:dockcolorpanel.js:24:14)</failure>
+
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; is present.">    at Object.undockpanelCommands.undockpanel (/Users/kelli/Sites/nightwatch/pages/undockpanel.js:4:15)
+    at Object.module.exports.Step 2: Undock color panel (/Users/kelli/Sites/nightwatch/test/colorpanel/undock:drag:dockcolorpanel.js:24:14)</failure>
+
+      <failure message="Testing if element &lt;.panel.direction-left.direction-down.react-draggable.react-draggable-dragged&gt; is present.">    at Object.undockpanelCommands.undockpanel (/Users/kelli/Sites/nightwatch/pages/undockpanel.js:9:19)
+    at Object.module.exports.Step 2: Undock color panel (/Users/kelli/Sites/nightwatch/test/colorpanel/undock:drag:dockcolorpanel.js:24:14)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: drag color panel around screen" time="0.6940" assertions="2">  <failure message="Testing if element &lt;.panel-body&gt; is present.">    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:3:17)
+    at Object.module.exports.Step 3: drag color panel around screen (/Users/kelli/Sites/nightwatch/test/colorpanel/undock:drag:dockcolorpanel.js:35:14)</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: dock color panel" time="0.5950" assertions="3">
+
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Color&quot;. Element could not be located.">    at Object.opencolorpanelCommands.opencolorpanel (/Users/kelli/Sites/nightwatch/pages/opencolorpanel.js:5:15)
+    at Object.module.exports.Step 4: dock color panel (/Users/kelli/Sites/nightwatch/test/colorpanel/undock:drag:dockcolorpanel.js:40:14)</failure>
+
+      <failure message="Testing if element &lt;.panel.direction-left.direction-down.react-draggable&gt; is present.">    at Object.module.exports.Step 4: dock color panel (/Users/kelli/Sites/nightwatch/test/colorpanel/undock:drag:dockcolorpanel.js:42:22)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -16,7 +16,7 @@ module.exports = {
           page.opensite();
     },
 
-    'Step 2: select hide on all devices' : function (browser) {
+    'Step 2: open show/hide panel and select hide on all devices' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .waitForElementVisible('.bc-text', 1000)
          .click('.bc-text')
@@ -26,16 +26,16 @@ module.exports = {
          page.openshowhidepanel();
 
         page = browser.page.desktopbtn();  
-          page.desktopbtn();
+          page.hidedesktopbtn();
 
         page = browser.page.tabletlandscapebtn();  
-          page.tabletlandscapebtn();
+          page.hidetabletlandscapebtn();
 
         page = browser.page.tabletportraitbtn();  
-          page.tabletportraitbtn();
+          page.hidetabletportraitbtn();
 
         page = browser.page.mobilebtn();  
-          page.mobilebtn();
+          page.hidemobilebtn();
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
           browser.assert.elementPresent('.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
@@ -56,22 +56,22 @@ module.exports = {
 
       'Step 4: deselect hide on all devices' : function (browser) { 
         page = browser.page.desktopbtn();  
-          page.desktopbtn();
+          page.showdesktopbtn();
 
         page = browser.page.tabletlandscapebtn();  
-          page.tabletlandscapebtn();
+          page.showtabletlandscapebtn();
 
         page = browser.page.tabletportraitbtn();  
-          page.tabletportraitbtn();
+          page.showtabletportraitbtn();
 
         page = browser.page.mobilebtn();  
-          page.mobilebtn();
+          page.showmobilebtn();
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
           browser.assert.elementPresent('.focused.component-wrapper.bc-text-wrapper')
         browser.frame(null)
     },
-      'Step 3: close panel via panel button and reopen panel' : function (browser) { 
+      'Step 5: close panel via panel button and reopen panel' : function (browser) { 
         browser.click('.ui-wrapper[title="Show/Hide On Device"]')
         .verify.elementNotPresent('.panel-body')
 

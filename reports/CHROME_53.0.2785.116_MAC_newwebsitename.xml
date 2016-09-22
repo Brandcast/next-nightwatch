@@ -5,9 +5,9 @@
 
   <testsuite name="newwebsitename"
     errors="1" failures="1" hostname="" id="" package="newwebsitename" skipped="0"
-    tests="2" time="6.034" timestamp="Sat, 17 Sep 2016 00:04:37 GMT">
+    tests="2" time="6.137" timestamp="Wed, 21 Sep 2016 00:07:30 GMT">
   
-    <testcase name="step 1: load page" time="4.582" assertions="1">
+    <testcase name="step 1: load page" time="4.293" assertions="1">
 
     
     </testcase>
@@ -25,7 +25,7 @@
     at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
       </system-err>
   
-    <testcase name="step 2: select &quot;new website&quot; button" time="1.452" assertions="3">
+    <testcase name="step 2: select &quot;new website&quot; button" time="1.844" assertions="3">
 
       <failure message="Testing if element &lt;.text-input [name=&quot;websiteName&quot;]&gt; is present.">    at Object.newwebsitenameinputCommands.newwebsitenameinput (/Users/kelli/Sites/nightwatch/pages/newwebsitenameinput.js:3:17)
     at Object.module.exports.step 2: select &quot;new website&quot; button (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:17:14)</failure>

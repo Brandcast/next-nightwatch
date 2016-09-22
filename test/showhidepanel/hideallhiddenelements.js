@@ -31,7 +31,7 @@ module.exports = {
       
       'Step 3: select "hide" on all devices, resize browser window, then verify display does not equal none and class is hidden' : function (browser) { 
         page = browser.page.desktopbtn();  
-          page.desktopbtn();
+          page.hidedesktopbtn();
 
          browser.resizeWindow(1280,1024)
 
@@ -41,7 +41,7 @@ module.exports = {
         browser.frame(null)
 
         page = browser.page.tabletlandscapebtn();  
-          page.tabletlandscapebtn();
+          page.hidetabletlandscapebtn();
 
          browser.resizeWindow(1020,750)
 
@@ -51,7 +51,7 @@ module.exports = {
         browser.frame(null)
 
         page = browser.page.tabletportraitbtn();  
-          page.tabletportraitbtn();
+          page.hidetabletportraitbtn();
 
           browser.resizeWindow(800,815)
         
@@ -61,7 +61,7 @@ module.exports = {
         browser.frame(null)
 
         page = browser.page.mobilebtn();  
-          page.mobilebtn();
+          page.hidemobilebtn();
 
           browser.resizeWindow(540,930)
 

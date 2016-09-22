@@ -26,7 +26,7 @@ module.exports = {
          page.openshowhidepanel();
 
         page = browser.page.mobilebtn();  
-          page.mobilebtn();
+          page.hidemobilebtn();
     },
        
       'Step 3: verify text component is hidden on mobile' : function (browser) { 

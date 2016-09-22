@@ -26,16 +26,16 @@ module.exports = {
          page.openshowhidepanel();
 
         page = browser.page.desktopbtn();  
-          page.desktopbtn();
+          page.hidedesktopbtn();
 
         page = browser.page.tabletlandscapebtn();  
-          page.tabletlandscapebtn();
+          page.hidetabletlandscapebtn();
 
         page = browser.page.tabletportraitbtn();  
-          page.tabletportraitbtn();
+          page.hidetabletportraitbtn();
 
         page = browser.page.mobilebtn();  
-          page.mobilebtn();
+          page.hidemobilebtn();
     },
        
       'Step 3: verify text component is hidden on all devices' : function (browser) { 
@@ -45,17 +45,17 @@ module.exports = {
     },
 
       'Step 4: select show on all devices' : function (browser) {
-          page = browser.page.showondesktopbtn();  
-            page.showondesktopbtn();
+          page = browser.page.desktopbtn();  
+            page.showdesktopbtn();
 
-          page = browser.page.showontabletlandscapebtn();  
-            page.showontabletlandscapebtn();
+          page = browser.page.tabletlandscapebtn();  
+            page.showtabletlandscapebtn();
 
-          page = browser.page.showontabletportraitbtn();  
-            page.showontabletportraitbtn();
+          page = browser.page.tabletportraitbtn();  
+            page.showtabletportraitbtn();
 
-          page = browser.page.showonmobilebtn();  
-            page.showonmobilebtn();
+          page = browser.page.mobilebtn();  
+            page.showmobilebtn();
     },
 
       'Step 5: verify hidden not applied to text component' : function (browser) { 

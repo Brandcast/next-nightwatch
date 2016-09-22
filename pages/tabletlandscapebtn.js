@@ -1,9 +1,14 @@
 var tabletlandscapebtnCommands = {
-  tabletlandscapebtn: function() {
+  hidetabletlandscapebtn: function() {
     this.verify.elementPresent('@tabletlandscapebtn')
        .click('@tabletlandscapebtn')
        .verify.elementPresent('.ui-wrapper.auto-width.current[title="Hide On Tablet Landscape"] .btn')
-  }
+  },
+  showtabletlandscapebtn: function() {
+    this.verify.elementPresent('@tabletlandscapebtn')
+       .click('@tabletlandscapebtn')
+       .verify.elementPresent('.ui-wrapper.auto-width[title="Hide On Tablet Landscape"] .btn')
+  },
 };
 
 module.exports = {

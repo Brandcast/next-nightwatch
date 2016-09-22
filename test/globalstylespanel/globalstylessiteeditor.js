@@ -1,5 +1,5 @@
 module.exports = {
-  '@tags' : ['sitemap'],
+  '@tags' : ['sitemap', 'gloabl styles'],
   'step 1: load page' : function (browser) {
     var page = browser.page.pageload();
 

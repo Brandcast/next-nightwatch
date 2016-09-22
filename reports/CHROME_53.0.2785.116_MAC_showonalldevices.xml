@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="showonalldevices"
+    errors="0" failures="0" hostname="" id="" package="showonalldevices" skipped="0"
+    tests="6" time="10.79" timestamp="Thu, 22 Sep 2016 21:59:43 GMT">
+  
+    <testcase name="Step 1: page load" time="6.534" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: select hide on all devices" time="1.854" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify text component is hidden on all devices" time="0.04300" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: select show on all devices" time="0.5400" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: verify hidden not applied to text component" time="0.05500" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 6: resize browser widnoow to mobile, tablet, and desktop and verify dispaly:none is not applied" time="1.760" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

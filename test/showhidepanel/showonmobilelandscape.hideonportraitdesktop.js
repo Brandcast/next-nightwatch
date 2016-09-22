@@ -26,10 +26,10 @@ module.exports = {
          page.openshowhidepanel();
 
         page = browser.page.desktopbtn();  
-          page.desktopbtn();
+          page.hidedesktopbtn();
 
         page = browser.page.tabletportraitbtn();  
-          page.tabletportraitbtn();
+          page.hidetabletportraitbtn();
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
           browser.assert.elementPresent('.focused.bc-tablet-hidden.bc-desktop-hidden.component-wrapper.bc-text-wrapper')

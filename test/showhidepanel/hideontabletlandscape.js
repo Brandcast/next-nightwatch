@@ -26,7 +26,7 @@ module.exports = {
          page.openshowhidepanel();
 
         page = browser.page.tabletlandscapebtn();  
-          page.tabletlandscapebtn();
+          page.hidetabletlandscapebtn();
     },
        
       'Step 3: verify text component is hidden on tablet landscape' : function (browser) { 

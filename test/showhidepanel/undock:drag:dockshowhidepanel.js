@@ -16,7 +16,7 @@ module.exports = {
         page.opensite(); 
   },
       
-    'Step 2: Undock filters panel' : function (browser) {
+    'Step 2: Undock show/hide panel' : function (browser) {
       page = browser.page.openshowhidepanel();
         page.openshowhidepanel();
       
@@ -24,7 +24,7 @@ module.exports = {
         page.undockpanel();
   },
 
-    'Step 3: drag filters panel around screen and console log x/y values' : function (browser) {
+    'Step 3: drag show/hide panel around screen and console log x/y values' : function (browser) {
       browser.mouseButtonDown('.overlay-label.drag-handle')
         .moveToElement('.overlays-wrapper', 150, 345)
         .getLocation(".panel-body.dormant", function (location) {

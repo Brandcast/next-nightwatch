@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="8"
+            failures="2"
+            tests="3">
+
+  <testsuite name="selectcoloropacity"
+    errors="8" failures="2" hostname="" id="" package="selectcoloropacity" skipped="0"
+    tests="3" time="11.53" timestamp="Wed, 21 Sep 2016 21:23:49 GMT">
+  
+    <testcase name="Step 1: page load" time="6.070" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open color panel and select opacity via slider" time="4.852" assertions="8">
+
+    
+
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Color&quot;. Element could not be located.">    at Object.opencolorpanelCommands.opencolorpanel (/Users/kelli/Sites/nightwatch/pages/opencolorpanel.js:5:15)
+    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/colorpanel/selectcoloropacity.js:26:16)</failure>
+
+      <failure message="Testing if element &lt;.spectrum-color-band&gt; is present.">    at Object.colorspectrumCommands.colorspectrum (/Users/kelli/Sites/nightwatch/pages/colorspectrum.js:3:17)
+    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/colorpanel/selectcoloropacity.js:29:16)</failure>
+
+      <failure message="Testing if element &lt;.ui-wrapper[title=&quot;Opacity&quot;] .select-input-container input[type=&quot;text&quot;]&gt; is present.">    at Object.selectopacityCommands.selectopacity (/Users/kelli/Sites/nightwatch/pages/selectopacity.js:3:17)
+    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/colorpanel/selectcoloropacity.js:32:16)</failure>
+
+      <failure message="Testing if element &lt;.ui-wrapper[title=&quot;Opacity&quot;] .select-input-container .slider-wrapper&gt; is present.">    at Object.selectopacityCommands.selectopacity (/Users/kelli/Sites/nightwatch/pages/selectopacity.js:5:20)
+    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/colorpanel/selectcoloropacity.js:32:16)</failure>
+
+      <failure message="Testing if element &lt;.panel-body&gt; is present.">    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:3:17)
+    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/colorpanel/selectcoloropacity.js:41:16)</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify opacity" time="0.6040" assertions="2">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; is present.">    at Object.module.exports.Step 3: verify opacity (/Users/kelli/Sites/nightwatch/test/colorpanel/selectcoloropacity.js:47:25)</failure>
+
+      <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property background-color. Element or attribute could not be located.">    at Object.module.exports.Step 3: verify opacity (/Users/kelli/Sites/nightwatch/test/colorpanel/selectcoloropacity.js:48:19)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

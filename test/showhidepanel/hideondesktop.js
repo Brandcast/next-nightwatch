@@ -26,7 +26,7 @@ module.exports = {
          page.openshowhidepanel();
 
         page = browser.page.desktopbtn();  
-          page.desktopbtn();
+          page.hidedesktopbtn();
     },
        
       'Step 3: verify text component is hidden on desktop' : function (browser) { 

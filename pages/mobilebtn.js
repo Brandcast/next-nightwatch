@@ -1,8 +1,13 @@
 var mobilebtnCommands = {
-  mobilebtn: function() {
+  hidemobilebtn: function() {
     this.verify.elementPresent('@mobilebtn')
        .click('@mobilebtn') 
        this.verify.elementPresent('.ui-wrapper.auto-width.current[title="Hide On Phone"] .btn')
+  },
+  showmobilebtn: function() {
+    this.verify.elementPresent('@mobilebtn')
+       .click('@mobilebtn') 
+       this.verify.elementPresent('.ui-wrapper.auto-width[title="Hide On Phone"] .btn')
   }
 };
 

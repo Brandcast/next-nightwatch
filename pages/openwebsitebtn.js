@@ -15,8 +15,8 @@ var openwebsitebtnCommands = {
 module.exports = {
   commands: [openwebsitebtnCommands],
  elements: {
-    newwebsitebtn: {
-    	selector: '.btn-text-label [data-qa-id="open-website-button"]'
+    openwebsitebtn: {
+    	selector: '.btn-text [data-qa-id="open-website-button"]'
     }
   }
 };

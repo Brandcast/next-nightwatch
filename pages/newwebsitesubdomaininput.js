@@ -2,7 +2,6 @@ var newwebsitesubdomaininputCommands = {
   newwebsitesubdomaininput: function() {
     this.verify.elementPresent('@newwebsitesubdomaininput')
        .click('@newwebsitesubdomaininput') 
-    this.expect.element('@newwebsitesubdomaininput').to.be.selected
   },
 };
 

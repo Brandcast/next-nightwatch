@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="2"
+            tests="3">
+
+  <testsuite name="selectcolor"
+    errors="4" failures="2" hostname="" id="" package="selectcolor" skipped="0"
+    tests="3" time="9.893" timestamp="Wed, 21 Sep 2016 21:23:39 GMT">
+  
+    <testcase name="Step 1: page load" time="6.570" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: set text component background color to red" time="2.696" assertions="6">
+
+    
+
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Color&quot;. Element could not be located.">    at Object.opencolorpanelCommands.opencolorpanel (/Users/kelli/Sites/nightwatch/pages/opencolorpanel.js:5:15)
+    at Object.module.exports.Step 2: set text component background color to red (/Users/kelli/Sites/nightwatch/test/colorpanel/selectcolor.js:26:16)</failure>
+
+      <failure message="Testing if element &lt;.spectrum-color-band&gt; is present.">    at Object.colorspectrumCommands.colorspectrum (/Users/kelli/Sites/nightwatch/pages/colorspectrum.js:3:17)
+    at Object.module.exports.Step 2: set text component background color to red (/Users/kelli/Sites/nightwatch/test/colorpanel/selectcolor.js:29:16)</failure>
+
+      <failure message="Testing if element &lt;.panel-body&gt; is present.">    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:3:17)
+    at Object.module.exports.Step 2: set text component background color to red (/Users/kelli/Sites/nightwatch/test/colorpanel/selectcolor.js:32:16)</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify background color is set" time="0.6270" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property background-color. Element or attribute could not be located.">    at Object.module.exports.Step 3: verify background color is set (/Users/kelli/Sites/nightwatch/test/colorpanel/selectcolor.js:38:26)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

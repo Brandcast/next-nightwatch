@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="globalstylessiteeditor"
+    errors="0" failures="0" hostname="" id="" package="globalstylessiteeditor" skipped="0"
+    tests="3" time="7.661" timestamp="Wed, 21 Sep 2016 00:16:53 GMT">
+  
+    <testcase name="step 1: load page" time="5.196" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open site map and site editor" time="0.9930" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 3: open gloabl styles menu" time="1.472" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

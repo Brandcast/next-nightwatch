@@ -26,7 +26,7 @@ module.exports = {
          page.openshowhidepanel();
 
         page = browser.page.tabletportraitbtn();  
-          page.tabletportraitbtn();
+          page.hidetabletportraitbtn();
     },
        
       'Step 3: verify text component is hidden on tablet portrait' : function (browser) { 

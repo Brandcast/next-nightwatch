@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="3">
+
+  <testsuite name="selecttextolor"
+    errors="2" failures="1" hostname="" id="" package="selecttextolor" skipped="1"
+    tests="3" time="8.329" timestamp="Wed, 21 Sep 2016 00:52:41 GMT">
+  
+    <testcase name="Step 1: page load" time="5.845" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: set text color to red" time="2.484" assertions="5">
+
+    
+
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Color&quot;. Element could not be located.">    at Object.opencolorpanelCommands.opencolorpanel (/Users/kelli/Sites/nightwatch/pages/opencolorpanel.js:5:15)
+    at Object.module.exports.Step 2: set text color to red (/Users/kelli/Sites/nightwatch/test/colorpanel/selecttextolor.js:26:16)</failure>
+
+      <failure message="Testing if element &lt;[title=&quot;Text Color&quot;] .btn&gt; is present.">    at Object.selecttextcolorbtnCommands.selecttextcolorbtn (/Users/kelli/Sites/nightwatch/pages/selecttextcolorbtn.js:3:17)
+    at Object.module.exports.Step 2: set text color to red (/Users/kelli/Sites/nightwatch/test/colorpanel/selecttextolor.js:29:16)</failure>
+
+      <failure message="Expected element &lt;[title=&quot;Text Color&quot;] .btn&gt; to be enabled - element was not found">    at Object.selecttextcolorbtnCommands.selecttextcolorbtn (/Users/kelli/Sites/nightwatch/pages/selecttextcolorbtn.js:5:16)
+    at Object.module.exports.Step 2: set text color to red (/Users/kelli/Sites/nightwatch/test/colorpanel/selecttextolor.js:29:16)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 3: verify text color is red">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="globalstylessitemap"
+    errors="0" failures="1" hostname="" id="" package="globalstylessitemap" skipped="0"
+    tests="3" time="6.300" timestamp="Wed, 21 Sep 2016 00:17:01 GMT">
+  
+    <testcase name="step 1: load page" time="4.882" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open site map" time="1.175" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 3: open gloabl styles menu" time="0.2430" assertions="2">
+
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Global Styles&quot;.">    at Object.globalstylesbtnCommands.globalstylesbtn (/Users/kelli/Sites/nightwatch/pages/globalstylesbtn.js:7:13)
+    at Object.module.exports.step 3: open gloabl styles menu (/Users/kelli/Sites/nightwatch/test/globalstylespanel/globalstylessitemap.js:20:12)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

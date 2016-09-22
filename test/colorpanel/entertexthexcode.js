@@ -43,7 +43,7 @@ module.exports = {
       'step 4: verify text componet has text color hex code' : function (browser) {
           //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.cssProperty('.bc-text', 'color', 'rgba(127, 255, 0, 1)')
+          browser.assert.cssProperty('..focused.component-wrapper', 'color', 'rgba(127, 255, 0, 1)')
           browser.frame(null)
           .end();
     }
