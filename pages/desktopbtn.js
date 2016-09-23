@@ -4,6 +4,7 @@ var desktopbtnCommands = {
        .click('@desktopbtn') 
     this.verify.elementPresent('.ui-wrapper.auto-width.current[title="Hide On Desktop"] .btn')
   },
+  
   showdesktopbtn: function() {
     this.verify.elementPresent('@desktopbtn')
        .click('@desktopbtn') 
