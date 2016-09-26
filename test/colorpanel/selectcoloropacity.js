@@ -18,8 +18,8 @@ module.exports = {
 
       'Step 2: open color panel and select opacity via slider' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
+          .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
+          .click('[data-qa-id="/grid/column/text"]')
           .frame(null) //closes iframe
 
         page = browser.page.opencolorpanel();
@@ -28,8 +28,8 @@ module.exports = {
         page = browser.page.colorspectrum();  
           page.colorspectrum();
       
-        page = browser.page.selectopacity();  
-          page.selectopacity();
+        page = browser.page.opacityslider();  
+          page.opacityslider();
         
         browser.moveToElement('.ui-wrapper[title="Opacity"] .slider-wrapper input[type=range]', 15, 6)
             .mouseButtonDown(0)
@@ -45,8 +45,8 @@ module.exports = {
         //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
          browser.verify.elementPresent('.focused.component-wrapper')
-          .assert.cssProperty('.focused.component-wrapper', 'background-color', 'rgba(191, 122, 122, 0.862745)')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(191, 122, 122, 0.862745)')
         browser.frame(null);
-        browser.end();
+        //browser.end();
     }
 };

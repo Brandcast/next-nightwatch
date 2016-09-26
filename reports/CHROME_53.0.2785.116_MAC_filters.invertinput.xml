@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="filters.invertinput"
+    errors="0" failures="1" hostname="" id="" package="filters.invertinput" skipped="2"
+    tests="5" time="8.575" timestamp="Mon, 26 Sep 2016 17:56:01 GMT">
+  
+    <testcase name="Step 1: page load" time="6.122" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select invert" time="2.048" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: enter invert via setvalue function" time="0.4050" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: invert(0.25)&quot;.">    at Object.module.exports.Step 3: enter invert via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertinput.js:43:18)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 4: enter invert via keystoke">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 5: enter incrementally inscrease/decrease invert via up/down arrow">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

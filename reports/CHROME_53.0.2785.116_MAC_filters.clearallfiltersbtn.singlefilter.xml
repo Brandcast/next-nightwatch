@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="6">
+
+  <testsuite name="filters.clearallfiltersbtn.singlefilter"
+    errors="0" failures="2" hostname="" id="" package="filters.clearallfiltersbtn.singlefilter" skipped="2"
+    tests="6" time="9.078" timestamp="Mon, 26 Sep 2016 17:54:57 GMT">
+  
+    <testcase name="Step 1: page load" time="7.252" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select sepia" time="1.046" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select sepia via slider" time="0.3890" assertions="3">  <failure message="Testing if value of &lt;[title=&quot;Sepia&quot;] input[type=text]&gt; contains: &quot;86&quot;.">    at Object.module.exports.Step 3: select sepia via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.singlefilter.js:38:17)</failure>
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: verify sepia is applied via css" time="0.3910" assertions="2">
+
+      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: sepia(0.86)&quot;.">    at Object.module.exports.Step 4: verify sepia is applied via css (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.singlefilter.js:48:19)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 5: click &quot;clear all filters&quot; button">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 6: verify sepia input field is clear and css is no longer applied">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

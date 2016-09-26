@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="4">
+
+  <testsuite name="filters.invertslider"
+    errors="0" failures="1" hostname="" id="" package="filters.invertslider" skipped="1"
+    tests="4" time="9.128" timestamp="Mon, 26 Sep 2016 17:56:10 GMT">
+  
+    <testcase name="Step 1: page load" time="6.546" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select invert" time="2.192" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select invert via slider" time="0.3900" assertions="1">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: invert(0.08)&quot;.">    at Object.module.exports.Step 3: select invert via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertslider.js:40:19)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 4: close panel">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

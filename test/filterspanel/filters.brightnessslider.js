@@ -34,7 +34,7 @@ module.exports = {
     }, 
 
       'Step 3: select brightness via slider' : function (browser) { 
-        browser.moveToElement('[data-qa-id="brightness-slider"]', 2,6)
+        browser.moveToElement('[data-qa-id="brightness-slider"]', 5,6)
         .mouseButtonDown(0)
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0)')

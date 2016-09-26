@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="filters.brightnessinput"
+    errors="0" failures="1" hostname="" id="" package="filters.brightnessinput" skipped="2"
+    tests="5" time="8.616" timestamp="Mon, 26 Sep 2016 17:54:29 GMT">
+  
+    <testcase name="Step 1: page load" time="6.619" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select brightness" time="1.620" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: enter brightness via setvalue function" time="0.3770" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: brightness(0.25)&quot;.">    at Object.module.exports.Step 3: enter brightness via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessinput.js:43:18)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 4: enter brightness via keystoke">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 5: enter incrementally inscrease/decrease brightness via up/down arrow">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -9,9 +9,6 @@ module.exports = {
         page = browser.page.openwebsitebtn();
           page.openwebsitebtn();
 
-            page = browser.page.openwebsitebtn();
-          page.openwebsitebtn();
-
         page = browser.page.opensitemap();
             page.opensitemap();
     
@@ -82,12 +79,13 @@ module.exports = {
          .keys('0')
          .verify.valueContains('[title="Blur"] input[type=text]', '0px')
 
-          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(0px)')
-          browser.frame(null)
+    //       browser.frame(0) //selects iframe - must call to select anything within iframe
+    //      .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(0px)')
+    //       browser.frame(null)
 
-        page = browser.page.closepanel();  
-          page.closepanel();
-      browser.end();
-    }
+    //     page = browser.page.closepanel();  
+    //       page.closepanel();
+    //   browser.end();
+     }
 };
+

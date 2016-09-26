@@ -18,8 +18,8 @@ module.exports = {
 
       'Step 2: set text component background color to red'  : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
+          .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
+          .click('[data-qa-id="/grid/column/text"]')
           .frame(null) //closes iframe
 
         page = browser.page.opencolorpanel();
@@ -35,8 +35,8 @@ module.exports = {
       'Step 3: verify background color is set' : function (browser) {
           //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.cssProperty('.focused.component-wrapper', 'background-color', 'rgba(191, 122, 122, 1)')
+          browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(191, 122, 122, 1)')
           browser.frame(null)
-          .end();
+          //.end();
     }
 };

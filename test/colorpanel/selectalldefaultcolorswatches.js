@@ -25,12 +25,12 @@ module.exports = {
         page = browser.page.opencolorpanel();
           page.opencolorpanel();
 
-        page = browser.page.selectcolorswatchblack();  
-          page.selectcolorswatchblack();
+        page = browser.page.colorswatchblack();  
+          page.colorswatchblack();
 
          //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.cssProperty('.focused.component-wrapper', 'background-color', 'rgba(0, 0, 0, 0)')
+          browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(0, 0, 0, 0)')
           browser.frame(null)
     },     
       
@@ -38,8 +38,8 @@ module.exports = {
        page = browser.page.selectstrokecolorbtn();  
           page.selectstrokecolorbtn();
 
-        page = browser.page.selectcolorswatchwhite();  
-          page.selectcolorswatchwhite();
+        page = browser.page.colorswatchwhite();  
+          page.colorswatchwhite();
     
         //verify color applied via css
        //browser.frame(0) //selects iframe - must call to select anything within iframe

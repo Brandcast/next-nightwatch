@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="filters.huerotateinput"
+    errors="0" failures="1" hostname="" id="" package="filters.huerotateinput" skipped="2"
+    tests="5" time="8.861" timestamp="Mon, 26 Sep 2016 17:55:52 GMT">
+  
+    <testcase name="Step 1: page load" time="6.695" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select hue-rotate" time="1.655" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: enter hue-rotate via setvalue function" time="0.5110" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: hue-rotate(25deg)&quot;.">    at Object.module.exports.Step 3: enter hue-rotate via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:43:18)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 4: enter hue-rotate via keystoke">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
