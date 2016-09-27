@@ -16,7 +16,7 @@ module.exports = {
           page.opensite();
     },
 
-      'Step 2: set text component background color to red'  : function (browser) {
+      'Step 2: set text component stroke color to red'  : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
           .click('[data-qa-id="/grid/column/text"]')
@@ -25,6 +25,9 @@ module.exports = {
         page = browser.page.opencolorpanel();
           page.opencolorpanel();
 
+        page = browser.page.strokecolorbtn();
+          page.strokecolorbtn();
+
         page = browser.page.colorspectrum();  
           page.colorspectrum();
           
@@ -32,11 +35,11 @@ module.exports = {
           page.closepanel();
     },
       
-      'Step 3: verify background color is set' : function (browser) {
+      'Step 3: verify stroke color is set' : function (browser) {
           //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(191, 122, 122, 1)')
+          browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'border-color', 'rgb(191, 122, 122)')
           browser.frame(null)
-          //.end();
+          browser.end();
     }
 };

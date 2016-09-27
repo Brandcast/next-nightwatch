@@ -4,29 +4,52 @@
             tests="3">
 
   <testsuite name="selectalldefaultcolorswatches"
-    errors="0" failures="1" hostname="" id="" package="selectalldefaultcolorswatches" skipped="2"
-    tests="3" time="1.572" timestamp="Mon, 26 Sep 2016 18:31:51 GMT">
+    errors="0" failures="1" hostname="" id="" package="selectalldefaultcolorswatches" skipped="0"
+    tests="3" time="9.114" timestamp="Mon, 26 Sep 2016 21:19:50 GMT">
   
-    <testcase name="Step 1: page load" time="1.572" assertions="2">  <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:5:17)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/colorpanel/selectalldefaultcolorswatches.js:10:16)</failure>
+    <testcase name="Step 1: page load" time="7.277" assertions="6">
+
+    
+
+    
+
+    
+
+    
 
     
 
     
     </testcase>
   
+    <testcase name="Step 2: background color set to black" time="1.186" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: stroke color set to white" time="0.6510" assertions="5">
+
     
-    <testcase
-      name="Step 2: background color set to black">
-      <skipped />
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property &quot;border-color: rgb(90, 90, 90)&quot;.">    at Object.module.exports.Step 3: stroke color set to white (/Users/kelli/Sites/nightwatch/test/colorpanel/selectalldefaultcolorswatches.js:46:25)</failure>
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 3: stroke color set to white">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

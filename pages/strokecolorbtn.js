@@ -1,5 +1,5 @@
-var selectstrokecolorbtnCommands = {
-  selectstrokecolorbtn: function() {
+var strokecolorbtnCommands = {
+  strokecolorbtn: function() {
     this.verify.elementPresent('@strokecolorbtn')
        .click('@strokecolorbtn')
         .expect.element('@strokecolorbtn').to.be.enabled
@@ -7,7 +7,7 @@ var selectstrokecolorbtnCommands = {
 };
 
 module.exports = {
-  commands: [selectstrokecolorbtnCommands],
+  commands: [strokecolorbtnCommands],
   elements: {
    strokecolorbtn : {
     	selector: '[title="Stroke Color"] .btn'

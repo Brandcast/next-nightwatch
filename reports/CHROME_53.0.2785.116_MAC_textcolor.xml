@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="textcolor"
+    errors="0" failures="0" hostname="" id="" package="textcolor" skipped="0"
+    tests="3" time="9.265" timestamp="Mon, 26 Sep 2016 21:20:08 GMT">
+  
+    <testcase name="Step 1: page load" time="7.511" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: select text color" time="1.535" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify text color" time="0.2190" assertions="1">
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

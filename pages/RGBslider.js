@@ -1,12 +1,14 @@
 var RGBsliderCommands = {
   redslider: function() {
-    this.waitforElementVisible('.ui-wrapper.full-width[title="Red"] .slider-wrapper input[type=range]', 1000)
+    this.waitForElementVisible('.ui-wrapper.full-width[title="Red"] .slider-wrapper input[type=range]', 1000)  
   },
-  greenslider: function() {
+  
+   greenslider: function() {
     this.waitforElementVisible('.ui-wrapper.full-width[title="Green"] .slider-wrapper input[type=range]', 1000)
   },
-  blueslider: function() {
-    this.waitforElementVisible('.ui-wrapper.full-width[title="Blue"] .slider-wrapper input[type=range]', 1000)
+
+   blueslider: function() {
+      this.waitforElementVisible('.ui-wrapper.full-width[title="Blue"] .slider-wrapper input[type=range]', 1000)
   },
 };
 

@@ -25,6 +25,9 @@ module.exports = {
         page = browser.page.opencolorpanel();
           page.opencolorpanel();
 
+        page = browser.page.backgroundcolorbtn();
+          page.backgroundcolorbtn();
+
         page = browser.page.colorspectrum();  
           page.colorspectrum();
           
@@ -37,6 +40,6 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(191, 122, 122, 1)')
           browser.frame(null)
-          //.end();
+          browser.end();
     }
 };

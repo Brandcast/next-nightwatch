@@ -1,5 +1,5 @@
-var selectbackgroundcolorbtnCommands = {
-  selectbackgroundcolorbtn: function() {
+var backgroundcolorbtnCommands = {
+  backgroundcolorbtn: function() {
     this.verify.elementPresent('@fillcolorbtn')
        .click('@fillcolorbtn')
         .expect.element('@fillcolorbtn').to.be.enabled
@@ -9,7 +9,7 @@ var selectbackgroundcolorbtnCommands = {
 };
 
 module.exports = {
-  commands: [selectbackgroundcolorbtnCommands],
+  commands: [backgroundcolorbtnCommands],
   elements: {
    fillcolorbtn : {
     	selector: '[title="Fill Color"] .btn'

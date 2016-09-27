@@ -1,5 +1,5 @@
-var selecttextcolorbtnCommands = {
-  selecttextcolorbtn: function() {
+var textcolorbtnCommands = {
+  textcolorbtn: function() {
     this.verify.elementPresent('@textcolorbtn')
        .click('@textcolorbtn')
        .expect.element('@textcolorbtn').to.be.enabled  
@@ -8,7 +8,7 @@ var selecttextcolorbtnCommands = {
 };
 
 module.exports = {
-  commands: [selecttextcolorbtnCommands],
+  commands: [textcolorbtnCommands],
   elements: {
    textcolorbtn : {
     	selector: '[title="Text Color"] .btn'

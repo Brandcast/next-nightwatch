@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="textcoloropacity"
+    errors="1" failures="0" hostname="" id="" package="textcoloropacity" skipped="1"
+    tests="3" time="7.005" timestamp="Mon, 26 Sep 2016 21:20:18 GMT">
+  
+    <testcase name="Step 1: page load" time="6.958" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open color panel and select opacity via slider" time="0.04700" assertions="0">
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 3: verify opacity">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

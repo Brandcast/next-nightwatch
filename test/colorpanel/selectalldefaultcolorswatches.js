@@ -18,8 +18,8 @@ module.exports = {
 
     'Step 2: background color set to black' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text-wrapper', 1000)
-          .click('.bc-text-wrapper')
+          .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
+          .click('[data-qa-id="/grid/column/text"]')
           .frame(null) //closes iframe
 
         page = browser.page.opencolorpanel();
@@ -35,16 +35,16 @@ module.exports = {
     },     
       
     'Step 3: stroke color set to white' : function (browser) {
-       page = browser.page.selectstrokecolorbtn();  
-          page.selectstrokecolorbtn();
+       page = browser.page.strokecolorbtn();  
+          page.strokecolorbtn();
 
         page = browser.page.colorswatchwhite();  
           page.colorswatchwhite();
     
         //verify color applied via css
-       //browser.frame(0) //selects iframe - must call to select anything within iframe
-         // browser.assert.cssProperty('.focused.component-wrapper', 'border-color', 'rgb(255, 255, 255)')
-          //browser.frame(null)
+       browser.frame(0) //selects iframe - must call to select anything within iframe
+         browser.assert.cssProperty('.focused.component-wrapper', 'border-color', 'rgb(90, 90, 90)')
+          browser.frame(null)
         
          browser.end();
     },
