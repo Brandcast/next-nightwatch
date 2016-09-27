@@ -16,7 +16,7 @@ module.exports = {
           page.opensite();
     },
 
-      'Step 2: click on red input field, enter number and verify hex code'  : function (browser) {
+      'Step 2: click on red input field, enter number and verify input value'  : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
           .click('[data-qa-id="/grid/column/text"]')
@@ -38,7 +38,7 @@ module.exports = {
            
     },
         
-      'Step 3: click on green input field, enter number and verify hex code'  : function (browser) {  
+      'Step 3: click on green input field, enter number and verify input value'  : function (browser) {  
 
          page = browser.page.greeninput();  
           page.greeninput();
@@ -49,26 +49,24 @@ module.exports = {
             .verify.valueContains('.ui-wrapper[title="Green"] input[type=text]', '40')
     },
 
-      'Step 4: click on blue input field, enter number and verify hex code'  : function (browser) {  
+      'Step 4: click on blue input field, enter number and verify input value'  : function (browser) {  
 
          page = browser.page.blueinput();  
           page.blueinput();
-            browser.setValue('.ui-wrapper[title="Green"] input[type=text]', '\u0008')
+            browser.setValue('.ui-wrapper[title="Blue"] input[type=text]', '\u0008')
             .keys('2')
             .keys('0')
             .keys(browser.Keys.RETURN)
             .verify.valueContains('.ui-wrapper[title="Blue"] input[type=text]', '20')
-          
-        
-          // page = browser.page.closepanel();  
-          //   page.closepanel();
     },
       
-    //   'Step 5: verify background color is set' : function (browser) {
-    //       //verify color applied via css
-    //     browser.frame(0) //selects iframe - must call to select anything within iframe
-    //       browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'border-color', 'rgb(113, 72, 13)')
-    //       browser.frame(null)
-    //       browser.end();
-    // }
+      'Step 5: verify hex code in color panel and background color css value' : function (browser) {
+
+          browser.verify.valueContains('.color-hex-input-wrapper input[type=text]', '#3c2814')
+
+         browser.frame(0) //selects iframe - must call to select anything within iframe
+            browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(60, 40, 20, 1)')
+         browser.frame(null)
+           browser.end();
+    }
 };

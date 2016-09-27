@@ -5,9 +5,9 @@
 
   <testsuite name="textcolor"
     errors="0" failures="0" hostname="" id="" package="textcolor" skipped="0"
-    tests="3" time="9.265" timestamp="Mon, 26 Sep 2016 21:20:08 GMT">
+    tests="3" time="9.509" timestamp="Tue, 27 Sep 2016 18:03:37 GMT">
   
-    <testcase name="Step 1: page load" time="7.511" assertions="6">
+    <testcase name="Step 1: page load" time="7.756" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select text color" time="1.535" assertions="8">
+    <testcase name="Step 2: select text color" time="1.602" assertions="8">
 
     
 
@@ -41,7 +41,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text color" time="0.2190" assertions="1">
+    <testcase name="Step 3: verify text color" time="0.1510" assertions="1">
 
     
     </testcase>

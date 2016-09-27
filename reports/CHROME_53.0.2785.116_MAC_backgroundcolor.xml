@@ -5,9 +5,9 @@
 
   <testsuite name="backgroundcolor"
     errors="0" failures="0" hostname="" id="" package="backgroundcolor" skipped="0"
-    tests="3" time="9.126" timestamp="Mon, 26 Sep 2016 21:19:31 GMT">
+    tests="3" time="9.622" timestamp="Tue, 27 Sep 2016 18:02:38 GMT">
   
-    <testcase name="Step 1: page load" time="7.245" assertions="6">
+    <testcase name="Step 1: page load" time="7.874" assertions="6">
 
     
 
@@ -37,7 +37,7 @@
     at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
       </system-err>
   
-    <testcase name="Step 2: set text component background color to red" time="1.669" assertions="8">
+    <testcase name="Step 2: set text component background color to red" time="1.605" assertions="8">
 
     
 
@@ -71,7 +71,7 @@
     at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
       </system-err>
   
-    <testcase name="Step 3: verify background color is set" time="0.2120" assertions="1">
+    <testcase name="Step 3: verify background color is set" time="0.1430" assertions="1">
 
     
     </testcase>

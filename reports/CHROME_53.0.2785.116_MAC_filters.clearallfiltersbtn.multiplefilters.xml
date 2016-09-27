@@ -5,9 +5,9 @@
 
   <testsuite name="filters.clearallfiltersbtn.multiplefilters"
     errors="0" failures="2" hostname="" id="" package="filters.clearallfiltersbtn.multiplefilters" skipped="2"
-    tests="6" time="10.58" timestamp="Mon, 26 Sep 2016 17:54:46 GMT">
+    tests="6" time="11.17" timestamp="Tue, 27 Sep 2016 18:05:16 GMT">
   
-    <testcase name="Step 1: page load" time="6.930" assertions="6">
+    <testcase name="Step 1: page load" time="6.713" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select sepia" time="1.150" assertions="3">
+    <testcase name="Step 2: open filters panel and select sepia" time="1.680" assertions="3">
 
     
 
@@ -31,7 +31,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select saturate, hue rotate, and invert filters" time="2.108" assertions="10">
+    <testcase name="Step 3: select saturate, hue rotate, and invert filters" time="2.238" assertions="10">
 
       <failure message="Testing if value of &lt;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Saturate&quot;] input[type=&quot;text&quot;]&gt; contains: &quot;172&quot;.">    at Object.module.exports.Step 3: select saturate, hue rotate, and invert filters (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.multiplefilters.js:35:17)</failure>
 
@@ -54,7 +54,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: verify saturate, hue rotate, and invert is applied via css on the text component" time="0.3880" assertions="2">
+    <testcase name="Step 4: verify saturate, hue rotate, and invert is applied via css on the text component" time="0.5410" assertions="2">
 
       <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: saturate(1.72) hue-rotate(50deg) invert(0.86)&quot;.">    at Object.module.exports.Step 4: verify saturate, hue rotate, and invert is applied via css on the text component (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.multiplefilters.js:59:19)</failure>
 

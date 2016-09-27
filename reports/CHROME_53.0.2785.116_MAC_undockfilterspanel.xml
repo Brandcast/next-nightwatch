@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="3">
 
   <testsuite name="undockfilterspanel"
-    errors="0" failures="1" hostname="" id="" package="undockfilterspanel" skipped="2"
-    tests="3" time="9.641" timestamp="Mon, 26 Sep 2016 17:57:32 GMT">
+    errors="0" failures="0" hostname="" id="" package="undockfilterspanel" skipped="0"
+    tests="3" time="8.399" timestamp="Tue, 27 Sep 2016 18:08:07 GMT">
   
-    <testcase name="Step 1: page load" time="9.641" assertions="3">
+    <testcase name="Step 1: page load" time="7.459" assertions="6">
 
-      <failure message="Testing if element &lt;.website-tile-container&gt; is present.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:3:17)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/filterspanel/undockfilterspanel.js:10:14)</failure>
+    
 
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 5000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/filterspanel/undockfilterspanel.js:10:14)</failure>
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 2: open filters panel and consol log the x/y coordinates" time="0.4990" assertions="2">
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: open filters panel and consol log the x/y coordinates" time="0.4410" assertions="3">
+
     
-    <testcase
-      name="Step 2: open filters panel and consol log the x/y coordinates">
-      <skipped />
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 3: open filters panel and consol log the x/y coordinates">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>
