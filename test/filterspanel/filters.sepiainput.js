@@ -36,11 +36,11 @@ module.exports = {
       'Step 3: enter sepia via setvalue function' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Sepia"] input[type=text]', "")
         .setValue('.ui-wrapper[title="Sepia"] input[type=text]', '25')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
         .verify.valueContains('.ui-wrapper[title="Sepia"] input[type=text]', '25')
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.25)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.25)')
          browser.frame(null)
 
          .clearValue('.ui-wrapper[title="Sepia"] input[type=text]')
@@ -51,12 +51,12 @@ module.exports = {
         browser.verify.valueContains('.ui-wrapper[title="Sepia"] input[type=text]', "")
         .keys('2')
         .keys('5')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
         .verify.valueContains('.ui-wrapper[title="Sepia"] input[type=text]', '25')
 
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.25)')
+         .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused', '-webkit-filter', 'sepia(0.25)')
          browser.frame(null)
         
         .click('.ui-wrapper[title="Sepia"] input[type=text]')

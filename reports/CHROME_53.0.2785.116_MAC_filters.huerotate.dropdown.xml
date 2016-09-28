@@ -5,9 +5,9 @@
 
   <testsuite name="filters.huerotate.dropdown"
     errors="0" failures="1" hostname="" id="" package="filters.huerotate.dropdown" skipped="2"
-    tests="6" time="9.825" timestamp="Tue, 27 Sep 2016 18:06:13 GMT">
+    tests="6" time="10.56" timestamp="Wed, 28 Sep 2016 01:07:58 GMT">
   
-    <testcase name="Step 1: page load" time="7.462" assertions="6">
+    <testcase name="Step 1: page load" time="7.831" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select Hue Rotate" time="0.8900" assertions="3">
+    <testcase name="Step 2: open filters panel and select Hue Rotate" time="0.9870" assertions="3">
 
     
 
@@ -31,7 +31,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select Hue Rotate 50deg via drop-down-menu" time="0.7640" assertions="4">
+    <testcase name="Step 3: select Hue Rotate 50deg via drop-down-menu" time="0.8790" assertions="4">
 
     
 
@@ -42,9 +42,9 @@
     
     </testcase>
   
-    <testcase name="Step 4: select Hue Rotate 180deg via drop-down-menu" time="0.7090" assertions="3">
+    <testcase name="Step 4: select Hue Rotate 180deg via drop-down-menu" time="0.8630" assertions="3">
 
-      <failure message="Testing if value of &lt;[title=&quot;Hue Rotate&quot;] input[type=text]&gt; contains: &quot;180deg&quot;.">    at Object.module.exports.Step 4: select Hue Rotate 180deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:46:18)</failure>
+    
 
       <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: hue-rotate(180deg)&quot;.">    at Object.module.exports.Step 4: select Hue Rotate 180deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:49:18)</failure>
 
