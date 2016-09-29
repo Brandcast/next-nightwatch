@@ -36,17 +36,20 @@ module.exports = {
       'Step 3: select invert via slider' : function (browser) { 
         browser.moveToElement('[data-qa-id="invert-slider"]', 8,6)
         .mouseButtonDown(0)
+        .pause(300)
          browser.frame(0) //selects iframe - must call to select anything within iframe
           .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.08)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="invert-slider"]', 15, 6)
+        .pause(300)
          browser.frame(0) //selects iframe - must call to select anything within iframe
           .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.21)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="invert-slider"]', 50, 6)
         .mouseButtonUp(0)
+        .pause(300)
          browser.frame(0) //selects iframe - must call to select anything within iframe
           .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.86)')
         browser.frame(null);

@@ -28,33 +28,36 @@ module.exports = {
         browser.verify.elementPresent('[title="Saturate"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-input-container input[type="text"]')
         .waitForElementVisible('[data-qa-id="saturate-slider"]', 1000);
-
-        //page = browser.page.selectopacity();  
-          //browser.page.selectopacity();
     }, 
 
       'Step 3: select saturate via slider' : function (browser) { 
         browser.moveToElement('[data-qa-id="saturate-slider"]', 2,6)
         .mouseButtonDown(0)
+        .pause(300)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(0)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused', '-webkit-filter', 'saturate(0)')
         browser.frame(null);
 
+        browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-input-container input[type="text"]')
         browser.moveToElement('[data-qa-id="saturate-slider"]', 15, 6)
+        .mouseButtonDown(0)
+        .pause(500)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(0.42)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused', '-webkit-filter', 'saturate(0.42)')
         browser.frame(null);
 
+        // browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-input-container input[type="text"]')
         browser.moveToElement('[data-qa-id="saturate-slider"]', 50, 6)
         .mouseButtonUp(0)
+        .pause(500)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(1.72)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused', '-webkit-filter', 'saturate(1.72)')
         browser.frame(null);
-    },
+    // },
       
-      'Step 4: closepanel' : function (browser) {  
-        page = browser.page.closepanel();  
-          page.closepanel();
-      browser.end();
+    //   'Step 4: closepanel' : function (browser) {  
+    //     page = browser.page.closepanel();  
+    //       page.closepanel();
+    //   browser.end();
     }
 };

@@ -4,10 +4,10 @@
             tests="3">
 
   <testsuite name="selecthideonmobile"
-    errors="0" failures="1" hostname="" id="" package="selecthideonmobile" skipped="1"
-    tests="3" time="11.30" timestamp="Sat, 17 Sep 2016 05:36:34 GMT">
+    errors="0" failures="1" hostname="" id="" package="selecthideonmobile" skipped="2"
+    tests="3" time="10.88" timestamp="Wed, 28 Sep 2016 20:59:17 GMT">
   
-    <testcase name="Step 1: page load" time="9.971" assertions="8">
+    <testcase name="Step 1: page load" time="10.88" assertions="7">
 
     
 
@@ -19,19 +19,18 @@
 
     
 
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 2: select hide on mobile" time="1.333" assertions="1">  <failure message="Timed out while waiting for element &lt;.bc-text&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Step 2: select hide on mobile (/Users/kelli/Sites/nightwatch/test/smoketests/selecthideonmobile.js:24:11)</failure>
+      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 5000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/smoketests/selecthideonmobile.js:16:16)</failure>
 
     
     </testcase>
   
   
+    
+    <testcase
+      name="Step 2: select hide on mobile">
+      <skipped />
+    </testcase>
     
     <testcase
       name="Step 3: verify text component is hidden on mobile">

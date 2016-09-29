@@ -31,6 +31,7 @@ module.exports = {
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')
         .verify.elementPresent('[value="50deg"]')
         .keys(['50', browser.Keys.ENTER])
+        .pause(300)
         .verify.valueContains('[title="Hue Rotate"] input[type=text]', '50deg')
 
 
@@ -43,6 +44,7 @@ module.exports = {
          browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')
          .verify.elementPresent('[value="180deg"]')
          .keys(['180', browser.Keys.ENTER])
+         .pause(300)
          .verify.valueContains('[title="Hue Rotate"] input[type=text]', '180deg')
 
           browser.frame(0) //selects iframe - must call to select anything within iframe
@@ -60,6 +62,7 @@ module.exports = {
         browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')
          .verify.elementPresent('[value="90deg"]')
          .keys(['90', browser.Keys.ENTER])
+         .pause(300)
          .verify.valueContains('[title="Hue Rotate"] input[type=text]', '90deg')
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
@@ -77,6 +80,7 @@ module.exports = {
          browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')
          .verify.elementPresent('[value="0deg"]')
          .keys(['0', browser.Keys.ENTER])
+         .pause(300)
          .verify.valueContains('[title="Hue Rotate"] input[type=text]', '0deg')
 
           browser.frame(0) //selects iframe - must call to select anything within iframe

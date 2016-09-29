@@ -36,14 +36,15 @@ module.exports = {
       'Step 3: enter hue-rotate via setvalue function' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Hue Rotate"] input[type=text]', "")
         .setValue('.ui-wrapper[title="Hue Rotate"] input[type=text]', '25')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
+        .pause(300)
         .verify.valueContains('.ui-wrapper[title="Hue Rotate"] input[type=text]', '25')
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(25deg)')
          browser.frame(null)
 
-         .clearValue('.ui-wrapper[title="Hue Rotate"] input[type=text]')
+         .setValue('.ui-wrapper[title="Hue Rotate"] input[type=text]', '\u0008')
          .verify.valueContains('.ui-wrapper[title="Hue Rotate"] input[type=text]', "")
     },
 
@@ -51,18 +52,20 @@ module.exports = {
         browser.verify.valueContains('.ui-wrapper[title="Hue Rotate"] input[type=text]', "")
         .keys('2')
         .keys('5')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
+        .pause(300)
         .verify.valueContains('.ui-wrapper[title="Hue Rotate"] input[type=text]', '25')
 
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(25deg)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(25deg)')
          browser.frame(null)
         
         .click('.ui-wrapper[title="Hue Rotate"] input[type=text]')
         .keys('\u0008')
         .keys('\u0008')
         .keys('\u0008')
+        .pause(300)
         .verify.valueContains('.ui-wrapper[title="Hue Rotate"] input[type=text]', "")
     },
 
@@ -70,26 +73,28 @@ module.exports = {
         browser.verify.valueContains('.ui-wrapper[title="Hue Rotate"] input[type=text]', "")
         .keys('2')
         .keys('5')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
         .keys(browser.Keys.ARROW_UP)
         .verify.valueContains('.ui-wrapper[title="Hue Rotate"] input[type=text]', '27')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
+        .pause(300)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(27deg)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(27deg)')
         browser.frame(null)
 
         .keys(browser.Keys.ARROW_DOWN)
         .verify.valueContains('.ui-wrapper[title="Hue Rotate"] input[type=text]', '26')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
+        .pause(300)
 
         
         page = browser.page.closepanel();  
           page.closepanel();
       
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(26deg)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(26deg)')
         browser.frame(null);
       browser.end();
     }

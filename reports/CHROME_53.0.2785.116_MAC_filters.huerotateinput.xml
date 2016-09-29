@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="5">
 
   <testsuite name="filters.huerotateinput"
-    errors="0" failures="1" hostname="" id="" package="filters.huerotateinput" skipped="2"
-    tests="5" time="9.849" timestamp="Wed, 28 Sep 2016 01:08:09 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.huerotateinput" skipped="0"
+    tests="5" time="11.43" timestamp="Thu, 29 Sep 2016 23:01:47 GMT">
   
-    <testcase name="Step 1: page load" time="7.547" assertions="6">
+    <testcase name="Step 1: page load" time="7.299" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select hue-rotate" time="1.741" assertions="5">
+    <testcase name="Step 2: open filters panel and select hue-rotate" time="1.089" assertions="5">
 
     
 
@@ -35,27 +35,45 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter hue-rotate via setvalue function" time="0.5610" assertions="3">
+    <testcase name="Step 3: enter hue-rotate via setvalue function" time="0.6560" assertions="4">
 
     
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: hue-rotate(25deg)&quot;.">    at Object.module.exports.Step 3: enter hue-rotate via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:43:18)</failure>
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 4: enter hue-rotate via keystoke" time="0.9020" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow" time="1.488" assertions="7">
+
     
-    <testcase
-      name="Step 4: enter hue-rotate via keystoke">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

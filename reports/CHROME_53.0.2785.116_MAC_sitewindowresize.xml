@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
+<testsuites errors="1"
+            failures="1"
             tests="2">
 
   <testsuite name="sitewindowresize"
-    errors="0" failures="0" hostname="" id="" package="sitewindowresize" skipped="0"
-    tests="2" time="7.983" timestamp="Sat, 17 Sep 2016 05:37:00 GMT">
+    errors="1" failures="1" hostname="" id="" package="sitewindowresize" skipped="0"
+    tests="2" time="7.752" timestamp="Wed, 28 Sep 2016 20:59:43 GMT">
   
-    <testcase name="Step 1: page load" time="5.855" assertions="1">
+    <testcase name="Step 1: page load" time="4.633" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step two: open color panel and resize browser window" time="2.128" assertions="2">
+    <testcase name="Step two: open color panel and resize browser window" time="3.119" assertions="2">
 
-    
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Color&quot;. Element could not be located.">    at Object.opencolorpanelCommands.opencolorpanel (/Users/kelli/Sites/nightwatch/pages/opencolorpanel.js:5:15)
+    at Object.module.exports.Step two: open color panel and resize browser window (/Users/kelli/Sites/nightwatch/test/smoketests/sitewindowresize.js:11:14)</failure>
 
     
     </testcase>

@@ -36,7 +36,8 @@ module.exports = {
       'Step 3: enter opacity via setvalue function' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Opacity"] input[type=text]', "")
         .setValue('.ui-wrapper[title="Opacity"] input[type=text]', '25')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
+        .pause(300)
         .verify.valueContains('.ui-wrapper[title="Opacity"] input[type=text]', '25')
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
@@ -51,7 +52,8 @@ module.exports = {
         browser.verify.valueContains('.ui-wrapper[title="Opacity"] input[type=text]', "")
         .keys('2')
         .keys('5')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
+        .pause(300)
         .verify.valueContains('.ui-wrapper[title="Opacity"] input[type=text]', '25')
 
 
@@ -63,6 +65,7 @@ module.exports = {
         .keys('\u0008')
         .keys('\u0008')
         .keys('\u0008')
+        .pause(300)
         .verify.valueContains('.ui-wrapper[title="Opacity"] input[type=text]', "")
     },
 
@@ -70,11 +73,15 @@ module.exports = {
         browser.verify.valueContains('.ui-wrapper[title="Opacity"] input[type=text]', "")
         .keys('2')
         .keys('5')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
         .keys(browser.Keys.ARROW_UP)
+        .keys('\uE007')
+        .pause(300)
         .verify.valueContains('.ui-wrapper[title="Opacity"] input[type=text]', '27')
         .keys(browser.Keys.ARROW_DOWN)
+        .keys('\uE007')
+        .pause(300)
         .verify.valueContains('.ui-wrapper[title="Opacity"] input[type=text]', '26')
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
@@ -87,6 +94,7 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'opacity(0.26)')
         browser.frame(null);
+      
       browser.end();
     }
 };

@@ -3,9 +3,9 @@
             failures="0"
             tests="2">
 
-  <testsuite name="selecttextcomponent"
-    errors="0" failures="0" hostname="" id="" package="selecttextcomponent" skipped="2"
-    tests="2" time="0.000" timestamp="Wed, 28 Sep 2016 20:59:28 GMT">
+  <testsuite name="strokepanel"
+    errors="0" failures="0" hostname="" id="" package="strokepanel" skipped="2"
+    tests="2" time="0.000" timestamp="Wed, 28 Sep 2016 21:45:09 GMT">
   
   
     
@@ -15,7 +15,7 @@
     </testcase>
     
     <testcase
-      name="Step 2: click-on text component">
+      name="Step 2: open stroke panel">
       <skipped />
     </testcase>
     

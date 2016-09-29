@@ -5,6 +5,9 @@ module.exports = {
 
       page.navigate()
         page.pageload();
+
+      page = browser.page.openwebsitebtn();
+        page.openwebsitebtn();
     
       page = browser.page.opensitemap();
         page.opensitemap();
@@ -15,9 +18,9 @@ module.exports = {
 
     'Step 2: select stroke color' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        .waitForElementVisible('.bc-text', 1000)
-        .click('.bc-text')
-        .frame(null) //closes iframe
+        .waitForElementVisible('.component-wrapper.bc-text-wrapper', 1000)
+        .click('.component-wrapper.bc-text-wrapper')
+      browser.frame(null) //closes iframe
 
       page = browser.page.opencolorpanel();
         page.opencolorpanel();
@@ -37,8 +40,8 @@ module.exports = {
     },
         'Step 3: verify color applied via css': function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        //.assert.cssProperty('.component-wrapper .bc-text', 'border-color', 'rgba(0, 0, 0, 1)')
-        //browser.frame(null)
-        //browser.end();
+        .assert.cssProperty('.component-wrapper.bc-text-wrapper.focused', 'border-color', 'rgba(0, 0, 0, 1)')
+        browser.frame(null)
+        browser.end();
     }
 };

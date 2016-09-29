@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="0"
+<testsuites errors="0"
+            failures="1"
             tests="3">
 
   <testsuite name="textcoloropacity"
-    errors="1" failures="0" hostname="" id="" package="textcoloropacity" skipped="1"
-    tests="3" time="6.863" timestamp="Wed, 28 Sep 2016 00:45:29 GMT">
+    errors="0" failures="1" hostname="" id="" package="textcoloropacity" skipped="2"
+    tests="3" time="11.59" timestamp="Wed, 28 Sep 2016 20:50:49 GMT">
   
-    <testcase name="Step 1: page load" time="6.834" assertions="6">
+    <testcase name="Step 1: page load" time="11.59" assertions="5">
 
     
 
@@ -15,17 +15,18 @@
 
     
 
-    
-
-    
+      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 5000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/colorpanel/textcoloropacity.js:13:16)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 2: open color panel and select opacity via slider" time="0.02900" assertions="0">
+  
+    
+    <testcase
+      name="Step 2: open color panel and select opacity via slider">
+      <skipped />
     </testcase>
-  
-  
     
     <testcase
       name="Step 3: verify opacity">

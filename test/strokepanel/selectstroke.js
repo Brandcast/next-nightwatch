@@ -5,6 +5,9 @@ module.exports = {
 
       page.navigate()
         page.pageload();
+
+      page = browser.page.openwebsitebtn();
+        page.openwebsitebtn();
     
       page = browser.page.opensitemap();
         page.opensitemap();
@@ -31,7 +34,7 @@ module.exports = {
 
     'Step 3: verify text component has 4 sided border' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        .assert.cssProperty('.focused.component-wrapper', 'border-width', '1px')
+        .assert.cssProperty('.focused.component-wrapper', 'border-width', '3px')
       browser.frame(null)
      browser.end();
     }

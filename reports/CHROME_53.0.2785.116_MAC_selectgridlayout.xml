@@ -4,10 +4,10 @@
             tests="3">
 
   <testsuite name="selectgridlayout"
-    errors="0" failures="1" hostname="" id="" package="selectgridlayout" skipped="1"
-    tests="3" time="9.494" timestamp="Sat, 17 Sep 2016 05:36:25 GMT">
+    errors="0" failures="1" hostname="" id="" package="selectgridlayout" skipped="2"
+    tests="3" time="11.00" timestamp="Wed, 28 Sep 2016 20:59:06 GMT">
   
-    <testcase name="Step 1: page load" time="8.295" assertions="8">
+    <testcase name="Step 1: page load" time="11.00" assertions="7">
 
     
 
@@ -19,19 +19,18 @@
 
     
 
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 2: select grid layout and open dimensions panel" time="1.199" assertions="1">  <failure message="Timed out while waiting for element &lt;.bc-text&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Step 2: select grid layout and open dimensions panel (/Users/kelli/Sites/nightwatch/test/smoketests/selectgridlayout.js:24:10)</failure>
+      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 5000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/smoketests/selectgridlayout.js:16:16)</failure>
 
     
     </testcase>
   
   
+    
+    <testcase
+      name="Step 2: select grid layout and open dimensions panel">
+      <skipped />
+    </testcase>
     
     <testcase
       name="Step 3: apply and verify 5 gutter width via slider">

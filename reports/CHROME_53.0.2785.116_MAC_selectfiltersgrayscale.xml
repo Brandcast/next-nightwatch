@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="4">
 
   <testsuite name="selectfiltersgrayscale"
-    errors="0" failures="1" hostname="" id="" package="selectfiltersgrayscale" skipped="2"
-    tests="4" time="9.071" timestamp="Sat, 17 Sep 2016 05:36:16 GMT">
+    errors="0" failures="0" hostname="" id="" package="selectfiltersgrayscale" skipped="0"
+    tests="4" time="10.24" timestamp="Wed, 28 Sep 2016 20:58:56 GMT">
   
-    <testcase name="Step 1: page load" time="7.821" assertions="6">
+    <testcase name="Step 1: page load" time="7.460" assertions="6">
 
     
 
@@ -22,23 +22,33 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select grayscale" time="1.250" assertions="1">  <failure message="Timed out while waiting for element &lt;.bc-text&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Step 2: open filters panel and select grayscale (/Users/kelli/Sites/nightwatch/test/smoketests/selectfiltersgrayscale.js:21:12)</failure>
+    <testcase name="Step 2: open filters panel and select grayscale" time="1.631" assertions="5">
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 3: select grayscale via slider" time="0.6270" assertions="2">
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 4: verify grayscale is applied" time="0.5180" assertions="2">
+
     
-    <testcase
-      name="Step 3: select grayscale via slider">
-      <skipped />
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 4: verify grayscale is applied">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

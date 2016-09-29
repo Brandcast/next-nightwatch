@@ -34,6 +34,7 @@ module.exports = {
       'Step 3: select blur 5px via drop-down-menu' : function (browser) { 
         browser.verify.elementPresent('[value="5px"]')
         .keys('5')
+        .pause(300)
         .verify.valueContains('[title="Blur"] input[type=text]', '5px')
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
@@ -61,7 +62,8 @@ module.exports = {
         .keys('\u0008')
         .keys('\u0008')
         //.keys(browser.Keys.DELETE)
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
+        .pause(300)
 
         .verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', '')
 

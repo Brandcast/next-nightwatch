@@ -36,19 +36,22 @@ module.exports = {
       'Step 3: select contrast via slider' : function (browser) { 
         browser.moveToElement('[data-qa-id="contrast-slider"]', 5,6)
         .mouseButtonDown(0)
+        .pause(300)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(0)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(0.1)')
         browser.frame(null);
         
         browser.moveToElement('[data-qa-id="contrast-slider"]', 15, 6)
+        .pause(300)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(1.05)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(1.05)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="contrast-slider"]', 50, 6)
+        .pause(300)
         .mouseButtonUp(0)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(4.3)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(4.3)')
         browser.frame(null);  
     },
       

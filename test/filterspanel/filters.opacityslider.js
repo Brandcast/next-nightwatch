@@ -36,17 +36,20 @@ module.exports = {
       'Step 3: select opacity via slider' : function (browser) { 
         browser.moveToElement('[data-qa-id="opacity-slider"]', 8,6)
         .mouseButtonDown(0)
+        .pause(300)
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'opacity(0.08)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="opacity-slider"]', 15, 6)
+        .pause(300)
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'opacity(0.21)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="opacity-slider"]', 50, 6)
         .mouseButtonUp(0)
+        .pause(300)
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'opacity(0.86)')
         browser.frame(null);
@@ -55,6 +58,7 @@ module.exports = {
       'Step 4: close panel' : function (browser) { 
        page = browser.page.closepanel();  
           page.closepanel();
+      
       browser.end();
     }
 };

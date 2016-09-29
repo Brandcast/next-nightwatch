@@ -26,36 +26,44 @@ module.exports = {
           page.openfilterspanel();   
 
         browser.verify.elementPresent('[title="Sepia"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-input-container input[type="text"]')
-        .verify.elementPresent('[data-qa-id="sepia-slider"]');
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-input-container input[type=text]')
+        .waitForElementVisible('[data-qa-id="sepia-slider"]', 1000);
+
 
         //page = browser.page.selectopacity();  
           //browser.page.selectopacity();
     }, 
 
-      'Step 3: select sepia via slider' : function (browser) { 
-        browser.moveToElement('[data-qa-id="sepia-slider"]', 10,6)
-        .mouseButtonDown(0)
-        browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.12)')
-        browser.frame(null);
+      'Step 3: select sepia via slider and verify css has been applied' : function (browser) { 
+         browser.moveToElement('[data-qa-id="sepia-slider"]', 10,4)
+          .mouseButtonClick(0)
+          .pause(300)
+          browser.frame(0) //selects iframe - must call to select anything within iframe
+            .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.12)')
+          browser.frame(null);
 
-        browser.moveToElement('[data-qa-id="sepia-slider"]', 30, 6)
-        browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.49)')
-        browser.frame(null);
+          browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-input-container input[type=text]')
+          browser.moveToElement('[data-qa-id="sepia-slider"]', 30,4)
+          .mouseButtonClick(0)
+          .pause(300)
+          browser.frame(0) //selects iframe - must call to select anything within iframe
+            .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.49)')
+          browser.frame(null);
 
-        browser.moveToElement('[data-qa-id="sepia-slider"]', 50, 6)
-        .mouseButtonUp(0)
-        browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.86)')
-        browser.frame(null);
+          browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-input-container input[type=text]')
+          browser.moveToElement('[data-qa-id="sepia-slider"]', 50,4)
+          .mouseButtonClick(0)
+          .pause(300)
+          browser.frame(0) //selects iframe - must call to select anything within iframe
+            .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.86)')
+          browser.frame(null);
     },
       
       'Step 4: close panel' : function (browser) { 
-           page = browser.page.closepanel();  
+         page = browser.page.closepanel();  
           page.closepanel();
-        browser.frame(null);
-      //browser.end();
+         
+        browser.end();
     }
-};
+  };
+

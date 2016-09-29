@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="dimensionspanel"
+    errors="0" failures="1" hostname="" id="" package="dimensionspanel" skipped="0"
+    tests="2" time="6.325" timestamp="Wed, 28 Sep 2016 20:47:53 GMT">
+  
+    <testcase name="step 1: load page" time="5.381" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open and clsoe dimensions panel" time="0.9440" assertions="4">
+
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Dimensions&quot;.">    at Object.opendimensionspanelCommands.opendimensionspanel (/Users/kelli/Sites/nightwatch/pages/opendimensionspanel.js:5:15)
+    at Object.module.exports.step 2: open and clsoe dimensions panel (/Users/kelli/Sites/nightwatch/test/dimensionspanel/dimensionspanel.js:15:16)</failure>
+
+      <failure message="Testing if element &lt;.panel-body&gt; is present.">    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:3:17)
+    at Object.module.exports.step 2: open and clsoe dimensions panel (/Users/kelli/Sites/nightwatch/test/dimensionspanel/dimensionspanel.js:18:16)</failure>
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

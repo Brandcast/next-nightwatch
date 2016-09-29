@@ -28,10 +28,12 @@ module.exports = {
 
       'Step 3: select saturate, hue rotate, and invert filters' : function (browser) { 
         browser.verify.elementPresent('[title="Saturate"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-input-container .select-input-wrapper input[type="text"]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-input-container input[type="text"]')
+        .waitForElementVisible('[data-qa-id="saturate-slider"]', 1000)
         .moveToElement('[data-qa-id="saturate-slider"]', 50, 6)
-        .mouseButtonDown(0)
-        .mouseButtonUp(0) 
+        .mouseButtonClick(0)
+        //.mouseButtonUp(0) 
+        .pause(300)
         .verify.valueContains('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] input[type="text"]', '172')
 
         browser.verify.elementPresent('[title="Hue Rotate"]')
@@ -43,10 +45,11 @@ module.exports = {
         browser.verify.elementPresent('[title="Invert"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Invert"] .select-input-container input[type="text"]')
         .waitForElementVisible('[data-qa-id="invert-slider"]', 1000);
-        browser.moveToElement('[data-qa-id="invert-slider"]', 50, 6)
+        browser.moveToElement('[data-qa-id="invert-slider"]', 50,6)
         .mouseButtonDown(0)
         .mouseButtonUp(0)
         .verify.valueContains('[title="Invert"] input[type=text]', '86')
+        .pause(300)
 
         page = browser.page.closepanel();  
           page.closepanel();

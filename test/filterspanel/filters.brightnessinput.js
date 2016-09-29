@@ -36,8 +36,9 @@ module.exports = {
       'Step 3: enter brightness via setvalue function' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', "")
         .setValue('.ui-wrapper[title="Brightness"] input[type=text]', '25')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
         .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', '25')
+        .pause(300)
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0.25)')
@@ -51,7 +52,7 @@ module.exports = {
         browser.verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', "")
         .keys('2')
         .keys('5')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
         .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', '25')
 
 
@@ -70,26 +71,27 @@ module.exports = {
         browser.verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', "")
         .keys('2')
         .keys('5')
-        .keys(browser.Keys.RETURN)
+        .keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
         .keys(browser.Keys.ARROW_UP)
-        .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', '27')
-        .keys(browser.Keys.RETURN)
+        .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', '35')
+        .keys('\uE007')
+        .pause(300)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0.27)')
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0.35)')
         browser.frame(null)
 
         .keys(browser.Keys.ARROW_DOWN)
-        .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', '26')
-        .keys(browser.Keys.RETURN)
+        .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', '30')
+        .keys('\uE007')
 
         
         page = browser.page.closepanel();  
           page.closepanel();
       
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0.26)')
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0.3)')
         browser.frame(null);
       browser.end();
     }

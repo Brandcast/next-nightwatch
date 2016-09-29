@@ -36,19 +36,22 @@ module.exports = {
       'Step 3: select grayscale via slider' : function (browser) { 
         browser.moveToElement('[data-qa-id="grayscale-slider"]', 8,6)
         .mouseButtonDown(0)
+        .pause(300)
          browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.08)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.08)')
         browser.frame(null);
        
         browser.moveToElement('[data-qa-id="grayscale-slider"]', 15, 6)
+        .pause(300)
          browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.21)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.21)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="grayscale-slider"]', 50, 6)
+        .pause(300)
         .mouseButtonUp(0)
          browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.86)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.86)')
         browser.frame(null);
     },
       

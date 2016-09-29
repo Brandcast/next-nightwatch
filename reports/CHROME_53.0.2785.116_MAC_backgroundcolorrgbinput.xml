@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="5">
 
   <testsuite name="backgroundcolorrgbinput"
-    errors="0" failures="0" hostname="" id="" package="backgroundcolorrgbinput" skipped="0"
-    tests="5" time="9.954" timestamp="Wed, 28 Sep 2016 00:44:31 GMT">
+    errors="0" failures="1" hostname="" id="" package="backgroundcolorrgbinput" skipped="0"
+    tests="5" time="9.945" timestamp="Wed, 28 Sep 2016 20:49:49 GMT">
   
-    <testcase name="Step 1: page load" time="7.308" assertions="6">
+    <testcase name="Step 1: page load" time="6.762" assertions="6">
 
     
 
@@ -21,23 +21,8 @@
 
     
     </testcase>
-      <system-err>
-          Error while running [Textcoloropacity / Step 2: open color panel and select opacity via slider]:
-
-  TypeError: undefined is not a function
-    at Object.opacitysliderCommands.opacityslider (/Users/kelli/Sites/nightwatch/pages/opacityslider.js:6:14)
-    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/colorpanel/textcoloropacity.js:32:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 2: click on red input field, enter number and verify input value" time="1.463" assertions="7">
+    <testcase name="Step 2: click on red input field, enter number and verify input value" time="2.160" assertions="7">
 
     
 
@@ -53,87 +38,27 @@
 
     
     </testcase>
-      <system-err>
-          Error while running [Textcoloropacity / Step 2: open color panel and select opacity via slider]:
-
-  TypeError: undefined is not a function
-    at Object.opacitysliderCommands.opacityslider (/Users/kelli/Sites/nightwatch/pages/opacityslider.js:6:14)
-    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/colorpanel/textcoloropacity.js:32:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 3: click on green input field, enter number and verify input value" time="0.4040" assertions="2">
+    <testcase name="Step 3: click on green input field, enter number and verify input value" time="0.3670" assertions="2">
 
     
 
     
     </testcase>
-      <system-err>
-          Error while running [Textcoloropacity / Step 2: open color panel and select opacity via slider]:
-
-  TypeError: undefined is not a function
-    at Object.opacitysliderCommands.opacityslider (/Users/kelli/Sites/nightwatch/pages/opacityslider.js:6:14)
-    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/colorpanel/textcoloropacity.js:32:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 4: click on blue input field, enter number and verify input value" time="0.4480" assertions="2">
+    <testcase name="Step 4: click on blue input field, enter number and verify input value" time="0.3500" assertions="2">
 
     
 
     
     </testcase>
-      <system-err>
-          Error while running [Textcoloropacity / Step 2: open color panel and select opacity via slider]:
-
-  TypeError: undefined is not a function
-    at Object.opacitysliderCommands.opacityslider (/Users/kelli/Sites/nightwatch/pages/opacityslider.js:6:14)
-    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/colorpanel/textcoloropacity.js:32:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 5: verify hex code in color panel and background color css value" time="0.3310" assertions="2">
+    <testcase name="Step 5: verify hex code in color panel and background color css value" time="0.3060" assertions="2">
 
-    
+      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused[data-qa-id=&quot;/grid/column/text&quot;]&gt; has css property &quot;background-color: rgba(60, 40, 20, 1)&quot;.">    at Object.module.exports.Step 5: verify hex code in color panel and background color css value (/Users/kelli/Sites/nightwatch/test/colorpanel/backgroundcolorrgbinput.js:68:28)</failure>
 
     
     </testcase>
-      <system-err>
-          Error while running [Textcoloropacity / Step 2: open color panel and select opacity via slider]:
-
-  TypeError: undefined is not a function
-    at Object.opacitysliderCommands.opacityslider (/Users/kelli/Sites/nightwatch/pages/opacityslider.js:6:14)
-    at Object.module.exports.Step 2: open color panel and select opacity via slider (/Users/kelli/Sites/nightwatch/test/colorpanel/textcoloropacity.js:32:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
   
   </testsuite>

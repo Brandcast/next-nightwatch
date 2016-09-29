@@ -4,10 +4,10 @@
             tests="4">
 
   <testsuite name="filters.sepiaslider"
-    errors="0" failures="1" hostname="" id="" package="filters.sepiaslider" skipped="1"
-    tests="4" time="9.364" timestamp="Wed, 28 Sep 2016 01:09:40 GMT">
+    errors="0" failures="1" hostname="" id="" package="filters.sepiaslider" skipped="0"
+    tests="4" time="10.88" timestamp="Thu, 29 Sep 2016 23:03:28 GMT">
   
-    <testcase name="Step 1: page load" time="7.893" assertions="6">
+    <testcase name="Step 1: page load" time="6.607" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select sepia" time="1.136" assertions="5">
+    <testcase name="Step 2: open filters panel and select sepia" time="2.329" assertions="5">
 
     
 
@@ -35,18 +35,22 @@
     
     </testcase>
   
-    <testcase name="Step 3: select sepia via slider" time="0.3350" assertions="1">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: sepia(0.12)&quot;.">    at Object.module.exports.Step 3: select sepia via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.sepiaslider.js:40:19)</failure>
+    <testcase name="Step 3: select sepia via slider and verify css has been applied" time="1.610" assertions="3">
+
+      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: sepia(0.49)&quot;.">    at Object.module.exports.Step 3: select sepia via slider and verify css has been applied (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.sepiaslider.js:50:21)</failure>
+
+      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: sepia(0.86)&quot;.">    at Object.module.exports.Step 3: select sepia via slider and verify css has been applied (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.sepiaslider.js:58:21)</failure>
 
     
     </testcase>
   
-  
+    <testcase name="Step 4: close panel" time="0.3310" assertions="2">
+
     
-    <testcase
-      name="Step 4: close panel">
-      <skipped />
+
+    
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

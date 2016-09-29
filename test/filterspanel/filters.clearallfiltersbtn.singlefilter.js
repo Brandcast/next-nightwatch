@@ -27,7 +27,8 @@ module.exports = {
 
         browser.verify.elementPresent('[title="Sepia"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-input-container input[type="text"]')
-        .verify.elementPresent('[data-qa-id="sepia-slider"]');
+        .waitForElementVisible('[data-qa-id="sepia-slider"]', 1000);
+        //.verify.elementPresent('[data-qa-id="sepia-slider"]');
 
     }, 
 
@@ -35,6 +36,7 @@ module.exports = {
         browser.moveToElement('[data-qa-id="sepia-slider"]', 50, 6)
         .mouseButtonDown(0)
         .mouseButtonUp(0) 
+        .pause(300)
         .verify.valueContains('[title="Sepia"] input[type=text]', '86')
 
         page = browser.page.closepanel();  
