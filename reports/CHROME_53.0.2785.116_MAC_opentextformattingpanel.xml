@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="opentextformattingpanel"
+    errors="0" failures="0" hostname="" id="" package="opentextformattingpanel" skipped="0"
+    tests="3" time="9.688" timestamp="Fri, 30 Sep 2016 00:05:38 GMT">
+  
+    <testcase name="step 1: load page" time="6.799" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open site map" time="2.315" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 3: open transform panel" time="0.5740" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

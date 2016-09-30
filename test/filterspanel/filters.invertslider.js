@@ -58,6 +58,7 @@ module.exports = {
       'Step 4: close panel' : function (browser) { 
        page = browser.page.closepanel();  
           page.closepanel();
+      
       browser.end();
     }
 };

@@ -13,11 +13,14 @@ module.exports = {
   'step 2: open site map' : function (browser) {
     var page = browser.page.opensitemap();
       page.opensitemap(); 
+
+    page = browser.page.opensite();
+      page.opensite(); 
   },
 
-  'step 3: open gloabl styles menu' : function (browser) {
-     var page = browser.page.globalstylesbtn();
-      page.globalstylesbtn(); 
+  'step 3: open transform panel' : function (browser) {
+     var page = browser.page.opentransformpanel();
+      page.opentransformpanel(); 
 
       browser.end()
   },

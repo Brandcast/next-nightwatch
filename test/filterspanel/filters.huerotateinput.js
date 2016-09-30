@@ -96,6 +96,7 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(26deg)')
         browser.frame(null);
+      
       browser.end();
     }
 };

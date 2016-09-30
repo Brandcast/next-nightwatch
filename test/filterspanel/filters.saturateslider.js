@@ -53,11 +53,12 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused', '-webkit-filter', 'saturate(1.72)')
         browser.frame(null);
-    // },
+    },
       
-    //   'Step 4: closepanel' : function (browser) {  
-    //     page = browser.page.closepanel();  
-    //       page.closepanel();
-    //   browser.end();
+      'Step 4: closepanel' : function (browser) {  
+        page = browser.page.closepanel();  
+          page.closepanel();
+        
+        browser.end();
     }
 };

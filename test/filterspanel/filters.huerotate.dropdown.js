@@ -89,6 +89,7 @@ module.exports = {
       
         page = browser.page.closepanel();  
           page.closepanel();
+      
       browser.end();
     }
 };

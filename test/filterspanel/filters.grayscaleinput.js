@@ -92,6 +92,7 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.26)')
         browser.frame(null);
+      
       browser.end();
     }
 };
