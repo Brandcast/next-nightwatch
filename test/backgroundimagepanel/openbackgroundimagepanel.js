@@ -19,8 +19,8 @@ module.exports = {
   },
 
   'step 3: open transform panel' : function (browser) {
-     var page = browser.page.opentextformattingpanel();
-      page.opentextformattingpanel(); 
+     var page = browser.page.openbackgroundimagepanel();
+      page.openbackgroundimagepanel(); 
 
       browser.end()
   },
