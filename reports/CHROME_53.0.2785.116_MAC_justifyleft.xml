@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="justifyleft"
+    errors="0" failures="1" hostname="" id="" package="justifyleft" skipped="0"
+    tests="5" time="9.096" timestamp="Sat, 01 Oct 2016 01:46:10 GMT">
+  
+    <testcase name="step 1: load page" time="5.082" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open site map" time="2.352" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 3: select text component" time="0.6550" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="step 4: open text formatting panel" time="0.5810" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 5: disable/enable left justify" time="0.4260" assertions="3">
+
+    
+
+      <failure message="Expected element &lt;.component-wrapper.bc-text-wrapper.focused&gt; to have css property &quot;text-align&quot; which not equals: &quot;left&quot;">    at Object.module.exports.step 5: disable/enable left justify (/Users/kelli/Sites/nightwatch/test/textformattingpanel/justifyleft.js:40:26)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
