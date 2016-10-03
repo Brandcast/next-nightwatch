@@ -1,57 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="5">
 
   <testsuite name="justifiedtext"
-    errors="0" failures="0" hostname="" id="" package="justifiedtext" skipped="0"
-    tests="5" time="9.477" timestamp="Sat, 01 Oct 2016 01:45:51 GMT">
+    errors="0" failures="1" hostname="" id="" package="justifiedtext" skipped="4"
+    tests="5" time="1.690" timestamp="Mon, 03 Oct 2016 21:21:07 GMT">
   
-    <testcase name="step 1: load page" time="5.117" assertions="3">
-
-    
-
-    
+    <testcase name="step 1: load page" time="1.690" assertions="1">  <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:5:17)
+    at Object.module.exports.step 1: load page (/Users/kelli/Sites/nightwatch/test/textformattingpanel/justifiedtext.js:10:12)</failure>
 
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="2.375" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
   
-    <testcase name="step 3: select text component" time="0.6940" assertions="1">
-
     
+    <testcase
+      name="step 2: open site map and website">
+      <skipped />
     </testcase>
-  
-    <testcase name="step 4: open text formatting panel" time="0.6070" assertions="2">
-
     
-
-    
+    <testcase
+      name="step 3: select text component">
+      <skipped />
     </testcase>
-  
-    <testcase name="step 5: disable/enable justified text justify" time="0.6840" assertions="6">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="step 4: open text formatting panel">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="step 5: disable/enable justified text justify">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

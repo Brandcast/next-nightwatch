@@ -5,9 +5,9 @@
 
   <testsuite name="opentransformpanel"
     errors="0" failures="0" hostname="" id="" package="opentransformpanel" skipped="0"
-    tests="3" time="7.847" timestamp="Fri, 30 Sep 2016 00:06:04 GMT">
+    tests="3" time="8.665" timestamp="Mon, 03 Oct 2016 21:21:42 GMT">
   
-    <testcase name="step 1: load page" time="5.080" assertions="3">
+    <testcase name="step 1: load page" time="5.580" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="1.594" assertions="3">
+    <testcase name="step 2: open site map" time="2.299" assertions="3">
 
     
 
@@ -25,7 +25,7 @@
     
     </testcase>
   
-    <testcase name="step 3: open transform panel" time="1.173" assertions="2">
+    <testcase name="step 3: open transform panel" time="0.7860" assertions="2">
 
     
 

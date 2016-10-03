@@ -5,27 +5,14 @@
 
   <testsuite name="newwebsitename"
     errors="1" failures="1" hostname="" id="" package="newwebsitename" skipped="0"
-    tests="2" time="7.387" timestamp="Wed, 28 Sep 2016 20:53:25 GMT">
+    tests="2" time="7.246" timestamp="Mon, 03 Oct 2016 21:15:43 GMT">
   
-    <testcase name="step 1: load page" time="4.223" assertions="1">
+    <testcase name="step 1: load page" time="5.049" assertions="1">
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.text-input [name=&quot;websiteName&quot;]&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.newwebsitenameinputCommands.newwebsitenameinput (/Users/kelli/Sites/nightwatch/pages/newwebsitenameinput.js:4:9)
-    at Object.module.exports.step 2: select &quot;new website&quot; button (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:17:14)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-      </system-err>
   
-    <testcase name="step 2: select &quot;new website&quot; button" time="3.164" assertions="3">
+    <testcase name="step 2: select &quot;new website&quot; button" time="2.197" assertions="3">
 
       <failure message="Testing if element &lt;.text-input [name=&quot;websiteName&quot;]&gt; is present.">    at Object.newwebsitenameinputCommands.newwebsitenameinput (/Users/kelli/Sites/nightwatch/pages/newwebsitenameinput.js:3:17)
     at Object.module.exports.step 2: select &quot;new website&quot; button (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:17:14)</failure>
@@ -35,19 +22,6 @@
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.text-input [name=&quot;websiteName&quot;]&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.newwebsitenameinputCommands.newwebsitenameinput (/Users/kelli/Sites/nightwatch/pages/newwebsitenameinput.js:4:9)
-    at Object.module.exports.step 2: select &quot;new website&quot; button (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:17:14)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-      </system-err>
   
   
   </testsuite>

@@ -5,9 +5,9 @@
 
   <testsuite name="selecthideonmobile"
     errors="0" failures="1" hostname="" id="" package="selecthideonmobile" skipped="2"
-    tests="3" time="10.88" timestamp="Wed, 28 Sep 2016 20:59:17 GMT">
+    tests="3" time="11.17" timestamp="Mon, 03 Oct 2016 21:19:53 GMT">
   
-    <testcase name="Step 1: page load" time="10.88" assertions="7">
+    <testcase name="Step 1: page load" time="11.17" assertions="7">
 
     
 

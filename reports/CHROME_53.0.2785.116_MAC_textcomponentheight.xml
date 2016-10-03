@@ -5,9 +5,9 @@
 
   <testsuite name="textcomponentheight"
     errors="0" failures="0" hostname="" id="" package="textcomponentheight" skipped="0"
-    tests="2" time="8.580" timestamp="Wed, 28 Sep 2016 20:59:50 GMT">
+    tests="2" time="9.848" timestamp="Mon, 03 Oct 2016 21:20:28 GMT">
   
-    <testcase name="Step 1: page load" time="7.229" assertions="6">
+    <testcase name="Step 1: page load" time="8.404" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open dimensions panel and select height from drop down menu" time="1.351" assertions="4">
+    <testcase name="Step 2: open dimensions panel and select height from drop down menu" time="1.444" assertions="4">
 
     
 

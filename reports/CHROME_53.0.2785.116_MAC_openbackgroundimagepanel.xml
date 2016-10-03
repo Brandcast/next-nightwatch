@@ -5,9 +5,9 @@
 
   <testsuite name="openbackgroundimagepanel"
     errors="0" failures="0" hostname="" id="" package="openbackgroundimagepanel" skipped="0"
-    tests="3" time="8.847" timestamp="Fri, 30 Sep 2016 23:14:20 GMT">
+    tests="3" time="12.37" timestamp="Mon, 03 Oct 2016 21:06:42 GMT">
   
-    <testcase name="step 1: load page" time="5.578" assertions="3">
+    <testcase name="step 1: load page" time="8.476" assertions="3">
 
     
 
@@ -15,8 +15,146 @@
 
     
     </testcase>
+      <system-err>
+          Error while running [Selectdimension / Step 1: page load]:
+
+  ReferenceError: clear is not defined
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/dimensionspanel/selectdimension.js:10:9)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
+ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
+    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
+    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysiteeditor.js:23:12)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
+    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
+    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysitemap.js:20:12)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.text-input [name=&quot;websiteName&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.newwebsitenameinputCommands.newwebsitenameinput (/Users/kelli/Sites/nightwatch/pages/newwebsitenameinput.js:4:9)
+    at Object.module.exports.step 2: select &quot;new website&quot; button (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:17:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 2: open and close filters panel (/Users/kelli/Sites/nightwatch/test/smoketests/filterspanel.js:15:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 2: open and close show/hide panel (/Users/kelli/Sites/nightwatch/test/smoketests/showhidepanel.js:14:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+  Error while running [Selectstrokecolor / Step 2: select stroke color]:
+
+  TypeError: undefined is not a function
+    at Object.module.exports.Step 2: select stroke color (/Users/kelli/Sites/nightwatch/test/strokepanel/selectstrokecolor.js:28:27)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
+      </system-err>
   
-    <testcase name="step 2: open site map" time="2.498" assertions="3">
+    <testcase name="step 2: open site map" time="2.895" assertions="3">
 
     
 
@@ -24,13 +162,289 @@
 
     
     </testcase>
+      <system-err>
+          Error while running [Selectdimension / Step 1: page load]:
+
+  ReferenceError: clear is not defined
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/dimensionspanel/selectdimension.js:10:9)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
+ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
+    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
+    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysiteeditor.js:23:12)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
+    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
+    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysitemap.js:20:12)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.text-input [name=&quot;websiteName&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.newwebsitenameinputCommands.newwebsitenameinput (/Users/kelli/Sites/nightwatch/pages/newwebsitenameinput.js:4:9)
+    at Object.module.exports.step 2: select &quot;new website&quot; button (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:17:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 2: open and close filters panel (/Users/kelli/Sites/nightwatch/test/smoketests/filterspanel.js:15:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 2: open and close show/hide panel (/Users/kelli/Sites/nightwatch/test/smoketests/showhidepanel.js:14:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+  Error while running [Selectstrokecolor / Step 2: select stroke color]:
+
+  TypeError: undefined is not a function
+    at Object.module.exports.Step 2: select stroke color (/Users/kelli/Sites/nightwatch/test/strokepanel/selectstrokecolor.js:28:27)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
+      </system-err>
   
-    <testcase name="step 3: open transform panel" time="0.7710" assertions="2">
+    <testcase name="step 3: open transform panel" time="0.9980" assertions="2">
 
     
 
     
     </testcase>
+      <system-err>
+          Error while running [Selectdimension / Step 1: page load]:
+
+  ReferenceError: clear is not defined
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/dimensionspanel/selectdimension.js:10:9)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
+ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
+    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
+    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysiteeditor.js:23:12)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
+    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
+    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysitemap.js:20:12)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.text-input [name=&quot;websiteName&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
+    at Object.newwebsitenameinputCommands.newwebsitenameinput (/Users/kelli/Sites/nightwatch/pages/newwebsitenameinput.js:4:9)
+    at Object.module.exports.step 2: select &quot;new website&quot; button (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:17:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 2: open and close filters panel (/Users/kelli/Sites/nightwatch/test/smoketests/filterspanel.js:15:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 2: open and close show/hide panel (/Users/kelli/Sites/nightwatch/test/smoketests/showhidepanel.js:14:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+  Error while running [Selectstrokecolor / Step 2: select stroke color]:
+
+  TypeError: undefined is not a function
+    at Object.module.exports.Step 2: select stroke color (/Users/kelli/Sites/nightwatch/test/strokepanel/selectstrokecolor.js:28:27)
+    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
+      </system-err>
   
   
   </testsuite>

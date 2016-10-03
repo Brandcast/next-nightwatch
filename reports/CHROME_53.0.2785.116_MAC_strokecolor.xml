@@ -5,9 +5,9 @@
 
   <testsuite name="strokecolor"
     errors="0" failures="0" hostname="" id="" package="strokecolor" skipped="0"
-    tests="3" time="9.392" timestamp="Mon, 03 Oct 2016 18:46:52 GMT">
+    tests="3" time="10.71" timestamp="Mon, 03 Oct 2016 21:07:56 GMT">
   
-    <testcase name="Step 1: page load" time="7.508" assertions="6">
+    <testcase name="Step 1: page load" time="8.646" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: set text component stroke color to red" time="1.655" assertions="8">
+    <testcase name="Step 2: set text component stroke color to red" time="1.856" assertions="8">
 
     
 
@@ -41,7 +41,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify stroke color is set" time="0.2290" assertions="1">
+    <testcase name="Step 3: verify stroke color is set" time="0.2060" assertions="1">
 
     
     </testcase>

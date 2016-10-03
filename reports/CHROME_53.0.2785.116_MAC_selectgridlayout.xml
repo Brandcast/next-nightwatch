@@ -5,9 +5,9 @@
 
   <testsuite name="selectgridlayout"
     errors="0" failures="1" hostname="" id="" package="selectgridlayout" skipped="2"
-    tests="3" time="11.00" timestamp="Wed, 28 Sep 2016 20:59:06 GMT">
+    tests="3" time="11.63" timestamp="Mon, 03 Oct 2016 21:19:42 GMT">
   
-    <testcase name="Step 1: page load" time="11.00" assertions="7">
+    <testcase name="Step 1: page load" time="11.63" assertions="7">
 
     
 

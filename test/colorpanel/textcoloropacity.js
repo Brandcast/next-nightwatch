@@ -45,7 +45,7 @@ module.exports = {
         //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
          browser.verify.elementPresent('.focused.component-wrapper')
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(191, 122, 122, 0.862745)')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'color', 'rgba(191, 122, 122, 0.862745)')
         browser.frame(null);
        
         //browser.end();

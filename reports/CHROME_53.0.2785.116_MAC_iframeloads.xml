@@ -5,9 +5,9 @@
 
   <testsuite name="iframeloads"
     errors="0" failures="0" hostname="" id="" package="iframeloads" skipped="0"
-    tests="2" time="7.710" timestamp="Wed, 28 Sep 2016 20:58:29 GMT">
+    tests="2" time="9.175" timestamp="Mon, 03 Oct 2016 21:18:56 GMT">
   
-    <testcase name="step 1: page load" time="7.289" assertions="6">
+    <testcase name="step 1: page load" time="8.620" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="step 2: verify iframe is present" time="0.4210" assertions="1">
+    <testcase name="step 2: verify iframe is present" time="0.5550" assertions="1">
 
     
     </testcase>

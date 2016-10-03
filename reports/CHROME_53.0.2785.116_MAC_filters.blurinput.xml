@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="4">
 
   <testsuite name="filters.blurinput"
-    errors="0" failures="0" hostname="" id="" package="filters.blurinput" skipped="0"
-    tests="4" time="10.94" timestamp="Thu, 29 Sep 2016 22:59:51 GMT">
+    errors="0" failures="1" hostname="" id="" package="filters.blurinput" skipped="0"
+    tests="4" time="11.37" timestamp="Mon, 03 Oct 2016 21:09:44 GMT">
   
-    <testcase name="Step 1: page load" time="7.433" assertions="6">
+    <testcase name="Step 1: page load" time="8.843" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select blur" time="1.109" assertions="5">
+    <testcase name="Step 2: open filters panel and select blur" time="1.255" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter blur via keystoke" time="0.7210" assertions="4">
+    <testcase name="Step 4: enter blur via keystoke" time="0.6910" assertions="4">
 
     
 
@@ -46,19 +46,11 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease blur via up/down arrow" time="1.672" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease blur via up/down arrow" time="0.5780" assertions="3">
 
-    
+      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Blur&quot;] input[type=text]&gt; contains: &quot;27&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease blur via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.blurinput.js:77:17)</failure>
 
-    
-
-    
-
-    
-
-    
-
-    
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: blur(27px)&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease blur via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.blurinput.js:82:18)</failure>
 
     
     </testcase>

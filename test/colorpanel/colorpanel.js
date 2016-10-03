@@ -6,6 +6,15 @@ module.exports = {
 
       page.navigate()
         page.pageload();
+
+        page = browser.page.openwebsitebtn();
+          page.openwebsitebtn();
+    
+        page = browser.page.opensitemap();
+          page.opensitemap();
+
+        page = browser.page.opensite();
+          page.opensite();
   },
 
     'step 2: open and close color panel' : function (browser) {

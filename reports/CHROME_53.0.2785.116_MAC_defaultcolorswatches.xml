@@ -5,9 +5,9 @@
 
   <testsuite name="defaultcolorswatches"
     errors="0" failures="1" hostname="" id="" package="defaultcolorswatches" skipped="0"
-    tests="3" time="10.21" timestamp="Mon, 03 Oct 2016 18:55:01 GMT">
+    tests="3" time="11.62" timestamp="Mon, 03 Oct 2016 21:07:32 GMT">
   
-    <testcase name="Step 1: page load" time="7.700" assertions="6">
+    <testcase name="Step 1: page load" time="8.880" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: background color set to black" time="1.633" assertions="6">
+    <testcase name="Step 2: background color set to black" time="1.635" assertions="6">
 
     
 
@@ -37,7 +37,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: stroke color set to white" time="0.8790" assertions="5">
+    <testcase name="Step 3: stroke color set to white" time="1.100" assertions="5">
 
     
 
