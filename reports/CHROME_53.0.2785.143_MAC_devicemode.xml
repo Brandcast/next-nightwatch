@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="devicemode"
+    errors="0" failures="0" hostname="" id="" package="devicemode" skipped="0"
+    tests="3" time="9.272" timestamp="Mon, 03 Oct 2016 22:46:37 GMT">
+  
+    <testcase name="step 1: load page" time="5.220" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open site map, site editor and global styles menu" time="3.628" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 4: open device mode drop down menu" time="0.4240" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

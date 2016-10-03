@@ -42,7 +42,7 @@ module.exports = {
             .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.12)')
           browser.frame(null);
 
-          browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-input-container input[type=text]')
+          browser.mouseButtonClick('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-input-container input[type=text]')
           browser.moveToElement('[data-qa-id="sepia-slider"]', 30,4)
           .mouseButtonClick(0)
           .pause(300)
@@ -50,7 +50,7 @@ module.exports = {
             .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.49)')
           browser.frame(null);
 
-          browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-input-container input[type=text]')
+          browser.mouseButtonClick('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-input-container input[type=text]')
           browser.moveToElement('[data-qa-id="sepia-slider"]', 50,4)
           .mouseButtonClick(0)
           .pause(300)

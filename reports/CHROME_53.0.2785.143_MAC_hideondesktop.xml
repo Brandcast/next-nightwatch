@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="hideondesktop"
+    errors="0" failures="0" hostname="" id="" package="hideondesktop" skipped="0"
+    tests="3" time="9.569" timestamp="Mon, 03 Oct 2016 22:48:00 GMT">
+  
+    <testcase name="Step 1: page load" time="7.260" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: select hide on desktop" time="1.592" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify text component is hidden on desktop" time="0.7170" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

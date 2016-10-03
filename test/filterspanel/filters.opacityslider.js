@@ -51,7 +51,7 @@ module.exports = {
         .mouseButtonUp(0)
         .pause(300)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'opacity(0.86)')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'opacity(0.83)')
         browser.frame(null);
     },
       

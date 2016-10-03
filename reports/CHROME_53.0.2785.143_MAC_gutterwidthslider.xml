@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="gutterwidthslider"
+    errors="0" failures="0" hostname="" id="" package="gutterwidthslider" skipped="0"
+    tests="3" time="12.08" timestamp="Mon, 03 Oct 2016 22:41:36 GMT">
+  
+    <testcase name="Step 1: page load" time="7.403" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: select text component (in iframe), click grid layout button, and open dimensions panel" time="2.530" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: use slider to change gutter width" time="2.150" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

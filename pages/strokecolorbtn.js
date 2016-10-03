@@ -1,7 +1,7 @@
 var strokecolorbtnCommands = {
   strokecolorbtn: function() {
     this.verify.elementPresent('@strokecolorbtn')
-       .click('@strokecolorbtn')
+        .click('@strokecolorbtn')
         .expect.element('@strokecolorbtn').to.be.enabled
   }
 };

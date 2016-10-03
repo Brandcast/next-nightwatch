@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="2">
+
+  <testsuite name="filterspanel"
+    errors="2" failures="1" hostname="" id="" package="filterspanel" skipped="0"
+    tests="2" time="6.919" timestamp="Mon, 03 Oct 2016 22:50:10 GMT">
+  
+    <testcase name="Step 1: page load" time="4.516" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open and close filters panel" time="2.403" assertions="4">
+
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Filters&quot;. Element could not be located.">    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:5:15)
+    at Object.module.exports.Step 2: open and close filters panel (/Users/kelli/Sites/nightwatch/test/smoketests/filterspanel.js:12:14)</failure>
+
+      <failure message="Testing if element &lt;.panel-body&gt; is present.">    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:3:17)
+    at Object.module.exports.Step 2: open and close filters panel (/Users/kelli/Sites/nightwatch/test/smoketests/filterspanel.js:15:14)</failure>
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

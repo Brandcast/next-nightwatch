@@ -38,7 +38,7 @@ module.exports = {
         .mouseButtonDown(0)
         .pause(300)
          browser.frame(0) //selects iframe - must call to select anything within iframe
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.08)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.0440259)')
         browser.frame(null);
        
         browser.moveToElement('[data-qa-id="grayscale-slider"]', 15, 6)

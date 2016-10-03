@@ -45,7 +45,7 @@ module.exports = {
     
         //verify color applied via css
        browser.frame(0) //selects iframe - must call to select anything within iframe
-         browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'border-color', 'rgb(90, 90, 90)')
+         browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'border-color', 'rgb(255, 255, 255)')
           browser.frame(null)
     //},
       

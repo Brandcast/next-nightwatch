@@ -5,9 +5,9 @@
 
   <testsuite name="filters.saturateslider"
     errors="0" failures="1" hostname="" id="" package="filters.saturateslider" skipped="0"
-    tests="4" time="14.00" timestamp="Mon, 03 Oct 2016 22:04:08 GMT">
+    tests="4" time="13.16" timestamp="Mon, 03 Oct 2016 23:19:50 GMT">
   
-    <testcase name="Step 1: page load" time="9.659" assertions="6">
+    <testcase name="Step 1: page load" time="8.279" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select saturate" time="1.886" assertions="5">
+    <testcase name="Step 2: open filters panel and select saturate" time="2.399" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select saturate via slider" time="2.174" assertions="3">
+    <testcase name="Step 3: select saturate via slider" time="2.131" assertions="3">
 
       <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused&gt; has css property &quot;-webkit-filter: saturate(0.41)&quot;.">    at Object.module.exports.Step 3: select saturate via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.saturateslider.js:46:19)</failure>
 
@@ -44,7 +44,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: closepanel" time="0.2850" assertions="2">
+    <testcase name="Step 4: closepanel" time="0.3510" assertions="2">
 
     
 

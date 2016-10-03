@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="4">
+
+  <testsuite name="selectfiltersgrayscale"
+    errors="0" failures="1" hostname="" id="" package="selectfiltersgrayscale" skipped="0"
+    tests="4" time="10.67" timestamp="Mon, 03 Oct 2016 22:50:54 GMT">
+  
+    <testcase name="Step 1: page load" time="7.762" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select grayscale" time="1.668" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select grayscale via slider" time="0.6490" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: verify grayscale is applied" time="0.5870" assertions="2">
+
+      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: grayscale(0.86)&quot;.">    at Object.module.exports.Step 4: verify grayscale is applied (/Users/kelli/Sites/nightwatch/test/smoketests/selectfiltersgrayscale.js:47:19)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

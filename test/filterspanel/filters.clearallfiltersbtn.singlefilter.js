@@ -37,7 +37,7 @@ module.exports = {
         .mouseButtonDown(0)
         .mouseButtonUp(0) 
         .pause(300)
-        .verify.valueContains('[title="Sepia"] input[type=text]', '86')
+        .verify.valueContains('[title="Sepia"] input[type=text]', '83%')
 
         page = browser.page.closepanel();  
           page.closepanel();

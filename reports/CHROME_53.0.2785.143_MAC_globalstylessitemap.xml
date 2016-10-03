@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="globalstylessitemap"
+    errors="0" failures="0" hostname="" id="" package="globalstylessitemap" skipped="0"
+    tests="3" time="7.914" timestamp="Mon, 03 Oct 2016 22:46:55 GMT">
+  
+    <testcase name="step 1: load page" time="5.341" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open site map" time="1.283" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 3: open gloabl styles menu" time="1.290" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -34,7 +34,7 @@ module.exports = {
         .mouseButtonClick(0)
         //.mouseButtonUp(0) 
         .pause(300)
-        .verify.valueContains('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] input[type="text"]', '172')
+        .verify.valueContains('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] input[type="text"]', '166%')
 
         browser.verify.elementPresent('[title="Hue Rotate"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')
@@ -48,7 +48,7 @@ module.exports = {
         browser.moveToElement('[data-qa-id="invert-slider"]', 50,6)
         .mouseButtonDown(0)
         .mouseButtonUp(0)
-        .verify.valueContains('[title="Invert"] input[type=text]', '86')
+        .verify.valueContains('[title="Invert"] input[type=text]', '83%')
         .pause(500)
 
         page = browser.page.closepanel();  
@@ -59,7 +59,7 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .waitForElementVisible('.bc-text', 1000)
           .click('.bc-text')
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(1.72) hue-rotate(50deg) invert(0.86)')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(1.66) hue-rotate(50deg) invert(0.83)')
         browser.frame(null);
     },  
       

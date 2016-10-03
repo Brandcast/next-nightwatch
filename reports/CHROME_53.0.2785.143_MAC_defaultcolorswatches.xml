@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="defaultcolorswatches"
+    errors="0" failures="0" hostname="" id="" package="defaultcolorswatches" skipped="0"
+    tests="3" time="10.22" timestamp="Mon, 03 Oct 2016 23:13:51 GMT">
+  
+    <testcase name="Step 1: page load" time="7.134" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: background color set to black" time="2.279" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: stroke color set to white" time="0.8030" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

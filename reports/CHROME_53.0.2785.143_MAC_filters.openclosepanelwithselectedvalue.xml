@@ -5,9 +5,9 @@
 
   <testsuite name="filters.openclosepanelwithselectedvalue"
     errors="0" failures="0" hostname="" id="" package="filters.openclosepanelwithselectedvalue" skipped="0"
-    tests="6" time="14.45" timestamp="Mon, 03 Oct 2016 22:03:38 GMT">
+    tests="6" time="12.69" timestamp="Mon, 03 Oct 2016 23:19:23 GMT">
   
-    <testcase name="Step 1: page load" time="9.995" assertions="6">
+    <testcase name="Step 1: page load" time="8.403" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select blur" time="1.609" assertions="4">
+    <testcase name="Step 2: open filters panel and select blur" time="1.375" assertions="4">
 
     
 
@@ -33,7 +33,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select blur 5px via drop-down-menu" time="0.7630" assertions="3">
+    <testcase name="Step 3: select blur 5px via drop-down-menu" time="0.8390" assertions="3">
 
     
 
@@ -42,7 +42,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: close panel, then reopen panel and verify selected value is applied" time="0.8800" assertions="6">
+    <testcase name="Step 4: close panel, then reopen panel and verify selected value is applied" time="0.8280" assertions="6">
 
     
 
@@ -57,14 +57,14 @@
     
     </testcase>
   
-    <testcase name="Step 5: clear value via setvalue + delete key" time="0.5830" assertions="2">
+    <testcase name="Step 5: clear value via setvalue + delete key" time="0.6360" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 6: close panel, then reopen panel and verify value remains empty" time="0.6150" assertions="6">
+    <testcase name="Step 6: close panel, then reopen panel and verify value remains empty" time="0.6130" assertions="6">
 
     
 

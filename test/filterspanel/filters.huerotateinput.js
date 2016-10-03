@@ -45,6 +45,11 @@ module.exports = {
          browser.frame(null)
 
          .setValue('.ui-wrapper[title="Hue Rotate"] input[type=text]', '\u0008')
+         .keys('\u0008')
+         .keys('\u0008')
+         .keys('\u0008')
+         .keys('\u0008')
+
          .verify.valueContains('.ui-wrapper[title="Hue Rotate"] input[type=text]', "")
     },
 
@@ -62,9 +67,11 @@ module.exports = {
          browser.frame(null)
         
         .click('.ui-wrapper[title="Hue Rotate"] input[type=text]')
-        .keys('\u0008')
-        .keys('\u0008')
-        .keys('\u0008')
+        browser.clearValue('.ui-wrapper[title="Hue Rotate"] input[type=text]')
+        // .setValue('.ui-wrapper[title="Hue Rotate"] input[type=text]', '\u0008')
+        // .keys('\u0008')
+        // .keys('\u0008')
+        // .keys('\u0008')
         .pause(300)
         .verify.valueContains('.ui-wrapper[title="Hue Rotate"] input[type=text]', "")
     },

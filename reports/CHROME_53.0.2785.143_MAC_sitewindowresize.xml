@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="sitewindowresize"
+    errors="1" failures="0" hostname="" id="" package="sitewindowresize" skipped="0"
+    tests="2" time="6.788" timestamp="Mon, 03 Oct 2016 22:51:35 GMT">
+  
+    <testcase name="Step 1: page load" time="6.781" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step two: open gloablstyles panel and resize browser window" time="0.007000" assertions="0">
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

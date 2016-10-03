@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="undock:drag:dockcolorpanel"
+    errors="0" failures="0" hostname="" id="" package="undock:drag:dockcolorpanel" skipped="0"
+    tests="4" time="9.865" timestamp="Mon, 03 Oct 2016 23:14:55 GMT">
+  
+    <testcase name="Step 1: page load" time="7.680" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: Undock color panel" time="1.365" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: drag color panel around screen" time="0.5090" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: dock color panel" time="0.3110" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

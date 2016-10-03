@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="3">
+
+  <testsuite name="medialibrarysiteeditor"
+    errors="2" failures="1" hostname="" id="" package="medialibrarysiteeditor" skipped="0"
+    tests="3" time="11.69" timestamp="Mon, 03 Oct 2016 22:47:03 GMT">
+  
+    <testcase name="step 1: load page" time="5.436" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open site map and site editor" time="1.872" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 3: open media library menu" time="4.386" assertions="2">  <failure message="Testing if element &lt;[data-qa-id=&quot;media-library-button&quot;]&gt; is present.">    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:3:17)
+    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysiteeditor.js:23:12)</failure>
+
+      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Media Library&quot;. Element could not be located.">    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:7:13)
+    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysiteeditor.js:23:12)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="openbackgroundimagepanel"
+    errors="0" failures="0" hostname="" id="" package="openbackgroundimagepanel" skipped="0"
+    tests="3" time="8.400" timestamp="Mon, 03 Oct 2016 22:58:22 GMT">
+  
+    <testcase name="step 1: load page" time="5.195" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open site map" time="2.417" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 3: open transform panel" time="0.7880" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
