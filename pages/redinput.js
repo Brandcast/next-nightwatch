@@ -1,7 +1,7 @@
 var redinputCommands = {
   redinput: function() {
-    this.verify.elementPresent('.ui-wrapper.full-width[title="Red"] .select-input-container input[type="text"]')
-       this.api.mouseButtonClick('.ui-wrapper[title="Red"] .select-input-container input[type="text"]');
+    this.verify.elementPresent('[title="Red"] input[type="text"]')
+       this.api.mouseButtonClick('[title="Red"] input[type="text"]');
         
 
   }

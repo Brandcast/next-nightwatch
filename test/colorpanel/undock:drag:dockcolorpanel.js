@@ -33,7 +33,7 @@ module.exports = {
 
       page = browser.page.closepanel();  
         page.closepanel();
-},
+  },
 
     'Step 4: dock color panel' : function (browser) {
       page = browser.page.opencolorpanel();

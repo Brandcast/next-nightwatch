@@ -10,7 +10,7 @@ module.exports = {
       page.openwebsitebtn();
   },
   
-    'step 2: open site map' : function (browser) {
+    'step 2: open site map and website' : function (browser) {
       var page = browser.page.opensitemap();
         page.opensitemap(); 
   

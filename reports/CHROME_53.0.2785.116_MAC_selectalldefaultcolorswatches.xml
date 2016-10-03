@@ -5,9 +5,9 @@
 
   <testsuite name="selectalldefaultcolorswatches"
     errors="0" failures="1" hostname="" id="" package="selectalldefaultcolorswatches" skipped="0"
-    tests="3" time="9.958" timestamp="Thu, 29 Sep 2016 23:32:43 GMT">
+    tests="3" time="10.27" timestamp="Mon, 03 Oct 2016 18:50:12 GMT">
   
-    <testcase name="Step 1: page load" time="7.818" assertions="6">
+    <testcase name="Step 1: page load" time="6.879" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: background color set to black" time="1.472" assertions="6">
+    <testcase name="Step 2: background color set to black" time="2.427" assertions="6">
 
     
 
@@ -37,7 +37,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: stroke color set to white" time="0.6680" assertions="5">
+    <testcase name="Step 3: stroke color set to white" time="0.9590" assertions="5">
 
     
 
@@ -45,7 +45,7 @@
 
     
 
-      <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property &quot;border-color: rgb(90, 90, 90)&quot;.">    at Object.module.exports.Step 3: stroke color set to white (/Users/kelli/Sites/nightwatch/test/colorpanel/selectalldefaultcolorswatches.js:46:25)</failure>
+      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused[data-qa-id=&quot;/grid/column/text&quot;]&gt; has css property &quot;border-color: rgb(90, 90, 90)&quot;.">    at Object.module.exports.Step 3: stroke color set to white (/Users/kelli/Sites/nightwatch/test/colorpanel/selectalldefaultcolorswatches.js:48:25)</failure>
 
     
     </testcase>

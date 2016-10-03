@@ -33,7 +33,7 @@ module.exports = {
             //browser.waitForElementVisible('.ui-wrapper.full-width[title="Red"] .slider-wrapper input[type=range]', 1000)
             browser.moveToElement('.ui-wrapper.full-width[title="Red"] .slider-wrapper input[type=range]', 60, 4)
             browser.mouseButtonClick()
-            browser.verify.valueContains('.color-hex-input-wrapper input[type=text]', '#710000')
+            browser.verify.valueContains('.color-hex-input-wrapper input[type=text]', '#700000')
     },
         
       'Step 3: click on green slider and verify hex code'  : function (browser) {  
@@ -43,7 +43,7 @@ module.exports = {
             browser.waitForElementVisible('.ui-wrapper.full-width[title="Green"] .slider-wrapper input[type=range]', 1000)
             browser.moveToElement('.ui-wrapper.full-width[title="Green"] .slider-wrapper input[type=range]', 40, 4)
             browser.mouseButtonClick()
-            browser.verify.valueContains('.color-hex-input-wrapper input[type=text]', '#714900')
+            browser.verify.valueContains('.color-hex-input-wrapper input[type=text]', '#704800')
     },
 
       'Step 4: click on blue slider and verify hex code'  : function (browser) {  
@@ -53,17 +53,19 @@ module.exports = {
             browser.waitForElementVisible('.ui-wrapper.full-width[title="Blue"] .slider-wrapper input[type=range]', 1000)
             browser.moveToElement('.ui-wrapper.full-width[title="Blue"] .slider-wrapper input[type=range]', 20, 4)
             browser.mouseButtonClick()
-            browser.verify.valueContains('.color-hex-input-wrapper input[type=text]', '#714921')
-        
-          page = browser.page.closepanel();  
-            page.closepanel();
+            browser.verify.valueContains('.color-hex-input-wrapper input[type=text]', '#704821')
+            browser.pause(300)
     },
       
       'Step 5: verify stroke color is set' : function (browser) {
           //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'border-color', 'rgb(113, 72, 33)')
+          browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'border-color', 'rgb(112, 72, 33)')
           browser.frame(null)
+
+          page = browser.page.closepanel();  
+            page.closepanel();
+        
           browser.end();
     }
 };

@@ -1,7 +1,7 @@
 var greeninputCommands = {
   greeninput: function() {
-    this.verify.elementPresent('.ui-wrapper.full-width[title="Green"] .select-input-container input[type="text"]')
-       this.api.mouseButtonClick('.ui-wrapper.full-width[title="Green"] .select-input-container input[type="text"]');
+    this.verify.elementPresent('[title="Green"] input[type="text"]')
+       this.api.mouseButtonClick('[title="Green"] input[type="text"]');
         
 
   }

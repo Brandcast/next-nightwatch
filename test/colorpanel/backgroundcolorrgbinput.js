@@ -67,6 +67,6 @@ module.exports = {
          browser.frame(0) //selects iframe - must call to select anything within iframe
             browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(60, 40, 20, 1)')
          browser.frame(null)
-           browser.end();
+          browser.end();
     }
 };

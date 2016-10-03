@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="defaultcolorswatches"
+    errors="0" failures="1" hostname="" id="" package="defaultcolorswatches" skipped="0"
+    tests="3" time="10.21" timestamp="Mon, 03 Oct 2016 18:55:01 GMT">
+  
+    <testcase name="Step 1: page load" time="7.700" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: background color set to black" time="1.633" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: stroke color set to white" time="0.8790" assertions="5">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused[data-qa-id=&quot;/grid/column/text&quot;]&gt; has css property &quot;border-color: rgb(90, 90, 90)&quot;.">    at Object.module.exports.Step 3: stroke color set to white (/Users/kelli/Sites/nightwatch/test/colorpanel/defaultcolorswatches.js:48:25)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

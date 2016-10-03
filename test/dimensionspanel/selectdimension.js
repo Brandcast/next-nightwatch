@@ -5,6 +5,10 @@ module.exports = {
 
       page.navigate()
        page.pageload();
+
+      page = browser.page.openwebsitebtn();
+        clear
+        page.openwebsitebtn();
     
       page = browser.page.opensitemap();
         page.opensitemap();

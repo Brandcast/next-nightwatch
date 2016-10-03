@@ -3,7 +3,7 @@ opacityslider: function() {
     this.verify.elementPresent('@opacitymenu')
         .click('@opacitymenu')
     
-    this.api.waitforElementVisible('.ui-wrapper[title="Opacity"] .slider-wrapper input[type=range]', 1000)
+    this.verify.elementPresent('.ui-wrapper[title="Opacity"] .slider-wrapper input[type=range]')
   }
 };
 

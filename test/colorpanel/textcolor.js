@@ -25,7 +25,7 @@ module.exports = {
       page = browser.page.opencolorpanel();
         page.opencolorpanel();
 
-       page = browser.page.textcolorbtn();  
+      page = browser.page.textcolorbtn();  
         page.textcolorbtn();
 
       page = browser.page.colorspectrum();  
@@ -38,7 +38,7 @@ module.exports = {
     'Step 3: verify text color' : function (browser) {
         //verify color applied via css
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused', 'color', 'rgba(191, 122, 122, 1)')
+        browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused', 'color', 'rgba(191, 123, 123, 1)')
         browser.frame(null)
         browser.end();
     }
