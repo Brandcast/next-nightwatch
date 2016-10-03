@@ -28,9 +28,6 @@ module.exports = {
         browser.verify.elementPresent('.ui-wrapper[title="Invert"]')
         .click('.ui-wrapper[title="Invert"] .select-input-container')
         .waitForElementVisible('.ui-wrapper[title="Invert"] input[type=text]', 1000)
-      
-        //page = browser.page.invertinput();  
-          //page.invertinput();
     },
 
       'Step 3: enter invert via setvalue function' : function (browser) { 
@@ -71,13 +68,14 @@ module.exports = {
 
     'Step 5: enter incrementally inscrease/decrease invert via up/down arrow' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Invert"] input[type=text]', "")
+        .click('.ui-wrapper[title="Invert"] input[type=text]')
         .keys('2')
         .keys('5')
-        .keys('\uE007')
+        //.keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
         .keys(browser.Keys.ARROW_UP)
         .verify.valueContains('.ui-wrapper[title="Invert"] input[type=text]', '27')
-        .keys('\uE007')
+        //.keys('\uE007')
         .pause(300)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe

@@ -28,9 +28,6 @@ module.exports = {
         browser.verify.elementPresent('[title="Invert"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Invert"] .select-input-container input[type="text"]')
         .waitForElementVisible('[data-qa-id="invert-slider"]', 1000);
-
-        //page = browser.page.selectopacity();  
-          //browser.page.selectopacity();
     }, 
 
       'Step 3: select invert via slider' : function (browser) { 
@@ -44,7 +41,7 @@ module.exports = {
         browser.moveToElement('[data-qa-id="invert-slider"]', 15, 6)
         .pause(300)
          browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.21)')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.2)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="invert-slider"]', 50, 6)

@@ -5,9 +5,9 @@
 
   <testsuite name="filters.brightnessslider"
     errors="0" failures="1" hostname="" id="" package="filters.brightnessslider" skipped="0"
-    tests="4" time="16.08" timestamp="Mon, 03 Oct 2016 21:10:08 GMT">
+    tests="4" time="12.24" timestamp="Mon, 03 Oct 2016 21:48:20 GMT">
   
-    <testcase name="Step 1: page load" time="10.80" assertions="6">
+    <testcase name="Step 1: page load" time="8.510" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select brightness" time="3.158" assertions="5">
+    <testcase name="Step 2: open filters panel and select brightness" time="1.879" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select brightness via slider" time="1.713" assertions="3">
+    <testcase name="Step 3: select brightness via slider" time="1.479" assertions="3">
 
       <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: brightness(1.05)&quot;.">    at Object.module.exports.Step 3: select brightness via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessslider.js:47:18)</failure>
 
@@ -44,7 +44,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: close panel" time="0.4120" assertions="2">
+    <testcase name="Step 4: close panel" time="0.3730" assertions="2">
 
     
 

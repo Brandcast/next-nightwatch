@@ -69,13 +69,14 @@ module.exports = {
 
     'Step 5: enter incrementally inscrease/decrease blur via up/down arrow' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', "")
+        .click('.ui-wrapper[title="Blur"] input[type=text]')
         .keys('2')
         .keys('5')
-        .keys('\uE007')
+        //.keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
         .keys(browser.Keys.ARROW_UP)
         .verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', '27')
-        .keys('\uE007')
+        //.keys('\uE007')
         .pause(300)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe

@@ -44,7 +44,7 @@ module.exports = {
         browser.moveToElement('[data-qa-id="opacity-slider"]', 15, 6)
         .pause(300)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'opacity(0.21)')
+          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'opacity(0.2)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="opacity-slider"]', 50, 6)

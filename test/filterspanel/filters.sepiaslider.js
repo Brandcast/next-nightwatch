@@ -55,7 +55,7 @@ module.exports = {
           .mouseButtonClick(0)
           .pause(300)
           browser.frame(0) //selects iframe - must call to select anything within iframe
-            .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.86)')
+            .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.83)')
           browser.frame(null);
     },
       

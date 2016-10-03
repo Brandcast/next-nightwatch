@@ -49,7 +49,7 @@ module.exports = {
         .mouseButtonDown(0)
         .mouseButtonUp(0)
         .verify.valueContains('[title="Invert"] input[type=text]', '86')
-        .pause(300)
+        .pause(500)
 
         page = browser.page.closepanel();  
           page.closepanel();

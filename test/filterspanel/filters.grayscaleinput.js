@@ -71,9 +71,10 @@ module.exports = {
 
     'Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', "")
+        .click('.ui-wrapper[title="Grayscale"] input[type=text]')
         .keys('2')
         .keys('5')
-        .keys('\uE007')
+        //.keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
         .keys(browser.Keys.ARROW_UP)
         .pause(300)

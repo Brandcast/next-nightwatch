@@ -44,14 +44,14 @@ module.exports = {
         browser.moveToElement('[data-qa-id="grayscale-slider"]', 15, 6)
         .pause(300)
          browser.frame(0) //selects iframe - must call to select anything within iframe
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.21)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.2)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="grayscale-slider"]', 50, 6)
         .pause(300)
         .mouseButtonUp(0)
          browser.frame(0) //selects iframe - must call to select anything within iframe
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.86)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.83)')
         browser.frame(null);
     },
       

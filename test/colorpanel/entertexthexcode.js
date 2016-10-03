@@ -35,6 +35,8 @@ module.exports = {
 
         page = browser.page.enterhexcode();  
           page.enterhexcode(); 
+
+          browser.pause(300)
      
         page = browser.page.closepanel();  
           page.closepanel();

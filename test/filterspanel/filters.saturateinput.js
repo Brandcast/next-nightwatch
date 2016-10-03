@@ -72,15 +72,16 @@ module.exports = {
 
     'Step 5: enter incrementally inscrease/decrease saturate via up/down arrow' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Saturate"] input[type=text]', "")
+        .click('.ui-wrapper[title="Saturate"] input[type=text]')
         .keys('2')
         .keys('5')
         .keys(browser.Keys.ARROW_UP)
         .keys(browser.Keys.ARROW_UP)
-        .keys('\uE007')
+        //.keys('\uE007')
         .pause(300)
         .verify.valueContains('.ui-wrapper[title="Saturate"] input[type=text]', '29')
         .keys(browser.Keys.ARROW_DOWN)
-        .keys('\uE007')
+        //.keys('\uE007')
         .pause(300)
         .verify.valueContains('.ui-wrapper[title="Saturate"] input[type=text]', '27')
 

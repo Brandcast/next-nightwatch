@@ -2,7 +2,7 @@ var closetabCommands = {
  closetab : function() {
     this.waitForElementVisible('@closetabbtn', 1000)
       this.api.click('.tab.selected .tab-close-container')
-          .assert.elementNotPresent('@iframe')
+          .assert.elementNotPresent('span [id="app"]')
   }
 };
 

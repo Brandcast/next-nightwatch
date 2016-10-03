@@ -4,11 +4,17 @@ module.exports = {
 
       page.navigate()
         page.pageload();
+
+      page = browser.page.openwebsitebtn();
+      page.openwebsitebtn();
+   
+    page = browser.page.opensitemap();
+      page.opensitemap(); 
   },
   
-  'Step two: open color panel and resize browser window' : function (browser) {
-     page = browser.page.opencolorpanel();
-        page.opencolorpanel()
+  'Step two: open gloablstyles panel and resize browser window' : function (browser) {
+     page = browser.page.openglobalstylespanel();
+        page.openglobalstylespanel()
 
       browser.resizeWindow(640,960)
         .pause(500)

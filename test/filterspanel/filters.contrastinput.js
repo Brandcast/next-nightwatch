@@ -71,13 +71,14 @@ module.exports = {
 
     'Step 5: enter incrementally inscrease/decrease contrast via up/down arrow' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Contrast"] input[type=text]', "")
+        .click('.ui-wrapper[title="Contrast"] input[type=text]')
         .keys('2')
         .keys('5')
-        .keys('\uE007')
+        //.keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
         .keys(browser.Keys.ARROW_UP)
         .verify.valueContains('.ui-wrapper[title="Contrast"] input[type=text]', '35')
-        .keys('\uE007')
+        //.keys('\uE007')
         .pause(300)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe

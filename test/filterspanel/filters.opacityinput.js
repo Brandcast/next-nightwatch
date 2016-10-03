@@ -71,16 +71,17 @@ module.exports = {
 
     'Step 5: enter incrementally inscrease/decrease opacity via up/down arrow' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Opacity"] input[type=text]', "")
+        .click('.ui-wrapper[title="Opacity"] input[type=text]')
         .keys('2')
         .keys('5')
-        .keys('\uE007')
+        //.keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
         .keys(browser.Keys.ARROW_UP)
-        .keys('\uE007')
+        //.keys('\uE007')
         .pause(300)
         .verify.valueContains('.ui-wrapper[title="Opacity"] input[type=text]', '27')
         .keys(browser.Keys.ARROW_DOWN)
-        .keys('\uE007')
+        //.keys('\uE007')
         .pause(300)
         .verify.valueContains('.ui-wrapper[title="Opacity"] input[type=text]', '26')
 

@@ -5,8 +5,18 @@ module.exports = {
 
     page.navigate()
       page.pageload();
+
+    page = browser.page.openwebsitebtn();
+      page.openwebsitebtn();
+    
+     page = browser.page.opensitemap();
+      page.opensitemap();
+
+    page = browser.page.opensite();
+      page.opensite();
    },   
-   'Step 2: open and close show/hide panel' : function (browser) {
+    
+    'Step 2: open and close show/hide panel' : function (browser) {
       page = browser.page.openshowhidepanel();
         page.openshowhidepanel()
   

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="filters.invertinput"
+    errors="0" failures="0" hostname="" id="" package="filters.invertinput" skipped="0"
+    tests="5" time="15.71" timestamp="Mon, 03 Oct 2016 22:02:42 GMT">
+  
+    <testcase name="Step 1: page load" time="10.43" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select invert" time="1.843" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: enter invert via setvalue function" time="0.8340" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: enter invert via keystoke" time="1.021" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: enter incrementally inscrease/decrease invert via up/down arrow" time="1.580" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

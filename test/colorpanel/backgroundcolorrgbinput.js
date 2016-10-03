@@ -58,6 +58,8 @@ module.exports = {
             .keys('0')
             .keys(browser.Keys.RETURN)
             .verify.valueContains('.ui-wrapper[title="Blue"] input[type=text]', '20')
+
+            browser.pause(300)
     },
       
       'Step 5: verify hex code in color panel and background color css value' : function (browser) {

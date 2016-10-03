@@ -44,14 +44,14 @@ module.exports = {
         browser.moveToElement('[data-qa-id="brightness-slider"]', 15, 6)
         .pause(300)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(1.05)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(1)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="brightness-slider"]', 50, 6)
         .mouseButtonUp(0)
         .pause(300)
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(4.3)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(4.15)')
         browser.frame(null);
     },
       

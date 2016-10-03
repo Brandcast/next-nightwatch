@@ -1,7 +1,7 @@
 var opacitysliderCommands = {
 opacityslider: function() {
     this.verify.elementPresent('@opacitymenu')
-        .click('@opacitymenu')
+        .click('.ui-wrapper[title="Opacity"] input[type=text]')
     
     this.verify.elementPresent('.ui-wrapper[title="Opacity"] .slider-wrapper input[type=range]')
   }

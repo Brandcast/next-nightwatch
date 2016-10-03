@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="6">
+
+  <testsuite name="filters.clearallfiltersbtn.multiplefilters"
+    errors="0" failures="2" hostname="" id="" package="filters.clearallfiltersbtn.multiplefilters" skipped="2"
+    tests="6" time="14.75" timestamp="Mon, 03 Oct 2016 22:00:44 GMT">
+  
+    <testcase name="Step 1: page load" time="8.784" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select sepia" time="1.827" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select saturate, hue rotate, and invert filters" time="3.661" assertions="11">
+
+    
+
+      <failure message="Testing if value of &lt;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Saturate&quot;] input[type=&quot;text&quot;]&gt; contains: &quot;172&quot;.">    at Object.module.exports.Step 3: select saturate, hue rotate, and invert filters (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.multiplefilters.js:37:17)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if value of &lt;[title=&quot;Invert&quot;] input[type=text]&gt; contains: &quot;86&quot;.">    at Object.module.exports.Step 3: select saturate, hue rotate, and invert filters (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.multiplefilters.js:51:17)</failure>
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: verify saturate, hue rotate, and invert is applied via css on the text component" time="0.4740" assertions="2">
+
+      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: saturate(1.72) hue-rotate(50deg) invert(0.86)&quot;.">    at Object.module.exports.Step 4: verify saturate, hue rotate, and invert is applied via css on the text component (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.multiplefilters.js:62:19)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 5: click &quot;clear all filters&quot; button">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 6: verify sepia input field is clear and css is no longer applied">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
