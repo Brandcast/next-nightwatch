@@ -5,7 +5,7 @@ var bordertopsideCommands = {
       this.verify.elementPresent('.ui-wrapper current [title="Apply Stroke to Top"')
   },
 
-  borderallsidesbtndisabled: function() {
+  bordertopsidebtndisabled: function() {
     this.verify.elementPresent('@bordertopsidebtn')
       .click('@bordertopsidebtn')
       this.verify.elementPresent('.ui-wrapper [title="Apply Stroke to Top"')

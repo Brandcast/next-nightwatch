@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="3"
+            tests="5">
+
+  <testsuite name="leftsideborder"
+    errors="0" failures="3" hostname="" id="" package="leftsideborder" skipped="0"
+    tests="5" time="10.12" timestamp="Tue, 04 Oct 2016 17:37:28 GMT">
+  
+    <testcase name="Step 1: page load" time="7.758" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open stroke panel and select left side border" time="1.629" assertions="7">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.ui-wrapper.current [title=&quot;Apply Stroke to Left&quot;&gt; is present.">    at Object.borderleftsideCommands.borderleftsidebtnenabled (/Users/kelli/Sites/nightwatch/pages/borderleftside.js:6:19)
+    at Object.module.exports.Step 2: open stroke panel and select left side border (/Users/kelli/Sites/nightwatch/test/strokepanel/leftsideborder.js:30:18)</failure>
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify text component has left side border" time="0.06400" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property &quot;border-left-width: 1px&quot;.">    at Object.module.exports.Step 3: verify text component has left side border (/Users/kelli/Sites/nightwatch/test/strokepanel/leftsideborder.js:40:18)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: open stroke panel and deselect left side border" time="0.4760" assertions="6">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.ui-wrapper [title=&quot;Apply Stroke to Left&quot;&gt; is present.">    at Object.borderleftsideCommands.borderleftsidebtndisabled (/Users/kelli/Sites/nightwatch/pages/borderleftside.js:12:19)
+    at Object.module.exports.Step 4: open stroke panel and deselect left side border (/Users/kelli/Sites/nightwatch/test/strokepanel/leftsideborder.js:50:18)</failure>
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: verify text component does not have left side border" time="0.1890" assertions="1">
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

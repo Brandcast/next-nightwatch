@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="leftsideborder"
+    errors="0" failures="0" hostname="" id="" package="leftsideborder" skipped="3"
+    tests="3" time="0.000" timestamp="Tue, 04 Oct 2016 17:22:46 GMT">
+  
+  
+    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 2: open stroke panel and select 4 sided border">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: verify text component has 4 sided border">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

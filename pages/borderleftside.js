@@ -2,10 +2,11 @@ var borderleftsideCommands = {
  borderleftsidebtnenabled: function() {
     this.verify.elementPresent('@borderleftsidebtn')
       .click('@borderleftsidebtn')
-      this.verify.elementPresent('.ui-wrapper current [title="Apply Stroke to Left"')
+      this.api.pause(300)
+      this.verify.elementPresent('.ui-wrapper.current [title="Apply Stroke to Left"')
   },
 
-  borderallsidesbtndisabled: function() {
+  borderleftsidebtndisabled: function() {
     this.verify.elementPresent('@borderleftsidebtn')
       .click('@borderleftsidebtn')
       this.verify.elementPresent('.ui-wrapper [title="Apply Stroke to Left"')

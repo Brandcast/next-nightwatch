@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="3"
+            tests="5">
+
+  <testsuite name="topsideborder"
+    errors="0" failures="3" hostname="" id="" package="topsideborder" skipped="0"
+    tests="5" time="9.770" timestamp="Tue, 04 Oct 2016 17:45:24 GMT">
+  
+    <testcase name="Step 1: page load" time="7.616" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open stroke panel and select top side border" time="1.368" assertions="7">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.ui-wrapper current [title=&quot;Apply Stroke to Top&quot;&gt; is present.">    at Object.bordertopsideCommands.bordertopsidebtnenabled (/Users/kelli/Sites/nightwatch/pages/bordertopside.js:5:19)
+    at Object.module.exports.Step 2: open stroke panel and select top side border (/Users/kelli/Sites/nightwatch/test/strokepanel/topsideborder.js:30:18)</failure>
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify text component has top side border" time="0.09000" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property &quot;border-top-width: 1px&quot;.">    at Object.module.exports.Step 3: verify text component has top side border (/Users/kelli/Sites/nightwatch/test/strokepanel/topsideborder.js:38:18)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: open stroke panel and deselect top side border" time="0.5200" assertions="6">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.ui-wrapper [title=&quot;Apply Stroke to Top&quot;&gt; is present.">    at Object.bordertopsideCommands.bordertopsidebtndisabled (/Users/kelli/Sites/nightwatch/pages/bordertopside.js:11:19)
+    at Object.module.exports.Step 4: open stroke panel and deselect top side border (/Users/kelli/Sites/nightwatch/test/strokepanel/topsideborder.js:48:18)</failure>
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: verify text component does not have top side border" time="0.1760" assertions="1">
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

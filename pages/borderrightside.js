@@ -5,7 +5,7 @@ var borderrightsideCommands = {
       this.verify.elementPresent('.ui-wrapper current [title="Apply Stroke to Right"')
   },
 
-  borderallsidesbtndisabled: function() {
+  borderrightsidebtndisabled: function() {
     this.verify.elementPresent('@borderrightsidebtn')
       .click('@borderrightsidebtn')
       this.verify.elementPresent('.ui-wrapper [title="Apply Stroke to Right"')
