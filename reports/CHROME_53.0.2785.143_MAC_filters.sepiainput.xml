@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="5">
 
   <testsuite name="filters.sepiainput"
-    errors="0" failures="1" hostname="" id="" package="filters.sepiainput" skipped="3"
-    tests="5" time="10.91" timestamp="Tue, 04 Oct 2016 00:17:18 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.sepiainput" skipped="0"
+    tests="5" time="11.27" timestamp="Tue, 04 Oct 2016 20:43:40 GMT">
   
-    <testcase name="Step 1: page load" time="7.916" assertions="6">
+    <testcase name="Step 1: page load" time="6.865" assertions="6">
 
     
 
@@ -18,32 +18,64 @@
     
 
     
-
-    
-    </testcase>
-  
-    <testcase name="Step 2: open filters panel and select sepia" time="2.992" assertions="1">  <failure message="Timed out while waiting for element &lt;.bc-text&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Step 2: open filters panel and select sepia (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.sepiainput.js:21:12)</failure>
 
     
     </testcase>
   
+    <testcase name="Step 2: open filters panel and select sepia" time="1.472" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: enter sepia via setvalue function" time="0.6080" assertions="4">
+
     
-    <testcase
-      name="Step 3: enter sepia via setvalue function">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: enter sepia via keystoke" time="0.8860" assertions="4">
+
     
-    <testcase
-      name="Step 4: enter sepia via keystoke">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: enter incrementally inscrease/decrease sepia via up/down arrow" time="1.438" assertions="8">
+
     
-    <testcase
-      name="Step 5: enter incrementally inscrease/decrease sepia via up/down arrow">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

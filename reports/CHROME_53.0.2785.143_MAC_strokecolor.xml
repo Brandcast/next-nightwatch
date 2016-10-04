@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="3">
 
   <testsuite name="strokecolor"
-    errors="0" failures="0" hostname="" id="" package="strokecolor" skipped="0"
-    tests="3" time="9.862" timestamp="Mon, 03 Oct 2016 23:14:13 GMT">
+    errors="0" failures="1" hostname="" id="" package="strokecolor" skipped="2"
+    tests="3" time="17.17" timestamp="Tue, 04 Oct 2016 20:39:19 GMT">
   
-    <testcase name="Step 1: page load" time="7.172" assertions="6">
+    <testcase name="Step 1: page load" time="17.17" assertions="5">
 
     
 
@@ -15,37 +15,24 @@
 
     
 
-    
-
-    
+      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 5000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/colorpanel/strokecolor.js:13:16)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 2: set text component stroke color to red" time="2.495" assertions="8">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
-    <testcase name="Step 3: verify stroke color is set" time="0.1950" assertions="1">
-
     
+    <testcase
+      name="Step 2: set text component stroke color to red">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="Step 3: verify stroke color is set">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

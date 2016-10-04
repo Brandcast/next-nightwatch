@@ -5,9 +5,9 @@
 
   <testsuite name="filters.huerotateinput"
     errors="0" failures="0" hostname="" id="" package="filters.huerotateinput" skipped="0"
-    tests="5" time="14.04" timestamp="Tue, 04 Oct 2016 00:15:29 GMT">
+    tests="5" time="15.42" timestamp="Tue, 04 Oct 2016 20:42:05 GMT">
   
-    <testcase name="Step 1: page load" time="7.933" assertions="6">
+    <testcase name="Step 1: page load" time="10.00" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select hue-rotate" time="2.429" assertions="5">
+    <testcase name="Step 2: open filters panel and select hue-rotate" time="1.723" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter hue-rotate via setvalue function" time="0.9360" assertions="4">
+    <testcase name="Step 3: enter hue-rotate via setvalue function" time="0.8870" assertions="4">
 
     
 
@@ -46,7 +46,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter hue-rotate via keystoke" time="0.9800" assertions="4">
+    <testcase name="Step 4: enter hue-rotate via keystoke" time="0.9820" assertions="4">
 
     
 
@@ -57,7 +57,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow" time="1.758" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow" time="1.822" assertions="7">
 
     
 

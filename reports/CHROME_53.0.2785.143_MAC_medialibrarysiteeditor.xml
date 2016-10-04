@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="2"
-            failures="1"
+<testsuites errors="1"
+            failures="0"
             tests="3">
 
   <testsuite name="medialibrarysiteeditor"
-    errors="2" failures="1" hostname="" id="" package="medialibrarysiteeditor" skipped="0"
-    tests="3" time="11.36" timestamp="Tue, 04 Oct 2016 06:05:04 GMT">
+    errors="1" failures="0" hostname="" id="" package="medialibrarysiteeditor" skipped="0"
+    tests="3" time="7.314" timestamp="Tue, 04 Oct 2016 21:29:45 GMT">
   
-    <testcase name="step 1: load page" time="7.168" assertions="3">
+    <testcase name="step 1: load page" time="5.272" assertions="3">
 
     
 
@@ -16,9 +16,9 @@
     
     </testcase>
       <system-err>
-        ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
-    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
+          Error while running [Medialibrarysiteeditor / step 3: open media library menu]:
+
+  TypeError: undefined is not a function
     at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysiteeditor.js:23:12)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
@@ -27,42 +27,11 @@
     at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
     at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
-    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
-    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysitemap.js:20:12)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
       </system-err>
   
-    <testcase name="step 2: open site map and site editor" time="2.496" assertions="3">
+    <testcase name="step 2: open site map and site editor" time="2.020" assertions="3">
 
     
 
@@ -71,9 +40,9 @@ ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: c
     
     </testcase>
       <system-err>
-        ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
-    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
+          Error while running [Medialibrarysiteeditor / step 3: open media library menu]:
+
+  TypeError: undefined is not a function
     at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysiteeditor.js:23:12)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
@@ -82,53 +51,16 @@ ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: c
     at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
     at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
-    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
-    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysitemap.js:20:12)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
       </system-err>
   
-    <testcase name="step 3: open media library menu" time="1.698" assertions="2">  <failure message="Testing if element &lt;[data-qa-id=&quot;media-library-button&quot;]&gt; is present.">    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:3:17)
-    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysiteeditor.js:23:12)</failure>
-
-      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Media Library&quot;. Element could not be located.">    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:7:13)
-    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysiteeditor.js:23:12)</failure>
-
-    
+    <testcase name="step 3: open media library menu" time="0.02200" assertions="0">
     </testcase>
       <system-err>
-        ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
-    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
+          Error while running [Medialibrarysiteeditor / step 3: open media library menu]:
+
+  TypeError: undefined is not a function
     at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysiteeditor.js:23:12)
     at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
@@ -137,39 +69,8 @@ ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: c
     at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
     at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
     at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[data-qa-id=&quot;media-library-button&quot;]&quot; using: css selector
-    at Object.moveToElement (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.medialibrarybtnCommands.medialibrarybtn (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:4:8)
-    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysitemap.js:20:12)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+    at flush (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (node.js:355:11)
       </system-err>
   
   

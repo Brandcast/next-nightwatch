@@ -5,9 +5,9 @@
 
   <testsuite name="textcomponentheight"
     errors="0" failures="1" hostname="" id="" package="textcomponentheight" skipped="1"
-    tests="2" time="1.707" timestamp="Mon, 03 Oct 2016 22:51:42 GMT">
+    tests="2" time="1.697" timestamp="Tue, 04 Oct 2016 18:03:42 GMT">
   
-    <testcase name="Step 1: page load" time="1.707" assertions="2">  <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:5:17)
+    <testcase name="Step 1: page load" time="1.697" assertions="2">  <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:5:17)
     at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/smoketests/textcomponentheight.js:10:16)</failure>
 
     

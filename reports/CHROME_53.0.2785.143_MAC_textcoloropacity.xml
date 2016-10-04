@@ -5,9 +5,9 @@
 
   <testsuite name="textcoloropacity"
     errors="0" failures="0" hostname="" id="" package="textcoloropacity" skipped="0"
-    tests="3" time="10.75" timestamp="Mon, 03 Oct 2016 23:14:44 GMT">
+    tests="3" time="23.19" timestamp="Tue, 04 Oct 2016 20:40:15 GMT">
   
-    <testcase name="Step 1: page load" time="6.951" assertions="6">
+    <testcase name="Step 1: page load" time="15.61" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open color panel and select opacity via slider" time="3.566" assertions="8">
+    <testcase name="Step 2: open color panel and select opacity via slider" time="7.114" assertions="8">
 
     
 
@@ -41,7 +41,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify opacity" time="0.2330" assertions="2">
+    <testcase name="Step 3: verify opacity" time="0.4650" assertions="2">
 
     
 

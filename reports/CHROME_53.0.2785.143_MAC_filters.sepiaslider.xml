@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="4">
 
   <testsuite name="filters.sepiaslider"
-    errors="0" failures="0" hostname="" id="" package="filters.sepiaslider" skipped="0"
-    tests="4" time="13.43" timestamp="Tue, 04 Oct 2016 00:17:28 GMT">
+    errors="0" failures="1" hostname="" id="" package="filters.sepiaslider" skipped="3"
+    tests="4" time="9.686" timestamp="Tue, 04 Oct 2016 20:43:52 GMT">
   
-    <testcase name="Step 1: page load" time="8.404" assertions="6">
+    <testcase name="Step 1: page load" time="9.686" assertions="5">
 
     
 
@@ -15,42 +15,29 @@
 
     
 
-    
-
-    
+      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 5000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.sepiaslider.js:13:18)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select sepia" time="2.739" assertions="5">
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
-    <testcase name="Step 3: select sepia via slider and verify css has been applied" time="1.784" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Step 2: open filters panel and select sepia">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 4: close panel" time="0.5010" assertions="2">
-
     
-
-    
+    <testcase
+      name="Step 3: select sepia via slider and verify css has been applied">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="Step 4: close panel">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

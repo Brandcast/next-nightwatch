@@ -5,9 +5,9 @@
 
   <testsuite name="filters.blurdropdown"
     errors="0" failures="0" hostname="" id="" package="filters.blurdropdown" skipped="0"
-    tests="5" time="13.77" timestamp="Tue, 04 Oct 2016 00:13:02 GMT">
+    tests="5" time="17.19" timestamp="Tue, 04 Oct 2016 20:38:26 GMT">
   
-    <testcase name="Step 1: page load" time="7.677" assertions="6">
+    <testcase name="Step 1: page load" time="10.29" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select blur" time="1.905" assertions="3">
+    <testcase name="Step 2: open filters panel and select blur" time="2.270" assertions="3">
 
     
 
@@ -31,24 +31,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select blur 5px via drop-down-menu" time="1.469" assertions="6">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 4: select blur 10px via drop-down-menu" time="1.538" assertions="7">
-
-    
+    <testcase name="Step 3: select blur 5px via drop-down-menu" time="1.587" assertions="6">
 
     
 
@@ -63,7 +46,24 @@
     
     </testcase>
   
-    <testcase name="Step 5: select blur 20px via drop-down-menu" time="1.177" assertions="5">
+    <testcase name="Step 4: select blur 10px via drop-down-menu" time="1.976" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: select blur 20px via drop-down-menu" time="1.064" assertions="5">
 
     
 

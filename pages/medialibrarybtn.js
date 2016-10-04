@@ -1,18 +1,24 @@
 var medialibrarybtnCommands = {
- medialibrarybtn: function() {
+ openmedialibrary: function() {
     this.verify.elementPresent('@medialibrarybtn')
-      .moveToElement('@medialibrarybtn', 2, 2)
-      this.api.mouseButtonClick()
+      .click('@medialibrarybtn')
 
-    .verify.containsText('.overlay-label.drag-handle', 'Media Library')
-  }
+    this.assert.visible('.media-library-container')
+  // },
+
+  // closemedialibrary: function() {
+  //   this.verify.elementPresent('.media-library-container')
+  //     this.api.click('.ui-wrapper.card-close-container [title="Close"] .btn')
+      
+      //.expect.element('.media-library-container').to.not.be.visible
+  },
 };
 
 module.exports = {
   commands: [medialibrarybtnCommands],
   elements: {
     medialibrarybtn: {
-    	selector: 'btn-text-label'
+    	selector: '[data-qa-id="media-library-button"]'
     }
   }
 };

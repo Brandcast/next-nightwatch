@@ -5,9 +5,9 @@
 
   <testsuite name="selectstrokecolor"
     errors="0" failures="0" hostname="" id="" package="selectstrokecolor" skipped="0"
-    tests="3" time="10.57" timestamp="Tue, 04 Oct 2016 04:52:18 GMT">
+    tests="3" time="9.612" timestamp="Tue, 04 Oct 2016 18:04:22 GMT">
   
-    <testcase name="Step 1: page load" time="8.028" assertions="6">
+    <testcase name="Step 1: page load" time="7.611" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select stroke color" time="2.391" assertions="11">
+    <testcase name="Step 2: select stroke color" time="1.813" assertions="11">
 
     
 
@@ -47,7 +47,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify color applied via css" time="0.1490" assertions="1">
+    <testcase name="Step 3: verify color applied via css" time="0.1880" assertions="1">
 
     
     </testcase>

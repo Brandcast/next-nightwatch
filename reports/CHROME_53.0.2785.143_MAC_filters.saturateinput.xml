@@ -5,9 +5,9 @@
 
   <testsuite name="filters.saturateinput"
     errors="0" failures="0" hostname="" id="" package="filters.saturateinput" skipped="0"
-    tests="5" time="14.52" timestamp="Tue, 04 Oct 2016 00:16:49 GMT">
+    tests="5" time="11.16" timestamp="Tue, 04 Oct 2016 20:43:19 GMT">
   
-    <testcase name="Step 1: page load" time="7.841" assertions="6">
+    <testcase name="Step 1: page load" time="6.962" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select saturate" time="3.068" assertions="5">
+    <testcase name="Step 2: open filters panel and select saturate" time="1.462" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter saturate via setvalue function" time="0.8840" assertions="4">
+    <testcase name="Step 3: enter saturate via setvalue function" time="0.5840" assertions="4">
 
     
 
@@ -46,7 +46,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter saturate via keystoke" time="1.142" assertions="4">
+    <testcase name="Step 4: enter saturate via keystoke" time="0.9530" assertions="4">
 
     
 
@@ -57,7 +57,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease saturate via up/down arrow" time="1.583" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease saturate via up/down arrow" time="1.197" assertions="7">
 
     
 

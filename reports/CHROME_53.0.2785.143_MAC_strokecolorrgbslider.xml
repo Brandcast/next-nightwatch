@@ -5,9 +5,9 @@
 
   <testsuite name="strokecolorrgbslider"
     errors="0" failures="0" hostname="" id="" package="strokecolorrgbslider" skipped="0"
-    tests="5" time="11.07" timestamp="Mon, 03 Oct 2016 23:14:23 GMT">
+    tests="5" time="21.16" timestamp="Tue, 04 Oct 2016 20:39:36 GMT">
   
-    <testcase name="Step 1: page load" time="7.392" assertions="6">
+    <testcase name="Step 1: page load" time="14.83" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: click on red slider and verify hex code" time="2.292" assertions="7">
+    <testcase name="Step 2: click on red slider and verify hex code" time="4.125" assertions="7">
 
     
 
@@ -39,21 +39,21 @@
     
     </testcase>
   
-    <testcase name="Step 3: click on green slider and verify hex code" time="0.3630" assertions="2">
+    <testcase name="Step 3: click on green slider and verify hex code" time="0.6820" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: click on blue slider and verify hex code" time="0.6390" assertions="2">
+    <testcase name="Step 4: click on blue slider and verify hex code" time="1.026" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 5: verify stroke color is set" time="0.3840" assertions="3">
+    <testcase name="Step 5: verify stroke color is set" time="0.4920" assertions="3">
 
     
 

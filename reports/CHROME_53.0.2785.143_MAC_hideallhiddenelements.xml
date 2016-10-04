@@ -5,9 +5,9 @@
 
   <testsuite name="hideallhiddenelements"
     errors="0" failures="0" hostname="" id="" package="hideallhiddenelements" skipped="0"
-    tests="5" time="15.95" timestamp="Tue, 04 Oct 2016 06:00:57 GMT">
+    tests="5" time="30.52" timestamp="Tue, 04 Oct 2016 20:38:53 GMT">
   
-    <testcase name="Step 1: page load" time="10.23" assertions="6">
+    <testcase name="Step 1: page load" time="17.64" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select &quot;view all hidden elments&quot; button" time="1.067" assertions="5">
+    <testcase name="Step 2: select &quot;view all hidden elments&quot; button" time="3.023" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select &quot;hide&quot; on all devices, resize browser window, then verify display does not equal none and class is hidden" time="3.061" assertions="16">
+    <testcase name="Step 3: select &quot;hide&quot; on all devices, resize browser window, then verify display does not equal none and class is hidden" time="5.874" assertions="16">
 
     
 
@@ -70,14 +70,14 @@
     
     </testcase>
   
-    <testcase name="Step 4: verify &quot;view all hidden elements&quot; button is deselected" time="0.1240" assertions="2">
+    <testcase name="Step 4: verify &quot;view all hidden elements&quot; button is deselected" time="1.171" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 5: resize browser window, then verify display equals none and class is hidden" time="1.463" assertions="10">
+    <testcase name="Step 5: resize browser window, then verify display equals none and class is hidden" time="2.805" assertions="10">
 
     
 
