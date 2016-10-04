@@ -5,9 +5,9 @@
 
   <testsuite name="justifyleft"
     errors="0" failures="1" hostname="" id="" package="justifyleft" skipped="0"
-    tests="5" time="10.81" timestamp="Mon, 03 Oct 2016 22:52:23 GMT">
+    tests="5" time="9.826" timestamp="Tue, 04 Oct 2016 00:35:54 GMT">
   
-    <testcase name="step 1: load page" time="5.409" assertions="3">
+    <testcase name="step 1: load page" time="5.186" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="3.379" assertions="3">
+    <testcase name="step 2: open site map" time="2.488" assertions="3">
 
     
 
@@ -25,23 +25,29 @@
     
     </testcase>
   
-    <testcase name="step 3: select text component" time="0.9540" assertions="1">
+    <testcase name="step 3: select text component" time="0.8000" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 4: open text formatting panel" time="0.6120" assertions="2">
+    <testcase name="step 4: open text formatting panel" time="0.7250" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step 5: disable/enable left justify" time="0.4550" assertions="3">
+    <testcase name="step 5: disable/enable left justify" time="0.6270" assertions="6">
 
     
 
-      <failure message="Expected element &lt;.component-wrapper.bc-text-wrapper.focused&gt; to have css property &quot;text-align&quot; which not equals: &quot;left&quot;">    at Object.module.exports.step 5: disable/enable left justify (/Users/kelli/Sites/nightwatch/test/textformattingpanel/justifyleft.js:40:26)</failure>
+    
+
+    
+
+    
+
+      <failure message="Expected element &lt;.component-wrapper.bc-text-wrapper.focused&gt; to have css property &quot;text-align&quot; which equals: &quot;inherit&quot;">    at Object.module.exports.step 5: disable/enable left justify (/Users/kelli/Sites/nightwatch/test/textformattingpanel/justifyleft.js:48:26)</failure>
 
     
     </testcase>

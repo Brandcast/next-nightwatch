@@ -56,16 +56,10 @@ module.exports = {
          browser.frame(null) 
     },
       
-      'Step 5: clear value via setvalue + delete key' : function (browser) { 
-        browser.setValue('[title="Blur"] input[type=text]', '\u0008')        
-        //browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] .select-input-container input[type=text]')
-        .keys('\u0008')
-        .keys('\u0008')
-        //.keys(browser.Keys.DELETE)
-        .keys('\uE007')
-        .pause(300)
-
-        .verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', '')
+      'Step 5: clear value via setvalue + delete key' : function (browser) {        
+        browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] .select-input-container input[type=text]')
+        browser.clearValue('[title="Blur"] input[type=text]') 
+        browser.verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', '')
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')

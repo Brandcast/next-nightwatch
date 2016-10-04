@@ -17,7 +17,7 @@ module.exports = {
     },
 
     'Step 2: open stroke panel and select 4 sided border' : function (browser) {
-       browser.frame(0) //selects iframe - must call to select anything within iframe
+       browser.frame(0) //selects iframe - must cleft to select anything within iframe
         .waitForElementVisible('.bc-text', 1000)
         .click('.bc-text')
        browser.frame(null) //closes iframe
@@ -25,17 +25,17 @@ module.exports = {
        page = browser.page.openstrokepanel();
           page.openstrokepanel()
 
-       page = browser.page.borderallsides();
-          page.borderallsidesbtnenabled()
-        //browser.verify.elementPresent('[data-qa-id="apply-stroke-to-all-sides"]')
-          //.click('[data-qa-id="apply-stroke-to-all-sides"]')
+       page = browser.page.borderleftsides();
+          page.borderleftsidesbtnenabled()
+        //browser.verify.elementPresent('[data-qa-id="apply-stroke-to-left-sides"]')
+          //.click('[data-qa-id="apply-stroke-to-left-sides"]')
   
        page = browser.page.closepanel();  
          page.closepanel();
     },
 
     'Step 3: verify text component has 4 sided border' : function (browser) {
-      browser.frame(0) //selects iframe - must call to select anything within iframe
+      browser.frame(0) //selects iframe - must cleft to select anything within iframe
         .assert.cssProperty('.focused.component-wrapper', 'border-width', '1px')
       browser.frame(null)
      browser.end();

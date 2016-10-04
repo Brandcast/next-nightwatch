@@ -61,9 +61,7 @@ module.exports = {
          browser.frame(null)
         
         .click('.ui-wrapper[title="Blur"] input[type=text]')
-        .keys('\u0008')
-        .keys('\u0008')
-        .keys('\u0008')
+        .clearValue('[title="Blur"] input[type=text]')
         .verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', "")
     },
 
@@ -83,6 +81,7 @@ module.exports = {
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(27px)')
         browser.frame(null)
 
+        .click('.ui-wrapper[title="Blur"] input[type=text]')
         .keys(browser.Keys.ARROW_DOWN)
         .verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', '26')
         .keys('\uE007')

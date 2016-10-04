@@ -43,7 +43,7 @@ module.exports = {
         .mouseButtonDown(0)
         .pause(500)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused', '-webkit-filter', 'saturate(0.41)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused', '-webkit-filter', 'saturate(0.4)')
         browser.frame(null);
 
         // browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-input-container input[type="text"]')
