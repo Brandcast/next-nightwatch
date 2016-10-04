@@ -12,7 +12,7 @@ module.exports = {
   commands: [medialibrarybtnCommands],
   elements: {
     medialibrarybtn: {
-    	selector: '[data-qa-id="media-library-button"]'
+    	selector: 'btn-text-label'
     }
   }
 };
