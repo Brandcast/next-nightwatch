@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="4">
 
   <testsuite name="undock:drag:dockfilterspanel"
-    errors="0" failures="1" hostname="" id="" package="undock:drag:dockfilterspanel" skipped="3"
-    tests="4" time="9.646" timestamp="Tue, 04 Oct 2016 20:44:01 GMT">
+    errors="0" failures="0" hostname="" id="" package="undock:drag:dockfilterspanel" skipped="0"
+    tests="4" time="9.730" timestamp="Tue, 04 Oct 2016 22:30:10 GMT">
   
-    <testcase name="Step 1: page load" time="9.646" assertions="5">
+    <testcase name="Step 1: page load" time="7.899" assertions="6">
 
     
 
@@ -15,29 +15,42 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 5000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/filterspanel/undock:drag:dockfilterspanel.js:13:14)</failure>
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 2: Undock filters panel" time="0.9710" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: drag filters panel around screen and console log x/y values" time="0.6040" assertions="2">
+
     
-    <testcase
-      name="Step 2: Undock filters panel">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="Step 4: dock filters panel" time="0.2560" assertions="3">
+
     
-    <testcase
-      name="Step 3: drag filters panel around screen and console log x/y values">
-      <skipped />
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 4: dock filters panel">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

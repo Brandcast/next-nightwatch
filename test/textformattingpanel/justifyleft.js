@@ -33,6 +33,7 @@ module.exports = {
 
     'step 5: disable/enable left justify' : function (browser) {
       var page = browser.page.justifytextformatting();
+        page.justifycenterbtnenabled();
        
       page.justifyleftbtnenabled(); 
   
@@ -45,7 +46,7 @@ module.exports = {
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
           browser.assert.elementPresent('.component-wrapper.bc-text-wrapper.focused')
-          browser.expect.element('.component-wrapper.bc-text-wrapper.focused').to.have.css('text-align').which.equals('inherit')
+          browser.expect.element('.component-wrapper.bc-text-wrapper.focused').to.have.css('text-align').which.equals('left')
         browser.frame(null)
 
       browser.end()

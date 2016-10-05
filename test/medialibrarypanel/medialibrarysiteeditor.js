@@ -19,8 +19,8 @@ module.exports = {
   },
 
   'step 3: open media library menu' : function (browser) {
-     var page = browser.page.medialibrarybtn();
-      page.medialibrarybtn(); 
+    var page = browser.page.medialibrarybtn();
+      page.openmedialibrary();
 
       browser.end()
   },

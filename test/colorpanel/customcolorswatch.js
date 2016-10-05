@@ -1,5 +1,5 @@
 module.exports = {
-  '@tags' : ['colorpanel', 'hexcode'],
+  '@tags' : ['colorpanel', 'colorbar'],
     'step 1: load page' : function (browser) {
       var page = browser.page.pageload();
 
@@ -28,10 +28,13 @@ module.exports = {
 
       'step 3: select text color, enter hex code, and close panel' : function (browser) {
         page = browser.page.textcolorbtn();  
-          page.textcolorbtn();      
+          page.textcolorbtn();  
 
-        page = browser.page.enterhexcode();  
-          page.enterhexcode(); 
+        page = browser.page.colorspectrum();  
+          page.colorspectrum();    
+
+        page = browser.page.colorbar();  
+          page.colorbarblue(); 
      
         page = browser.page.closepanel();  
           page.closepanel();
@@ -40,8 +43,9 @@ module.exports = {
       'step 4: verify text componet has text color hex code' : function (browser) {
           //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'color', 'rgba(127, 255, 0, 1)')
+          browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'color', 'rgba(132, 123, 191, 1)')
           browser.frame(null)
-          .end();
+          
+          browser.end();
     }
 };

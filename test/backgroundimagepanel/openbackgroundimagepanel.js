@@ -18,7 +18,7 @@ module.exports = {
       page.opensite(); 
   },
 
-  'step 3: open transform panel' : function (browser) {
+  'step 3: open background image panel' : function (browser) {
      var page = browser.page.openbackgroundimagepanel();
       page.openbackgroundimagepanel(); 
 

@@ -1,9 +1,21 @@
 var colorbarCommands = {
- colorbar: function() {
+ colorbarred: function() {
     this.verify.elementPresent('@colorbar')
-      .moveToElement('@colorbar', 210, 6)
+      .moveToElement('@colorbar', 3, 6)
       this.api.mouseButtonClick()
-  }
+  },
+
+  colorbarblue: function() {
+    this.verify.elementPresent('@colorbar')
+      .moveToElement('@colorbar', 145, 6)
+      this.api.mouseButtonClick()
+  },
+
+  colorbarpurple: function() {
+    this.verify.elementPresent('@colorbar')
+      .moveToElement('@colorbar', 165, 6)
+      this.api.mouseButtonClick()
+  },
 };
 
 module.exports = {
