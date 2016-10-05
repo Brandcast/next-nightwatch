@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="2">
 
   <testsuite name="closetab"
-    errors="0" failures="0" hostname="" id="" package="closetab" skipped="0"
-    tests="2" time="8.497" timestamp="Tue, 04 Oct 2016 18:02:11 GMT">
+    errors="0" failures="1" hostname="" id="" package="closetab" skipped="0"
+    tests="2" time="13.97" timestamp="Wed, 05 Oct 2016 16:57:14 GMT">
   
-    <testcase name="step 1: load page" time="5.457" assertions="3">
+    <testcase name="step 1: load page" time="7.714" assertions="3">
 
     
 
@@ -16,15 +16,10 @@
     
     </testcase>
   
-    <testcase name="step 2: close tab" time="3.040" assertions="5">
+    <testcase name="step 2: close tab" time="6.260" assertions="2">
 
-    
-
-    
-
-    
-
-    
+      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 5000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
+    at Object.module.exports.step 2: close tab (/Users/kelli/Sites/nightwatch/test/smoketests/closetab.js:14:12)</failure>
 
     
     </testcase>

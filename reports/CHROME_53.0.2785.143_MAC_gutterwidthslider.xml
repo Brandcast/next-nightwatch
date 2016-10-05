@@ -5,9 +5,9 @@
 
   <testsuite name="gutterwidthslider"
     errors="0" failures="0" hostname="" id="" package="gutterwidthslider" skipped="0"
-    tests="3" time="10.40" timestamp="Tue, 04 Oct 2016 17:54:12 GMT">
+    tests="3" time="12.38" timestamp="Wed, 05 Oct 2016 16:47:39 GMT">
   
-    <testcase name="Step 1: page load" time="7.433" assertions="6">
+    <testcase name="Step 1: page load" time="9.497" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select text component (in iframe), click grid layout button, and open dimensions panel" time="1.700" assertions="6">
+    <testcase name="Step 2: select text component (in iframe), click grid layout button, and open dimensions panel" time="1.669" assertions="6">
 
     
 
@@ -37,7 +37,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: use slider to change gutter width" time="1.270" assertions="7">
+    <testcase name="Step 3: use slider to change gutter width" time="1.219" assertions="7">
 
     
 

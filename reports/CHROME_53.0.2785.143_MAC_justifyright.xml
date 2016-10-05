@@ -5,9 +5,9 @@
 
   <testsuite name="justifyright"
     errors="0" failures="0" hostname="" id="" package="justifyright" skipped="0"
-    tests="5" time="9.387" timestamp="Tue, 04 Oct 2016 23:47:51 GMT">
+    tests="5" time="10.99" timestamp="Wed, 05 Oct 2016 17:00:37 GMT">
   
-    <testcase name="step 1: load page" time="5.069" assertions="3">
+    <testcase name="step 1: load page" time="5.600" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="2.287" assertions="3">
+    <testcase name="step 2: open site map" time="3.311" assertions="3">
 
     
 
@@ -25,19 +25,19 @@
     
     </testcase>
   
-    <testcase name="step 3: select text component" time="0.7070" assertions="1">
+    <testcase name="step 3: select text component" time="0.7010" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 4: open text formatting panel" time="0.5810" assertions="2">
+    <testcase name="step 4: open text formatting panel" time="0.6170" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step 5: disable/enable right justify" time="0.7430" assertions="6">
+    <testcase name="step 5: disable/enable right justify" time="0.7620" assertions="6">
 
     
 

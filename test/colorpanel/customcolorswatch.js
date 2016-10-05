@@ -33,23 +33,39 @@ module.exports = {
         page = browser.page.colorspectrum();  
           page.colorspectrum();    
 
-        browser.pause(300)
-
         page = browser.page.colorbar();  
           page.colorbarblue(); 
+
+          browser.pause(500)
     },
       
       'step 4: verify text componet has css applied for selected color' : function (browser) {
           //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'color', 'rgba(141, 112, 136, 1)')
+          browser.verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'color', 'rgba(123, 124, 191, 1)')
           browser.frame(null)
     },
 
       'step 5: create custom color swatch in color panel' : function (browser) {
-         page = browser.page.customcolorswatch();  
+         page = browser.page.colorswatchcustom();  
           page.addswatch();
-          
+          browser.verify.elementPresent('[value="rgb(123, 124, 191)"]')
+    },
+      
+      'step 6: duplicate custom color swatch in color panel' : function (browser) {
+         page = browser.page.colorswatchcustom();  
+          page.duplicateswatch();
+          browser.verify.elementPresent('[value="rgb(123, 124, 191)"]')
+    },
+      
+      'step 7: delete custom color swatch in color panel' : function (browser) {
+         page = browser.page.colorswatchcustom();  
+          page.deleteswatch();
+          page.deleteswatch();
+
+          //browser.pause(1000)
+          browser.verify.elementNotPresent('[value="rgb(123, 124, 191)"]')
+
           browser.end();
     }
 };

@@ -5,9 +5,9 @@
 
   <testsuite name="filters.clearallfiltersbtn.singlefilter"
     errors="0" failures="1" hostname="" id="" package="filters.clearallfiltersbtn.singlefilter" skipped="2"
-    tests="6" time="9.948" timestamp="Tue, 04 Oct 2016 22:27:00 GMT">
+    tests="6" time="14.41" timestamp="Wed, 05 Oct 2016 16:49:05 GMT">
   
-    <testcase name="Step 1: page load" time="7.227" assertions="6">
+    <testcase name="Step 1: page load" time="10.15" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select sepia" time="1.543" assertions="5">
+    <testcase name="Step 2: open filters panel and select sepia" time="2.739" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select sepia via slider" time="0.6960" assertions="3">
+    <testcase name="Step 3: select sepia via slider" time="0.9260" assertions="3">
 
     
 
@@ -44,7 +44,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: verify sepia is applied via css" time="0.4820" assertions="2">
+    <testcase name="Step 4: verify sepia is applied via css" time="0.5930" assertions="2">
 
       <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: sepia(0.83)&quot;.">    at Object.module.exports.Step 4: verify sepia is applied via css (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.singlefilter.js:50:19)</failure>
 

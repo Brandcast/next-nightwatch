@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="1"
-            tests="5">
+<testsuites errors="0"
+            failures="0"
+            tests="7">
 
   <testsuite name="customcolorswatch"
-    errors="1" failures="1" hostname="" id="" package="customcolorswatch" skipped="0"
-    tests="5" time="11.22" timestamp="Wed, 05 Oct 2016 01:01:35 GMT">
+    errors="0" failures="0" hostname="" id="" package="customcolorswatch" skipped="0"
+    tests="7" time="10.70" timestamp="Wed, 05 Oct 2016 22:09:59 GMT">
   
-    <testcase name="step 1: load page" time="7.462" assertions="6">
+    <testcase name="step 1: load page" time="7.571" assertions="6">
 
     
 
@@ -21,21 +21,8 @@
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;addswatchbtn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.customcolorswatchCommands.addswatch (/Users/kelli/Sites/nightwatch/pages/customcolorswatch.js:4:10)
-    at Object.module.exports.step 5: create custom color swatch in color panel (/Users/kelli/Sites/nightwatch/test/colorpanel/customcolorswatch.js:51:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-      </system-err>
   
-    <testcase name="step 2: select text component in iframe and open color panel" time="1.094" assertions="3">
+    <testcase name="step 2: select text component in iframe and open color panel" time="1.063" assertions="3">
 
     
 
@@ -43,21 +30,8 @@
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;addswatchbtn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.customcolorswatchCommands.addswatch (/Users/kelli/Sites/nightwatch/pages/customcolorswatch.js:4:10)
-    at Object.module.exports.step 5: create custom color swatch in color panel (/Users/kelli/Sites/nightwatch/test/colorpanel/customcolorswatch.js:51:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-      </system-err>
   
-    <testcase name="step 3: select text color, enter click onto color spectrem, and select color hue" time="1.005" assertions="4">
+    <testcase name="step 3: select text color, enter click onto color spectrem, and select color hue" time="1.249" assertions="4">
 
     
 
@@ -67,55 +41,36 @@
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;addswatchbtn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.customcolorswatchCommands.addswatch (/Users/kelli/Sites/nightwatch/pages/customcolorswatch.js:4:10)
-    at Object.module.exports.step 5: create custom color swatch in color panel (/Users/kelli/Sites/nightwatch/test/colorpanel/customcolorswatch.js:51:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-      </system-err>
   
-    <testcase name="step 4: verify text componet has css applied for selected color" time="0.1560" assertions="1">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused[data-qa-id=&quot;/grid/column/text&quot;]&gt; has css property &quot;color: rgba(141, 112, 136, 1)&quot;.">    at Object.module.exports.step 4: verify text componet has css applied for selected color (/Users/kelli/Sites/nightwatch/test/colorpanel/customcolorswatch.js:45:26)</failure>
+    <testcase name="step 4: verify text componet has css applied for selected color" time="0.06200" assertions="1">
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;addswatchbtn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.customcolorswatchCommands.addswatch (/Users/kelli/Sites/nightwatch/pages/customcolorswatch.js:4:10)
-    at Object.module.exports.step 5: create custom color swatch in color panel (/Users/kelli/Sites/nightwatch/test/colorpanel/customcolorswatch.js:51:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-      </system-err>
   
-    <testcase name="step 5: create custom color swatch in color panel" time="1.504" assertions="1">
+    <testcase name="step 5: create custom color swatch in color panel" time="0.1750" assertions="3">
+
+    
+
+    
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;addswatchbtn&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:103:25)
-    at Object.customcolorswatchCommands.addswatch (/Users/kelli/Sites/nightwatch/pages/customcolorswatch.js:4:10)
-    at Object.module.exports.step 5: create custom color swatch in color panel (/Users/kelli/Sites/nightwatch/test/colorpanel/customcolorswatch.js:51:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-      </system-err>
+  
+    <testcase name="step 6: duplicate custom color swatch in color panel" time="0.1820" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 7: delete custom color swatch in color panel" time="0.4010" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
   
   
   </testsuite>

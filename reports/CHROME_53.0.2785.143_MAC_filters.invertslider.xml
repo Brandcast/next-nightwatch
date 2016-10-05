@@ -5,9 +5,9 @@
 
   <testsuite name="filters.invertslider"
     errors="0" failures="1" hostname="" id="" package="filters.invertslider" skipped="1"
-    tests="4" time="11.65" timestamp="Tue, 04 Oct 2016 22:28:35 GMT">
+    tests="4" time="12.71" timestamp="Wed, 05 Oct 2016 16:51:11 GMT">
   
-    <testcase name="Step 1: page load" time="8.929" assertions="6">
+    <testcase name="Step 1: page load" time="9.332" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select invert" time="2.051" assertions="5">
+    <testcase name="Step 2: open filters panel and select invert" time="2.652" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select invert via slider" time="0.6700" assertions="1">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: invert(0.08)&quot;.">    at Object.module.exports.Step 3: select invert via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertslider.js:38:19)</failure>
+    <testcase name="Step 3: select invert via slider" time="0.7260" assertions="1">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: invert(0.08)&quot;.">    at Object.module.exports.Step 3: select invert via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertslider.js:38:19)</failure>
 
     
     </testcase>

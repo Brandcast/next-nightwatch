@@ -5,12 +5,10 @@
 
   <testsuite name="sitemapsearch"
     errors="0" failures="1" hostname="" id="" package="sitemapsearch" skipped="1"
-    tests="2" time="1.660" timestamp="Tue, 04 Oct 2016 18:03:33 GMT">
+    tests="2" time="1.617" timestamp="Wed, 05 Oct 2016 16:58:53 GMT">
   
-    <testcase name="Step 1: page load" time="1.660" assertions="2">  <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:5:17)
+    <testcase name="Step 1: page load" time="1.617" assertions="1">  <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:5:17)
     at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/smoketests/sitemapsearch.js:9:12)</failure>
-
-    
 
     
     </testcase>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="3">
 
   <testsuite name="hideonmobile"
-    errors="0" failures="1" hostname="" id="" package="hideonmobile" skipped="2"
-    tests="3" time="15.82" timestamp="Tue, 04 Oct 2016 20:40:00 GMT">
+    errors="0" failures="0" hostname="" id="" package="hideonmobile" skipped="0"
+    tests="3" time="13.00" timestamp="Wed, 05 Oct 2016 16:55:05 GMT">
   
-    <testcase name="Step 1: page load" time="15.82" assertions="5">
+    <testcase name="Step 1: page load" time="10.83" assertions="6">
 
     
 
@@ -15,24 +15,37 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 5000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideonmobile.js:13:16)</failure>
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 2: select hide on mobile" time="1.545" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: verify text component is hidden on mobile" time="0.6200" assertions="4">
+
     
-    <testcase
-      name="Step 2: select hide on mobile">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 3: verify text component is hidden on mobile">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>
