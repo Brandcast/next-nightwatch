@@ -26,25 +26,29 @@ module.exports = {
           page.opencolorpanel();
     },
 
-      'step 3: select text color, enter hex code, and close panel' : function (browser) {
+      'step 3: select text color, enter click onto color spectrem, and select color hue' : function (browser) {
         page = browser.page.textcolorbtn();  
           page.textcolorbtn();  
 
         page = browser.page.colorspectrum();  
           page.colorspectrum();    
 
+        browser.pause(300)
+
         page = browser.page.colorbar();  
           page.colorbarblue(); 
-     
-        page = browser.page.closepanel();  
-          page.closepanel();
     },
       
-      'step 4: verify text componet has text color hex code' : function (browser) {
+      'step 4: verify text componet has css applied for selected color' : function (browser) {
           //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'color', 'rgba(132, 123, 191, 1)')
+          browser.verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'color', 'rgba(141, 112, 136, 1)')
           browser.frame(null)
+    },
+
+      'step 5: create custom color swatch in color panel' : function (browser) {
+         page = browser.page.customcolorswatch();  
+          page.addswatch();
           
           browser.end();
     }

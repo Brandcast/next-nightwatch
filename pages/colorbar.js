@@ -7,7 +7,7 @@ var colorbarCommands = {
 
   colorbarblue: function() {
     this.verify.elementPresent('@colorbar')
-      .moveToElement('@colorbar', 145, 6)
+      .moveToElement('@colorbar', 140, 6)
       this.api.mouseButtonClick()
   },
 
