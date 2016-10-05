@@ -26,7 +26,7 @@ module.exports = {
           page.openfilterspanel();   
 
         browser.verify.elementPresent('[title="Contrast"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Contrast"] .select-input-container input[type="text"]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Contrast"] .select-triangle-wrapper')
         .waitForElementVisible('[data-qa-id="contrast-slider"]', 1000);
 
         //page = browser.page.selectopacity();  

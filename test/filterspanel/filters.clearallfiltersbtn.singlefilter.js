@@ -26,7 +26,7 @@ module.exports = {
           page.openfilterspanel();   
 
         browser.verify.elementPresent('[title="Sepia"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-input-container input[type="text"]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] .select-triangle-wrapper')
         .waitForElementVisible('[data-qa-id="sepia-slider"]', 1000);
         //.verify.elementPresent('[data-qa-id="sepia-slider"]');
 

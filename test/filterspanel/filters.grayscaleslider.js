@@ -26,7 +26,7 @@ module.exports = {
           page.openfilterspanel();   
 
         browser.verify.elementPresent('[title="Grayscale"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Grayscale"] .select-input-container input[type="text"]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Grayscale"] .select-triangle-wrapper')
         .waitForElementVisible('[data-qa-id="grayscale-slider"]', 1000);
 
         //page = browser.page.selectopacity();  

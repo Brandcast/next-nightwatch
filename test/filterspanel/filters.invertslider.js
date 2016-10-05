@@ -26,7 +26,7 @@ module.exports = {
           page.openfilterspanel();   
 
         browser.verify.elementPresent('[title="Invert"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Invert"] .select-input-container input[type="text"]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Invert"] .select-triangle-wrapper')
         .waitForElementVisible('[data-qa-id="invert-slider"]', 1000);
     }, 
 

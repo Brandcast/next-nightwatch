@@ -27,7 +27,7 @@ module.exports = {
           page.openfilterspanel();   
 
         browser.verify.elementPresent('[title="Opacity"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .select-input-container input[type="text"]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .select-triangle-wrapper')
         .waitForElementVisible('[data-qa-id="opacity-slider"]', 1000);
 
         //page = browser.page.selectopacity();  
@@ -50,7 +50,7 @@ module.exports = {
 
         browser.moveToElement('[data-qa-id="opacity-slider"]', 50, 6)
         .mouseButtonUp(0)
-        .pause(300)
+        .pause(500)
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'opacity(0.83)')
         browser.frame(null);

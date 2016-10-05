@@ -5,9 +5,9 @@
 
   <testsuite name="backgroundcolorrgbinput"
     errors="0" failures="0" hostname="" id="" package="backgroundcolorrgbinput" skipped="0"
-    tests="5" time="11.05" timestamp="Wed, 05 Oct 2016 16:45:25 GMT">
+    tests="5" time="9.621" timestamp="Wed, 05 Oct 2016 22:32:29 GMT">
   
-    <testcase name="Step 1: page load" time="8.388" assertions="6">
+    <testcase name="Step 1: page load" time="6.525" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: click on red input field, enter number and verify input value" time="1.600" assertions="7">
+    <testcase name="Step 2: click on red input field, enter number and verify input value" time="1.966" assertions="7">
 
     
 
@@ -39,21 +39,21 @@
     
     </testcase>
   
-    <testcase name="Step 3: click on green input field, enter number and verify input value" time="0.2760" assertions="2">
+    <testcase name="Step 3: click on green input field, enter number and verify input value" time="0.3730" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: click on blue input field, enter number and verify input value" time="0.5910" assertions="2">
+    <testcase name="Step 4: click on blue input field, enter number and verify input value" time="0.5440" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 5: verify hex code in color panel and background color css value" time="0.1990" assertions="2">
+    <testcase name="Step 5: verify hex code in color panel and background color css value" time="0.2130" assertions="2">
 
     
 

@@ -27,11 +27,9 @@ module.exports = {
           page.openfilterspanel();   
 
         browser.verify.elementPresent('[title="Brightness"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Brightness"] .select-input-container input[type="text"]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Brightness"] .select-triangle-wrapper')
+        //this.api.mouseButtonClick(0))
         .waitForElementVisible('[data-qa-id="brightness-slider"]', 1000);
-
-        //page = browser.page.selectopacity();  
-          //browser.page.selectopacity();
     }, 
 
       'Step 3: select brightness via slider' : function (browser) { 

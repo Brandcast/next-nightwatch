@@ -27,7 +27,7 @@ module.exports = {
           page.openfilterspanel();   
 
         browser.verify.elementPresent('[title="Saturate"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-input-container input[type="text"]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-triangle-wrapper')
         .waitForElementVisible('[data-qa-id="saturate-slider"]', 1000);
     }, 
 

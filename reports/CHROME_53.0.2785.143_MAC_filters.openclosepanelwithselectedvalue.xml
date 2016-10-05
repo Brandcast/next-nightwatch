@@ -5,9 +5,9 @@
 
   <testsuite name="filters.openclosepanelwithselectedvalue"
     errors="0" failures="1" hostname="" id="" package="filters.openclosepanelwithselectedvalue" skipped="1"
-    tests="6" time="10.77" timestamp="Wed, 05 Oct 2016 16:51:53 GMT">
+    tests="6" time="10.38" timestamp="Wed, 05 Oct 2016 23:28:44 GMT">
   
-    <testcase name="Step 1: page load" time="8.011" assertions="6">
+    <testcase name="Step 1: page load" time="6.831" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select blur" time="1.195" assertions="4">
+    <testcase name="Step 2: open filters panel and select blur" time="1.853" assertions="4">
 
     
 
@@ -33,7 +33,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select blur 5px via drop-down-menu" time="0.5420" assertions="3">
+    <testcase name="Step 3: select blur 5px via drop-down-menu" time="0.6000" assertions="3">
 
     
 
@@ -42,7 +42,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: close panel, then reopen panel and verify selected value is applied" time="0.6490" assertions="6">
+    <testcase name="Step 4: close panel, then reopen panel and verify selected value is applied" time="0.7440" assertions="6">
 
     
 
@@ -57,7 +57,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: clear value via setvalue + delete key" time="0.3700" assertions="2">
+    <testcase name="Step 5: clear value via setvalue + delete key" time="0.3530" assertions="2">
 
       <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: none&quot;.">    at Object.module.exports.Step 5: clear value via setvalue + delete key (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.openclosepanelwithselectedvalue.js:65:18)</failure>
 

@@ -28,7 +28,7 @@ module.exports = {
 
       'Step 3: select saturate, hue rotate, and invert filters' : function (browser) { 
         browser.verify.elementPresent('[title="Saturate"]')
-        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-input-container input[type="text"]')
+        .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-triangle-wrapper')
         .waitForElementVisible('[data-qa-id="saturate-slider"]', 1000)
         .moveToElement('[data-qa-id="saturate-slider"]', 50, 6)
         .mouseButtonClick(0)

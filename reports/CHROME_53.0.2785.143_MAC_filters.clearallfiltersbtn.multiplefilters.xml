@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="6">
 
   <testsuite name="filters.clearallfiltersbtn.multiplefilters"
-    errors="0" failures="1" hostname="" id="" package="filters.clearallfiltersbtn.multiplefilters" skipped="2"
-    tests="6" time="15.89" timestamp="Wed, 05 Oct 2016 16:48:49 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.clearallfiltersbtn.multiplefilters" skipped="0"
+    tests="6" time="13.88" timestamp="Wed, 05 Oct 2016 23:26:20 GMT">
   
-    <testcase name="Step 1: page load" time="8.373" assertions="6">
+    <testcase name="Step 1: page load" time="7.345" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select sepia" time="1.098" assertions="3">
+    <testcase name="Step 2: open filters panel and select sepia" time="1.166" assertions="3">
 
     
 
@@ -31,7 +31,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select saturate, hue rotate, and invert filters" time="5.737" assertions="11">
+    <testcase name="Step 3: select saturate, hue rotate, and invert filters" time="3.389" assertions="11">
 
     
 
@@ -56,25 +56,41 @@
     
     </testcase>
   
-    <testcase name="Step 4: verify saturate, hue rotate, and invert is applied via css on the text component" time="0.6840" assertions="2">
+    <testcase name="Step 4: verify saturate, hue rotate, and invert is applied via css on the text component" time="0.3060" assertions="2">
 
-      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: saturate(1.66) hue-rotate(50deg) invert(0.83)&quot;.">    at Object.module.exports.Step 4: verify saturate, hue rotate, and invert is applied via css on the text component (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.multiplefilters.js:62:19)</failure>
+    
 
     
     </testcase>
   
+    <testcase name="Step 5: click &quot;clear all filters&quot; button" time="0.6490" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 6: verify sepia input field is clear and css is no longer applied" time="1.022" assertions="7">
+
     
-    <testcase
-      name="Step 5: click &quot;clear all filters&quot; button">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 6: verify sepia input field is clear and css is no longer applied">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>
