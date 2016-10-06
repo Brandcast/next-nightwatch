@@ -1,42 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="2"
-            failures="1"
+<testsuites errors="0"
+            failures="0"
             tests="3">
 
   <testsuite name="newwebsitename"
-    errors="2" failures="1" hostname="" id="" package="newwebsitename" skipped="0"
-    tests="3" time="6.855" timestamp="Thu, 06 Oct 2016 22:33:42 GMT">
+    errors="0" failures="0" hostname="" id="" package="newwebsitename" skipped="0"
+    tests="3" time="5.844" timestamp="Thu, 06 Oct 2016 22:53:23 GMT">
   
-    <testcase name="step 1: load page" time="4.991" assertions="1">
+    <testcase name="step 1: load page" time="5.060" assertions="1">
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;input[type=text]&quot; using: css selector
-    at Object.&lt;anonymous&gt; (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:22:19)
-    at Object.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/element-commands.js:361:20)
-    at HttpRequest.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/index.js:358:18)
-    at HttpRequest.emit (events.js:110:17)
-    at HttpRequest.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/index.js:374:15)
-    at HttpRequest.emit (events.js:118:17)
-    at IncomingMessage.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/http/request.js:157:16)
-    at IncomingMessage.emit (events.js:129:20)
-    at _stream_readable.js:908:16
-    at process._tickCallback (node.js:355:11)
-ERROR: Unable to locate element: &quot;.text-input-error&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-      </system-err>
   
-    <testcase name="step 2: open &quot;new website&quot; panel and enter a website name" time="0.5850" assertions="4">
+    <testcase name="step 2: open &quot;new website&quot; panel and enter a website name" time="0.6940" assertions="4">
 
     
 
@@ -46,62 +22,9 @@ ERROR: Unable to locate element: &quot;.text-input-error&quot; using: css select
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;input[type=text]&quot; using: css selector
-    at Object.&lt;anonymous&gt; (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:22:19)
-    at Object.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/element-commands.js:361:20)
-    at HttpRequest.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/index.js:358:18)
-    at HttpRequest.emit (events.js:110:17)
-    at HttpRequest.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/index.js:374:15)
-    at HttpRequest.emit (events.js:118:17)
-    at IncomingMessage.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/http/request.js:157:16)
-    at IncomingMessage.emit (events.js:129:20)
-    at _stream_readable.js:908:16
-    at process._tickCallback (node.js:355:11)
-ERROR: Unable to locate element: &quot;.text-input-error&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-      </system-err>
   
-    <testcase name="step 3: clear out website name and verify error message is displayed" time="1.279" assertions="2">
-
-      <failure message="A Website Name is required">    at Object.&lt;anonymous&gt; (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:25:25)
-    at _stream_readable.js:908:16</failure>
-
-    
+    <testcase name="step 3: clear out website name and verify error message is displayed" time="0.09000" assertions="0">
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;input[type=text]&quot; using: css selector
-    at Object.&lt;anonymous&gt; (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:22:19)
-    at Object.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/element-commands.js:361:20)
-    at HttpRequest.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/index.js:358:18)
-    at HttpRequest.emit (events.js:110:17)
-    at HttpRequest.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/index.js:374:15)
-    at HttpRequest.emit (events.js:118:17)
-    at IncomingMessage.&lt;anonymous&gt; (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/http/request.js:157:16)
-    at IncomingMessage.emit (events.js:129:20)
-    at _stream_readable.js:908:16
-    at process._tickCallback (node.js:355:11)
-ERROR: Unable to locate element: &quot;.text-input-error&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v0.12.7/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-      </system-err>
   
   
   </testsuite>

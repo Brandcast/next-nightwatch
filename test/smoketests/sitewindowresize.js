@@ -1,27 +1,28 @@
 module.exports = {
+  'Disabled' : true,
   'Step 1: page load' : function (browser) {
-   var page = browser.page.pageload();
+   var page = browser.page.pageload()
 
       page.navigate()
-        page.pageload();
+       page.pageload()
 
       page = browser.page.openwebsitebtn();
-      page.openwebsitebtn();
+        page.openwebsitebtn();
    
-    page = browser.page.opensitemap();
-      page.opensitemap(); 
+      page = browser.page.opensitemap();
+        page.opensitemap(); 
   },
   
-  'Step two: open gloablstyles panel and resize browser window' : function (browser) {
-     page = browser.page.openglobalstylespanel();
-        page.openglobalstylespanel()
+    'Step two: open gloablstyles panel and resize browser window' : function (browser) {
+       page = browser.page.globalstylespanel();
+         page.globalstylespanel()
 
-      browser.resizeWindow(640,960)
-        .pause(500)
+        browser.resizeWindow(640,960)
+          .pause(500)
 
-      browser.maximizeWindow()
-        .pause(500)
-        .end();
+        //browser.maximizeWindow()
+          .pause(500)
+         .end();
      
   }
 };

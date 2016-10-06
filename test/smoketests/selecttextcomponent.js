@@ -19,8 +19,7 @@ module.exports = {
       browser.frame(0) //selects iframe - must call for 
       .waitForElementPresent('.bc-text', 1000)
       .click('.bc-text')
-      .expect.element('.bc-text').to.be.selected
-      //browser.frame(null) //closes iframe
+      browser.frame(null) //closes iframe
       
       browser.end();
 

@@ -1,4 +1,5 @@
 module.exports = {
+  'disabled' : true,
   '@tags' : ['dimensionspanel', 'height'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -28,17 +29,17 @@ module.exports = {
        page = browser.page.heightdropdown();
         page.heightdropdown()
 
-        //browser.setValue('.ui-wrapper[title="Height"] .select-input-container  .select-triangle-wrapper', '\u2193')
-      //browser.keys('\u2193')
+        browser.setValue('.ui-wrapper[title="Height"] .select-input-container  .select-triangle-wrapper', '\u2193')
+        browser.keys('\u2193')
 
-      //page = browser.page.closepanel();  
-        //page.closepanel();
-    //},
+      page = browser.page.closepanel();  
+        page.closepanel();
+    },
       
-      //'Step 3: verify max width is applied' : function (browser) {
-        //browser.frame(0) //selects iframe - must call to select anything within iframe
-          //.assert.cssProperty('.focused.component-wrapper', 'max-width', '500px')
-        //browser.frame(null)
+      'Step 3: verify max width is applied' : function (browser) {
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .assert.cssProperty('.focused.component-wrapper', 'max-width', '500px')
+        browser.frame(null)
         browser.end();
     },
 };

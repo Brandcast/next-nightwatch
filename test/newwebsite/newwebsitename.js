@@ -24,9 +24,9 @@ module.exports = {
         //     browser.pause(500);
         //     this.assert.visible('.text-input-error', "A Website Name is required");
              browser.end()
-            })
-        };
-    })
+    //         })
+    //     };
+    // })
   }
 };
 

@@ -25,7 +25,7 @@ module.exports = {
         page = browser.page.gridlayoutbtn();  
           page.gridlayoutbtn();
 
-        browser.verify.elementPresent('div.btn-sudo-dom.current', 'btn-sudo-dom-label[title="grid"]')
+        browser.verify.elementPresent('.bc-grid-wrapper.focused')
       
         browser.end();
     }

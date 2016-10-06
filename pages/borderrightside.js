@@ -2,13 +2,13 @@ var borderrightsideCommands = {
  borderrightsidebtnenabled: function() {
     this.verify.elementPresent('@borderrightsidebtn')
       .click('@borderrightsidebtn')
-      this.verify.elementPresent('.ui-wrapper current [title="Apply Stroke to Right"')
+      this.verify.elementPresent('.ui-wrapper.current[title="Apply Stroke to Right"')
   },
 
   borderrightsidebtndisabled: function() {
     this.verify.elementPresent('@borderrightsidebtn')
       .click('@borderrightsidebtn')
-      this.verify.elementPresent('.ui-wrapper [title="Apply Stroke to Right"')
+      this.verify.elementPresent('.ui-wrapper[title="Apply Stroke to Right"')
   }
 };
 

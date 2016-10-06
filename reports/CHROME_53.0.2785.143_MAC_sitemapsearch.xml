@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="2">
 
   <testsuite name="sitemapsearch"
-    errors="0" failures="1" hostname="" id="" package="sitemapsearch" skipped="1"
-    tests="2" time="1.617" timestamp="Wed, 05 Oct 2016 16:58:53 GMT">
+    errors="0" failures="0" hostname="" id="" package="sitemapsearch" skipped="0"
+    tests="2" time="6.405" timestamp="Thu, 06 Oct 2016 23:34:31 GMT">
   
-    <testcase name="Step 1: page load" time="1.617" assertions="1">  <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:5:17)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/smoketests/sitemapsearch.js:9:12)</failure>
+    <testcase name="Step 1: page load" time="6.197" assertions="5">
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
   
-  
+    <testcase name="Step 2: &quot;site map&quot; word search on span" time="0.2080" assertions="1">
+
     
-    <testcase
-      name="Step 2: &quot;site map&quot; word search on span">
-      <skipped />
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

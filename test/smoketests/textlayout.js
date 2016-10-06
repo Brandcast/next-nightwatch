@@ -23,10 +23,13 @@ module.exports = {
         .click('.bc-text')
         .frame(null) //closes iframe
 
+        page = browser.page.gridlayoutbtn();  
+        page.gridlayoutbtn();
+
        page = browser.page.textlayoutbtn();  
         page.textlayoutbtn();
 
-      //browser.verify.elementPresent('div.btn-sudo-dom current' '.btn-sudo-dom-label[title="grid"]')
+      browser.verify.elementPresent('.component-wrapper.bc-text-wrapper.focused')
       
       browser.end();
     }

@@ -10,13 +10,10 @@ module.exports = {
 
     page = browser.page.opensitemap();
       page.opensitemap(); 
-
-    page = browser.page.opensite();
-      page.opensite(); 
     },
 
     'Step 2: "site map" word search on span' : function (browser) {  
-      browser.assert.containsText('.tab-text span', 'SiteMap')
+      browser.assert.containsText('.tab-text', 'Website')
       browser.end();
     },
 };

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="2"
+            failures="0"
             tests="5">
 
   <testsuite name="rightsideborder"
-    errors="0" failures="2" hostname="" id="" package="rightsideborder" skipped="0"
-    tests="5" time="9.942" timestamp="Wed, 05 Oct 2016 16:59:38 GMT">
+    errors="0" failures="0" hostname="" id="" package="rightsideborder" skipped="0"
+    tests="5" time="9.264" timestamp="Thu, 06 Oct 2016 23:42:33 GMT">
   
-    <testcase name="Step 1: page load" time="8.067" assertions="6">
+    <testcase name="Step 1: page load" time="7.177" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open stroke panel and select right side border" time="1.259" assertions="7">
+    <testcase name="Step 2: open stroke panel and select right side border" time="1.354" assertions="7">
 
     
 
@@ -30,29 +30,7 @@
 
     
 
-      <failure message="Testing if element &lt;.ui-wrapper current [title=&quot;Apply Stroke to Right&quot;&gt; is present.">    at Object.borderrightsideCommands.borderrightsidebtnenabled (/Users/kelli/Sites/nightwatch/pages/borderrightside.js:5:19)
-    at Object.module.exports.Step 2: open stroke panel and select right side border (/Users/kelli/Sites/nightwatch/test/strokepanel/rightsideborder.js:30:18)</failure>
-
     
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 3: verify text component has right side border" time="0.05100" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Step 4: open stroke panel and deselect right side border" time="0.4470" assertions="6">
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.ui-wrapper [title=&quot;Apply Stroke to Right&quot;&gt; is present.">    at Object.borderrightsideCommands.borderrightsidebtndisabled (/Users/kelli/Sites/nightwatch/pages/borderrightside.js:11:19)
-    at Object.module.exports.Step 4: open stroke panel and deselect right side border (/Users/kelli/Sites/nightwatch/test/strokepanel/rightsideborder.js:48:18)</failure>
 
     
 
@@ -61,7 +39,27 @@
     
     </testcase>
   
-    <testcase name="Step 5: verify text component does not have right side border" time="0.1180" assertions="1">
+    <testcase name="Step 3: verify text component has right side border" time="0.07900" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: open stroke panel and deselect right side border" time="0.5340" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: verify text component does not have right side border" time="0.1200" assertions="1">
 
     
     </testcase>
