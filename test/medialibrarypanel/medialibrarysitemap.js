@@ -24,7 +24,7 @@ module.exports = {
      var page = browser.page.medialibrarybtn();
       page.closemedialibrary(); 
 
-      //browser.end()
+      browser.end()
   },
 };
 

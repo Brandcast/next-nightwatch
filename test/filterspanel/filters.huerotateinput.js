@@ -28,9 +28,6 @@ module.exports = {
         browser.verify.elementPresent('.ui-wrapper[title="Hue Rotate"]')
         .click('.ui-wrapper[title="Hue Rotate"] .select-input-container')
         .waitForElementVisible('.ui-wrapper[title="Hue Rotate"] input[type=text]', 1000)
-      
-        //page = browser.page.hue-rotateinput();  
-          //page.hue-rotateinput();
     },
 
       'Step 3: enter hue-rotate via setvalue function' : function (browser) { 

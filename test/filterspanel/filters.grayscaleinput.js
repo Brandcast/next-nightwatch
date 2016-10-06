@@ -28,9 +28,6 @@ module.exports = {
         browser.verify.elementPresent('.ui-wrapper[title="Grayscale"]')
         .click('.ui-wrapper[title="Grayscale"] .select-input-container')
         .waitForElementVisible('.ui-wrapper[title="Grayscale"] input[type=range]', 1000)
-      
-        //page = browser.page.grayscaleinput();  
-          //page.grayscaleinput();
     },
 
       'Step 3: enter grayscale via setvalue function' : function (browser) { 

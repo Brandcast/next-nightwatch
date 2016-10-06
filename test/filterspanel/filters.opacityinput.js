@@ -28,9 +28,6 @@ module.exports = {
         browser.verify.elementPresent('.ui-wrapper[title="Opacity"]')
         .click('.ui-wrapper[title="Opacity"] .select-input-container')
         .waitForElementVisible('.ui-wrapper[title="Opacity"] input[type=range]', 1000)
-      
-        //page = browser.page.opacityinput();  
-          //page.opacityinput();
     },
 
       'Step 3: enter opacity via setvalue function' : function (browser) { 

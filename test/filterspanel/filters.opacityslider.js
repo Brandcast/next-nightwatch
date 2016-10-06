@@ -29,9 +29,6 @@ module.exports = {
         browser.verify.elementPresent('[title="Opacity"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Opacity"] .select-triangle-wrapper')
         .waitForElementVisible('[data-qa-id="opacity-slider"]', 1000);
-
-        //page = browser.page.selectopacity();  
-          //browser.page.selectopacity();
     }, 
 
       'Step 3: select opacity via slider' : function (browser) { 

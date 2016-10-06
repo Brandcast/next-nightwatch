@@ -56,15 +56,17 @@ module.exports = {
          browser.frame(null) 
     },
       
-      'Step 5: clear value via setvalue + delete key' : function (browser) {        
+      'Step 5: clear value via clearvalue + enter key' : function (browser) {        
         browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] .select-input-container input[type=text]')
-        browser.clearValue('[title="Blur"] input[type=text]') 
-        browser.verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', '')
+        browser.clearValue('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] input[type=text]')
+        browser.keys('\uE007')
+        browser.verify.valueContains('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] input[type=text]', '')
+        browser.pause(300)
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
          browser.frame(null) 
-    },
+   },
 
       'Step 6: close panel, then reopen panel and verify value remains empty' : function (browser) { 
         page = browser.page.closepanel();  
@@ -79,6 +81,9 @@ module.exports = {
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
          browser.frame(null) 
          
-      browser.end();
+         page = browser.page.closepanel();  
+          page.closepanel();
+          
+     browser.end();
     }
 };

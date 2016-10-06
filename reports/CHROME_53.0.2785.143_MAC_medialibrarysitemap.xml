@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="4">
 
   <testsuite name="medialibrarysitemap"
-    errors="0" failures="1" hostname="" id="" package="medialibrarysitemap" skipped="1"
-    tests="4" time="11.41" timestamp="Wed, 05 Oct 2016 16:53:54 GMT">
+    errors="0" failures="0" hostname="" id="" package="medialibrarysitemap" skipped="0"
+    tests="4" time="8.319" timestamp="Thu, 06 Oct 2016 17:56:14 GMT">
   
-    <testcase name="step 1: load page" time="7.939" assertions="3">
+    <testcase name="step 1: load page" time="5.192" assertions="3">
 
     
 
@@ -16,28 +16,27 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="1.749" assertions="2">
+    <testcase name="step 2: open site map" time="1.349" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step 3: open media library menu" time="1.720" assertions="2">
+    <testcase name="step 3: open media library menu" time="0.9140" assertions="2">
 
-      <failure message="Testing if element &lt;.media-library-container&gt; is visible.">    at Object.medialibrarybtnCommands.openmedialibrary (/Users/kelli/Sites/nightwatch/pages/medialibrarybtn.js:7:17)
-    at Object.module.exports.step 3: open media library menu (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysitemap.js:20:12)</failure>
+    
 
     
     </testcase>
   
-  
+    <testcase name="step 4: close media library menu" time="0.8640" assertions="2">
+
     
-    <testcase
-      name="step 4: close media library menu">
-      <skipped />
+
+    
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

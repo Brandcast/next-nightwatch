@@ -5,9 +5,9 @@
 
   <testsuite name="filters.contrastinput"
     errors="0" failures="0" hostname="" id="" package="filters.contrastinput" skipped="0"
-    tests="5" time="11.66" timestamp="Wed, 05 Oct 2016 23:26:46 GMT">
+    tests="5" time="16.32" timestamp="Thu, 06 Oct 2016 17:35:17 GMT">
   
-    <testcase name="Step 1: page load" time="7.455" assertions="6">
+    <testcase name="Step 1: page load" time="10.46" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select contrast" time="1.094" assertions="5">
+    <testcase name="Step 2: open filters panel and select contrast" time="2.165" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter contrast via setvalue function" time="0.6730" assertions="4">
+    <testcase name="Step 3: enter contrast via setvalue function" time="1.081" assertions="4">
 
     
 
@@ -46,7 +46,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter contrast via keystoke" time="0.9880" assertions="4">
+    <testcase name="Step 4: enter contrast via keystoke" time="1.101" assertions="4">
 
     
 
@@ -57,7 +57,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease contrast via up/down arrow" time="1.448" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease contrast via up/down arrow" time="1.506" assertions="7">
 
     
 

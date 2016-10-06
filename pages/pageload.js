@@ -1,5 +1,6 @@
 var pageloadCommands = {
   pageload: function() {
+    this.api.resizeWindow(1050,1250)
     this.waitForElementVisible('@pageload', 3000)
   }
 };

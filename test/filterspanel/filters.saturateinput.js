@@ -28,9 +28,6 @@ module.exports = {
         browser.verify.elementPresent('.ui-wrapper[title="Saturate"]')
         .click('.ui-wrapper[title="Saturate"] .select-input-container')
         .waitForElementVisible('.ui-wrapper[title="Saturate"] input[type=range]', 1000)
-      
-        //page = browser.page.saturateinput();  
-          //page.saturateinput();
     },
 
       'Step 3: enter saturate via setvalue function' : function (browser) { 

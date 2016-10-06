@@ -28,9 +28,6 @@ module.exports = {
         browser.verify.elementPresent('[title="Contrast"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Contrast"] .select-triangle-wrapper')
         .waitForElementVisible('[data-qa-id="contrast-slider"]', 1000);
-
-        //page = browser.page.selectopacity();  
-          //browser.page.selectopacity();
     }, 
 
       'Step 3: select contrast via slider' : function (browser) { 

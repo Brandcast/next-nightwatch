@@ -28,9 +28,6 @@ module.exports = {
         browser.verify.elementPresent('[title="Grayscale"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Grayscale"] .select-triangle-wrapper')
         .waitForElementVisible('[data-qa-id="grayscale-slider"]', 1000);
-
-        //page = browser.page.selectopacity();  
-          //browser.page.selectopacity();
     }, 
 
       'Step 3: select grayscale via slider' : function (browser) { 

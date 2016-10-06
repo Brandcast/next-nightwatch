@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="createnewwebsitepanel"
+    errors="0" failures="0" hostname="" id="" package="createnewwebsitepanel" skipped="0"
+    tests="3" time="7.603" timestamp="Thu, 06 Oct 2016 20:01:35 GMT">
+  
+    <testcase name="step 1: load page" time="6.992" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open &quot;new website&quot; panel" time="0.3380" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 3: close &quot;new website&quot; panel" time="0.2730" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

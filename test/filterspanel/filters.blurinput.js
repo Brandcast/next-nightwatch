@@ -29,8 +29,6 @@ module.exports = {
         .click('.ui-wrapper[title="Blur"] .select-input-container')
         .waitForElementVisible('.ui-wrapper[title="Blur"] input[type=text]', 1000)
       
-        //page = browser.page.blurinput();  
-          //page.blurinput();
     },
 
     //   'Step 3: enter blur via setvalue function' : function (browser) { 
@@ -73,17 +71,17 @@ module.exports = {
         //.keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
         .keys(browser.Keys.ARROW_UP)
-        .verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', '27')
+        .verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', '26px')
         //.keys('\uE007')
         .pause(300)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(27px)')
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(26px)')
         browser.frame(null)
 
         .click('.ui-wrapper[title="Blur"] input[type=text]')
         .keys(browser.Keys.ARROW_DOWN)
-        .verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', '26')
+        .verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', '25.5px')
         .keys('\uE007')
         .pause(300)
         
@@ -91,7 +89,7 @@ module.exports = {
           page.closepanel();
       
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(26px)')
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(25.5px)')
         browser.frame(null);
       
       browser.end();

@@ -28,9 +28,6 @@ module.exports = {
         browser.verify.elementPresent('.ui-wrapper[title="Sepia"]')
         .click('.ui-wrapper[title="Sepia"] .select-input-container')
         .waitForElementVisible('.ui-wrapper[title="Sepia"] input[type=range]', 1000)
-      
-        //page = browser.page.sepiainput();  
-          //page.sepiainput();
     },
 
       'Step 3: enter sepia via setvalue function' : function (browser) { 
