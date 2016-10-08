@@ -1,4 +1,4 @@
-var opendimensionspanelCommands = {
+var dimensionspanelCommands = {
   opendimensionspanel: function() {
     this.verify.elementPresent('@dimensionspanelbtn')
       .click('@dimensionspanelbtn')
@@ -7,7 +7,7 @@ var opendimensionspanelCommands = {
 };
 
 module.exports = {
-  commands: [opendimensionspanelCommands],
+  commands: [dimensionspanelCommands],
   elements: {
     dimensionspanelbtn: {
     	selector: 'div.ui-wrapper[title="Dimensions"]'

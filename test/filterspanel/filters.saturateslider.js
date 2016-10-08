@@ -1,5 +1,5 @@
 module.exports = {
-  'disable' : true,
+  'disabled' : true,
   '@tags' : ['filterspanel', 'saturate'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -32,11 +32,11 @@ module.exports = {
     }, 
 
       'Step 3: select saturate via slider' : function (browser) { 
-        browser.moveToElement('[data-qa-id="saturate-slider"]', 2,6)
+        browser.moveToElement('[data-qa-id="saturate-slider"]', 5,6)
         .mouseButtonDown(0)
         .pause(300)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused', '-webkit-filter', 'saturate(0)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused', '-webkit-filter', 'saturate(0.04)')
         browser.frame(null);
 
         browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] .select-input-container input[type="text"]')

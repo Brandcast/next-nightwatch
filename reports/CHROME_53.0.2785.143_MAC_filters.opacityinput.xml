@@ -5,9 +5,9 @@
 
   <testsuite name="filters.opacityinput"
     errors="0" failures="0" hostname="" id="" package="filters.opacityinput" skipped="0"
-    tests="5" time="12.44" timestamp="Thu, 06 Oct 2016 17:36:55 GMT">
+    tests="5" time="11.99" timestamp="Fri, 07 Oct 2016 17:22:10 GMT">
   
-    <testcase name="Step 1: page load" time="7.445" assertions="6">
+    <testcase name="Step 1: page load" time="7.272" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select opacity" time="1.743" assertions="5">
+    <testcase name="Step 2: open filters panel and select opacity" time="1.766" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter opacity via setvalue function" time="0.6170" assertions="4">
+    <testcase name="Step 3: enter opacity via setvalue function" time="0.6810" assertions="4">
 
     
 
@@ -46,7 +46,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter opacity via keystoke" time="0.9130" assertions="4">
+    <testcase name="Step 4: enter opacity via keystoke" time="0.9500" assertions="4">
 
     
 
@@ -57,7 +57,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease opacity via up/down arrow" time="1.717" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease opacity via up/down arrow" time="1.322" assertions="7">
 
     
 

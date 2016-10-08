@@ -5,21 +5,21 @@
 
   <testsuite name="createnewwebsitepanel"
     errors="0" failures="0" hostname="" id="" package="createnewwebsitepanel" skipped="0"
-    tests="3" time="5.459" timestamp="Thu, 06 Oct 2016 22:53:17 GMT">
+    tests="3" time="5.072" timestamp="Fri, 07 Oct 2016 17:24:26 GMT">
   
-    <testcase name="step 1: load page" time="4.793" assertions="1">
+    <testcase name="step 1: load page" time="4.482" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 2: open &quot;new website&quot; panel" time="0.3300" assertions="2">
+    <testcase name="step 2: open &quot;new website&quot; panel" time="0.3310" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step 3: close &quot;new website&quot; panel" time="0.3360" assertions="2">
+    <testcase name="step 3: close &quot;new website&quot; panel" time="0.2590" assertions="2">
 
     
 

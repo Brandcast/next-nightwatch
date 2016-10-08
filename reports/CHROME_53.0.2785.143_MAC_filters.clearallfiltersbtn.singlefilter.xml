@@ -5,9 +5,9 @@
 
   <testsuite name="filters.clearallfiltersbtn.singlefilter"
     errors="0" failures="0" hostname="" id="" package="filters.clearallfiltersbtn.singlefilter" skipped="0"
-    tests="6" time="13.85" timestamp="Thu, 06 Oct 2016 17:35:03 GMT">
+    tests="6" time="11.38" timestamp="Fri, 07 Oct 2016 17:20:28 GMT">
   
-    <testcase name="Step 1: page load" time="8.119" assertions="6">
+    <testcase name="Step 1: page load" time="7.112" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select sepia" time="1.766" assertions="5">
+    <testcase name="Step 2: open filters panel and select sepia" time="1.717" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select sepia via slider" time="0.7810" assertions="3">
+    <testcase name="Step 3: select sepia via slider" time="0.7260" assertions="3">
 
     
 
@@ -44,14 +44,14 @@
     
     </testcase>
   
-    <testcase name="Step 4: verify sepia is applied via css" time="0.4200" assertions="2">
+    <testcase name="Step 4: verify sepia is applied via css" time="0.3650" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 5: click &quot;clear all filters&quot; button" time="1.326" assertions="4">
+    <testcase name="Step 5: click &quot;clear all filters&quot; button" time="0.6370" assertions="4">
 
     
 
@@ -62,7 +62,7 @@
     
     </testcase>
   
-    <testcase name="Step 6: verify sepia input field is clear and css is no longer applied" time="1.434" assertions="5">
+    <testcase name="Step 6: verify sepia input field is clear and css is no longer applied" time="0.8250" assertions="5">
 
     
 

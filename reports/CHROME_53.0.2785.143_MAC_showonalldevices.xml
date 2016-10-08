@@ -5,9 +5,9 @@
 
   <testsuite name="showonalldevices"
     errors="0" failures="0" hostname="" id="" package="showonalldevices" skipped="0"
-    tests="6" time="11.92" timestamp="Thu, 06 Oct 2016 22:58:48 GMT">
+    tests="6" time="10.92" timestamp="Fri, 07 Oct 2016 17:25:51 GMT">
   
-    <testcase name="Step 1: page load" time="6.675" assertions="6">
+    <testcase name="Step 1: page load" time="7.340" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on all devices" time="2.211" assertions="11">
+    <testcase name="Step 2: select hide on all devices" time="1.519" assertions="11">
 
     
 
@@ -47,12 +47,12 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on all devices" time="0.06500" assertions="1">
+    <testcase name="Step 3: verify text component is hidden on all devices" time="0.04300" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 4: select show on all devices" time="0.5410" assertions="8">
+    <testcase name="Step 4: select show on all devices" time="0.5600" assertions="8">
 
     
 
@@ -78,7 +78,7 @@
     
     </testcase>
   
-    <testcase name="Step 6: resize browser widnoow to mobile, tablet, and desktop and verify dispaly:none is not applied" time="2.376" assertions="9">
+    <testcase name="Step 6: resize browser widnoow to mobile, tablet, and desktop and verify dispaly:none is not applied" time="1.410" assertions="9">
 
     
 

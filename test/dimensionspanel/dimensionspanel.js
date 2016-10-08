@@ -16,8 +16,8 @@ module.exports = {
           page.opensite();
     },
 
-      'step 2: open and clsoe dimensions panel' : function (browser) {
-        page = browser.page.opendimensionspanel();
+      'step 2: open and close dimensions panel' : function (browser) {
+        page = browser.page.dimensionspanel();
           page.opendimensionspanel()
      
         page = browser.page.closepanel();  

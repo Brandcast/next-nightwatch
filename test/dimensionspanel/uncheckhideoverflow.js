@@ -20,7 +20,7 @@ module.exports = {
         .click('.bc-text')
         .frame(null) //closes iframe
       
-      page = browser.page.opendimensionspanel();
+      page = browser.page.dimensionspanel();
         page.opendimensionspanel()
   },
 
@@ -39,7 +39,7 @@ module.exports = {
   },
 
     'Step 5: uncheck "hide overflow" button' : function (browser) {
-      page = browser.page.opendimensionspanel();
+      page = browser.page.dimensionspanel();
         page.opendimensionspanel()
 
     page = browser.page.hideoverflowbtn();
