@@ -1,5 +1,5 @@
 module.exports = {
-  '@tags' : ['transform'],
+  '@tags' : ['alignment'],
   'step 1: load page' : function (browser) {
     var page = browser.page.pageload();
 
@@ -18,9 +18,9 @@ module.exports = {
       page.opensite(); 
   },
 
-  'step 3: open transform panel' : function (browser) {
-     var page = browser.page.opentransformpanel();
-      page.opentransformpanel(); 
+  'step 3: open alignment panel' : function (browser) {
+     var page = browser.page.alignmentpanel();
+      page.openalignmentpanel(); 
 
       browser.end()
   },
