@@ -19,9 +19,11 @@ module.exports = {
 
         browser.resizeWindow(640,960)
           .pause(500)
+          .verify.elementPresent('.global-styles-container')
 
         browser.maximizeWindow()
           .pause(500)
+          .verify.elementPresent('.global-styles-container')
 
         page = browser.page.closepanel();  
           page.closepanel();

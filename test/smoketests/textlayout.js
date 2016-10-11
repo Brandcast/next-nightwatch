@@ -32,6 +32,6 @@ module.exports = {
 
       browser.verify.elementPresent('[data-qa-id="/grid/column/text"]')
       
-      //browser.end();
+      browser.end();
     }
 };
