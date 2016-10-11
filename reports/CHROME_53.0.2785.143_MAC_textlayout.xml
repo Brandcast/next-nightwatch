@@ -4,22 +4,44 @@
             tests="2">
 
   <testsuite name="textlayout"
-    errors="0" failures="1" hostname="" id="" package="textlayout" skipped="1"
-    tests="2" time="3.174" timestamp="Fri, 07 Oct 2016 17:27:52 GMT">
+    errors="0" failures="1" hostname="" id="" package="textlayout" skipped="0"
+    tests="2" time="9.710" timestamp="Tue, 11 Oct 2016 20:29:29 GMT">
   
-    <testcase name="step 1: load page" time="3.174" assertions="1">  <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:3:17)
-    at Object.module.exports.step 1: load page (/Users/kelli/Sites/nightwatch/test/smoketests/textlayout.js:10:16)</failure>
+    <testcase name="step 1: load page" time="7.673" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
   
-  
+    <testcase name="step 2: select textlayout" time="2.037" assertions="8">
+
     
-    <testcase
-      name="step 2: select textlayout">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;[data-qa-id=&quot;/grid/column/text&quot;]&gt; is present.">    at Object.module.exports.step 2: select textlayout (/Users/kelli/Sites/nightwatch/test/smoketests/textlayout.js:33:22)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

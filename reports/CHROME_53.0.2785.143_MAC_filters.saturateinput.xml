@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="5">
 
   <testsuite name="filters.saturateinput"
-    errors="0" failures="1" hostname="" id="" package="filters.saturateinput" skipped="4"
-    tests="5" time="10.08" timestamp="Fri, 07 Oct 2016 17:22:44 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.saturateinput" skipped="0"
+    tests="5" time="12.02" timestamp="Tue, 11 Oct 2016 19:22:11 GMT">
   
-    <testcase name="Step 1: page load" time="10.08" assertions="5">
+    <testcase name="Step 1: page load" time="7.455" assertions="6">
 
     
 
@@ -15,34 +15,65 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 5000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.saturateinput.js:13:18)</failure>
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 2: open filters panel and select saturate" time="1.639" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: enter saturate via setvalue function" time="0.6260" assertions="4">
+
     
-    <testcase
-      name="Step 2: open filters panel and select saturate">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: enter saturate via keystoke" time="0.9720" assertions="4">
+
     
-    <testcase
-      name="Step 3: enter saturate via setvalue function">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: enter incrementally inscrease/decrease saturate via up/down arrow" time="1.327" assertions="7">
+
     
-    <testcase
-      name="Step 4: enter saturate via keystoke">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 5: enter incrementally inscrease/decrease saturate via up/down arrow">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

@@ -25,7 +25,7 @@ module.exports = {
         page = browser.page.gridlayoutbtn();  
           page.gridlayoutbtn();
 
-        page = browser.page.opendimensionspanel();  
+        page = browser.page.dimensionspanel();  
           page.opendimensionspanel();
     },
       

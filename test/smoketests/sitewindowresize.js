@@ -15,14 +15,17 @@ module.exports = {
   
     'Step two: open gloablstyles panel and resize browser window' : function (browser) {
        page = browser.page.globalstylespanel();
-         page.globalstylespanel()
+         page.openglobalstylespanel()
 
         browser.resizeWindow(640,960)
           .pause(500)
 
-        //browser.maximizeWindow()
+        browser.maximizeWindow()
           .pause(500)
-         .end();
-     
+
+        page = browser.page.closepanel();  
+          page.closepanel();
+         
+         browser.end();
   }
 };

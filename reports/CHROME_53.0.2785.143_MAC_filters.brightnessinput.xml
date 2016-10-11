@@ -5,9 +5,9 @@
 
   <testsuite name="filters.brightnessinput"
     errors="0" failures="0" hostname="" id="" package="filters.brightnessinput" skipped="0"
-    tests="5" time="10.57" timestamp="Fri, 07 Oct 2016 17:19:53 GMT">
+    tests="5" time="10.52" timestamp="Tue, 11 Oct 2016 19:19:23 GMT">
   
-    <testcase name="Step 1: page load" time="7.163" assertions="6">
+    <testcase name="Step 1: page load" time="7.189" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select brightness" time="1.179" assertions="5">
+    <testcase name="Step 2: open filters panel and select brightness" time="1.070" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter brightness via setvalue function" time="0.6680" assertions="4">
+    <testcase name="Step 3: enter brightness via setvalue function" time="0.7270" assertions="4">
 
     
 
@@ -46,7 +46,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter brightness via keystoke" time="0.3440" assertions="4">
+    <testcase name="Step 4: enter brightness via keystoke" time="0.3380" assertions="4">
 
     
 
@@ -57,7 +57,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease brightness via up/down arrow" time="1.212" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease brightness via up/down arrow" time="1.195" assertions="7">
 
     
 

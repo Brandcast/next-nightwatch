@@ -19,7 +19,7 @@ module.exports = {
   },
 
   'step 3: open background image panel' : function (browser) {
-     var page = browser.page.openbackgroundimagepanel();
+     var page = browser.page.backgroundimagepanel();
       page.openbackgroundimagepanel(); 
 
       browser.end()

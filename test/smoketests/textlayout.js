@@ -28,9 +28,10 @@ module.exports = {
 
        page = browser.page.textlayoutbtn();  
         page.textlayoutbtn();
+        browser.pause(500)
 
-      browser.verify.elementPresent('.component-wrapper.bc-text-wrapper.focused')
+      browser.verify.elementPresent('[data-qa-id="/grid/column/text"]')
       
-      browser.end();
+      //browser.end();
     }
 };
