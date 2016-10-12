@@ -45,6 +45,7 @@ module.exports = {
     'step 5: clear value and verify text component position is reset' : function (browser) {
         browser.click('[title="Translate X"] input[type=text]')
         .clearValue('[title="Translate X"] input[type=text]')
+        .keys('\uE007')
         .verify.valueContains('[title="Translate X"] input[type=text]', "")
 
          // browser.frame(0) //selects iframe - must call to select anything within iframe

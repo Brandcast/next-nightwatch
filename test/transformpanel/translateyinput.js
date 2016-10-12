@@ -1,4 +1,4 @@
-module.eyports = {
+module.exports = {
   '@tags' : ['transform', 'translatey'],
   'step 1: load page and open site' : function (browser) {
     var page = browser.page.pageload();
@@ -45,6 +45,7 @@ module.eyports = {
     'step 5: clear value and verify text component position is reset' : function (browser) {
         browser.click('[title="Translate Y"] input[type=text]')
         .clearValue('[title="Translate Y"] input[type=text]')
+        .keys('\uE007')
         .verify.valueContains('[title="Translate Y"] input[type=text]', "")
 
          // browser.frame(0) //selects iframe - must call to select anything within iframe
