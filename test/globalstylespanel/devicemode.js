@@ -17,8 +17,8 @@ module.exports = {
       page = browser.page.opensite();
         page.opensite();
 
-      page = browser.page.globalstylesbtn();
-        page.globalstylesbtn();
+      page = browser.page.globalstylespanel();
+        page.openglobalstylespanel();
   },
 
   'step 4: open device mode drop down menu' : function (browser) {

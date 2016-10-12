@@ -5,9 +5,9 @@
 
   <testsuite name="textlayout"
     errors="0" failures="1" hostname="" id="" package="textlayout" skipped="0"
-    tests="2" time="9.710" timestamp="Tue, 11 Oct 2016 20:29:29 GMT">
+    tests="2" time="25.74" timestamp="Wed, 12 Oct 2016 19:25:22 GMT">
   
-    <testcase name="step 1: load page" time="7.673" assertions="6">
+    <testcase name="step 1: load page" time="17.40" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="step 2: select textlayout" time="2.037" assertions="8">
+    <testcase name="step 2: select textlayout" time="8.340" assertions="8">
 
     
 
@@ -37,7 +37,8 @@
     
 
       <failure message="Testing if element &lt;[data-qa-id=&quot;/grid/column/text&quot;]&gt; is present.">    at Object.module.exports.step 2: select textlayout (/Users/kelli/Sites/nightwatch/test/smoketests/textlayout.js:33:22)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
     </testcase>

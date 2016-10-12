@@ -19,7 +19,7 @@ module.exports = {
   },
 
   'step 3: open transform panel' : function (browser) {
-     var page = browser.page.opentransformpanel();
+     var page = browser.page.transformpanel();
       page.opentransformpanel(); 
 
       browser.end()

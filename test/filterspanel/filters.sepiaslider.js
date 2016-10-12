@@ -41,7 +41,7 @@ module.exports = {
 
           //browser.mouseButtonClick('.ui-wrapper.left.auto-width.border-bottom-divide[title="Sepia"] input[type=text]')
           browser.moveToElement('[data-qa-id="sepia-slider"]', 30,4)
-          .pause(300)
+          .pause(500)
           browser.frame(0) //selects iframe - must call to select anything within iframe
             .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.47)')
           browser.frame(null);

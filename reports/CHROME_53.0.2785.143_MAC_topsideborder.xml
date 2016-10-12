@@ -5,9 +5,9 @@
 
   <testsuite name="topsideborder"
     errors="0" failures="0" hostname="" id="" package="topsideborder" skipped="0"
-    tests="5" time="12.29" timestamp="Tue, 11 Oct 2016 19:57:51 GMT">
+    tests="5" time="26.59" timestamp="Wed, 12 Oct 2016 19:27:17 GMT">
   
-    <testcase name="Step 1: page load" time="10.08" assertions="6">
+    <testcase name="Step 1: page load" time="18.37" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open stroke panel and select top side border" time="1.513" assertions="7">
+    <testcase name="Step 2: open stroke panel and select top side border" time="6.557" assertions="7">
 
     
 
@@ -39,12 +39,12 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component has top side border" time="0.05700" assertions="1">
+    <testcase name="Step 3: verify text component has top side border" time="0.07900" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 4: open stroke panel and deselect top side border" time="0.5140" assertions="6">
+    <testcase name="Step 4: open stroke panel and deselect top side border" time="1.436" assertions="6">
 
     
 
@@ -59,7 +59,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: verify text component does not have top side border" time="0.1190" assertions="1">
+    <testcase name="Step 5: verify text component does not have top side border" time="0.1440" assertions="1">
 
     
     </testcase>

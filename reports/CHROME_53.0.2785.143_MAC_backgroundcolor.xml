@@ -5,9 +5,9 @@
 
   <testsuite name="backgroundcolor"
     errors="0" failures="0" hostname="" id="" package="backgroundcolor" skipped="0"
-    tests="3" time="9.571" timestamp="Tue, 11 Oct 2016 19:16:45 GMT">
+    tests="3" time="28.88" timestamp="Wed, 12 Oct 2016 18:57:28 GMT">
   
-    <testcase name="Step 1: page load" time="7.309" assertions="6">
+    <testcase name="Step 1: page load" time="20.44" assertions="6">
 
     
 
@@ -21,35 +21,8 @@
 
     
     </testcase>
-      <system-err>
-          Error while running [Devicemode / step 2: open site map, site editor and global styles menu]:
-
-  TypeError: browser.page.globalstylesbtn is not a function
-    at Object.module.exports.step 2: open site map, site editor and global styles menu (/Users/kelli/Sites/nightwatch/test/globalstylespanel/devicemode.js:20:27)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)
-ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-      </system-err>
   
-    <testcase name="Step 2: set text component background color to red" time="2.065" assertions="8">
+    <testcase name="Step 2: set text component background color to red" time="8.179" assertions="8">
 
     
 
@@ -67,65 +40,11 @@ ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: c
 
     
     </testcase>
-      <system-err>
-          Error while running [Devicemode / step 2: open site map, site editor and global styles menu]:
-
-  TypeError: browser.page.globalstylesbtn is not a function
-    at Object.module.exports.step 2: open site map, site editor and global styles menu (/Users/kelli/Sites/nightwatch/test/globalstylespanel/devicemode.js:20:27)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)
-ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-      </system-err>
   
-    <testcase name="Step 3: verify background color is set" time="0.1970" assertions="1">
+    <testcase name="Step 3: verify background color is set" time="0.2610" assertions="1">
 
     
     </testcase>
-      <system-err>
-          Error while running [Devicemode / step 2: open site map, site editor and global styles menu]:
-
-  TypeError: browser.page.globalstylesbtn is not a function
-    at Object.module.exports.step 2: open site map, site editor and global styles menu (/Users/kelli/Sites/nightwatch/test/globalstylespanel/devicemode.js:20:27)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)
-ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-      </system-err>
   
   
   </testsuite>

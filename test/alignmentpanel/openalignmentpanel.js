@@ -19,7 +19,7 @@ module.exports = {
   },
 
   'step 3: open alignment panel' : function (browser) {
-     var page = browser.page.alignmentpanel();
+     page = browser.page.alignmentpanel();
       page.openalignmentpanel(); 
 
       browser.end()

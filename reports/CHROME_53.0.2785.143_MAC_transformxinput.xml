@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="transformxinput"
+    errors="1" failures="0" hostname="" id="" package="transformxinput" skipped="0"
+    tests="3" time="25.00" timestamp="Wed, 12 Oct 2016 22:31:18 GMT">
+  
+    <testcase name="step 1: load page and open site" time="17.84" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Transformxinput / step 3: open transform panel and select transform x input]:
+
+  TypeError: page.transformxinput is not a function
+    at Object.module.exports.step 3: open transform panel and select transform x input (/Users/kelli/Sites/nightwatch/test/transformpanel/transformxinput.js:29:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+    <testcase name="step 2: select text component" time="7.141" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Transformxinput / step 3: open transform panel and select transform x input]:
+
+  TypeError: page.transformxinput is not a function
+    at Object.module.exports.step 3: open transform panel and select transform x input (/Users/kelli/Sites/nightwatch/test/transformpanel/transformxinput.js:29:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+    <testcase name="step 3: open transform panel and select transform x input" time="0.01300" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Transformxinput / step 3: open transform panel and select transform x input]:
+
+  TypeError: page.transformxinput is not a function
+    at Object.module.exports.step 3: open transform panel and select transform x input (/Users/kelli/Sites/nightwatch/test/transformpanel/transformxinput.js:29:14)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

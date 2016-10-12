@@ -5,9 +5,9 @@
 
   <testsuite name="filters.blurinput"
     errors="0" failures="0" hostname="" id="" package="filters.blurinput" skipped="0"
-    tests="4" time="11.05" timestamp="Tue, 11 Oct 2016 19:19:12 GMT">
+    tests="4" time="35.59" timestamp="Wed, 12 Oct 2016 21:21:35 GMT">
   
-    <testcase name="Step 1: page load" time="7.433" assertions="6">
+    <testcase name="Step 1: page load" time="22.77" assertions="6">
 
     
 
@@ -21,8 +21,21 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;.ui-wrapper[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+      </system-err>
   
-    <testcase name="Step 2: open filters panel and select blur" time="1.164" assertions="5">
+    <testcase name="Step 2: open filters panel and select blur" time="7.134" assertions="5">
 
     
 
@@ -34,8 +47,21 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;.ui-wrapper[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+      </system-err>
   
-    <testcase name="Step 4: enter blur via keystoke" time="0.7430" assertions="4">
+    <testcase name="Step 4: enter blur via keystoke" time="2.006" assertions="4">
 
     
 
@@ -45,8 +71,21 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;.ui-wrapper[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+      </system-err>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease blur via up/down arrow" time="1.708" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease blur via up/down arrow" time="3.682" assertions="7">
 
     
 
@@ -62,6 +101,19 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;.ui-wrapper[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+      </system-err>
   
   
   </testsuite>

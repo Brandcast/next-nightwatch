@@ -5,18 +5,12 @@
 
   <testsuite name="selectstrokecolor"
     errors="0" failures="1" hostname="" id="" package="selectstrokecolor" skipped="2"
-    tests="3" time="1801" timestamp="Tue, 11 Oct 2016 19:27:49 GMT">
+    tests="3" time="5.963" timestamp="Wed, 12 Oct 2016 19:27:11 GMT">
   
-    <testcase name="Step 1: page load" time="1801" assertions="5">
+    <testcase name="Step 1: page load" time="5.963" assertions="2">
 
-    
-
-    
-
-    
-
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/strokepanel/selectstrokecolor.js:13:14)</failure>
+      <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:3:17)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/strokepanel/selectstrokecolor.js:10:14)</failure>
 
     
     </testcase>

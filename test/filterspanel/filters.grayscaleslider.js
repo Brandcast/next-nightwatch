@@ -33,7 +33,7 @@ module.exports = {
       'Step 3: select grayscale via slider' : function (browser) { 
         browser.moveToElement('[data-qa-id="grayscale-slider"]', 8,6)
         .mouseButtonDown(0)
-        .pause(300)
+        .pause(500)
          browser.frame(0) //selects iframe - must call to select anything within iframe
           .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.08)')
         browser.frame(null);

@@ -5,9 +5,9 @@
 
   <testsuite name="justifyleft"
     errors="0" failures="0" hostname="" id="" package="justifyleft" skipped="0"
-    tests="5" time="12.07" timestamp="Tue, 11 Oct 2016 19:58:23 GMT">
+    tests="5" time="27.85" timestamp="Wed, 12 Oct 2016 19:28:34 GMT">
   
-    <testcase name="step 1: load page" time="4.923" assertions="3">
+    <testcase name="step 1: load page" time="13.69" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="2.617" assertions="3">
+    <testcase name="step 2: open site map" time="7.778" assertions="3">
 
     
 
@@ -25,19 +25,19 @@
     
     </testcase>
   
-    <testcase name="step 3: select text component" time="1.845" assertions="1">
+    <testcase name="step 3: select text component" time="2.821" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 4: open text formatting panel" time="0.7600" assertions="2">
+    <testcase name="step 4: open text formatting panel" time="1.414" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step 5: disable/enable left justify" time="1.925" assertions="7">
+    <testcase name="step 5: disable/enable left justify" time="2.151" assertions="7">
 
     
 

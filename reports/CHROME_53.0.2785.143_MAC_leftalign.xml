@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="3">
+            tests="4">
 
   <testsuite name="leftalign"
     errors="0" failures="0" hostname="" id="" package="leftalign" skipped="0"
-    tests="3" time="9.699" timestamp="Tue, 11 Oct 2016 23:44:29 GMT">
+    tests="4" time="25.80" timestamp="Wed, 12 Oct 2016 20:20:53 GMT">
   
-    <testcase name="Step 1: page load" time="7.985" assertions="6">
+    <testcase name="Step 1: page load" time="18.76" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: click text component and then select grid layout" time="1.281" assertions="4">
+    <testcase name="Step 2: click text component and then select grid layout" time="5.806" assertions="4">
 
     
 
@@ -33,13 +33,18 @@
     
     </testcase>
   
-    <testcase name="Step 3: open alignment panel and select left align" time="0.4330" assertions="4">
+    <testcase name="Step 3: open alignment panel and select left align" time="1.017" assertions="4">
 
     
 
     
 
     
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: verify grid has left alignment applied via css class" time="0.2180" assertions="1">
 
     
     </testcase>

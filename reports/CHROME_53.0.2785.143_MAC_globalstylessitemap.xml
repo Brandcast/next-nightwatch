@@ -5,9 +5,9 @@
 
   <testsuite name="globalstylessitemap"
     errors="0" failures="1" hostname="" id="" package="globalstylessitemap" skipped="2"
-    tests="3" time="4.690" timestamp="Tue, 11 Oct 2016 19:23:12 GMT">
+    tests="3" time="11.59" timestamp="Wed, 12 Oct 2016 19:14:40 GMT">
   
-    <testcase name="step 1: load page" time="4.690" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 3000 milliseconds.">    at Object.pageloadCommands.pageload (/Users/kelli/Sites/nightwatch/pages/pageload.js:4:10)
+    <testcase name="step 1: load page" time="11.59" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 3000 milliseconds.">    at Object.pageloadCommands.pageload (/Users/kelli/Sites/nightwatch/pages/pageload.js:4:10)
     at Object.module.exports.step 1: load page (/Users/kelli/Sites/nightwatch/test/globalstylespanel/globalstylessiteeditor.js:7:12)</failure>
 
     
