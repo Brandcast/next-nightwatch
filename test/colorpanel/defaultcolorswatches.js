@@ -25,12 +25,17 @@ module.exports = {
         page = browser.page.opencolorpanel();
           page.opencolorpanel();
 
+        page = browser.page.backgroundcolorbtn();  
+          page.backgroundcolorbtn();
+
         page = browser.page.colorswatchblack();  
           page.colorswatchblack();
 
+        browser.pause(300)
+
          //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(0, 0, 0, 0)')
+          browser.verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(0, 0, 0, 1)')
           browser.frame(null)
     },     
       
@@ -45,25 +50,52 @@ module.exports = {
     
         //verify color applied via css
        browser.frame(0) //selects iframe - must call to select anything within iframe
-         browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'border-color', 'rgb(255, 255, 255)')
+         browser.verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'border-color', 'rgb(255, 255, 255)')
           browser.frame(null)
-    //},
+    },
       
-    //'Step 4: text color set to transparent' : function (browser) {
-     // page = browser.page.selecttextcolorbtn();  
-        //page.selecttextcolorbtn();
+    'Step 4: text color set to transparent' : function (browser) {
+       page = browser.page.textcolorbtn();  
+          page.textcolorbtn();
 
-      //page = browser.page.selectcolorswatchtransparent();  
-        //page.selectcolorswatchtransparent();
+       page = browser.page.colorswatchtransparent();  
+         page.colorswatchtransparent();
+
+      browser.pause(300)
+
+       browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.verify.cssProperty('.focused.component-wrapper', 'color', 'rgba(68, 68, 68, 1)')
+          browser.frame(null)
+    },
+      
+      'Step 7: reset text, background, and stroke color to default settings then close panel' : function (browser) {
+        page = browser.page.textcolorbtn();  
+          page.textcolorbtn();
+
+        page = browser.page.colorswatchblack();  
+          page.colorswatchblack();
+
+        page = browser.page.backgroundcolorbtn();  
+          page.backgroundcolorbtn();
+
+        page = browser.page.colorswatchtransparent();  
+          page.colorswatchtransparent();
+
+        page = browser.page.openstrokepanel();
+          page.openstrokepanel();
+
+        page = browser.page.borderallsides();
+          page.borderallsidesbtndisabled()
+       
+          browser.pause(300);
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(0, 0, 0, 0)')
+          browser.frame(null)
 
 
-        //verify color applied via css
-      //browser.frame(0) //selects iframe - must call to select anything within iframe
-        //browser.assert.cssProperty('.focused.component-wrapper', 'color', 'transparent')
-        //browser.frame(null)
-
-     // page = browser.page.closepanel();  
-      //  page.closepanel();
+        page = browser.page.closepanel();  
+          page.closepanel();
 
       browser.end();
     },

@@ -5,9 +5,9 @@
 
   <testsuite name="leftalign"
     errors="0" failures="0" hostname="" id="" package="leftalign" skipped="0"
-    tests="4" time="25.80" timestamp="Wed, 12 Oct 2016 20:20:53 GMT">
+    tests="4" time="23.82" timestamp="Thu, 13 Oct 2016 22:17:55 GMT">
   
-    <testcase name="Step 1: page load" time="18.76" assertions="6">
+    <testcase name="Step 1: page load" time="19.24" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: click text component and then select grid layout" time="5.806" assertions="4">
+    <testcase name="Step 2: click text component and then select grid layout" time="3.321" assertions="4">
 
     
 
@@ -33,7 +33,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: open alignment panel and select left align" time="1.017" assertions="4">
+    <testcase name="Step 3: open alignment panel and select left align" time="1.069" assertions="4">
 
     
 
@@ -44,7 +44,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: verify grid has left alignment applied via css class" time="0.2180" assertions="1">
+    <testcase name="Step 4: verify grid has left alignment applied via css class" time="0.1940" assertions="1">
 
     
     </testcase>

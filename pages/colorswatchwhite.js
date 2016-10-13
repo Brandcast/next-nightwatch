@@ -2,6 +2,7 @@ var colorswatchwhiteCommands = {
   colorswatchwhite: function() {
         this.verify.elementPresent('@swatchwhite')
         .click('.swatch[title="R=255 G=255 B=255 A=100%"]')
+        this.api.pause(300)
         .verify.valueContains('.color-hex-input-wrapper input[type=text]', '#ffffff')
   }
 };

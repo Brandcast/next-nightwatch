@@ -5,9 +5,9 @@
 
   <testsuite name="openbackgroundimagepanel"
     errors="0" failures="0" hostname="" id="" package="openbackgroundimagepanel" skipped="0"
-    tests="3" time="27.15" timestamp="Wed, 12 Oct 2016 18:57:01 GMT">
+    tests="3" time="22.63" timestamp="Wed, 12 Oct 2016 23:52:49 GMT">
   
-    <testcase name="step 1: load page" time="14.57" assertions="3">
+    <testcase name="step 1: load page" time="12.24" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="4.745" assertions="3">
+    <testcase name="step 2: open site map" time="5.506" assertions="3">
 
     
 
@@ -25,7 +25,7 @@
     
     </testcase>
   
-    <testcase name="step 3: open background image panel" time="7.828" assertions="2">
+    <testcase name="step 3: open background image panel" time="4.887" assertions="2">
 
     
 

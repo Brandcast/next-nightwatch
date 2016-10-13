@@ -38,9 +38,6 @@ module.exports = {
             .mouseButtonUp(0)
 
         browser.pause(300)
-      
-        page = browser.page.closepanel();  
-          page.closepanel();
     },
 
       'Step 3: verify opacity' : function (browser) {
@@ -49,6 +46,24 @@ module.exports = {
          browser.verify.elementPresent('.focused.component-wrapper')
           .assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'color', 'rgba(191, 123, 123, 0.831373)')
         browser.frame(null);
+
+    },
+
+      'Step 4: reset text to default setting then close panel' : function (browser) {
+        page = browser.page.textcolorbtn();  
+         page.textcolorbtn();
+
+       page = browser.page.colorswatchblack();  
+          page.colorswatchblack();
+
+           //verify color applied via css
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused', 'color', 'rgba(0, 0, 0, 1)')
+        browser.frame(null)
+
+        page = browser.page.closepanel();  
+          page.closepanel();
+        
         browser.end();
     }
 };

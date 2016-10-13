@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="2">
 
   <testsuite name="dimensionspanel"
-    errors="0" failures="1" hostname="" id="" package="dimensionspanel" skipped="1"
-    tests="2" time="20.98" timestamp="Wed, 12 Oct 2016 19:02:41 GMT">
+    errors="0" failures="0" hostname="" id="" package="dimensionspanel" skipped="0"
+    tests="2" time="24.31" timestamp="Wed, 12 Oct 2016 23:58:31 GMT">
   
-    <testcase name="step 1: load page" time="20.98" assertions="5">
+    <testcase name="step 1: load page" time="21.41" assertions="6">
 
     
 
@@ -15,19 +15,24 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
-    at Object.module.exports.step 1: load page (/Users/kelli/Sites/nightwatch/test/dimensionspanel/dimensionspanel.js:13:16)</failure>
+    
+
+    
 
     
     </testcase>
   
-  
+    <testcase name="step 2: open and close dimensions panel" time="2.899" assertions="4">
+
     
-    <testcase
-      name="step 2: open and close dimensions panel">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

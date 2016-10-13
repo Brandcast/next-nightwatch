@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="3">
 
   <testsuite name="medialibrarysiteeditor"
-    errors="0" failures="0" hostname="" id="" package="medialibrarysiteeditor" skipped="0"
-    tests="3" time="23.18" timestamp="Wed, 12 Oct 2016 19:14:51 GMT">
+    errors="0" failures="1" hostname="" id="" package="medialibrarysiteeditor" skipped="2"
+    tests="3" time="4.959" timestamp="Thu, 13 Oct 2016 00:11:37 GMT">
   
-    <testcase name="step 1: load page" time="12.37" assertions="3">
-
-    
-
-    
+    <testcase name="step 1: load page" time="4.959" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 3000 milliseconds.">    at Object.pageloadCommands.pageload (/Users/kelli/Sites/nightwatch/pages/pageload.js:4:10)
+    at Object.module.exports.step 1: load page (/Users/kelli/Sites/nightwatch/test/globalstylespanel/globalstylessitemap.js:7:12)</failure>
 
     
     </testcase>
   
-    <testcase name="step 2: open site map and site editor" time="6.672" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
   
-    <testcase name="step 3: open media library menu" time="4.142" assertions="2">
-
     
-
-    
+    <testcase
+      name="step 2: open site map and site editor">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="step 3: open media library menu">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

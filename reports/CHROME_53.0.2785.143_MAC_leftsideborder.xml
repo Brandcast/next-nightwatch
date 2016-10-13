@@ -5,9 +5,9 @@
 
   <testsuite name="leftsideborder"
     errors="0" failures="0" hostname="" id="" package="leftsideborder" skipped="0"
-    tests="5" time="28.57" timestamp="Wed, 12 Oct 2016 19:26:14 GMT">
+    tests="5" time="10.57" timestamp="Thu, 13 Oct 2016 00:16:22 GMT">
   
-    <testcase name="Step 1: page load" time="18.98" assertions="6">
+    <testcase name="Step 1: page load" time="7.235" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open stroke panel and select left side border" time="7.725" assertions="7">
+    <testcase name="Step 2: open stroke panel and select left side border" time="2.560" assertions="7">
 
     
 
@@ -39,12 +39,12 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component has left side border" time="0.1500" assertions="1">
+    <testcase name="Step 3: verify text component has left side border" time="0.06700" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 4: open stroke panel and deselect left side border" time="1.492" assertions="6">
+    <testcase name="Step 4: open stroke panel and deselect left side border" time="0.5280" assertions="6">
 
     
 
@@ -59,7 +59,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: verify text component does not have left side border" time="0.2200" assertions="1">
+    <testcase name="Step 5: verify text component does not have left side border" time="0.1850" assertions="1">
 
     
     </testcase>

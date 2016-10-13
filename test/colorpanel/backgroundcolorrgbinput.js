@@ -28,21 +28,26 @@ module.exports = {
         page = browser.page.backgroundcolorbtn();
           page.backgroundcolorbtn();
 
+        page = browser.page.colorswatchtransparent();  
+          page.colorswatchtransparent();
+
+        // page = browser.page.colorspectrum();  
+        //   page.colorspectrum();
+
         page = browser.page.redinput();  
           page.redinput();
-            browser.setValue('.ui-wrapper[title="Red"] input[type=text]', '\u0008')
+            browser.clearValue('.ui-wrapper[title="Red"] input[type=text]')
             .keys('6')
             .keys('0')
             .keys(browser.Keys.RETURN)
-            .verify.valueContains('.ui-wrapper[title="Red"] input[type=text]', '60')
-           
+            .verify.valueContains('.ui-wrapper[title="Red"] input[type=text]', '60')  
     },
         
       'Step 3: click on green input field, enter number and verify input value'  : function (browser) {  
 
          page = browser.page.greeninput();  
           page.greeninput();
-            browser.setValue('.ui-wrapper[title="Green"] input[type=text]', '\u0008')
+            browser.clearValue('.ui-wrapper[title="Green"] input[type=text]')
             .keys('4')
             .keys('0')
             .keys(browser.Keys.RETURN)
@@ -53,7 +58,7 @@ module.exports = {
 
          page = browser.page.blueinput();  
           page.blueinput();
-            browser.setValue('.ui-wrapper[title="Blue"] input[type=text]', '\u0008')
+            browser.clearValue('.ui-wrapper[title="Blue"] input[type=text]')
             .keys('2')
             .keys('0')
             .keys(browser.Keys.RETURN)
@@ -68,7 +73,22 @@ module.exports = {
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
             browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(60, 40, 20, 1)')
-         browser.frame(null)
+         browser.frame(null)     
+    },
+      
+      'Step 6: clear background color and close panel' : function (browser) {
+        page = browser.page.colorswatchtransparent();  
+          page.colorswatchtransparent();
+
+          browser.pause(300);
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(0, 0, 0, 0)')
+          browser.frame(null)
+
+        page = browser.page.closepanel();  
+          page.closepanel();
+          
           browser.end();
     }
 };

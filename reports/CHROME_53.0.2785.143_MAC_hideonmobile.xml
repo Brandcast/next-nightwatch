@@ -5,9 +5,9 @@
 
   <testsuite name="hideonmobile"
     errors="0" failures="0" hostname="" id="" package="hideonmobile" skipped="0"
-    tests="3" time="26.32" timestamp="Wed, 12 Oct 2016 19:17:29 GMT">
+    tests="3" time="10.16" timestamp="Thu, 13 Oct 2016 00:12:42 GMT">
   
-    <testcase name="Step 1: page load" time="19.11" assertions="6">
+    <testcase name="Step 1: page load" time="8.241" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on mobile" time="5.465" assertions="5">
+    <testcase name="Step 2: select hide on mobile" time="1.181" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on mobile" time="1.750" assertions="4">
+    <testcase name="Step 3: verify text component is hidden on mobile" time="0.7350" assertions="4">
 
     
 

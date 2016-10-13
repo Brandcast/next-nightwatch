@@ -66,6 +66,22 @@ module.exports = {
           //browser.pause(1000)
           browser.verify.elementNotPresent('[value="rgb(123, 124, 191)"]')
 
+    },
+      
+      'Step 6: clear text color and close panel' : function (browser) {
+        page = browser.page.colorswatchtransparent();  
+          page.colorswatchtransparent();
+
+          browser.pause(300);
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          browser.verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'color', 'rgba(68, 68, 68, 1)')
+          browser.frame(null)
+
+
+        page = browser.page.closepanel();  
+          page.closepanel();
+
           browser.end();
     }
 };

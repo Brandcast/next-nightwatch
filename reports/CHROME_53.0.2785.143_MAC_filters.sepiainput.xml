@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="5">
 
   <testsuite name="filters.sepiainput"
-    errors="0" failures="1" hostname="" id="" package="filters.sepiainput" skipped="4"
-    tests="5" time="23.23" timestamp="Wed, 12 Oct 2016 21:30:51 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.sepiainput" skipped="0"
+    tests="5" time="32.09" timestamp="Thu, 13 Oct 2016 00:09:25 GMT">
   
-    <testcase name="Step 1: page load" time="23.23" assertions="5">
+    <testcase name="Step 1: page load" time="20.93" assertions="6">
 
     
 
@@ -15,34 +15,67 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.sepiainput.js:13:18)</failure>
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 2: open filters panel and select sepia" time="5.859" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: enter sepia via setvalue function" time="1.165" assertions="4">
+
     
-    <testcase
-      name="Step 2: open filters panel and select sepia">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: enter sepia via keystoke" time="1.260" assertions="4">
+
     
-    <testcase
-      name="Step 3: enter sepia via setvalue function">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: enter incrementally inscrease/decrease sepia via up/down arrow" time="2.869" assertions="8">
+
     
-    <testcase
-      name="Step 4: enter sepia via keystoke">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 5: enter incrementally inscrease/decrease sepia via up/down arrow">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

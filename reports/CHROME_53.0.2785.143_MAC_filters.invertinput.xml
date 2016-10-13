@@ -5,9 +5,9 @@
 
   <testsuite name="filters.invertinput"
     errors="0" failures="0" hostname="" id="" package="filters.invertinput" skipped="0"
-    tests="5" time="31.66" timestamp="Wed, 12 Oct 2016 21:27:36 GMT">
+    tests="5" time="33.00" timestamp="Thu, 13 Oct 2016 00:06:15 GMT">
   
-    <testcase name="Step 1: page load" time="19.49" assertions="6">
+    <testcase name="Step 1: page load" time="17.71" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select invert" time="6.542" assertions="5">
+    <testcase name="Step 2: open filters panel and select invert" time="9.368" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter invert via setvalue function" time="1.346" assertions="4">
+    <testcase name="Step 3: enter invert via setvalue function" time="1.399" assertions="4">
 
     
 
@@ -46,7 +46,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter invert via keystoke" time="1.626" assertions="4">
+    <testcase name="Step 4: enter invert via keystoke" time="1.586" assertions="4">
 
     
 
@@ -57,7 +57,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease invert via up/down arrow" time="2.650" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease invert via up/down arrow" time="2.936" assertions="7">
 
     
 

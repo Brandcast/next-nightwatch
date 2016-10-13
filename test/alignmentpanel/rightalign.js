@@ -35,6 +35,7 @@ module.exports = {
       'Step 4: verify grid has right alignment applied via css class' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .verify.elementPresent('.bc-grid-wrapper.focused.bc-right')
+          //.expect.element('.bc-grid-wrapper.focused').to.have.css('alignment').which.equals('right')
           .frame(null) //closes iframe
       
         browser.end();

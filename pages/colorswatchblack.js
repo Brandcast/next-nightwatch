@@ -2,6 +2,7 @@ var colorswatchblackCommands = {
   colorswatchblack: function() {
         this.verify.elementPresent('@swatchblack')
         .click('@swatchblack')
+        this.api.pause(300)
         .verify.valueContains('.color-hex-input-wrapper input[type=text]', '#000000')
   }
 };

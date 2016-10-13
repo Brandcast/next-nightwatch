@@ -5,9 +5,9 @@
 
   <testsuite name="centeralign"
     errors="0" failures="0" hostname="" id="" package="centeralign" skipped="0"
-    tests="4" time="26.19" timestamp="Wed, 12 Oct 2016 20:20:26 GMT">
+    tests="4" time="20.93" timestamp="Thu, 13 Oct 2016 22:17:33 GMT">
   
-    <testcase name="Step 1: page load" time="19.72" assertions="6">
+    <testcase name="Step 1: page load" time="16.63" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: click text component and then select grid layout" time="5.366" assertions="4">
+    <testcase name="Step 2: click text component and then select grid layout" time="3.071" assertions="4">
 
     
 
@@ -33,7 +33,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: open alignment panel and select center align" time="0.8860" assertions="4">
+    <testcase name="Step 3: open alignment panel and select center align" time="1.041" assertions="4">
 
     
 
@@ -44,7 +44,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: verify grid has center alignment applied via css class" time="0.2200" assertions="1">
+    <testcase name="Step 4: verify grid has center alignment applied via css class" time="0.1820" assertions="1">
 
     
     </testcase>

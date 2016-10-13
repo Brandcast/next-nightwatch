@@ -62,9 +62,25 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'border-color', 'rgb(112, 72, 33)')
           browser.frame(null)
+    },
+      
+      'Step 6: remove stroke and close panel' : function (browser) {
+        page = browser.page.colorswatchtransparent();  
+         page.colorswatchtransparent();
 
-          page = browser.page.closepanel();  
-            page.closepanel();
+         browser.pause(300)
+
+         page = browser.page.closepanel();  
+          page.closepanel();
+
+        page = browser.page.openstrokepanel();
+          page.openstrokepanel()
+
+        page = browser.page.borderallsides();
+          page.borderallsidesbtndisabled()
+        
+        page = browser.page.closepanel();  
+          page.closepanel();
         
           browser.end();
     }
