@@ -1,4 +1,5 @@
 module.exports = {
+  'disabled' : true,
   '@tags' : ['colorpanel'],
     'Step 1: page load'  : function (browser) {
       var page = browser.page.pageload();
@@ -30,9 +31,8 @@ module.exports = {
 
         page = browser.page.colorspectrum();  
           page.colorspectrum();
-          
-        page = browser.page.closepanel();  
-          page.closepanel();
+
+        browser.pause(300)
     },
       
       'Step 3: verify stroke color is set' : function (browser) {
@@ -40,6 +40,30 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'border-color', 'rgb(191, 123, 123)')
           browser.frame(null)
-          browser.end();
+    },
+      
+      'Step 4: remove stroke and close panel' : function (browser) {
+        page = browser.page.colorswatchtransparent();  
+         page.colorswatchtransparent();
+
+        //  browser.pause(300)
+
+        //   //verify color applied via css
+        // browser.frame(0) //selects iframe - must call to select anything within iframe
+        //   browser.assert.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'border-color', 'rgb(0, 0, 0, 1)')
+        //   browser.frame(null)
+
+        //  page = browser.page.closepanel();  
+        //   page.closepanel();
+
+        // page = browser.page.openstrokepanel();
+        //   page.openstrokepanel()
+
+        // page = browser.page.borderallsides();
+        //   page.borderallsidesbtndisabled()
+        
+        // page = browser.page.closepanel();  
+        //   page.closepanel();
+        //   browser.end();
     }
 };

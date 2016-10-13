@@ -5,9 +5,9 @@
 
   <testsuite name="strokecolorrgbslider"
     errors="0" failures="2" hostname="" id="" package="strokecolorrgbslider" skipped="0"
-    tests="6" time="31.39" timestamp="Thu, 13 Oct 2016 23:05:18 GMT">
+    tests="6" time="27.01" timestamp="Thu, 13 Oct 2016 23:41:41 GMT">
   
-    <testcase name="Step 1: page load" time="16.92" assertions="6">
+    <testcase name="Step 1: page load" time="14.86" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: click on red slider and verify hex code" time="7.808" assertions="7">
+    <testcase name="Step 2: click on red slider and verify hex code" time="6.453" assertions="7">
 
     
 
@@ -41,7 +41,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: click on green slider and verify hex code" time="1.112" assertions="2">
+    <testcase name="Step 3: click on green slider and verify hex code" time="0.7900" assertions="2">
 
       <failure message="Testing if value of &lt;.color-hex-input-wrapper input[type=text]&gt; contains: &quot;#704800&quot;.">    at Object.module.exports.Step 3: click on green slider and verify hex code (/Users/kelli/Sites/nightwatch/test/colorpanel/strokecolorrgbslider.js:46:28)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
@@ -50,19 +50,19 @@
     
     </testcase>
   
-    <testcase name="Step 4: click on blue slider and verify hex code" time="1.356" assertions="2">
+    <testcase name="Step 4: click on blue slider and verify hex code" time="1.222" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 5: verify stroke color is set" time="0.2110" assertions="1">
+    <testcase name="Step 5: verify stroke color is set" time="0.1080" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 6: remove stroke and close panel" time="3.982" assertions="10">
+    <testcase name="Step 6: remove stroke and close panel" time="3.576" assertions="10">
 
     
 

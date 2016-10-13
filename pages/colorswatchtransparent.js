@@ -3,7 +3,7 @@ var colorswatchtransparentCommands = {
         this.verify.elementPresent('@swatchtransparent')
         .click('@swatchtransparent')
         this.api.pause(300)
-        .verify.valueContains('.color-hex-input-wrapper input[type=text]', '')
+        .assert.valueContains('.color-hex-input-wrapper input[type=text]', '')
   }
 };
 
