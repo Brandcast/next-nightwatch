@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="2"
             tests="5">
 
   <testsuite name="entertexthexcode"
-    errors="0" failures="0" hostname="" id="" package="entertexthexcode" skipped="0"
-    tests="5" time="27.04" timestamp="Thu, 13 Oct 2016 23:41:14 GMT">
+    errors="0" failures="2" hostname="" id="" package="entertexthexcode" skipped="0"
+    tests="5" time="29.79" timestamp="Thu, 13 Oct 2016 23:47:01 GMT">
   
-    <testcase name="step 1: load page" time="18.36" assertions="6">
+    <testcase name="step 1: load page" time="19.40" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="step 2: select text component in iframe and open color panel" time="2.142" assertions="3">
+    <testcase name="step 2: select text component in iframe and open color panel" time="2.991" assertions="3">
 
     
 
@@ -31,7 +31,7 @@
     
     </testcase>
   
-    <testcase name="step 3: select text color, enter hex code, and close panel" time="4.058" assertions="5">
+    <testcase name="step 3: select text color, enter hex code, and close panel" time="4.476" assertions="5">
 
     
 
@@ -39,17 +39,20 @@
 
     
 
-    
-
-    
-    </testcase>
-  
-    <testcase name="step 4: verify text componet has text color hex code" time="0.1900" assertions="1">
+      <failure message="Testing if value of &lt;input[type=text]&gt; contains: &quot;#7fff00&quot;.">    at Object.enterhexcodeCommands.enterhexcode (/Users/kelli/Sites/nightwatch/pages/enterhexcode.js:7:17)
+    at Object.module.exports.step 3: select text color, enter hex code, and close panel (/Users/kelli/Sites/nightwatch/test/colorpanel/entertexthexcode.js:37:16)</failure>
 
     
     </testcase>
   
-    <testcase name="step 5: set text color to black and close panel" time="2.285" assertions="7">
+    <testcase name="step 4: verify text componet has text color hex code" time="0.08800" assertions="1">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused[data-qa-id=&quot;/grid/column/text&quot;]&gt; has css property &quot;color: rgba(127, 255, 0, 1)&quot;.">    at Object.module.exports.step 4: verify text componet has text color hex code (/Users/kelli/Sites/nightwatch/test/colorpanel/entertexthexcode.js:45:26)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="step 5: set text color to black and close panel" time="2.832" assertions="7">
 
     
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="4">
 
   <testsuite name="textcolor"
-    errors="0" failures="1" hostname="" id="" package="textcolor" skipped="0"
-    tests="4" time="23.11" timestamp="Thu, 13 Oct 2016 23:42:08 GMT">
+    errors="0" failures="0" hostname="" id="" package="textcolor" skipped="0"
+    tests="4" time="23.47" timestamp="Thu, 13 Oct 2016 23:47:59 GMT">
   
-    <testcase name="Step 1: page load" time="17.26" assertions="6">
+    <testcase name="Step 1: page load" time="14.96" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select text color" time="3.657" assertions="6">
+    <testcase name="Step 2: select text color" time="6.665" assertions="6">
 
     
 
@@ -37,13 +37,12 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text color" time="0.2820" assertions="1">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused&gt; has css property &quot;color: rgba(191, 123, 123, 1)&quot;.">    at Object.module.exports.Step 3: verify text color (/Users/kelli/Sites/nightwatch/test/colorpanel/textcolor.js:38:24)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+    <testcase name="Step 3: verify text color" time="0.08500" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 7: reset text to default setting then close panel" time="1.920" assertions="7">
+    <testcase name="Step 7: reset text to default setting then close panel" time="1.756" assertions="7">
 
     
 

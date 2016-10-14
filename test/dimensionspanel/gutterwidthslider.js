@@ -50,9 +50,19 @@ module.exports = {
           .moveToElement('.ui-wrapper[title="Gutter Width"] .slider-wrapper input[type=range]', 150, 6)
             .frame(0) //selects iframe - must call to select anything within iframe
             .waitForElementVisible('.bc-grid.padding-15', 1000)
-            .click('.bc-text')
+            //.click('.bc-text')
             .frame(null) //closes iframe
           .mouseButtonUp(0)
+    },  
+      
+    'Step 4: reset grid gutter width to 4 and close panel' : function (browser) {
+        browser.setValue('[title="Gutter Width"] input[type=text]', '4')
+        
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+            .waitForElementVisible('.bc-grid.padding-4', 1000)
+            //.click('.bc-text')
+            .frame(null) //closes iframe
+
         page = browser.page.closepanel();  
           page.closepanel();
       

@@ -46,7 +46,8 @@ module.exports = {
     // },
 
       'Step 4: enter blur via keystoke' : function (browser) { 
-        browser.verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', "")
+        //browser.verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', "")
+        browser.clearValue('[title="Blur"] input[type=text]')
         .keys('2')
         .keys('5')
         .keys('\uE007')
@@ -85,12 +86,22 @@ module.exports = {
         .keys('\uE007')
         .pause(300)
         
-        page = browser.page.closepanel();  
-          page.closepanel();
-      
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(25.5px)')
         browser.frame(null);
+    },
+
+    'Step 6: clear input field and close panel' : function (browser) { 
+        browser.setValue('[title="Blur"] input[type=text]', '\u0008')
+
+        .pause(300)
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(0px)')
+        browser.frame(null);
+
+        page = browser.page.closepanel();  
+          page.closepanel();
       
       browser.end();
     }

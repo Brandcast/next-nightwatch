@@ -5,9 +5,9 @@
 
   <testsuite name="undock:drag:dockcolorpanel"
     errors="0" failures="0" hostname="" id="" package="undock:drag:dockcolorpanel" skipped="0"
-    tests="4" time="18.20" timestamp="Thu, 13 Oct 2016 23:42:55 GMT">
+    tests="4" time="24.05" timestamp="Thu, 13 Oct 2016 23:48:50 GMT">
   
-    <testcase name="Step 1: page load" time="15.35" assertions="6">
+    <testcase name="Step 1: page load" time="20.16" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: Undock color panel" time="1.386" assertions="5">
+    <testcase name="Step 2: Undock color panel" time="2.222" assertions="5">
 
     
 
@@ -35,14 +35,14 @@
     
     </testcase>
   
-    <testcase name="Step 3: drag color panel around screen" time="0.9390" assertions="2">
+    <testcase name="Step 3: drag color panel around screen" time="1.082" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: dock color panel" time="0.5260" assertions="3">
+    <testcase name="Step 4: dock color panel" time="0.5830" assertions="3">
 
     
 

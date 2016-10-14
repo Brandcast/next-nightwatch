@@ -71,20 +71,20 @@ module.exports = {
           browser.frame(0) //selects iframe - must call to select anything within iframe
          .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(20px)')
           browser.frame(null)
-    // },
+    },
       
-      // 'Step 6: select blur 0px via drop-down-menu' : function (browser) { 
-      //  browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] .select-input-container .select-triangle-wrapper')
-      //    .verify.elementPresent('[value="0px"]')
-      //    .keys('0')
-      //    .verify.valueContains('[title="Blur"] input[type=text]', '0px')
+      'Step 6: select blur 0px via drop-down-menu' : function (browser) { 
+       browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] .select-input-container .select-triangle-wrapper')
+         .verify.elementPresent('[value="0px"]')
+         .keys('0')
+         .verify.valueContains('[title="Blur"] input[type=text]', '0px')
 
-    //       browser.frame(0) //selects iframe - must call to select anything within iframe
-    //      .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(0px)')
-    //       browser.frame(null)
+          browser.frame(0) //selects iframe - must call to select anything within iframe
+         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(0px)')
+          browser.frame(null)
 
-    //     page = browser.page.closepanel();  
-    //       page.closepanel();
+        page = browser.page.closepanel();  
+          page.closepanel();
       browser.end();
      }
 };

@@ -30,6 +30,8 @@ module.exports = {
 
       page = browser.page.colorspectrum();  
         page.colorspectrum();
+
+      browser.pause(300)
     },
     
     'Step 3: verify text color' : function (browser) {
