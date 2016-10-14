@@ -1,4 +1,5 @@
 module.exports = {
+'disabled' : true,
   'disabled' : true,
   '@tags' : ['filterspanel', 'saturate'],
     'Step 1: page load' : function (browser) {

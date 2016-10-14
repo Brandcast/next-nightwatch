@@ -5,9 +5,9 @@
 
   <testsuite name="globalstylessitemap"
     errors="0" failures="1" hostname="" id="" package="globalstylessitemap" skipped="2"
-    tests="3" time="3.351" timestamp="Thu, 13 Oct 2016 00:11:34 GMT">
+    tests="3" time="1.892" timestamp="Fri, 14 Oct 2016 16:49:26 GMT">
   
-    <testcase name="step 1: load page" time="3.351" assertions="1">  <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:3:17)
+    <testcase name="step 1: load page" time="1.892" assertions="1">  <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:3:17)
     at Object.module.exports.step 1: load page (/Users/kelli/Sites/nightwatch/test/globalstylespanel/globalstylessitemap.js:10:12)</failure>
 
     

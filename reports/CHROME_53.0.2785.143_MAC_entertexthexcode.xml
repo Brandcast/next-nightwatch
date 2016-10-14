@@ -5,9 +5,9 @@
 
   <testsuite name="entertexthexcode"
     errors="0" failures="2" hostname="" id="" package="entertexthexcode" skipped="0"
-    tests="5" time="29.79" timestamp="Thu, 13 Oct 2016 23:47:01 GMT">
+    tests="5" time="23.17" timestamp="Fri, 14 Oct 2016 16:37:16 GMT">
   
-    <testcase name="step 1: load page" time="19.40" assertions="6">
+    <testcase name="step 1: load page" time="13.55" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="step 2: select text component in iframe and open color panel" time="2.991" assertions="3">
+    <testcase name="step 2: select text component in iframe and open color panel" time="4.343" assertions="3">
 
     
 
@@ -31,7 +31,7 @@
     
     </testcase>
   
-    <testcase name="step 3: select text color, enter hex code, and close panel" time="4.476" assertions="5">
+    <testcase name="step 3: select text color, enter hex code, and close panel" time="3.058" assertions="5">
 
     
 
@@ -45,14 +45,14 @@
     
     </testcase>
   
-    <testcase name="step 4: verify text componet has text color hex code" time="0.08800" assertions="1">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused[data-qa-id=&quot;/grid/column/text&quot;]&gt; has css property &quot;color: rgba(127, 255, 0, 1)&quot;.">    at Object.module.exports.step 4: verify text componet has text color hex code (/Users/kelli/Sites/nightwatch/test/colorpanel/entertexthexcode.js:45:26)
+    <testcase name="step 4: verify text componet has text color hex code" time="0.09200" assertions="1">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused[data-qa-id=&quot;/grid/column/text&quot;]&gt; has css property &quot;color: rgba(127, 255, 0, 1)&quot;.">    at Object.module.exports.step 4: verify text componet has text color hex code (/Users/kelli/Sites/nightwatch/test/colorpanel/entertexthexcode.js:45:26)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
     at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
     </testcase>
   
-    <testcase name="step 5: set text color to black and close panel" time="2.832" assertions="7">
+    <testcase name="step 5: set text color to black and close panel" time="2.125" assertions="7">
 
     
 

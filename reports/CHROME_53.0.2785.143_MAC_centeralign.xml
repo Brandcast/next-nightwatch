@@ -5,9 +5,9 @@
 
   <testsuite name="centeralign"
     errors="0" failures="0" hostname="" id="" package="centeralign" skipped="0"
-    tests="4" time="20.93" timestamp="Thu, 13 Oct 2016 22:17:33 GMT">
+    tests="4" time="23.38" timestamp="Fri, 14 Oct 2016 16:33:55 GMT">
   
-    <testcase name="Step 1: page load" time="16.63" assertions="6">
+    <testcase name="Step 1: page load" time="16.94" assertions="6">
 
     
 
@@ -21,8 +21,24 @@
 
     
     </testcase>
+      <system-err>
+          Error while running [Globalstylessiteeditor / step 3: open gloabl styles menu]:
+
+  TypeError: browser.page.globalstylesbtn is not a function
+    at Object.module.exports.step 3: open gloabl styles menu (/Users/kelli/Sites/nightwatch/test/globalstylespanel/globalstylessiteeditor.js:22:30)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+      </system-err>
   
-    <testcase name="Step 2: click text component and then select grid layout" time="3.071" assertions="4">
+    <testcase name="Step 2: click text component and then select grid layout" time="5.394" assertions="4">
 
     
 
@@ -32,8 +48,24 @@
 
     
     </testcase>
+      <system-err>
+          Error while running [Globalstylessiteeditor / step 3: open gloabl styles menu]:
+
+  TypeError: browser.page.globalstylesbtn is not a function
+    at Object.module.exports.step 3: open gloabl styles menu (/Users/kelli/Sites/nightwatch/test/globalstylespanel/globalstylessiteeditor.js:22:30)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+      </system-err>
   
-    <testcase name="Step 3: open alignment panel and select center align" time="1.041" assertions="4">
+    <testcase name="Step 3: open alignment panel and select center align" time="0.9110" assertions="4">
 
     
 
@@ -43,11 +75,43 @@
 
     
     </testcase>
+      <system-err>
+          Error while running [Globalstylessiteeditor / step 3: open gloabl styles menu]:
+
+  TypeError: browser.page.globalstylesbtn is not a function
+    at Object.module.exports.step 3: open gloabl styles menu (/Users/kelli/Sites/nightwatch/test/globalstylespanel/globalstylessiteeditor.js:22:30)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+      </system-err>
   
-    <testcase name="Step 4: verify grid has center alignment applied via css class" time="0.1820" assertions="1">
+    <testcase name="Step 4: verify grid has center alignment applied via css class" time="0.1410" assertions="1">
 
     
     </testcase>
+      <system-err>
+          Error while running [Globalstylessiteeditor / step 3: open gloabl styles menu]:
+
+  TypeError: browser.page.globalstylesbtn is not a function
+    at Object.module.exports.step 3: open gloabl styles menu (/Users/kelli/Sites/nightwatch/test/globalstylespanel/globalstylessiteeditor.js:22:30)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+      </system-err>
   
   
   </testsuite>

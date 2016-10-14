@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="5">
 
   <testsuite name="filters.invertinput"
-    errors="0" failures="0" hostname="" id="" package="filters.invertinput" skipped="0"
-    tests="5" time="33.00" timestamp="Thu, 13 Oct 2016 00:06:15 GMT">
+    errors="0" failures="1" hostname="" id="" package="filters.invertinput" skipped="2"
+    tests="5" time="20.81" timestamp="Fri, 14 Oct 2016 16:44:52 GMT">
   
-    <testcase name="Step 1: page load" time="17.71" assertions="6">
+    <testcase name="Step 1: page load" time="16.57" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select invert" time="9.368" assertions="5">
+    <testcase name="Step 2: open filters panel and select invert" time="3.331" assertions="5">
 
     
 
@@ -35,45 +35,31 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter invert via setvalue function" time="1.399" assertions="4">
+    <testcase name="Step 3: enter invert via setvalue function" time="0.9060" assertions="3">
 
-    
+      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Invert&quot;] input[type=text]&gt; contains: &quot;25&quot;.">    at Object.module.exports.Step 3: enter invert via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertinput.js:38:17)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 4: enter invert via keystoke" time="1.586" assertions="4">
-
-    
-
-    
-
-    
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: invert(0.25)&quot;.">    at Object.module.exports.Step 3: enter invert via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertinput.js:41:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease invert via up/down arrow" time="2.936" assertions="7">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
   
+    
+    <testcase
+      name="Step 4: enter invert via keystoke">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 5: enter incrementally inscrease/decrease invert via up/down arrow">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

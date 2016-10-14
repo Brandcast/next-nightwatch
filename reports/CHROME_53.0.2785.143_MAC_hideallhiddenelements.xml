@@ -5,18 +5,10 @@
 
   <testsuite name="hideallhiddenelements"
     errors="0" failures="1" hostname="" id="" package="hideallhiddenelements" skipped="4"
-    tests="5" time="16.17" timestamp="Thu, 13 Oct 2016 00:12:05 GMT">
+    tests="5" time="1.360" timestamp="Fri, 14 Oct 2016 16:49:38 GMT">
   
-    <testcase name="Step 1: page load" time="16.17" assertions="5">
-
-    
-
-    
-
-    
-
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideallhiddenelements.js:13:16)</failure>
+    <testcase name="Step 1: page load" time="1.360" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 3000 milliseconds.">    at Object.pageloadCommands.pageload (/Users/kelli/Sites/nightwatch/pages/pageload.js:4:10)
+    at Object.module.exports.step 1: load page (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:7:12)</failure>
 
     
     </testcase>

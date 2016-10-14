@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="3">
 
   <testsuite name="createnewwebsitepanel"
-    errors="0" failures="0" hostname="" id="" package="createnewwebsitepanel" skipped="0"
-    tests="3" time="6.074" timestamp="Thu, 13 Oct 2016 00:11:52 GMT">
+    errors="0" failures="1" hostname="" id="" package="createnewwebsitepanel" skipped="2"
+    tests="3" time="1.178" timestamp="Fri, 14 Oct 2016 16:49:33 GMT">
   
-    <testcase name="step 1: load page" time="5.348" assertions="1">
+    <testcase name="step 1: load page" time="1.178" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 3000 milliseconds.">    at Object.pageloadCommands.pageload (/Users/kelli/Sites/nightwatch/pages/pageload.js:4:10)
+    at Object.module.exports.step 1: load page (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysitemap.js:7:12)</failure>
 
     
     </testcase>
   
-    <testcase name="step 2: open &quot;new website&quot; panel" time="0.4270" assertions="2">
-
-    
-
-    
-    </testcase>
   
-    <testcase name="step 3: close &quot;new website&quot; panel" time="0.2990" assertions="2">
-
     
-
-    
+    <testcase
+      name="step 2: open &quot;new website&quot; panel">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="step 3: close &quot;new website&quot; panel">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

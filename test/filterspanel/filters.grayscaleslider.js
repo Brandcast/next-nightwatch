@@ -1,4 +1,5 @@
 module.exports = {
+'disabled' : true,
   '@tags' : ['filterspanel', 'grayscale'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();

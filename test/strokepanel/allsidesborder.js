@@ -28,16 +28,18 @@ module.exports = {
 
        page = browser.page.borderallsides();
           page.borderallsidesbtnenabled()
-        //browser.verify.elementPresent('[data-qa-id="apply-stroke-to-all-sides"]')
-          //.click('[data-qa-id="apply-stroke-to-all-sides"]')
-  
-       page = browser.page.closepanel();  
-         page.closepanel();
     },
 
     'Step 3: verify text component has 4 sided border' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
         .assert.cssProperty('.focused.component-wrapper', 'border-width', '1px')
+    },
+
+    'Step 4: remove border and close panel' : function (browser) {
+
+      page = browser.page.closepanel();  
+         page.closepanel();
+
       browser.frame(null)
      browser.end();
     }
