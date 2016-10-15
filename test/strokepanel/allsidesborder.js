@@ -46,10 +46,10 @@ module.exports = {
          page = browser.page.borderallsides();
             page.borderallsidesbtndisabled();
 
-          page = browser.page.closepanel();  
-            page.closepanel();
+          // page = browser.page.closepanel();  
+          //   page.closepanel();
 
-        //browser.pause(500)
+        browser.pause(500)
     },
 
       'Step 5: verify text component does not have border' : function (browser) {
