@@ -46,15 +46,15 @@ module.exports = {
 
          page = browser.page.bordertopside();
             page.bordertopsidebtndisabled()
-       
-         page = browser.page.closepanel();  
-            page.closepanel();
     },
 
       'Step 5: verify text component does not have top side border' : function (browser) {
         browser.frame(0) //selects iframe - must ctop to select anything within iframe
           .verify.cssProperty('.focused.component-wrapper', 'border-top-width', '0px')
         browser.frame(null)
+
+        page = browser.page.closepanel();  
+            page.closepanel();
       
       browser.end();
     }

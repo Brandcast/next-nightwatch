@@ -45,17 +45,19 @@ module.exports = {
            page.openstrokepanel()
 
          page = browser.page.borderrightside();
-            page.borderrightsidebtndisabled()
-       
-         page = browser.page.closepanel();  
-            page.closepanel();
+            page.borderrightsidebtndisabled();
+
+        page = browser.page.closepanel();  
+          page.closepanel();
+
+        //browser.pause(600)
     },
 
       'Step 5: verify text component does not have right side border' : function (browser) {
         browser.frame(0) //selects iframe - must cright to select anything within iframe
           .verify.cssProperty('.focused.component-wrapper', 'border-right-width', '0px')
         browser.frame(null)
-      
+
       browser.end();
     }
 };

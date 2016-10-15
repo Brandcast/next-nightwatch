@@ -2,13 +2,13 @@ var borderallsidesCommands = {
  borderallsidesbtnenabled: function() {
     this.verify.elementPresent('@foursidedborderbtn')
       .click('@foursidedborderbtn')
-      this.verify.elementPresent('.ui-wrapper.current[title="Apply Stroke to All Sides"')
+      this.verify.elementPresent('.ui-wrapper.current[title="Apply Stroke to All Sides"]')
   },
 
   borderallsidesbtndisabled: function() {
     this.verify.elementPresent('@foursidedborderbtn')
       .click('@foursidedborderbtn')
-      this.verify.elementPresent('.ui-wrapper[title="Apply Stroke to All Sides"')
+      this.verify.elementPresent('.ui-wrapper[title="Apply Stroke to All Sides"]')
   }
 };
 

@@ -28,19 +28,36 @@ module.exports = {
 
        page = browser.page.borderallsides();
           page.borderallsidesbtnenabled()
+
+        page = browser.page.closepanel();  
+          page.closepanel();
     },
 
     'Step 3: verify text component has 4 sided border' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
         .assert.cssProperty('.focused.component-wrapper', 'border-width', '1px')
+      browser.frame(null)
+    },
+  
+    'Step 4: open stroke panel and deselect 4 sided border' : function (browser) {
+         page = browser.page.openstrokepanel();
+           page.openstrokepanel();
+
+         page = browser.page.borderallsides();
+            page.borderallsidesbtndisabled();
+
+          page = browser.page.closepanel();  
+            page.closepanel();
+
+        //browser.pause(500)
     },
 
-    'Step 4: remove border and close panel' : function (browser) {
+      'Step 5: verify text component does not have border' : function (browser) {
+        browser.frame(0) //selects iframe - must cright to select anything within iframe
+          .verify.cssProperty('.focused.component-wrapper', 'border-width', '0px')
+        browser.frame(null)
+      
 
-      page = browser.page.closepanel();  
-         page.closepanel();
-
-      browser.frame(null)
      browser.end();
     }
 };
