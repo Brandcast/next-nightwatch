@@ -1,71 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="6">
 
   <testsuite name="filters.clearallfiltersbtn.multiplefilters"
-    errors="0" failures="1" hostname="" id="" package="filters.clearallfiltersbtn.multiplefilters" skipped="2"
-    tests="6" time="26.04" timestamp="Fri, 14 Oct 2016 16:41:44 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.clearallfiltersbtn.multiplefilters" skipped="6"
+    tests="6" time="0.000" timestamp="Mon, 17 Oct 2016 18:37:31 GMT">
   
-    <testcase name="Step 1: page load" time="17.42" assertions="6">
-
+  
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 2: open filters panel and select sepia" time="2.315" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Step 2: open filters panel and select sepia">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 3: select saturate, hue rotate, and invert filters" time="5.077" assertions="11">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 3: select saturate, hue rotate, and invert filters">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 4: verify saturate, hue rotate, and invert is applied via css on the text component" time="1.223" assertions="2">
-
-      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: saturate(1.66) hue-rotate(50deg) invert(0.83)&quot;.">    at Object.module.exports.Step 4: verify saturate, hue rotate, and invert is applied via css on the text component (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.multiplefilters.js:62:19)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
-
     
+    <testcase
+      name="Step 4: verify saturate, hue rotate, and invert is applied via css on the text component">
+      <skipped />
     </testcase>
-  
-  
     
     <testcase
       name="Step 5: click &quot;clear all filters&quot; button">

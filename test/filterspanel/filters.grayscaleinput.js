@@ -39,7 +39,7 @@ module.exports = {
         .verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', '25')
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.25)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.25)')
          browser.frame(null)
 
          .clearValue('.ui-wrapper[title="Grayscale"] input[type=text]')
@@ -56,7 +56,7 @@ module.exports = {
 
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.25)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.25)')
          browser.frame(null)
         
         .click('.ui-wrapper[title="Grayscale"] input[type=text]')
@@ -82,16 +82,35 @@ module.exports = {
         .verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', '26')
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.26)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.26)')
         browser.frame(null)
         
         page = browser.page.closepanel();  
           page.closepanel();
       
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.26)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.26)')
         browser.frame(null);
+    },
       
-      browser.end();
+      'Step 6: clear filters and close panel' : function (browser) { 
+        page = browser.page.openfilterspanel();
+          page.openfilterspanel();
+
+        page = browser.page.clearallfiltersbtn();
+          page.clearallfiltersbtn();
+
+        browser.pause(200)
+
+          browser.frame(0) //selects iframe - must call to select anything within iframe
+            .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
+          browser.frame(null)
+
+        page = browser.page.closepanel();  
+          page.closepanel();
+      
+      browser.pause(300)
+      
+      browser.end();;
     }
 };

@@ -5,9 +5,9 @@
 
   <testsuite name="filters.brightnessslider"
     errors="0" failures="1" hostname="" id="" package="filters.brightnessslider" skipped="0"
-    tests="4" time="22.79" timestamp="Fri, 14 Oct 2016 16:41:21 GMT">
+    tests="4" time="25.26" timestamp="Mon, 17 Oct 2016 18:37:06 GMT">
   
-    <testcase name="Step 1: page load" time="16.78" assertions="6">
+    <testcase name="Step 1: page load" time="16.97" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select brightness" time="3.680" assertions="5">
+    <testcase name="Step 2: open filters panel and select brightness" time="3.029" assertions="5">
 
     
 
@@ -35,22 +35,29 @@
     
     </testcase>
   
-    <testcase name="Step 3: select brightness via slider" time="1.766" assertions="3">  <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: brightness(0.1)&quot;.">    at Object.module.exports.Step 3: select brightness via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessslider.js:40:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    <testcase name="Step 3: select brightness via slider" time="2.956" assertions="5">
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: brightness(1)&quot;.">    at Object.module.exports.Step 3: select brightness via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessslider.js:46:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: brightness(4.15)&quot;.">    at Object.module.exports.Step 3: select brightness via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessslider.js:53:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
+
+    
+
+    
 
     
     </testcase>
   
-    <testcase name="Step 4: close panel" time="0.5680" assertions="2">
+    <testcase name="Step 4: clear filters and close panel" time="2.306" assertions="6">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: none&quot;.">    at Object.module.exports.Step 4: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessslider.js:71:21)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
 
     
 

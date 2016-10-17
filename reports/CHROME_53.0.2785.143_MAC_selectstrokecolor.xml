@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="3">
+            tests="6">
 
   <testsuite name="selectstrokecolor"
     errors="0" failures="0" hostname="" id="" package="selectstrokecolor" skipped="0"
-    tests="3" time="21.66" timestamp="Sat, 15 Oct 2016 02:53:13 GMT">
+    tests="6" time="25.95" timestamp="Sat, 15 Oct 2016 03:15:36 GMT">
   
-    <testcase name="Step 1: page load" time="16.94" assertions="6">
+    <testcase name="Step 1: page load" time="18.80" assertions="6">
 
     
 
@@ -22,13 +22,23 @@
     
     </testcase>
   
-    <testcase name="Step 2: select stroke color" time="4.562" assertions="11">
+    <testcase name="Step 2: select stroke color" time="1.693" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select stroke color" time="1.384" assertions="4">
 
     
 
     
 
     
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: select stroke color" time="2.310" assertions="8">
 
     
 
@@ -47,7 +57,22 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify color applied via css" time="0.1560" assertions="1">
+    <testcase name="Step 5: verify color applied via css" time="0.2040" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 6: open stroke panel and deselect 4 sided border" time="1.562" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>

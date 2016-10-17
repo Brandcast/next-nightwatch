@@ -51,6 +51,8 @@ module.exports = {
 
       browser.verify.elementPresent('.panel.direction-left.direction-down.react-draggable')
   
-    browser.end();
+    browser.pause(300)
+      
+      browser.end();;
   }
 };

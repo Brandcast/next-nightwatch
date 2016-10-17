@@ -56,8 +56,6 @@ module.exports = {
         browser.frame(0) //selects iframe - must cright to select anything within iframe
           .verify.cssProperty('.focused.component-wrapper', 'border-width', '0px')
         browser.frame(null)
-      
-
-     browser.end();
+      browser.end();
     }
 };

@@ -51,12 +51,29 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(4.15)')
         browser.frame(null);  
+  
+        page = browser.page.closepanel();  
+          page.closepanel();
     },
       
-      'Step 4: close panel' : function (browser) { 
+      'Step 4: clear filters and close panel' : function (browser) { 
+        page = browser.page.openfilterspanel();
+          page.openfilterspanel();
+
+        page = browser.page.clearallfiltersbtn();
+          page.clearallfiltersbtn();
+
+        browser.pause(200)
+
+          browser.frame(0) //selects iframe - must call to select anything within iframe
+            .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
+          browser.frame(null)
+
         page = browser.page.closepanel();  
           page.closepanel();
       
-      browser.end();
+      browser.pause(300)
+      
+      browser.end();;
     }
 };

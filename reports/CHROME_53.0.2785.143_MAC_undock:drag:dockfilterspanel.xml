@@ -4,53 +4,31 @@
             tests="4">
 
   <testsuite name="undock:drag:dockfilterspanel"
-    errors="0" failures="0" hostname="" id="" package="undock:drag:dockfilterspanel" skipped="0"
-    tests="4" time="23.56" timestamp="Fri, 14 Oct 2016 16:48:01 GMT">
+    errors="0" failures="0" hostname="" id="" package="undock:drag:dockfilterspanel" skipped="4"
+    tests="4" time="0.000" timestamp="Mon, 17 Oct 2016 18:37:58 GMT">
   
-    <testcase name="Step 1: page load" time="19.51" assertions="6">
-
+  
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 2: Undock filters panel" time="2.044" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 2: Undock filters panel">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 3: drag filters panel around screen and console log x/y values" time="1.485" assertions="2">
-
     
-
-    
+    <testcase
+      name="Step 3: drag filters panel around screen and console log x/y values">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 4: dock filters panel" time="0.5190" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="Step 4: dock filters panel">
+      <skipped />
     </testcase>
-  
+    
   
   </testsuite>
 </testsuites>

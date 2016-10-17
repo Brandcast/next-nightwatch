@@ -96,9 +96,29 @@ module.exports = {
           page.closepanel();
       
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.26)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.26)')
         browser.frame(null);
+
+    },
       
-      browser.end();
+      'Step 6: clear filters and close panel' : function (browser) { 
+        page = browser.page.openfilterspanel();
+          page.openfilterspanel();
+
+        page = browser.page.clearallfiltersbtn();
+          page.clearallfiltersbtn();
+
+        browser.pause(200)
+
+          browser.frame(0) //selects iframe - must call to select anything within iframe
+            .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
+          browser.frame(null)
+
+        page = browser.page.closepanel();  
+          page.closepanel();
+      
+      browser.pause(300)
+      
+      browser.end();;
     }
 };

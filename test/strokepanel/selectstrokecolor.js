@@ -21,12 +21,21 @@ module.exports = {
         .waitForElementVisible('.component-wrapper.bc-text-wrapper', 1000)
         .click('.component-wrapper.bc-text-wrapper')
       browser.frame(null) //closes iframe
+    },
+
+    'Step 3: select stroke color' : function (browser) {
+
+     page = browser.page.openstrokepanel();
+          page.openstrokepanel()
+
+       page = browser.page.borderallsides();
+          page.borderallsidesbtnenabled()
+    },
+
+    'Step 4: select stroke color' : function (browser) {
 
       page = browser.page.opencolorpanel();
         page.opencolorpanel();
-
-      page = browser.page.strokecolorbtn();  
-        page.strokecolorbtn()
       
       page = browser.page.colorswatchblack();  
         page.colorswatchblack();
@@ -38,10 +47,23 @@ module.exports = {
       page = browser.page.closepanel();  
         page.closepanel();
     },
-        'Step 3: verify color applied via css': function (browser) {
+    
+    'Step 5: verify color applied via css': function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
         .assert.cssProperty('.component-wrapper.bc-text-wrapper.focused', 'border-color', 'rgb(0, 0, 0)')
         browser.frame(null)
-        browser.end();
+    },
+  
+    'Step 6: open stroke panel and deselect 4 sided border' : function (browser) {
+         page = browser.page.openstrokepanel();
+           page.openstrokepanel();
+
+         page = browser.page.borderallsides();
+            page.borderallsidesbtndisabled();
+
+          page = browser.page.closepanel();  
+            page.closepanel();
+          
+      browser.end();
     }
 };

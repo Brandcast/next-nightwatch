@@ -1,5 +1,5 @@
 module.exports = {
-'disabled' : true,
+// 'disabled' : true,
   '@tags' : ['filterspanel', 'input', 'blur'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -29,22 +29,7 @@ module.exports = {
         browser.verify.elementPresent('.ui-wrapper[title="Blur"]')
         .click('.ui-wrapper[title="Blur"] .select-input-container')
         .waitForElementVisible('.ui-wrapper[title="Blur"] input[type=text]', 1000)
-      
     },
-
-    //   'Step 3: enter blur via setvalue function' : function (browser) { 
-    //     browser.verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', "")
-    //     .setValue('.ui-wrapper[title="Blur"] input[type=text]', '25')
-    //     .keys('\uE007')
-    //     .verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', '25')
-
-    //      browser.frame(0) //selects iframe - must call to select anything within iframe
-    //      .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(25px)')
-    //      browser.frame(null)
-
-    //      .clearValue('.ui-wrapper[title="Blur"] input[type=text]')
-    //      .verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', "")
-    // },
 
       'Step 4: enter blur via keystoke' : function (browser) { 
         //browser.verify.valueContains('.ui-wrapper[title="Blur"] input[type=text]', "")
@@ -57,7 +42,7 @@ module.exports = {
 
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(25px)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(25px)')
          browser.frame(null)
         
         .click('.ui-wrapper[title="Blur"] input[type=text]')
@@ -78,7 +63,7 @@ module.exports = {
         .pause(300)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(26px)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(26px)')
         browser.frame(null)
 
         .click('.ui-wrapper[title="Blur"] input[type=text]')
@@ -88,22 +73,25 @@ module.exports = {
         .pause(300)
         
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(25.5px)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(25.5px)')
         browser.frame(null);
     },
 
     'Step 6: clear input field and close panel' : function (browser) { 
-        browser.setValue('[title="Blur"] input[type=text]', '\u0008')
+        // browser.setValue('[title="Blur"] input[type=text]', '\u0008')
+        page = browser.page.clearallfiltersbtn();
+          page.clearallfiltersbtn();
 
-        .pause(300)
+        browser.pause(300)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(0px)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
         browser.frame(null);
 
         page = browser.page.closepanel();  
           page.closepanel();
       
-      browser.end();
+      browser.pause(300)
+      browser.end();;
     }
 };

@@ -1,5 +1,5 @@
 module.exports = {
-'disabled' : true,
+//'disabled' : true,
   '@tags' : ['filterspanel', 'clearallfilters'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -48,7 +48,7 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .waitForElementVisible('.bc-text', 1000)
           .click('.bc-text')
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.83)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.83)')
         browser.frame(null);
     },  
       
@@ -71,12 +71,14 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .waitForElementVisible('.bc-text', 1000)
           .click('.bc-text')
-          .assert.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
         browser.frame(null);
          
          page = browser.page.closepanel();  
           page.closepanel();
       
-      browser.end();
+      browser.pause(300)
+      
+      browser.end();;
     }
 };

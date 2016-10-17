@@ -1,54 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="5">
+            failures="0"
+            tests="6">
 
   <testsuite name="filters.invertinput"
-    errors="0" failures="1" hostname="" id="" package="filters.invertinput" skipped="2"
-    tests="5" time="20.81" timestamp="Fri, 14 Oct 2016 16:44:52 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.invertinput" skipped="6"
+    tests="6" time="0.000" timestamp="Mon, 17 Oct 2016 18:37:58 GMT">
   
-    <testcase name="Step 1: page load" time="16.57" assertions="6">
-
+  
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 2: open filters panel and select invert" time="3.331" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 2: open filters panel and select invert">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 3: enter invert via setvalue function" time="0.9060" assertions="3">
-
-      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Invert&quot;] input[type=text]&gt; contains: &quot;25&quot;.">    at Object.module.exports.Step 3: enter invert via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertinput.js:38:17)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
-
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: invert(0.25)&quot;.">    at Object.module.exports.Step 3: enter invert via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertinput.js:41:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
-
     
+    <testcase
+      name="Step 3: enter invert via setvalue function">
+      <skipped />
     </testcase>
-  
-  
     
     <testcase
       name="Step 4: enter invert via keystoke">
@@ -57,6 +31,11 @@
     
     <testcase
       name="Step 5: enter incrementally inscrease/decrease invert via up/down arrow">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 6: clear filters and close panel">
       <skipped />
     </testcase>
     

@@ -37,7 +37,7 @@ module.exports = {
 
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(50deg)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(50deg)')
          browser.frame(null)
     },
 
@@ -49,7 +49,7 @@ module.exports = {
          .verify.valueContains('[title="Hue Rotate"] input[type=text]', '180deg')
 
           browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(180deg)')
+            .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(180deg)')
           browser.frame(null)
 
           page = browser.page.closepanel();  
@@ -67,7 +67,7 @@ module.exports = {
          .verify.valueContains('[title="Hue Rotate"] input[type=text]', '90deg')
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(90deg)')
+          .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(90deg)')
          browser.frame(null)
 
          page = browser.page.closepanel();  
@@ -85,12 +85,30 @@ module.exports = {
          .verify.valueContains('[title="Hue Rotate"] input[type=text]', '0deg')
 
           browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(0deg)')
+            .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'hue-rotate(0deg)')
           browser.frame(null)
+
+          page = browser.page.closepanel();  
+            page.closepanel();
+      },
       
+      'Step 6: clear filters and close panel' : function (browser) { 
+        page = browser.page.openfilterspanel();
+          page.openfilterspanel();
+
+        page = browser.page.clearallfiltersbtn();
+          page.clearallfiltersbtn();
+
+        browser.pause(200)
+
+          browser.frame(0) //selects iframe - must call to select anything within iframe
+            .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
+          browser.frame(null)
+
         page = browser.page.closepanel();  
           page.closepanel();
       
-      browser.end();
+      browser.pause(300)
+      browser.end();;
     }
 };

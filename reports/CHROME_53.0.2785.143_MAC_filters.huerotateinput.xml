@@ -1,54 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="5">
+            failures="0"
+            tests="6">
 
   <testsuite name="filters.huerotateinput"
-    errors="0" failures="1" hostname="" id="" package="filters.huerotateinput" skipped="2"
-    tests="5" time="21.20" timestamp="Fri, 14 Oct 2016 16:44:31 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.huerotateinput" skipped="6"
+    tests="6" time="0.000" timestamp="Mon, 17 Oct 2016 18:37:58 GMT">
   
-    <testcase name="Step 1: page load" time="17.59" assertions="6">
-
+  
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 2: open filters panel and select hue-rotate" time="2.722" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 2: open filters panel and select hue-rotate">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 3: enter hue-rotate via setvalue function" time="0.8930" assertions="3">
-
-      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Hue Rotate&quot;] input[type=text]&gt; contains: &quot;25&quot;.">    at Object.module.exports.Step 3: enter hue-rotate via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:38:17)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
-
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: hue-rotate(25deg)&quot;.">    at Object.module.exports.Step 3: enter hue-rotate via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:41:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
-
     
+    <testcase
+      name="Step 3: enter hue-rotate via setvalue function">
+      <skipped />
     </testcase>
-  
-  
     
     <testcase
       name="Step 4: enter hue-rotate via keystoke">
@@ -57,6 +31,11 @@
     
     <testcase
       name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 6: clear filters and close panel">
       <skipped />
     </testcase>
     

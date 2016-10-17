@@ -33,6 +33,9 @@ module.exports = {
       browser.getLocation(".panel-body.dormant", function (location) {
           console.log(location.value.x, location.value.y);
          });
-        browser.end();
+        
+        browser.pause(300)
+      
+      browser.end();;
   }
 };

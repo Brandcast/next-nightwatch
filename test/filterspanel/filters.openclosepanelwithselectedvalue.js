@@ -39,7 +39,7 @@ module.exports = {
         .verify.valueContains('[title="Blur"] input[type=text]', '5px')
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(5px)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(5px)')
          browser.frame(null)
     },
 
@@ -53,7 +53,7 @@ module.exports = {
         browser.verify.valueContains('[title="Blur"] input[type=text]', '5px')
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(5px)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(5px)')
          browser.frame(null) 
     },
       
@@ -79,12 +79,14 @@ module.exports = {
         browser.verify.valueContains('[title="Blur"] input[type=text]', '')
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-         .assert.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
          browser.frame(null) 
          
          page = browser.page.closepanel();  
           page.closepanel();
           
-     browser.end();
+     browser.pause(300)
+      
+      browser.end();;
     }
 };
