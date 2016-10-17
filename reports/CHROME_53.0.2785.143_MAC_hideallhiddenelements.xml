@@ -1,40 +1,105 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="5">
 
   <testsuite name="hideallhiddenelements"
-    errors="0" failures="1" hostname="" id="" package="hideallhiddenelements" skipped="4"
-    tests="5" time="1.360" timestamp="Fri, 14 Oct 2016 16:49:38 GMT">
+    errors="0" failures="0" hostname="" id="" package="hideallhiddenelements" skipped="0"
+    tests="5" time="38.35" timestamp="Mon, 17 Oct 2016 22:25:53 GMT">
   
-    <testcase name="Step 1: page load" time="1.360" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 3000 milliseconds.">    at Object.pageloadCommands.pageload (/Users/kelli/Sites/nightwatch/pages/pageload.js:4:10)
-    at Object.module.exports.step 1: load page (/Users/kelli/Sites/nightwatch/test/newwebsite/newwebsitename.js:7:12)</failure>
+    <testcase name="Step 1: page load" time="19.32" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 2: select &quot;view all hidden elments&quot; button" time="3.585" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: select &quot;hide&quot; on all devices, resize browser window, then verify display does not equal none and class is hidden" time="9.541" assertions="16">
+
     
-    <testcase
-      name="Step 2: select &quot;view all hidden elments&quot; button">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: verify &quot;view all hidden elements&quot; button is deselected" time="0.3600" assertions="2">
+
     
-    <testcase
-      name="Step 3: select &quot;hide&quot; on all devices, resize browser window, then verify display does not equal none and class is hidden">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="Step 5: resize browser window, then verify display equals none and class is hidden" time="5.549" assertions="10">
+
     
-    <testcase
-      name="Step 4: verify &quot;view all hidden elements&quot; button is deselected">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 5: resize browser window, then verify display equals none and class is hidden">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

@@ -58,7 +58,7 @@ module.exports = {
         browser.frame(0) //selects iframe - must ctop to select anything within iframe
           .verify.cssProperty('.focused.component-wrapper', 'border-top-width', '0px')
         browser.frame(null)
-      
+      browser.pause(300)
       browser.end();
     }
 };

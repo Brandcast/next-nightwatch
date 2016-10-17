@@ -5,9 +5,9 @@
 
   <testsuite name="textlayout"
     errors="0" failures="1" hostname="" id="" package="textlayout" skipped="0"
-    tests="2" time="23.99" timestamp="Fri, 14 Oct 2016 16:57:11 GMT">
+    tests="2" time="23.71" timestamp="Mon, 17 Oct 2016 22:35:28 GMT">
   
-    <testcase name="step 1: load page" time="18.73" assertions="6">
+    <testcase name="step 1: load page" time="17.64" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="step 2: select textlayout" time="5.256" assertions="8">
+    <testcase name="step 2: select textlayout" time="6.065" assertions="8">
 
     
 
@@ -36,7 +36,7 @@
 
     
 
-      <failure message="Testing if element &lt;[data-qa-id=&quot;/grid/column/text&quot;]&gt; is present.">    at Object.module.exports.step 2: select textlayout (/Users/kelli/Sites/nightwatch/test/smoketests/textlayout.js:33:22)
+      <failure message="Timed out while waiting for element &lt;.bc-text&gt; to be present for 1000 milliseconds.">    at Object.module.exports.step 2: select textlayout (/Users/kelli/Sites/nightwatch/test/smoketests/textlayout.js:33:15)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
     at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 

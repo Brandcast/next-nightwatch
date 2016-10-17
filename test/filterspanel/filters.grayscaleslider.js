@@ -1,5 +1,5 @@
 module.exports = {
-'disabled' : true,
+//'disabled' : true,
   '@tags' : ['filterspanel', 'grayscale'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -35,18 +35,21 @@ module.exports = {
         browser.moveToElement('[data-qa-id="grayscale-slider"]', 8,6)
         .mouseButtonDown(0)
         .pause(500)
+
          browser.frame(0) //selects iframe - must call to select anything within iframe
           .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.08)')
         browser.frame(null);
        
         browser.moveToElement('[data-qa-id="grayscale-slider"]', 15, 6)
-        .pause(300)
+        .pause(500)
+
          browser.frame(0) //selects iframe - must call to select anything within iframe
           .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.2)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="grayscale-slider"]', 50, 6)
-        .pause(300)
+        .pause(500)
+        
         .mouseButtonUp(0)
          browser.frame(0) //selects iframe - must call to select anything within iframe
           .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.83)')
@@ -63,7 +66,7 @@ module.exports = {
         page = browser.page.clearallfiltersbtn();
           page.clearallfiltersbtn();
 
-        browser.pause(200)
+        browser.pause(500)
 
           browser.frame(0) //selects iframe - must call to select anything within iframe
             .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')

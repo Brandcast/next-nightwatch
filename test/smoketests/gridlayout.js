@@ -25,7 +25,7 @@ module.exports = {
         page = browser.page.gridlayoutbtn();  
           page.gridlayoutbtn();
 
-        browser.waitForElementVisible('[data-qa-id="/grid"]', 1000)
+        browser.verify.elementPresent('.bc-grid-wrapper')
       
         browser.end();
     }

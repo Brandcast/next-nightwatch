@@ -46,8 +46,8 @@ module.exports = {
       page = browser.page.textcolorbtn();  
         page.textcolorbtn();
 
-      page = browser.page.colorswatchblack();  
-        page.colorswatchblack();
+      page = browser.page.colorswatchtransparent();  
+        page.colorswatchtransparent();
 
            //verify color applied via css
       browser.frame(0) //selects iframe - must call to select anything within iframe

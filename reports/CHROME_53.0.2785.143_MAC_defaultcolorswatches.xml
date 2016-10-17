@@ -5,9 +5,9 @@
 
   <testsuite name="defaultcolorswatches"
     errors="0" failures="0" hostname="" id="" package="defaultcolorswatches" skipped="0"
-    tests="5" time="27.57" timestamp="Fri, 14 Oct 2016 16:36:48 GMT">
+    tests="5" time="34.86" timestamp="Mon, 17 Oct 2016 22:15:21 GMT">
   
-    <testcase name="Step 1: page load" time="14.29" assertions="6">
+    <testcase name="Step 1: page load" time="21.26" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: background color set to black" time="5.976" assertions="8">
+    <testcase name="Step 2: background color set to black" time="5.082" assertions="8">
 
     
 
@@ -41,7 +41,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: stroke color set to white" time="1.721" assertions="5">
+    <testcase name="Step 3: stroke color set to white" time="2.009" assertions="5">
 
     
 
@@ -54,7 +54,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: text color set to transparent" time="1.545" assertions="5">
+    <testcase name="Step 4: text color set to transparent" time="1.907" assertions="5">
 
     
 
@@ -67,7 +67,7 @@
     
     </testcase>
   
-    <testcase name="Step 7: reset text, background, and stroke color to default settings then close panel" time="4.034" assertions="15">
+    <testcase name="Step 7: reset text, background, and stroke color to default settings then close panel" time="4.604" assertions="15">
 
     
 

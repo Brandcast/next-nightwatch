@@ -1,5 +1,5 @@
 module.exports = {
-'disabled' : true,
+//'disabled' : true,
   '@tags' : ['filterspanel', 'clearallfilters'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -60,7 +60,7 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .waitForElementVisible('.bc-text', 1000)
           .click('.bc-text')
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(1.66) hue-rotate(50deg) invert(0.83)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(1.66) invert(0.83) hue-rotate(50deg')
         browser.frame(null);
     },  
       

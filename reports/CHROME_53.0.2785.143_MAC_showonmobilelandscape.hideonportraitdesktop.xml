@@ -5,9 +5,9 @@
 
   <testsuite name="showonmobilelandscape.hideonportraitdesktop"
     errors="0" failures="0" hostname="" id="" package="showonmobilelandscape.hideonportraitdesktop" skipped="0"
-    tests="5" time="28.70" timestamp="Fri, 14 Oct 2016 16:52:25 GMT">
+    tests="5" time="31.36" timestamp="Mon, 17 Oct 2016 22:30:00 GMT">
   
-    <testcase name="Step 1: page load" time="18.65" assertions="6">
+    <testcase name="Step 1: page load" time="20.23" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on portrait and desktop" time="3.596" assertions="8">
+    <testcase name="Step 2: select hide on portrait and desktop" time="4.484" assertions="8">
 
     
 
@@ -41,14 +41,14 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify hidden not selected on mobile and landscape" time="0.09300" assertions="2">
+    <testcase name="Step 3: verify hidden not selected on mobile and landscape" time="0.09900" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: resize to dekstop and landscape, verify dispaly none is on desktop but not landscape" time="3.753" assertions="4">
+    <testcase name="Step 4: resize to dekstop and landscape, verify dispaly none is on desktop but not landscape" time="2.931" assertions="4">
 
     
 
@@ -59,7 +59,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: resize to mobile and portrait, verify dispaly none is on mobile but not portrait" time="2.615" assertions="5">
+    <testcase name="Step 5: resize to mobile and portrait, verify dispaly none is on mobile but not portrait" time="3.609" assertions="5">
 
     
 

@@ -4,41 +4,91 @@
             tests="6">
 
   <testsuite name="filters.huerotateinput"
-    errors="0" failures="0" hostname="" id="" package="filters.huerotateinput" skipped="6"
-    tests="6" time="0.000" timestamp="Mon, 17 Oct 2016 18:37:58 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.huerotateinput" skipped="0"
+    tests="6" time="36.16" timestamp="Mon, 17 Oct 2016 22:23:29 GMT">
   
+    <testcase name="Step 1: page load" time="23.75" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 2: open filters panel and select hue-rotate" time="3.737" assertions="5">
+
     
-    <testcase
-      name="Step 1: page load">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 3: enter hue-rotate via setvalue function" time="1.394" assertions="4">
+
     
-    <testcase
-      name="Step 2: open filters panel and select hue-rotate">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: enter hue-rotate via keystoke" time="1.809" assertions="4">
+
     
-    <testcase
-      name="Step 3: enter hue-rotate via setvalue function">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow" time="2.882" assertions="7">
+
     
-    <testcase
-      name="Step 4: enter hue-rotate via keystoke">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 6: clear filters and close panel" time="2.594" assertions="6">
+
     
-    <testcase
-      name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 6: clear filters and close panel">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

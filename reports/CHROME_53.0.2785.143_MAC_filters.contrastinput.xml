@@ -4,41 +4,91 @@
             tests="6">
 
   <testsuite name="filters.contrastinput"
-    errors="0" failures="0" hostname="" id="" package="filters.contrastinput" skipped="6"
-    tests="6" time="0.000" timestamp="Mon, 17 Oct 2016 18:37:58 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.contrastinput" skipped="0"
+    tests="6" time="31.96" timestamp="Mon, 17 Oct 2016 22:20:48 GMT">
   
+    <testcase name="Step 1: page load" time="17.46" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 2: open filters panel and select contrast" time="6.441" assertions="5">
+
     
-    <testcase
-      name="Step 1: page load">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 3: enter contrast via setvalue function" time="1.206" assertions="4">
+
     
-    <testcase
-      name="Step 2: open filters panel and select contrast">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: enter contrast via keystoke" time="1.635" assertions="4">
+
     
-    <testcase
-      name="Step 3: enter contrast via setvalue function">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: enter incrementally inscrease/decrease contrast via up/down arrow" time="2.800" assertions="7">
+
     
-    <testcase
-      name="Step 4: enter contrast via keystoke">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 6: clear filters and close panel" time="2.410" assertions="6">
+
     
-    <testcase
-      name="Step 5: enter incrementally inscrease/decrease contrast via up/down arrow">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 6: clear filters and close panel">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

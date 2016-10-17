@@ -47,10 +47,10 @@ module.exports = {
          page = browser.page.borderrightside();
             page.borderrightsidebtndisabled();
 
-        page = browser.page.closepanel();  
-          page.closepanel();
+         browser.pause(600)
 
-        //browser.pause(600)
+         page = browser.page.closepanel();  
+           page.closepanel();
     },
 
       'Step 5: verify text component does not have right side border' : function (browser) {

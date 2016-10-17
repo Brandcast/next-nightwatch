@@ -30,6 +30,8 @@ module.exports = {
       page = browser.page.hideoverflowbtn();
         page.hideoverflowbtn()
 
+      browser.pause(300)
+
       page = browser.page.closepanel();  
         page.closepanel();
     },

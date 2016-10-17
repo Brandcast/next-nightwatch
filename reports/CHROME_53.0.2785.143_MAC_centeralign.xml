@@ -5,9 +5,9 @@
 
   <testsuite name="centeralign"
     errors="0" failures="0" hostname="" id="" package="centeralign" skipped="0"
-    tests="4" time="23.38" timestamp="Fri, 14 Oct 2016 16:33:55 GMT">
+    tests="4" time="25.87" timestamp="Mon, 17 Oct 2016 22:11:52 GMT">
   
-    <testcase name="Step 1: page load" time="16.94" assertions="6">
+    <testcase name="Step 1: page load" time="18.16" assertions="6">
 
     
 
@@ -38,7 +38,7 @@
     at process._tickCallback (internal/process/next_tick.js:98:9)
       </system-err>
   
-    <testcase name="Step 2: click text component and then select grid layout" time="5.394" assertions="4">
+    <testcase name="Step 2: click text component and then select grid layout" time="6.428" assertions="4">
 
     
 
@@ -65,7 +65,7 @@
     at process._tickCallback (internal/process/next_tick.js:98:9)
       </system-err>
   
-    <testcase name="Step 3: open alignment panel and select center align" time="0.9110" assertions="4">
+    <testcase name="Step 3: open alignment panel and select center align" time="0.9930" assertions="4">
 
     
 
@@ -92,7 +92,7 @@
     at process._tickCallback (internal/process/next_tick.js:98:9)
       </system-err>
   
-    <testcase name="Step 4: verify grid has center alignment applied via css class" time="0.1410" assertions="1">
+    <testcase name="Step 4: verify grid has center alignment applied via css class" time="0.2950" assertions="1">
 
     
     </testcase>

@@ -4,46 +4,106 @@
             tests="7">
 
   <testsuite name="filters.huerotate.dropdown"
-    errors="0" failures="0" hostname="" id="" package="filters.huerotate.dropdown" skipped="7"
-    tests="7" time="0.000" timestamp="Mon, 17 Oct 2016 18:37:58 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.huerotate.dropdown" skipped="0"
+    tests="7" time="38.28" timestamp="Mon, 17 Oct 2016 22:22:51 GMT">
   
+    <testcase name="Step 1: page load" time="22.02" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 2: open filters panel and select Hue Rotate" time="3.361" assertions="3">
+
     
-    <testcase
-      name="Step 1: page load">
-      <skipped />
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 3: select Hue Rotate 50deg via drop-down-menu" time="1.477" assertions="4">
+
     
-    <testcase
-      name="Step 2: open filters panel and select Hue Rotate">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: select Hue Rotate 180deg via drop-down-menu" time="2.229" assertions="5">
+
     
-    <testcase
-      name="Step 3: select Hue Rotate 50deg via drop-down-menu">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: select Hue Rotate 90deg via drop-down-menu" time="3.159" assertions="7">
+
     
-    <testcase
-      name="Step 4: select Hue Rotate 180deg via drop-down-menu">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 6: select Hue Rotate 0deg via drop-down-menu" time="2.167" assertions="7">
+
     
-    <testcase
-      name="Step 5: select Hue Rotate 90deg via drop-down-menu">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 6: clear filters and close panel" time="3.874" assertions="6">
+
     
-    <testcase
-      name="Step 6: select Hue Rotate 0deg via drop-down-menu">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 6: clear filters and close panel">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

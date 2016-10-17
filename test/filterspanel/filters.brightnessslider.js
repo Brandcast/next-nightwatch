@@ -36,21 +36,24 @@ module.exports = {
       'Step 3: select brightness via slider' : function (browser) { 
         browser.moveToElement('[data-qa-id="brightness-slider"]', 5,6)
         .mouseButtonDown(0)
-        .pause(300)
+        .pause(500)
+
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0.1)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="brightness-slider"]', 15, 6)
-        .pause(300)
+        .pause(500)
+        
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(1)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="brightness-slider"]', 50, 6)
         .mouseButtonUp(0)
-        .pause(300)
-         browser.frame(0) //selects iframe - must call to select anything within iframe
+        .pause(500)
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
          .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(4.15)')
         browser.frame(null);
 
@@ -65,7 +68,7 @@ module.exports = {
         page = browser.page.clearallfiltersbtn();
           page.clearallfiltersbtn();
 
-        browser.pause(200)
+        browser.pause(500)
 
           browser.frame(0) //selects iframe - must call to select anything within iframe
             .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')

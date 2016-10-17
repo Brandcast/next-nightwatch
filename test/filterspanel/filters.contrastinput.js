@@ -1,5 +1,5 @@
 module.exports = {
-'disabled' : true,
+//'disabled' : true,
   '@tags' : ['filterspanel', 'contrast'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -106,7 +106,7 @@ module.exports = {
         page = browser.page.clearallfiltersbtn();
           page.clearallfiltersbtn();
 
-        browser.pause(200)
+        browser.pause(500)
 
           browser.frame(0) //selects iframe - must call to select anything within iframe
             .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')

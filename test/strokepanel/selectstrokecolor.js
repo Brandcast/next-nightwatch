@@ -36,22 +36,24 @@ module.exports = {
 
       page = browser.page.opencolorpanel();
         page.opencolorpanel();
+
+      page = browser.page.strokecolorbtn();
+        page.strokecolorbtn();
       
       page = browser.page.colorswatchblack();  
         page.colorswatchblack();
-
-        browser.verify.elementPresent('.swatch[title="R=0 G=0 B=0 A=100%"]')
-        .click('.swatch[title="R=0 G=0 B=0 A=100%"]')
-        .verify.valueContains('.color-hex-input-wrapper input[type=text]', '#000000') 
-          
-      page = browser.page.closepanel();  
-        page.closepanel();
     },
     
     'Step 5: verify color applied via css': function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        .assert.cssProperty('.component-wrapper.bc-text-wrapper.focused', 'border-color', 'rgb(0, 0, 0)')
+        .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused', 'border-color', 'rgb(0, 0, 0)')
         browser.frame(null)
+
+       page = browser.page.colorswatchtransparent();  
+        page.colorswatchtransparent();
+          
+      page = browser.page.closepanel();  
+        page.closepanel();
     },
   
     'Step 6: open stroke panel and deselect 4 sided border' : function (browser) {

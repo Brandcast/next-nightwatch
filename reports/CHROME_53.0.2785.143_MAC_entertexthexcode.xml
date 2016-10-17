@@ -1,74 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="2"
+            failures="0"
             tests="5">
 
   <testsuite name="entertexthexcode"
-    errors="0" failures="2" hostname="" id="" package="entertexthexcode" skipped="0"
-    tests="5" time="23.17" timestamp="Fri, 14 Oct 2016 16:37:16 GMT">
+    errors="0" failures="0" hostname="" id="" package="entertexthexcode" skipped="5"
+    tests="5" time="0.000" timestamp="Mon, 17 Oct 2016 22:15:56 GMT">
   
-    <testcase name="step 1: load page" time="13.55" assertions="6">
-
+  
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="step 1: load page">
+      <skipped />
     </testcase>
-  
-    <testcase name="step 2: select text component in iframe and open color panel" time="4.343" assertions="3">
-
     
-
-    
-
-    
+    <testcase
+      name="step 2: select text component in iframe and open color panel">
+      <skipped />
     </testcase>
-  
-    <testcase name="step 3: select text color, enter hex code, and close panel" time="3.058" assertions="5">
-
     
-
-    
-
-    
-
-      <failure message="Testing if value of &lt;input[type=text]&gt; contains: &quot;#7fff00&quot;.">    at Object.enterhexcodeCommands.enterhexcode (/Users/kelli/Sites/nightwatch/pages/enterhexcode.js:7:17)
-    at Object.module.exports.step 3: select text color, enter hex code, and close panel (/Users/kelli/Sites/nightwatch/test/colorpanel/entertexthexcode.js:37:16)</failure>
-
-    
+    <testcase
+      name="step 3: select text color, enter hex code, and close panel">
+      <skipped />
     </testcase>
-  
-    <testcase name="step 4: verify text componet has text color hex code" time="0.09200" assertions="1">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused[data-qa-id=&quot;/grid/column/text&quot;]&gt; has css property &quot;color: rgba(127, 255, 0, 1)&quot;.">    at Object.module.exports.step 4: verify text componet has text color hex code (/Users/kelli/Sites/nightwatch/test/colorpanel/entertexthexcode.js:45:26)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
-
     
+    <testcase
+      name="step 4: verify text componet has text color hex code">
+      <skipped />
     </testcase>
-  
-    <testcase name="step 5: set text color to black and close panel" time="2.125" assertions="7">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="step 5: set text color to black and close panel">
+      <skipped />
     </testcase>
-  
+    
   
   </testsuite>
 </testsuites>

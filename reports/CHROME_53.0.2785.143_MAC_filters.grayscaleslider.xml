@@ -4,31 +4,65 @@
             tests="4">
 
   <testsuite name="filters.grayscaleslider"
-    errors="0" failures="0" hostname="" id="" package="filters.grayscaleslider" skipped="4"
-    tests="4" time="0.000" timestamp="Mon, 17 Oct 2016 18:37:58 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.grayscaleslider" skipped="0"
+    tests="4" time="30.93" timestamp="Mon, 17 Oct 2016 22:55:01 GMT">
   
+    <testcase name="Step 1: page load" time="18.19" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 2: open filters panel and select grayscale" time="6.720" assertions="5">
+
     
-    <testcase
-      name="Step 1: page load">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 3: select grayscale via slider" time="3.237" assertions="5">
+
     
-    <testcase
-      name="Step 2: open filters panel and select grayscale">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: clear filters and close panel" time="2.783" assertions="6">
+
     
-    <testcase
-      name="Step 3: select grayscale via slider">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 4: clear filters and close panel">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

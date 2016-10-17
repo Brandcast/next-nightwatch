@@ -1,5 +1,5 @@
 module.exports = {
-'disabled' : true,
+//'disabled' : true,
   '@tags' : ['filterspanel', 'Hue Rotate'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -45,7 +45,7 @@ module.exports = {
          browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')
          .verify.elementPresent('[value="180deg"]')
          .keys(['180', browser.Keys.ENTER])
-         .pause(300)
+         .pause(500)
          .verify.valueContains('[title="Hue Rotate"] input[type=text]', '180deg')
 
           browser.frame(0) //selects iframe - must call to select anything within iframe
@@ -99,7 +99,7 @@ module.exports = {
         page = browser.page.clearallfiltersbtn();
           page.clearallfiltersbtn();
 
-        browser.pause(200)
+        browser.pause(500)
 
           browser.frame(0) //selects iframe - must call to select anything within iframe
             .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')

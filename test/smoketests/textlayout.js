@@ -30,7 +30,7 @@ module.exports = {
         page.textlayoutbtn();
         browser.pause(500)
 
-      browser.verify.elementPresent('[data-qa-id="/grid/column/text"]')
+      browser.waitForElementVisible('.bc-text', 1000)
       
       browser.end();
     }

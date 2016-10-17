@@ -5,9 +5,9 @@
 
   <testsuite name="leftalign"
     errors="0" failures="0" hostname="" id="" package="leftalign" skipped="0"
-    tests="4" time="20.60" timestamp="Fri, 14 Oct 2016 16:34:19 GMT">
+    tests="4" time="22.63" timestamp="Mon, 17 Oct 2016 22:12:18 GMT">
   
-    <testcase name="Step 1: page load" time="14.46" assertions="6">
+    <testcase name="Step 1: page load" time="15.19" assertions="6">
 
     
 
@@ -38,7 +38,7 @@
     at process._tickCallback (internal/process/next_tick.js:98:9)
       </system-err>
   
-    <testcase name="Step 2: click text component and then select grid layout" time="5.083" assertions="4">
+    <testcase name="Step 2: click text component and then select grid layout" time="6.072" assertions="4">
 
     
 
@@ -65,7 +65,7 @@
     at process._tickCallback (internal/process/next_tick.js:98:9)
       </system-err>
   
-    <testcase name="Step 3: open alignment panel and select left align" time="0.7730" assertions="4">
+    <testcase name="Step 3: open alignment panel and select left align" time="1.141" assertions="4">
 
     
 
@@ -92,7 +92,7 @@
     at process._tickCallback (internal/process/next_tick.js:98:9)
       </system-err>
   
-    <testcase name="Step 4: verify grid has left alignment applied via css class" time="0.2820" assertions="1">
+    <testcase name="Step 4: verify grid has left alignment applied via css class" time="0.2240" assertions="1">
 
     
     </testcase>

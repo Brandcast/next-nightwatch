@@ -49,7 +49,7 @@ module.exports = {
         .verify.valueContains('[title="Translate Y"] input[type=text]', "")
 
          // browser.frame(0) //selects iframe - must call to select anything within iframe
-         // .assert.cssProperty('[data-qa-id="/grid/column/text"]', '-webkit-transform', 'matriy(1, 0, 0, 1, 1, 0)')
+         // .assert.cssProperty('[data-qa-id="/grid/column/text"]', '-webkit-transform', 'matrix(1, 0, 0, 1, 1, 0)')
          // browser.frame(null)
         page = browser.page.closepanel();  
             page.closepanel();
