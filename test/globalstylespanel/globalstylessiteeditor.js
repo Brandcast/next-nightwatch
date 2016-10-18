@@ -11,7 +11,7 @@ module.exports = {
   },
   
   'step 2: open site map and site editor' : function (browser) {
-    var page = browser.page.opensitemap();
+    page = browser.page.opensitemap();
       page.opensitemap(); 
 
       page = browser.page.opensite();
@@ -19,8 +19,11 @@ module.exports = {
   },
 
   'step 3: open gloabl styles menu' : function (browser) {
-     var page = browser.page.globalstylesbtn();
-      page.globalstylesbtn(); 
+    page = browser.page.globalstylespanel();
+      page.openglobalstylespanel(); 
+
+    page = browser.page.closepanel();  
+      page.closepanel();
 
       browser.end()
   },

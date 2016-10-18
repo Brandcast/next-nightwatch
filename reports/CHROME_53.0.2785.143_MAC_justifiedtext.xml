@@ -5,9 +5,9 @@
 
   <testsuite name="justifiedtext"
     errors="0" failures="0" hostname="" id="" package="justifiedtext" skipped="0"
-    tests="5" time="26.83" timestamp="Mon, 17 Oct 2016 22:37:55 GMT">
+    tests="5" time="22.38" timestamp="Tue, 18 Oct 2016 00:17:10 GMT">
   
-    <testcase name="step 1: load page" time="13.86" assertions="3">
+    <testcase name="step 1: load page" time="11.65" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map and website" time="7.780" assertions="3">
+    <testcase name="step 2: open site map and website" time="3.584" assertions="3">
 
     
 
@@ -25,19 +25,19 @@
     
     </testcase>
   
-    <testcase name="step 3: select text component" time="1.972" assertions="1">
+    <testcase name="step 3: select text component" time="4.776" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 4: open text formatting panel" time="1.579" assertions="2">
+    <testcase name="step 4: open text formatting panel" time="1.190" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step 5: disable/enable justified text justify" time="1.637" assertions="6">
+    <testcase name="step 5: disable/enable justified text justify" time="1.173" assertions="6">
 
     
 

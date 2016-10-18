@@ -1,42 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="4">
 
   <testsuite name="medialibrarysitemap"
-    errors="0" failures="0" hostname="" id="" package="medialibrarysitemap" skipped="0"
-    tests="4" time="19.50" timestamp="Mon, 17 Oct 2016 22:25:06 GMT">
+    errors="0" failures="1" hostname="" id="" package="medialibrarysitemap" skipped="3"
+    tests="4" time="2.467" timestamp="Tue, 18 Oct 2016 00:05:35 GMT">
   
-    <testcase name="step 1: load page" time="12.22" assertions="3">
-
-    
-
-    
+    <testcase name="step 1: load page" time="2.467" assertions="1">  <failure message="Testing if element &lt;[data-qa-id=&quot;open-website-button&quot;]&gt; is present.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:3:17)
+    at Object.module.exports.step 1: load page (/Users/kelli/Sites/nightwatch/test/medialibrarypanel/medialibrarysitemap.js:10:12)</failure>
 
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="4.214" assertions="2">
-
-    
-
-    
-    </testcase>
   
-    <testcase name="step 3: open media library menu" time="1.832" assertions="2">
-
     
-
-    
+    <testcase
+      name="step 2: open site map">
+      <skipped />
     </testcase>
-  
-    <testcase name="step 4: close media library menu" time="1.236" assertions="2">
-
     
-
-    
+    <testcase
+      name="step 3: open media library menu">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="step 4: close media library menu">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

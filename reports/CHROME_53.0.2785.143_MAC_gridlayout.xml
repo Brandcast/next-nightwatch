@@ -5,9 +5,9 @@
 
   <testsuite name="gridlayout"
     errors="0" failures="1" hostname="" id="" package="gridlayout" skipped="0"
-    tests="2" time="22.64" timestamp="Mon, 17 Oct 2016 22:32:59 GMT">
+    tests="2" time="20.95" timestamp="Tue, 18 Oct 2016 00:12:24 GMT">
   
-    <testcase name="Step 1: page load" time="19.10" assertions="6">
+    <testcase name="Step 1: page load" time="16.95" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: click text component and then select grid layout" time="3.547" assertions="5">
+    <testcase name="Step 2: click text component and then select grid layout" time="3.999" assertions="5">
 
     
 

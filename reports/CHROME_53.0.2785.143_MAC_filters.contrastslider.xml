@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="4">
 
   <testsuite name="filters.contrastslider"
-    errors="0" failures="1" hostname="" id="" package="filters.contrastslider" skipped="0"
-    tests="4" time="28.15" timestamp="Mon, 17 Oct 2016 22:48:49 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.contrastslider" skipped="0"
+    tests="4" time="29.48" timestamp="Tue, 18 Oct 2016 00:01:13 GMT">
   
-    <testcase name="Step 1: page load" time="15.91" assertions="6">
+    <testcase name="Step 1: page load" time="17.37" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select contrast" time="6.636" assertions="5">
+    <testcase name="Step 2: open filters panel and select contrast" time="6.573" assertions="5">
 
     
 
@@ -35,8 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select contrast via slider" time="3.049" assertions="5">  <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: contrast(0.1)&quot;.">    at Object.module.exports.Step 3: select contrast via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.contrastslider.js:39:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+    <testcase name="Step 3: select contrast via slider" time="2.545" assertions="5">
 
     
 
@@ -49,7 +48,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: clear filters and close panel" time="2.559" assertions="6">
+    <testcase name="Step 4: clear filters and close panel" time="2.990" assertions="6">
 
     
 

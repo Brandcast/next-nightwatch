@@ -5,9 +5,9 @@
 
   <testsuite name="textlayout"
     errors="0" failures="1" hostname="" id="" package="textlayout" skipped="0"
-    tests="2" time="23.71" timestamp="Mon, 17 Oct 2016 22:35:28 GMT">
+    tests="2" time="24.18" timestamp="Tue, 18 Oct 2016 00:14:51 GMT">
   
-    <testcase name="step 1: load page" time="17.64" assertions="6">
+    <testcase name="step 1: load page" time="15.10" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="step 2: select textlayout" time="6.065" assertions="8">
+    <testcase name="step 2: select textlayout" time="9.076" assertions="8">
 
     
 

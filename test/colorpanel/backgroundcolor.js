@@ -37,8 +37,8 @@ module.exports = {
       'Step 3: verify background color css is set to red' : function (browser) {
           //verify color applied via css
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(191, 123, 123, 1)')
-          browser.frame(null)
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(191, 123, 123, 1)')
+        browser.frame(null)
      },
       
       'Step 4: clear background color and close panel' : function (browser) {
@@ -51,9 +51,8 @@ module.exports = {
           browser.pause(300);
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(0, 0, 0, 0)')
-          browser.frame(null)
-
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused[data-qa-id="/grid/column/text"]', 'background-color', 'rgba(0, 0, 0, 0)')
+        browser.frame(null)
 
         page = browser.page.closepanel();  
           page.closepanel();

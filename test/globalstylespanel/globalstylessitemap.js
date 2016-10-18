@@ -16,8 +16,11 @@ module.exports = {
   },
 
   'step 3: open gloabl styles menu' : function (browser) {
-     var page = browser.page.globalstylesbtn();
+    page = browser.page.globalstylesbtn();
       page.globalstylesbtn(); 
+
+    page = browser.page.closepanel();  
+        page.closepanel();
 
       browser.end()
   },
