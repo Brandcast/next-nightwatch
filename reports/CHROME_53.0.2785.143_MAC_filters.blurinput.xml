@@ -5,9 +5,9 @@
 
   <testsuite name="filters.blurinput"
     errors="0" failures="0" hostname="" id="" package="filters.blurinput" skipped="0"
-    tests="5" time="27.35" timestamp="Tue, 18 Oct 2016 20:56:50 GMT">
+    tests="5" time="28.75" timestamp="Wed, 19 Oct 2016 23:15:29 GMT">
   
-    <testcase name="Step 1: page load" time="18.41" assertions="6">
+    <testcase name="Step 1: page load" time="19.40" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select blur" time="2.683" assertions="5">
+    <testcase name="Step 2: open filters panel and select blur" time="2.482" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter blur via keystoke" time="1.496" assertions="3">
+    <testcase name="Step 4: enter blur via keystoke" time="1.526" assertions="3">
 
     
 
@@ -44,7 +44,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease blur via up/down arrow" time="2.662" assertions="5">
+    <testcase name="Step 5: enter incrementally inscrease/decrease blur via up/down arrow" time="3.364" assertions="5">
 
     
 
@@ -57,7 +57,7 @@
     
     </testcase>
   
-    <testcase name="Step 6: clear input field and close panel" time="2.100" assertions="4">
+    <testcase name="Step 6: clear input field and close panel" time="1.976" assertions="4">
 
     
 

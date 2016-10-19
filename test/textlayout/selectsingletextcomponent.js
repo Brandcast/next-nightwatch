@@ -17,10 +17,11 @@ module.exports = {
     
     'Step 2: click-on text component' : function (browser) {
       browser.frame(0) //selects iframe - must call for 
-      .waitForElementPresent('[data-qa-id="/grid/column/text"]', 1000)
-      .click('[data-qa-id="/grid/column/text"]')
+        .waitForElementPresent('[data-qa-id="/grid/column/text"]', 1000)
+        .click('[data-qa-id="/grid/column/text"]')
+        .expect.element('.focused[data-qa-id="/grid/column/text"]').to.be.present
       browser.frame(null) //closes iframe
-  
+      
       browser.end();
   },
 };

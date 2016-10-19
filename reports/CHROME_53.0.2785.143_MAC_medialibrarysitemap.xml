@@ -5,9 +5,9 @@
 
   <testsuite name="medialibrarysitemap"
     errors="0" failures="0" hostname="" id="" package="medialibrarysitemap" skipped="0"
-    tests="4" time="15.22" timestamp="Tue, 18 Oct 2016 19:50:00 GMT">
+    tests="4" time="18.98" timestamp="Wed, 19 Oct 2016 23:25:08 GMT">
   
-    <testcase name="step 1: load page" time="9.606" assertions="3">
+    <testcase name="step 1: load page" time="12.03" assertions="3">
 
     
 
@@ -16,21 +16,21 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="3.416" assertions="2">
+    <testcase name="step 2: open site map" time="4.431" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step 3: open media library menu" time="1.230" assertions="2">
+    <testcase name="step 3: open media library menu" time="1.624" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step 4: close media library menu" time="0.9660" assertions="2">
+    <testcase name="step 4: close media library menu" time="0.8990" assertions="2">
 
     
 

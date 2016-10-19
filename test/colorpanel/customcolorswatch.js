@@ -1,4 +1,5 @@
 module.exports = {
+  'disabled' : true,
   '@tags' : ['colorpanel', 'colorbar'],
     'step 1: load page' : function (browser) {
       var page = browser.page.pageload();

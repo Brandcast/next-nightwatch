@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="6">
 
   <testsuite name="selectstrokecolor"
-    errors="0" failures="0" hostname="" id="" package="selectstrokecolor" skipped="0"
-    tests="6" time="26.80" timestamp="Tue, 18 Oct 2016 19:58:18 GMT">
+    errors="0" failures="1" hostname="" id="" package="selectstrokecolor" skipped="5"
+    tests="6" time="24.49" timestamp="Wed, 19 Oct 2016 23:35:29 GMT">
   
-    <testcase name="Step 1: page load" time="17.29" assertions="6">
+    <testcase name="Step 1: page load" time="24.49" assertions="5">
 
     
 
@@ -15,72 +15,39 @@
 
     
 
-    
-
-    
+      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/strokepanel/selectstrokecolor.js:13:14)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 2: select stroke color" time="2.024" assertions="1">
-
-    
-    </testcase>
   
-    <testcase name="Step 3: select stroke color" time="1.761" assertions="4">
-
     
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 2: select stroke color">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 4: select stroke color" time="2.570" assertions="6">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 3: select stroke color">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 5: verify color applied via css" time="1.483" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 4: select stroke color">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 6: open stroke panel and deselect 4 sided border" time="1.669" assertions="6">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 5: verify color applied via css">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="Step 6: open stroke panel and deselect 4 sided border">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
