@@ -5,9 +5,9 @@
 
   <testsuite name="hideonalldevices"
     errors="0" failures="0" hostname="" id="" package="hideonalldevices" skipped="0"
-    tests="3" time="29.76" timestamp="Tue, 18 Oct 2016 00:06:44 GMT">
+    tests="3" time="20.26" timestamp="Tue, 18 Oct 2016 19:51:47 GMT">
   
-    <testcase name="Step 1: page load" time="20.37" assertions="6">
+    <testcase name="Step 1: page load" time="15.60" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on all devices" time="8.682" assertions="11">
+    <testcase name="Step 2: select hide on all devices" time="4.013" assertions="11">
 
     
 
@@ -47,7 +47,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on mobile" time="0.7070" assertions="3">
+    <testcase name="Step 3: verify text component is hidden on mobile" time="0.6410" assertions="3">
 
     
 

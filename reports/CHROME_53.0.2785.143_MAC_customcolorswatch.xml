@@ -5,9 +5,9 @@
 
   <testsuite name="customcolorswatch"
     errors="0" failures="0" hostname="" id="" package="customcolorswatch" skipped="0"
-    tests="8" time="42.49" timestamp="Mon, 17 Oct 2016 23:54:53 GMT">
+    tests="8" time="23.73" timestamp="Tue, 18 Oct 2016 19:37:14 GMT">
   
-    <testcase name="step 1: load page" time="31.94" assertions="6">
+    <testcase name="step 1: load page" time="15.61" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="step 2: select text component in iframe and open color panel" time="3.499" assertions="3">
+    <testcase name="step 2: select text component in iframe and open color panel" time="2.505" assertions="3">
 
     
 
@@ -31,7 +31,7 @@
     
     </testcase>
   
-    <testcase name="step 3: select text color, enter click onto color spectrem, and select color hue" time="2.909" assertions="4">
+    <testcase name="step 3: select text color, enter click onto color spectrem, and select color hue" time="2.252" assertions="4">
 
     
 
@@ -42,28 +42,12 @@
     
     </testcase>
   
-    <testcase name="step 4: verify text componet has css applied for selected color" time="0.1330" assertions="1">
+    <testcase name="step 4: verify text componet has css applied for selected color" time="0.07200" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 5: create custom color swatch in color panel" time="0.6160" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="step 6: duplicate custom color swatch in color panel" time="0.4980" assertions="2">
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="step 7: delete custom color swatch in color panel" time="0.7950" assertions="3">
+    <testcase name="step 5: create custom color swatch in color panel" time="0.6310" assertions="3">
 
     
 
@@ -72,7 +56,23 @@
     
     </testcase>
   
-    <testcase name="Step 6: clear text color and close panel" time="2.107" assertions="5">
+    <testcase name="step 6: duplicate custom color swatch in color panel" time="0.3560" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 7: delete custom color swatch in color panel" time="0.6760" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 6: clear text color and close panel" time="1.626" assertions="5">
 
     
 

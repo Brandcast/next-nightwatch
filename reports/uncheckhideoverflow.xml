@@ -3,9 +3,9 @@
             failures="0"
             tests="6">
 
-  <testsuite name="filters.sepiainput"
-    errors="0" failures="0" hostname="" id="" package="filters.sepiainput" skipped="6"
-    tests="6" time="0.000" timestamp="Tue, 18 Oct 2016 21:03:06 GMT">
+  <testsuite name="uncheckhideoverflow"
+    errors="0" failures="0" hostname="" id="" package="uncheckhideoverflow" skipped="6"
+    tests="6" time="0.000" timestamp="Tue, 18 Oct 2016 19:03:15 GMT">
   
   
     
@@ -15,27 +15,27 @@
     </testcase>
     
     <testcase
-      name="Step 2: open filters panel and select sepia">
+      name="Step 2: open dimensions panel">
       <skipped />
     </testcase>
     
     <testcase
-      name="Step 3: enter sepia via setvalue function">
+      name="Step 3: check &quot;hide overflow&quot; button">
       <skipped />
     </testcase>
     
     <testcase
-      name="Step 4: enter sepia via keystoke">
+      name="Step 4: verify &quot;hide overflow&quot; is applied">
       <skipped />
     </testcase>
     
     <testcase
-      name="Step 5: enter incrementally inscrease/decrease sepia via up/down arrow">
+      name="Step 5: uncheck &quot;hide overflow&quot; button">
       <skipped />
     </testcase>
     
     <testcase
-      name="Step 6: clear filters and close panel">
+      name="Step 6: verify &quot;hide overflow&quot; is not applied">
       <skipped />
     </testcase>
     

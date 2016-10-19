@@ -70,12 +70,14 @@ module.exports = {
 
         browser.pause(500)
 
+        page = browser.page.closepanel();  
+          page.closepanel();
+
           browser.frame(0) //selects iframe - must call to select anything within iframe
             .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
           browser.frame(null)
 
-        page = browser.page.closepanel();  
-          page.closepanel();
+        
       
       browser.pause(300)
       

@@ -5,9 +5,9 @@
 
   <testsuite name="selectgridlayout"
     errors="0" failures="0" hostname="" id="" package="selectgridlayout" skipped="0"
-    tests="3" time="24.14" timestamp="Tue, 18 Oct 2016 00:13:53 GMT">
+    tests="3" time="20.91" timestamp="Tue, 18 Oct 2016 19:49:21 GMT">
   
-    <testcase name="Step 1: page load" time="15.88" assertions="6">
+    <testcase name="Step 1: page load" time="13.93" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select grid layout and open dimensions panel" time="6.722" assertions="6">
+    <testcase name="Step 2: select grid layout and open dimensions panel" time="5.731" assertions="6">
 
     
 
@@ -37,7 +37,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: apply and verify 5 gutter width via slider" time="1.544" assertions="4">
+    <testcase name="Step 3: apply and verify 5 gutter width via slider" time="1.250" assertions="4">
 
     
 

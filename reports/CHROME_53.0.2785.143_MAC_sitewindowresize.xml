@@ -5,9 +5,9 @@
 
   <testsuite name="sitewindowresize"
     errors="0" failures="0" hostname="" id="" package="sitewindowresize" skipped="0"
-    tests="2" time="18.98" timestamp="Tue, 18 Oct 2016 00:14:32 GMT">
+    tests="2" time="19.05" timestamp="Tue, 18 Oct 2016 19:56:55 GMT">
   
-    <testcase name="Step 1: page load" time="13.38" assertions="5">
+    <testcase name="Step 1: page load" time="14.21" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Step two: open gloablstyles panel and resize browser window" time="5.600" assertions="6">
+    <testcase name="Step two: open gloablstyles panel and resize browser window" time="4.840" assertions="6">
 
     
 

@@ -26,7 +26,7 @@ module.exports = {
           page.gridlayoutbtn();
 
         browser.frame(0)//selects iframe - must call to select anything within iframe
-          .verify.elementPresent('.bc-grid-wrapper')
+          .verify.elementPresent('[data-qa-id="/grid"]')
         browser.frame(null) //closes iframe
 
         browser.end();

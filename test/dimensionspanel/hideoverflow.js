@@ -26,20 +26,30 @@ module.exports = {
         page.opendimensionspanel()
   },
 
-    'Step 3: check "hide overflow" button' : function (browser) {
+    'Step 3: check "hide overflow" button and verify overflow is hidden on css' : function (browser) {
       page = browser.page.hideoverflowbtn();
         page.hideoverflowbtn()
 
       browser.pause(300)
-
-      page = browser.page.closepanel();  
-        page.closepanel();
-    },
-      
-    'Step 4: verify "hide overflow" is applied' : function (browser) {
+    
       browser.frame(0) //selects iframe - must call to select anything within iframe
         .assert.cssProperty('.focused.component-wrapper', 'overflow', 'hidden')
       browser.frame(null)
+  },
+      
+    'Step 4: uncheck "hide overflow" button and verify overflow is visible on css' : function (browser) {
+      page = browser.page.hideoverflowbtn();
+        page.hideoverflowbtn()
+
+      browser.pause(300)
+    
+      browser.frame(0) //selects iframe - must call to select anything within iframe
+        .assert.cssProperty('.focused.component-wrapper', 'overflow', 'visible')
+      browser.frame(null)
+
+       page = browser.page.closepanel();  
+        page.closepanel();
+     
       browser.end();
     }
 };

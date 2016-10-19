@@ -28,10 +28,11 @@ module.exports = {
 
        page = browser.page.textlayoutbtn();  
         page.textlayoutbtn();
-        browser.pause(500)
 
-      browser.waitForElementVisible('.bc-text', 1000)
-      
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+          .waitForElementVisible('.bc-text', 1000)
+        browser.frame(null) //closes iframe
+
       browser.end();
     }
 };

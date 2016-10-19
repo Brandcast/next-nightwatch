@@ -1,5 +1,5 @@
 module.exports = {
-  'disabled' : true,
+  //'disabled' : true,
   '@tags' : ['colorpanel', 'hexcode'],
     'step 1: load page' : function (browser) {
       var page = browser.page.pageload();
@@ -35,9 +35,12 @@ module.exports = {
           page.colorspectrum();
 
         page = browser.page.enterhexcode();  
-          page.enterhexcode(); 
+          page.enterhexcode()
+        
+        browser.setValue('.color-hex-container input[type=text]', ['#7fff00','\uE007']) 
+          browser.verify.valueContains('input[type=text]', '#7fff00') 
 
-          browser.pause(300)
+            browser.pause(300)    
     },
       
       'step 4: verify text componet has text color hex code' : function (browser) {

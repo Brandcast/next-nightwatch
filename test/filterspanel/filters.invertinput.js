@@ -51,7 +51,7 @@ module.exports = {
         .keys('2')
         .keys('5')
         .keys('\uE007')
-        .pause(300)
+        .pause(500)
         .verify.valueContains('.ui-wrapper[title="Invert"] input[type=text]', '25')
 
 
@@ -103,7 +103,7 @@ module.exports = {
         page = browser.page.clearallfiltersbtn();
           page.clearallfiltersbtn();
 
-        browser.pause(200)
+        browser.pause(400)
 
           browser.frame(0) //selects iframe - must call to select anything within iframe
             .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')

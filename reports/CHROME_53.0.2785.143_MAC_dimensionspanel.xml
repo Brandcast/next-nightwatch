@@ -5,9 +5,9 @@
 
   <testsuite name="dimensionspanel"
     errors="0" failures="0" hostname="" id="" package="dimensionspanel" skipped="0"
-    tests="2" time="18.58" timestamp="Mon, 17 Oct 2016 23:56:51 GMT">
+    tests="2" time="18.91" timestamp="Tue, 18 Oct 2016 19:38:47 GMT">
   
-    <testcase name="step 1: load page" time="13.67" assertions="6">
+    <testcase name="step 1: load page" time="16.60" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open and close dimensions panel" time="4.909" assertions="4">
+    <testcase name="step 2: open and close dimensions panel" time="2.312" assertions="4">
 
     
 

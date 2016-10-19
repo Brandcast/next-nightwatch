@@ -5,9 +5,9 @@
 
   <testsuite name="viewallhiddenelements"
     errors="0" failures="0" hostname="" id="" package="viewallhiddenelements" skipped="0"
-    tests="5" time="26.91" timestamp="Tue, 18 Oct 2016 00:11:17 GMT">
+    tests="5" time="27.10" timestamp="Tue, 18 Oct 2016 19:55:41 GMT">
   
-    <testcase name="Step 1: page load" time="17.29" assertions="6">
+    <testcase name="Step 1: page load" time="17.71" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on all devices" time="4.459" assertions="11">
+    <testcase name="Step 2: select hide on all devices" time="3.862" assertions="11">
 
     
 
@@ -47,19 +47,19 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on all devices" time="0.07400" assertions="1">
+    <testcase name="Step 3: verify text component is hidden on all devices" time="0.07200" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 4: verify &quot;view all elements&quot; button is selected" time="0.5370" assertions="2">
+    <testcase name="Step 4: verify &quot;view all elements&quot; button is selected" time="0.7460" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 5: resize browser to mobile, portrait, landscape and desktop, then verify display does not equal none" time="4.555" assertions="10">
+    <testcase name="Step 5: resize browser to mobile, portrait, landscape and desktop, then verify display does not equal none" time="4.713" assertions="10">
 
     
 
