@@ -30,47 +30,57 @@ module.exports = {
         
           .keys(browser.Keys.SHIFT, function(done) {
             browser.click('[data-qa-id="/grid/column1/text"]');
-            browser.expect.element('.focused[data-qa-id="/grid/column1/text"]').to.be.present
-            browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.be.present
+              browser.expect.element('.focused[data-qa-id="/grid/column1/text"]').to.be.present
+              browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.be.present
             browser.keys(browser.Keys.NULL)//release shift key
         });
       
       browser.frame(null) //closes iframe
    },   
     
-      'Step 4: set text component background color to red'  : function (browser) {
-        page = browser.page.opencolorpanel();
-          page.opencolorpanel();
+      'Step 4: set border to all sides'  : function (browser) {
 
-        page = browser.page.backgroundcolorbtn();
-          page.backgroundcolorbtn();
+         page = browser.page.openstrokepanel();
+          page.openstrokepanel()
 
-        page = browser.page.colorspectrum();  
-          page.colorspectrum();
+       page = browser.page.borderallsides();
+          page.borderallsidesbtnenabled()
 
-        browser.pause(300)
-        
-        browser.frame(0) //selects iframe - must call for 
-          browser.expect.element('.focused[data-qa-id="/grid/column1/text"]').to.have.css('background-color').which.equals('rgba(191, 123, 123, 1)')
-          browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.have.css('background-color').which.equals('rgba(191, 123, 123, 1)')
-        browser.frame(null) //closes iframe
-    },
-      
-      'Step 5: clear background color and close panel' : function (browser) {
-        page = browser.page.colorswatchtransparent();  
-          page.colorswatchtransparent();
-
-          
         page = browser.page.closepanel();  
           page.closepanel();
 
-         browser.pause(1000)
+        browser.frame(0) //selects iframe - must call for 
+          browser.expect.element('.focused[data-qa-id="/grid/column1/text"]').to.have.css('border-style').which.equals('solid')
+          browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.have.css('border-style').which.equals('solid')
+        browser.frame(null) //closes iframe
+    },
+  
+      'Step 4: open stroke panel and deselect 4 sided border' : function (browser) {
+         page = browser.page.openstrokepanel();
+           page.openstrokepanel();
 
-        // browser.frame(0) //selects iframe - must call for 
-        //   browser.expect.element('.focused[data-qa-id="/grid/column1/text"]').to.have.css('background-color').which.equals('rgba(0, 0, 0, 1)')
-        //   browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.have.css('background-color').which.equals('rgba(0, 0, 0, 1)')
-        // browser.frame(null) //closes iframe
-      //browser.end();
+          page = browser.page.borderallsides();
+            page.borderallsidesbtndisabled();
+          
+          page = browser.page.closepanel();  
+            page.closepanel();
+
+          browser.pause(300);
+
+          browser.frame(0) //selects iframe - must call for 
+            browser.expect.element('.focused[data-qa-id="/grid/column1/text"]').to.have.css('border-style').which.equals('none')
+            browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.have.css('border-style').which.equals('none')
+          browser.frame(null) //closes iframe
+     },
+      
+      'Step 5: click on image and verify multiselect is disabled' : function (browser) {
+        browser.frame(0) //selects iframe - must call for 
+          browser.verify.elementPresent('[data-qa-id="/grid/column/image"]')
+          browser.click('[data-qa-id="/grid/column/image"]')
+          browser.expect.element('.focused[data-qa-id="/grid/column1/text"]').to.not.be.present
+          browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.not.be.present
+        browser.frame(null) //closes iframe
+      browser.end();
 
   },
 };

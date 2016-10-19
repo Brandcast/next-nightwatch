@@ -1,9 +1,10 @@
 var colorswatchtransparentCommands = {
   colorswatchtransparent: function() {
         this.verify.elementPresent('@swatchtransparent')
-        .click('@swatchtransparent')
+        this.api.moveToElement('.swatch[title="No Color"]', 2,2)
+        this.api.mouseButtonClick('@swatchtransparent')
         this.api.pause(300)
-        .assert.valueContains('.color-hex-input-wrapper input[type=text]', '')
+        this.verify.elementPresent('.swatch.selected[title="No Color"]')
   }
 };
 

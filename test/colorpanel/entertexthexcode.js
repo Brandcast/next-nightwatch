@@ -38,7 +38,7 @@ module.exports = {
           page.enterhexcode()
         
         browser.setValue('.color-hex-container input[type=text]', ['#7fff00','\uE007']) 
-          browser.verify.valueContains('input[type=text]', '#7fff00') 
+          browser.verify.valueContains('.color-hex-container input[type=text]', '#7fff00') 
 
             browser.pause(300)    
     },
