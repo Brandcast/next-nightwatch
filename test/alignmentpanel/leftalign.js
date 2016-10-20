@@ -18,25 +18,35 @@ module.exports = {
   
       'Step 2: click text component and then select grid layout' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
+          .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
+          .click('[data-qa-id="/grid/column/text"]')
           .frame(null) //closes iframe
 
         page = browser.page.gridlayoutbtn();  
           page.gridlayoutbtn();
-
     },
 
       'Step 3: open alignment panel and select left align' : function (browser) {
         page = browser.page.alignmentpanel();
-         page.openalignmentpanel(); 
-         page.leftalignenabled();
+          page.openalignmentpanel(); 
+          page.leftalignenabled();
     },
 
       'Step 4: verify grid has left alignment applied via css class' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .verify.elementPresent('.bc-grid-wrapper.focused.bc-left')
           .frame(null) //closes iframe
+    },
+
+      'Step 5: reset to center aligned and close panel' : function (browser) {
+          page.centeralignenabled();
+
+          browser.frame(0) //selects iframe - must call to select anything within iframe
+            .verify.elementPresent('.bc-grid-wrapper.focused.bc-center')
+          browser.frame(null) //closes iframe
+
+          page = browser.page.closepanel();  
+            page.closepanel();
       
         browser.end();
     }

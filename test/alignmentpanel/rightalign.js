@@ -34,8 +34,20 @@ module.exports = {
 
       'Step 4: verify grid has right alignment applied via css class' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .verify.elementPresent('bc-grid-wrapper.focused.bc-right')
+          .verify.elementPresent('.bc-grid-wrapper.focused.bc-right')
         browser.frame(null) //closes iframe
+
+    },
+
+      'Step 5: reset to center aligned and close panel' : function (browser) {
+          page.centeralignenabled();
+
+          browser.frame(0) //selects iframe - must call to select anything within iframe
+            .verify.elementPresent('.bc-grid-wrapper.focused.bc-center')
+          browser.frame(null) //closes iframe
+
+          page = browser.page.closepanel();  
+            page.closepanel();
       
         browser.end();
     }

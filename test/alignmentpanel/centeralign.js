@@ -27,7 +27,7 @@ module.exports = {
     },
 
       'Step 3: open alignment panel and select center align' : function (browser) {
-        var page = browser.page.alignmentpanel();
+        page = browser.page.alignmentpanel();
           page.openalignmentpanel(); 
           page.centeralignenabled();
     },
@@ -36,6 +36,9 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .verify.elementPresent('.bc-grid-wrapper.focused.bc-center')
           .frame(null) //closes iframe
+
+        page = browser.page.closepanel();  
+            page.closepanel();
       
         browser.end();
     }

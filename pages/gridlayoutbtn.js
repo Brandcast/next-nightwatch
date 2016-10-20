@@ -1,12 +1,12 @@
 var gridlayoutbtnCommands = {
   gridlayoutbtn: function() {
-    this.verify.elementPresent('@gridlayoutbtn')
+    this.waitForElementVisible('@gridlayoutbtn', 1000)
        .click('@gridlayoutbtn')
         .expect.element('@gridlayoutbtn').to.be.enabled
 
         this.api.frame(0)
           .verify.elementPresent('.focused.bc-grid-wrapper')
-            .frame(null)
+          .frame(null)
   }
 };
 
