@@ -18,8 +18,8 @@ module.exports = {
   
     'step 2: select text component' : function (browser) {
       browser.frame(0) //selects iframe - must cleft to select anything within iframe
-           .waitForElementVisible('.bc-text', 1000)
-           .click('.bc-text')
+          .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
+          .click('[data-qa-id="/grid/column/text"]')
           browser.frame(null) //closes iframe
   },
 

@@ -19,8 +19,8 @@ module.exports = {
 
     'Step 2: select text color' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        .waitForElementVisible('.bc-text', 1000)
-        .click('.bc-text')
+        .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
+        .click('[data-qa-id="/grid/column/text"]')
         .frame(null) //closes iframe
 
       page = browser.page.opencolorpanel();

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="2"
+            failures="0"
             tests="6">
 
   <testsuite name="showonalldevices"
-    errors="0" failures="2" hostname="" id="" package="showonalldevices" skipped="3"
-    tests="6" time="29.11" timestamp="Thu, 20 Oct 2016 17:30:09 GMT">
+    errors="0" failures="0" hostname="" id="" package="showonalldevices" skipped="0"
+    tests="6" time="30.49" timestamp="Thu, 20 Oct 2016 20:59:38 GMT">
   
-    <testcase name="Step 1: page load" time="17.28" assertions="6">
+    <testcase name="Step 1: page load" time="21.66" assertions="6">
 
     
 
@@ -18,62 +18,87 @@
     
 
     
-
-    
-    </testcase>
-  
-    <testcase name="Step 2: select hide on all devices" time="11.73" assertions="11">
-
-    
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Desktop&quot;] .btn&gt; is present.">    at Object.desktopbtnCommands.hidedesktopbtn (/Users/kelli/Sites/nightwatch/pages/desktopbtn.js:5:17)
-    at Object.module.exports.Step 2: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/showonalldevices.js:29:16)</failure>
-
-    
-
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Tablet Landscape&quot;] .btn&gt; is present.">    at Object.tabletlandscapebtnCommands.hidetabletlandscapebtn (/Users/kelli/Sites/nightwatch/pages/tabletlandscapebtn.js:5:16)
-    at Object.module.exports.Step 2: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/showonalldevices.js:32:16)</failure>
-
-    
-
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Tablet Portrait&quot;] .btn&gt; is present.">    at Object.tabletportraitbtnCommands.hidetabletportraitbtn (/Users/kelli/Sites/nightwatch/pages/tabletportraitbtn.js:5:20)
-    at Object.module.exports.Step 2: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/showonalldevices.js:35:16)</failure>
-
-    
-
-      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Phone&quot;] .btn&gt; is present.">    at Object.mobilebtnCommands.hidemobilebtn (/Users/kelli/Sites/nightwatch/pages/mobilebtn.js:5:20)
-    at Object.module.exports.Step 2: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/showonalldevices.js:38:16)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on all devices" time="0.1060" assertions="1">  <failure message="Testing if element &lt;.focused.bc-desktop-hidden.bc-tablet-landscape-hidden.bc-tablet-hidden.bc-mobile-hidden.component-wrapper.bc-text-wrapper&gt; is present.">    at Object.module.exports.Step 3: verify text component is hidden on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/showonalldevices.js:43:26)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+    <testcase name="Step 2: select hide on all devices" time="3.362" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 3: verify text component is hidden on all devices" time="0.06800" assertions="1">
+
+    
+    </testcase>
   
+    <testcase name="Step 4: select show on all devices" time="1.736" assertions="8">
+
     
-    <testcase
-      name="Step 4: select show on all devices">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: verify hidden not applied to text component" time="0.1200" assertions="2">
+
     
-    <testcase
-      name="Step 5: verify hidden not applied to text component">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="Step 6: resize browser widnoow to mobile, tablet, and desktop and verify dispaly:none is not applied" time="3.547" assertions="9">
+
     
-    <testcase
-      name="Step 6: resize browser widnoow to mobile, tablet, and desktop and verify dispaly:none is not applied">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

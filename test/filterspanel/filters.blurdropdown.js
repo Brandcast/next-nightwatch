@@ -103,7 +103,7 @@ module.exports = {
         page = browser.page.clearallfiltersbtn();
           page.clearallfiltersbtn();
 
-        browser.pause(200)
+        browser.pause(500)
 
           browser.frame(0) //selects iframe - must call to select anything within iframe
             .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
