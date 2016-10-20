@@ -18,8 +18,8 @@ module.exports = {
   
       'Step 2: click text component and then select grid layout' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
+          .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
+          .click('[data-qa-id="/grid/column/text"]')
           .frame(null) //closes iframe
 
         page = browser.page.gridlayoutbtn();  
@@ -27,16 +27,15 @@ module.exports = {
     },
 
       'Step 3: open alignment panel and select right align' : function (browser) {
-        var page = browser.page.alignmentpanel();
+        page = browser.page.alignmentpanel();
           page.openalignmentpanel(); 
           page.rightalignenabled();
     },
 
       'Step 4: verify grid has right alignment applied via css class' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .verify.elementPresent('.bc-grid-wrapper.focused.bc-right')
-          //.expect.element('.bc-grid-wrapper.focused').to.have.css('alignment').which.equals('right')
-          .frame(null) //closes iframe
+          .verify.elementPresent('bc-grid-wrapper.focused.bc-right')
+        browser.frame(null) //closes iframe
       
         browser.end();
     }

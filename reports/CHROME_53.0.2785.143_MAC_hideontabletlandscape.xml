@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="2"
             tests="3">
 
   <testsuite name="hideontabletlandscape"
-    errors="0" failures="0" hostname="" id="" package="hideontabletlandscape" skipped="0"
-    tests="3" time="24.41" timestamp="Wed, 19 Oct 2016 23:28:34 GMT">
+    errors="0" failures="2" hostname="" id="" package="hideontabletlandscape" skipped="0"
+    tests="3" time="22.81" timestamp="Thu, 20 Oct 2016 17:28:34 GMT">
   
-    <testcase name="Step 1: page load" time="16.04" assertions="6">
+    <testcase name="Step 1: page load" time="15.76" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on tablet landscape" time="6.600" assertions="5">
+    <testcase name="Step 2: select hide on tablet landscape" time="5.756" assertions="5">
 
     
 
@@ -30,18 +30,14 @@
 
     
 
-    
+      <failure message="Testing if element &lt;.ui-wrapper.auto-width.current[title=&quot;Hide On Tablet Landscape&quot;] .btn&gt; is present.">    at Object.tabletlandscapebtnCommands.hidetabletlandscapebtn (/Users/kelli/Sites/nightwatch/pages/tabletlandscapebtn.js:5:16)
+    at Object.module.exports.Step 2: select hide on tablet landscape (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideontabletlandscape.js:29:16)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 3: verify text component is hidden on tablet landscape" time="1.772" assertions="4">
-
-    
-
-    
-
-    
+    <testcase name="Step 3: verify text component is hidden on tablet landscape" time="1.293" assertions="1">  <failure message="Testing if element &lt;.focused.bc-tablet-landscape-hidden.component-wrapper.bc-text-wrapper&gt; is present.">    at Object.module.exports.Step 3: verify text component is hidden on tablet landscape (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideontabletlandscape.js:36:26)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
     
     </testcase>

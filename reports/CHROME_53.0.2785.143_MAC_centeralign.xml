@@ -5,9 +5,9 @@
 
   <testsuite name="centeralign"
     errors="0" failures="0" hostname="" id="" package="centeralign" skipped="0"
-    tests="4" time="26.81" timestamp="Wed, 19 Oct 2016 23:08:43 GMT">
+    tests="4" time="25.64" timestamp="Thu, 20 Oct 2016 18:00:33 GMT">
   
-    <testcase name="Step 1: page load" time="22.29" assertions="6">
+    <testcase name="Step 1: page load" time="17.12" assertions="6">
 
     
 
@@ -21,8 +21,21 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;.btn-sudo-dom-label[title=&quot;grid&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.gridlayoutbtnCommands.gridlayoutbtn (/Users/kelli/Sites/nightwatch/pages/gridlayoutbtn.js:4:9)
+    at Object.module.exports.Step 2: click text component and then select grid layout (/Users/kelli/Sites/nightwatch/test/alignmentpanel/leftalign.js:26:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+      </system-err>
   
-    <testcase name="Step 2: click text component and then select grid layout" time="3.151" assertions="4">
+    <testcase name="Step 2: click text component and then select grid layout" time="7.225" assertions="4">
 
     
 
@@ -32,8 +45,21 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;.btn-sudo-dom-label[title=&quot;grid&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.gridlayoutbtnCommands.gridlayoutbtn (/Users/kelli/Sites/nightwatch/pages/gridlayoutbtn.js:4:9)
+    at Object.module.exports.Step 2: click text component and then select grid layout (/Users/kelli/Sites/nightwatch/test/alignmentpanel/leftalign.js:26:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+      </system-err>
   
-    <testcase name="Step 3: open alignment panel and select center align" time="1.151" assertions="4">
+    <testcase name="Step 3: open alignment panel and select center align" time="1.011" assertions="4">
 
     
 
@@ -43,11 +69,37 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;.btn-sudo-dom-label[title=&quot;grid&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.gridlayoutbtnCommands.gridlayoutbtn (/Users/kelli/Sites/nightwatch/pages/gridlayoutbtn.js:4:9)
+    at Object.module.exports.Step 2: click text component and then select grid layout (/Users/kelli/Sites/nightwatch/test/alignmentpanel/leftalign.js:26:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+      </system-err>
   
-    <testcase name="Step 4: verify grid has center alignment applied via css class" time="0.2190" assertions="1">
+    <testcase name="Step 4: verify grid has center alignment applied via css class" time="0.2790" assertions="1">
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;.btn-sudo-dom-label[title=&quot;grid&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.gridlayoutbtnCommands.gridlayoutbtn (/Users/kelli/Sites/nightwatch/pages/gridlayoutbtn.js:4:9)
+    at Object.module.exports.Step 2: click text component and then select grid layout (/Users/kelli/Sites/nightwatch/test/alignmentpanel/leftalign.js:26:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+      </system-err>
   
   
   </testsuite>

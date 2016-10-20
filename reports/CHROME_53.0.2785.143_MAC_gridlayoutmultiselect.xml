@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
-            tests="2">
+<testsuites errors="1"
+            failures="1"
+            tests="4">
 
   <testsuite name="gridlayoutmultiselect"
-    errors="0" failures="0" hostname="" id="" package="gridlayoutmultiselect" skipped="0"
-    tests="2" time="21.18" timestamp="Wed, 19 Oct 2016 23:24:01 GMT">
+    errors="1" failures="1" hostname="" id="" package="gridlayoutmultiselect" skipped="2"
+    tests="4" time="23.09" timestamp="Thu, 20 Oct 2016 17:24:21 GMT">
   
     <testcase name="Step 1: page load" time="17.71" assertions="6">
 
@@ -22,19 +22,29 @@
     
     </testcase>
   
-    <testcase name="Step 2: click text component and then select grid layout" time="3.471" assertions="5">
+    <testcase name="Step 2: click text component and then select grid layout" time="5.372" assertions="3">
 
-    
+      <failure message="Testing if element &lt;.btn-sudo-dom-label[title=&quot;grid&quot;]&gt; is present.">    at Object.gridlayoutbtnCommands.gridlayoutbtn (/Users/kelli/Sites/nightwatch/pages/gridlayoutbtn.js:3:17)
+    at Object.module.exports.Step 2: click text component and then select grid layout (/Users/kelli/Sites/nightwatch/test/gridlayout/gridlayoutmultiselect.js:27:16)</failure>
 
-    
-
-    
-
-    
+      <failure message="Expected element &lt;.btn-sudo-dom-label[title=&quot;grid&quot;]&gt; to be enabled - element was not found">    at Object.gridlayoutbtnCommands.gridlayoutbtn (/Users/kelli/Sites/nightwatch/pages/gridlayoutbtn.js:5:17)
+    at Object.module.exports.Step 2: click text component and then select grid layout (/Users/kelli/Sites/nightwatch/test/gridlayout/gridlayoutmultiselect.js:27:16)</failure>
 
     
     </testcase>
   
+  
+    
+    <testcase
+      name="Step 2: click-on grid component">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: keep selection on first text component and select an additional text component">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

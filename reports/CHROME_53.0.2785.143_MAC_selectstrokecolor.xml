@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="2"
             tests="6">
 
   <testsuite name="selectstrokecolor"
-    errors="0" failures="1" hostname="" id="" package="selectstrokecolor" skipped="5"
-    tests="6" time="24.49" timestamp="Wed, 19 Oct 2016 23:35:29 GMT">
+    errors="0" failures="2" hostname="" id="" package="selectstrokecolor" skipped="0"
+    tests="6" time="26.80" timestamp="Thu, 20 Oct 2016 17:35:26 GMT">
   
-    <testcase name="Step 1: page load" time="24.49" assertions="5">
+    <testcase name="Step 1: page load" time="18.94" assertions="6">
 
     
 
@@ -15,39 +15,74 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/strokepanel/selectstrokecolor.js:13:14)</failure>
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 2: select stroke color" time="1.442" assertions="1">
+
+    
+    </testcase>
   
+    <testcase name="Step 3: select stroke color" time="1.562" assertions="4">
+
     
-    <testcase
-      name="Step 2: select stroke color">
-      <skipped />
+
+    
+
+      <failure message="Testing if element &lt;.ui-wrapper.current[title=&quot;Apply Stroke to All Sides&quot;]&gt; is present.">    at Object.borderallsidesCommands.borderallsidesbtnenabled (/Users/kelli/Sites/nightwatch/pages/borderallsides.js:5:19)
+    at Object.module.exports.Step 3: select stroke color (/Users/kelli/Sites/nightwatch/test/strokepanel/selectstrokecolor.js:32:16)</failure>
+
+    
     </testcase>
+  
+    <testcase name="Step 4: select stroke color" time="2.217" assertions="6">
+
     
-    <testcase
-      name="Step 3: select stroke color">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: verify color applied via css" time="1.303" assertions="5">
+
     
-    <testcase
-      name="Step 4: select stroke color">
-      <skipped />
+
+      <failure message="Testing if element &lt;.swatch.selected[title=&quot;No Color&quot;]&gt; is present.">    at Object.colorswatchtransparentCommands.colorswatchtransparent (/Users/kelli/Sites/nightwatch/pages/colorswatchtransparent.js:7:21)
+    at Object.module.exports.Step 5: verify color applied via css (/Users/kelli/Sites/nightwatch/test/strokepanel/selectstrokecolor.js:53:14)</failure>
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 6: open stroke panel and deselect 4 sided border" time="1.337" assertions="6">
+
     
-    <testcase
-      name="Step 5: verify color applied via css">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 6: open stroke panel and deselect 4 sided border">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>
