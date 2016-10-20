@@ -19,8 +19,8 @@ module.exports = {
       
       'Step 2: open filters panel and select contrast' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
+          .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
+          .click('[data-qa-id="/grid/column/text"]')
           .frame(null) //closes iframe
 
         page = browser.page.openfilterspanel();
@@ -49,7 +49,7 @@ module.exports = {
         .mouseButtonUp(0)
         .pause(300)
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(4.15)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(4.1)')
         browser.frame(null);  
   
         page = browser.page.closepanel();  

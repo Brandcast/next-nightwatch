@@ -84,6 +84,7 @@ module.exports = {
   //    },
       
   //     'Step 5: click on image and verify multiselect is disabled' : function (browser) {
+          
   //       browser.frame(0) //selects iframe - must call for 
   //         browser.verify.elementPresent('[data-qa-id="/grid/column/image"]')
   //         browser.click('[data-qa-id="/grid/column/image"]')

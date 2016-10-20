@@ -4,10 +4,10 @@
             tests="4">
 
   <testsuite name="filters.invertslider"
-    errors="0" failures="1" hostname="" id="" package="filters.invertslider" skipped="2"
-    tests="4" time="25.54" timestamp="Thu, 20 Oct 2016 17:22:27 GMT">
+    errors="0" failures="1" hostname="" id="" package="filters.invertslider" skipped="0"
+    tests="4" time="27.20" timestamp="Thu, 20 Oct 2016 18:55:53 GMT">
   
-    <testcase name="Step 1: page load" time="18.40" assertions="6">
+    <testcase name="Step 1: page load" time="17.37" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select invert" time="7.140" assertions="5">
+    <testcase name="Step 2: open filters panel and select invert" time="4.107" assertions="5">
 
     
 
@@ -30,25 +30,33 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;invert-slider&quot;]&gt; to be visible for 1000 milliseconds.">    at Object.module.exports.Step 2: open filters panel and select invert (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertslider.js:31:10)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
     
     </testcase>
   
+    <testcase name="Step 3: select invert via slider" time="3.812" assertions="3">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: invert(0.08)&quot;.">    at Object.module.exports.Step 3: select invert via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertslider.js:39:19)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+
+      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: invert(0.83)&quot;.">    at Object.module.exports.Step 3: select invert via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertslider.js:52:19)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
   
+    <testcase name="Step 6: clear filters and close panel" time="1.911" assertions="4">
+
     
-    <testcase
-      name="Step 3: select invert via slider">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 6: clear filters and close panel">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

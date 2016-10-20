@@ -19,33 +19,15 @@ module.exports = {
       
       'Step 2: open filters panel and select blur' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
+          .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
+          .click('[data-qa-id="/grid/column/text"]')
           .frame(null) //closes iframe
 
         page = browser.page.openfilterspanel();
           page.openfilterspanel();  
-    },
-      
-      'Step 3: select blur 0px via drop-down-menu' : function (browser) { 
-       browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] .select-input-container .select-triangle-wrapper')
-         .verify.elementPresent('[value="0px"]')
-         .keys('0')
-         .verify.valueContains('[title="Blur"] input[type=text]', '0px')
-
-        browser.frame(0) //selects iframe - must call to select anything within iframe
-            .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(0px)')
-        browser.frame(null)
-
-        page = browser.page.closepanel();  
-          page.closepanel();
- 
     }, 
 
       'Step 4: select blur 5px via drop-down-menu' : function (browser) { 
-        page = browser.page.openfilterspanel();
-          page.openfilterspanel();
-
         browser.verify.elementPresent('[title="Blur"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] .select-input-container .select-triangle-wrapper')
 
@@ -56,6 +38,23 @@ module.exports = {
          browser.frame(0) //selects iframe - must call to select anything within iframe
          .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(5px)')
          browser.frame(null)
+
+        page = browser.page.closepanel();  
+          page.closepanel();
+    },
+      
+      'Step 3: select blur 0px via drop-down-menu' : function (browser) { 
+        page = browser.page.openfilterspanel();
+          page.openfilterspanel();
+
+        browser.click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Blur"] .select-input-container .select-triangle-wrapper')
+         .verify.elementPresent('[value="0px"]')
+         .keys('0')
+         .verify.valueContains('[title="Blur"] input[type=text]', '0px')
+
+        browser.frame(0) //selects iframe - must call to select anything within iframe
+            .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'blur(0px)')
+        browser.frame(null)
 
         page = browser.page.closepanel();  
           page.closepanel();

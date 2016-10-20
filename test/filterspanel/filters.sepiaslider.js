@@ -20,8 +20,8 @@ module.exports = {
       
       'Step 2: open filters panel and select sepia' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
+         .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
+          .click('[data-qa-id="/grid/column/text"]')
           .frame(null) //closes iframe
 
         page = browser.page.openfilterspanel();
@@ -53,9 +53,12 @@ module.exports = {
           browser.frame(0) //selects iframe - must call to select anything within iframe
             .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.83)')
           browser.frame(null);
+
+          page = browser.page.closepanel();  
+            page.closepanel();
     },
       
-      'Step4: clear filters and close panel' : function (browser) { 
+      'Step 4: clear filters and close panel' : function (browser) { 
         page = browser.page.openfilterspanel();
           page.openfilterspanel();
 

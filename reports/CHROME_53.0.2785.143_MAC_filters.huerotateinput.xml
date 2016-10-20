@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="5"
-            failures="4"
+<testsuites errors="0"
+            failures="1"
             tests="6">
 
   <testsuite name="filters.huerotateinput"
-    errors="5" failures="4" hostname="" id="" package="filters.huerotateinput" skipped="0"
-    tests="6" time="56.76" timestamp="Thu, 20 Oct 2016 17:20:43 GMT">
+    errors="0" failures="1" hostname="" id="" package="filters.huerotateinput" skipped="0"
+    tests="6" time="34.31" timestamp="Thu, 20 Oct 2016 18:54:45 GMT">
   
-    <testcase name="Step 1: page load" time="15.61" assertions="6">
+    <testcase name="Step 1: page load" time="17.68" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select hue-rotate" time="6.372" assertions="5">
+    <testcase name="Step 2: open filters panel and select hue-rotate" time="6.108" assertions="5">
 
     
 
@@ -35,45 +35,33 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter hue-rotate via setvalue function" time="8.810" assertions="4">
+    <testcase name="Step 3: enter hue-rotate via setvalue function" time="1.835" assertions="4">
 
-      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Hue Rotate&quot;] input[type=text]&gt; contains: &quot;25&quot;.">    at Object.module.exports.Step 3: enter hue-rotate via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:39:17)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property -webkit-filter. Element or attribute could not be located.">    at Object.module.exports.Step 3: enter hue-rotate via setvalue function (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:42:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: enter hue-rotate via keystoke" time="9.569" assertions="4">
+    <testcase name="Step 4: enter hue-rotate via keystoke" time="1.733" assertions="4">
 
-      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Hue Rotate&quot;] input[type=text]&gt; contains: &quot;25&quot;.">    at Object.module.exports.Step 4: enter hue-rotate via keystoke (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:60:17)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property -webkit-filter. Element or attribute could not be located.">    at Object.module.exports.Step 4: enter hue-rotate via keystoke (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:64:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
     
 
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow" time="9.514" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow" time="4.629" assertions="7">
 
-      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Hue Rotate&quot;] input[type=text]&gt; contains: &quot;27&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:85:17)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property -webkit-filter. Element or attribute could not be located.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:90:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
       <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Hue Rotate&quot;] input[type=text]&gt; contains: &quot;26&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:94:17)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
@@ -83,22 +71,20 @@
 
     
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property -webkit-filter. Element or attribute could not be located.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:102:18)
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: hue-rotate(26deg)&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:102:18)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
     at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 6: clear filters and close panel" time="6.882" assertions="6">
+    <testcase name="Step 6: clear filters and close panel" time="2.326" assertions="6">
 
     
 
     
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property -webkit-filter. Element or attribute could not be located.">    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotateinput.js:116:21)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
     
 

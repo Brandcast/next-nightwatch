@@ -19,8 +19,8 @@ module.exports = {
       
       'Step 2: open filters panel and select sepia' : function (browser) {
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
+          .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
+          .click('[data-qa-id="/grid/column/text"]')
           .frame(null) //closes iframe
 
         page = browser.page.openfilterspanel();
@@ -49,7 +49,7 @@ module.exports = {
         browser.moveToElement('[data-qa-id="invert-slider"]', 50,6)
         .mouseButtonDown(0)
         .mouseButtonUp(0)
-        .verify.valueContains('[title="Invert"] input[type=text]', '83%')
+        .verify.valueContains('[title="Invert"] input[type=text]', '82%')
         .pause(500)
 
         page = browser.page.closepanel();  
@@ -60,7 +60,7 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .waitForElementVisible('.bc-text', 1000)
           .click('.bc-text')
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(1.66) invert(0.83) hue-rotate(50deg)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'saturate(1.64) hue-rotate(50deg) invert(0.82)')
         browser.frame(null);
     },  
       

@@ -4,10 +4,10 @@
             tests="6">
 
   <testsuite name="filters.grayscaleinput"
-    errors="0" failures="1" hostname="" id="" package="filters.grayscaleinput" skipped="4"
-    tests="6" time="23.41" timestamp="Thu, 20 Oct 2016 17:19:05 GMT">
+    errors="0" failures="1" hostname="" id="" package="filters.grayscaleinput" skipped="0"
+    tests="6" time="32.43" timestamp="Thu, 20 Oct 2016 18:53:09 GMT">
   
-    <testcase name="Step 1: page load" time="17.68" assertions="6">
+    <testcase name="Step 1: page load" time="17.35" assertions="6">
 
     
 
@@ -18,46 +18,79 @@
     
 
     
-
-    
-    </testcase>
-  
-    <testcase name="Step 2: open filters panel and select grayscale" time="5.736" assertions="5">
-
-    
-
-    
-
-    
-
-      <failure message="Timed out while waiting for element &lt;.ui-wrapper[title=&quot;Grayscale&quot;] input[type=range]&gt; to be visible for 1000 milliseconds.">    at Object.module.exports.Step 2: open filters panel and select grayscale (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:31:10)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
     
     </testcase>
   
+    <testcase name="Step 2: open filters panel and select grayscale" time="3.538" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: enter grayscale via setvalue function" time="1.503" assertions="4">
+
     
-    <testcase
-      name="Step 3: enter grayscale via setvalue function">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: enter grayscale via keystoke" time="2.181" assertions="4">
+
     
-    <testcase
-      name="Step 4: enter grayscale via keystoke">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow" time="5.314" assertions="7">
+
     
-    <testcase
-      name="Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow">
-      <skipped />
+
+      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Grayscale&quot;] input[type=text]&gt; contains: &quot;26&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:82:17)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 6: clear filters and close panel" time="2.549" assertions="6">
+
     
-    <testcase
-      name="Step 6: clear filters and close panel">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>
