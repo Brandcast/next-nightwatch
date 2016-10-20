@@ -37,7 +37,7 @@ module.exports = {
         .pause(500)
 
          browser.frame(0) //selects iframe - must call to select anything within iframe
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.08)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.07)')
         browser.frame(null);
        
         browser.moveToElement('[data-qa-id="grayscale-slider"]', 15, 6)
@@ -52,7 +52,7 @@ module.exports = {
         
         .mouseButtonUp(0)
          browser.frame(0) //selects iframe - must call to select anything within iframe
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.83)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.82)')
         browser.frame(null);
   
          page = browser.page.closepanel();  

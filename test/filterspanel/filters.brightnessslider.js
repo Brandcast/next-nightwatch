@@ -54,7 +54,7 @@ module.exports = {
         .pause(500)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(4.15)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(4.1)')
         browser.frame(null);
 
          page = browser.page.closepanel();  
@@ -77,9 +77,7 @@ module.exports = {
             .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')
           browser.frame(null)
 
-        
-      
-      browser.pause(300)
+          browser.pause(300)
       
       browser.end();;
     }

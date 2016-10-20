@@ -5,9 +5,9 @@
 
   <testsuite name="filters.blurinput"
     errors="0" failures="0" hostname="" id="" package="filters.blurinput" skipped="0"
-    tests="5" time="27.81" timestamp="Thu, 20 Oct 2016 18:49:30 GMT">
+    tests="5" time="35.43" timestamp="Thu, 20 Oct 2016 19:06:56 GMT">
   
-    <testcase name="Step 1: page load" time="14.32" assertions="6">
+    <testcase name="Step 1: page load" time="16.19" assertions="6">
 
     
 
@@ -21,8 +21,232 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 4: select Hue Rotate 180deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:56:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:61:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Hue Rotate&quot;] .select-input-container .select-triangle-wrapper&quot; using: css selector
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:63:17)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:74:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:79:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Hue Rotate&quot;] .select-input-container .select-triangle-wrapper&quot; using: css selector
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:81:18)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:92:18)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:97:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:100:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:109:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+      </system-err>
   
-    <testcase name="Step 2: open filters panel and select blur" time="5.821" assertions="5">
+    <testcase name="Step 2: open filters panel and select blur" time="8.334" assertions="5">
 
     
 
@@ -34,8 +258,232 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 4: select Hue Rotate 180deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:56:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:61:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Hue Rotate&quot;] .select-input-container .select-triangle-wrapper&quot; using: css selector
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:63:17)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:74:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:79:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Hue Rotate&quot;] .select-input-container .select-triangle-wrapper&quot; using: css selector
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:81:18)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:92:18)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:97:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:100:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:109:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+      </system-err>
   
-    <testcase name="Step 4: enter blur via keystoke" time="1.823" assertions="3">
+    <testcase name="Step 4: enter blur via keystoke" time="2.463" assertions="3">
 
     
 
@@ -43,8 +491,232 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 4: select Hue Rotate 180deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:56:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:61:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Hue Rotate&quot;] .select-input-container .select-triangle-wrapper&quot; using: css selector
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:63:17)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:74:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:79:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Hue Rotate&quot;] .select-input-container .select-triangle-wrapper&quot; using: css selector
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:81:18)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:92:18)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:97:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:100:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:109:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+      </system-err>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease blur via up/down arrow" time="3.957" assertions="5">
+    <testcase name="Step 5: enter incrementally inscrease/decrease blur via up/down arrow" time="6.046" assertions="5">
 
     
 
@@ -56,8 +728,232 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 4: select Hue Rotate 180deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:56:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:61:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Hue Rotate&quot;] .select-input-container .select-triangle-wrapper&quot; using: css selector
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:63:17)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:74:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:79:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Hue Rotate&quot;] .select-input-container .select-triangle-wrapper&quot; using: css selector
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:81:18)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:92:18)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:97:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:100:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:109:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+      </system-err>
   
-    <testcase name="Step 6: clear input field and close panel" time="1.887" assertions="4">
+    <testcase name="Step 6: clear input field and close panel" time="2.397" assertions="4">
 
     
 
@@ -67,6 +963,230 @@
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 4: select Hue Rotate 180deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:56:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:61:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Hue Rotate&quot;] .select-input-container .select-triangle-wrapper&quot; using: css selector
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:63:17)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:74:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:79:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.ui-wrapper.left.auto-width.border-bottom-divide[title=&quot;Hue Rotate&quot;] .select-input-container .select-triangle-wrapper&quot; using: css selector
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:81:18)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;[title=&quot;Hue Rotate&quot;] input[type=text]&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/valueContains.js:50:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:92:18)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;div.ui-wrapper[title=&quot;Filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:4:8)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:97:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
+    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:100:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;.focused.component-wrapper.bc-text-wrapper&quot; using: css selector
+    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/cssProperty.js:44:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
+    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
+    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:109:16)
+    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+      </system-err>
   
   
   </testsuite>

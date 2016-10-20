@@ -35,7 +35,7 @@ module.exports = {
         .mouseButtonClick(0)
         //.mouseButtonUp(0) 
         .pause(300)
-        .verify.valueContains('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] input[type="text"]', '166%')
+        .verify.valueContains('.ui-wrapper.left.auto-width.border-bottom-divide[title="Saturate"] input[type="text"]', '164%')
 
         browser.verify.elementPresent('[title="Hue Rotate"]')
         .click('.ui-wrapper.left.auto-width.border-bottom-divide[title="Hue Rotate"] .select-input-container .select-triangle-wrapper')

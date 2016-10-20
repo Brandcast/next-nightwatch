@@ -5,9 +5,9 @@
 
   <testsuite name="filters.clearallfiltersbtn.singlefilter"
     errors="0" failures="2" hostname="" id="" package="filters.clearallfiltersbtn.singlefilter" skipped="0"
-    tests="6" time="36.51" timestamp="Thu, 20 Oct 2016 18:51:35 GMT">
+    tests="6" time="43.06" timestamp="Thu, 20 Oct 2016 19:09:31 GMT">
   
-    <testcase name="Step 1: page load" time="18.04" assertions="6">
+    <testcase name="Step 1: page load" time="21.42" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select sepia" time="3.302" assertions="5">
+    <testcase name="Step 2: open filters panel and select sepia" time="4.419" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select sepia via slider" time="2.335" assertions="3">  <failure message="Testing if value of &lt;[title=&quot;Sepia&quot;] input[type=text]&gt; contains: &quot;83%&quot;.">    at Object.module.exports.Step 3: select sepia via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.singlefilter.js:41:17)
+    <testcase name="Step 3: select sepia via slider" time="2.380" assertions="3">  <failure message="Testing if value of &lt;[title=&quot;Sepia&quot;] input[type=text]&gt; contains: &quot;83%&quot;.">    at Object.module.exports.Step 3: select sepia via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.singlefilter.js:41:17)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
     at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
@@ -46,7 +46,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: verify sepia is applied via css" time="3.646" assertions="2">
+    <testcase name="Step 4: verify sepia is applied via css" time="4.740" assertions="2">
 
       <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: sepia(0.83)&quot;.">    at Object.module.exports.Step 4: verify sepia is applied via css (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.singlefilter.js:51:19)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
@@ -55,7 +55,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: click &quot;clear all filters&quot; button" time="4.315" assertions="4">
+    <testcase name="Step 5: click &quot;clear all filters&quot; button" time="5.231" assertions="4">
 
     
 
@@ -66,7 +66,7 @@
     
     </testcase>
   
-    <testcase name="Step 6: verify sepia input field is clear and css is no longer applied" time="4.876" assertions="5">
+    <testcase name="Step 6: verify sepia input field is clear and css is no longer applied" time="4.872" assertions="5">
 
     
 

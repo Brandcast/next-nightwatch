@@ -5,9 +5,9 @@
 
   <testsuite name="filters.contrastslider"
     errors="0" failures="1" hostname="" id="" package="filters.contrastslider" skipped="0"
-    tests="4" time="25.21" timestamp="Thu, 20 Oct 2016 18:52:44 GMT">
+    tests="4" time="31.91" timestamp="Thu, 20 Oct 2016 19:10:51 GMT">
   
-    <testcase name="Step 1: page load" time="15.93" assertions="6">
+    <testcase name="Step 1: page load" time="20.24" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select contrast" time="2.653" assertions="5">
+    <testcase name="Step 2: open filters panel and select contrast" time="4.320" assertions="5">
 
     
 
@@ -35,11 +35,11 @@
     
     </testcase>
   
-    <testcase name="Step 3: select contrast via slider" time="3.288" assertions="5">
+    <testcase name="Step 3: select contrast via slider" time="4.579" assertions="5">
 
     
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: contrast(4.15)&quot;.">    at Object.module.exports.Step 3: select contrast via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.contrastslider.js:52:18)
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: contrast(4.1)&quot;.">    at Object.module.exports.Step 3: select contrast via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.contrastslider.js:52:18)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
     at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
@@ -50,7 +50,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: clear filters and close panel" time="3.335" assertions="6">
+    <testcase name="Step 4: clear filters and close panel" time="2.771" assertions="6">
 
     
 

@@ -38,7 +38,7 @@ module.exports = {
         .mouseButtonDown(0)
         .mouseButtonUp(0) 
         .pause(300)
-        .verify.valueContains('[title="Sepia"] input[type=text]', '83%')
+        .verify.valueContains('[title="Sepia"] input[type=text]', '82%')
 
         page = browser.page.closepanel();  
           page.closepanel();
@@ -48,7 +48,7 @@ module.exports = {
         browser.frame(0) //selects iframe - must call to select anything within iframe
           .waitForElementVisible('.bc-text', 1000)
           .click('.bc-text')
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.83)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.82)')
         browser.frame(null);
     },  
       

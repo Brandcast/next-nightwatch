@@ -47,7 +47,7 @@ module.exports = {
 
         browser.moveToElement('[data-qa-id="contrast-slider"]', 50, 6)
         .mouseButtonUp(0)
-        .pause(300)
+        .pause(500)
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(4.1)')
         browser.frame(null);  

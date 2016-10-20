@@ -111,8 +111,7 @@ module.exports = {
 
         page = browser.page.closepanel();  
           page.closepanel();
-
-      browser.pause(300)
+          
       browser.end();;
      }
 };
