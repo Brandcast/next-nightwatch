@@ -20,8 +20,8 @@ module.exports = {
 
     'step 3: select text component' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
-         .waitForElementVisible('.bc-text', 1000)
-         .click('.bc-text')
+         .waitForElementPresent('[data-qa-id="/grid/column/text"]', 1000)
+         .click('[data-qa-id="/grid/column/text"]')
          .frame(null) //closes iframe
   },
 
@@ -36,15 +36,15 @@ module.exports = {
        page.justifycenterbtnenabled(); 
 
        browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.elementPresent('.component-wrapper.bc-text-wrapper.focused')
-          browser.expect.element('.component-wrapper.bc-text-wrapper.focused').to.have.css('text-align').which.equals('center')
+          browser.assert.elementPresent('.focused[data-qa-id="/grid/column/text"]')
+          browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.have.css('text-align').which.equals('center')
         browser.frame(null)
 
        page.justifycenterbtndisabled(); 
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.elementPresent('.component-wrapper.bc-text-wrapper.focused')
-          browser.expect.element('.component-wrapper.bc-text-wrapper.focused').to.have.css('text-align').which.does.not.equal('center')
+          browser.assert.elementPresent('.focused[data-qa-id="/grid/column/text"]')
+          browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.have.css('text-align').which.does.not.equal('center')
         browser.frame(null)
   
       browser.end()

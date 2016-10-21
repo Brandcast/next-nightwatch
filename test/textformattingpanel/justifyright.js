@@ -20,8 +20,8 @@ module.exports = {
 
     'step 3: select text component' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
-         .waitForElementVisible('.bc-text', 1000)
-         .click('.bc-text')
+         .waitForElementPresent('[data-qa-id="/grid/column/text"]', 1000)
+         .click('[data-qa-id="/grid/column/text"]')
          .frame(null) //closes iframe
   },
 
@@ -36,15 +36,15 @@ module.exports = {
        page.justifyrightbtnenabled(); 
 
        browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.elementPresent('.component-wrapper.bc-text-wrapper.focused')
-          browser.expect.element('.component-wrapper.bc-text-wrapper.focused').to.have.css('text-align').which.equals('right')
+          browser.assert.elementPresent('.focused[data-qa-id="/grid/column/text"]')
+          browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.have.css('text-align').which.equals('right')
         browser.frame(null)
 
        page.justifyrightbtndisabled(); 
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.elementPresent('.component-wrapper.bc-text-wrapper.focused')
-          browser.expect.element('.component-wrapper.bc-text-wrapper.focused').to.have.css('text-align').which.does.not.equal('right')
+          browser.assert.elementPresent('.focused[data-qa-id="/grid/column/text"]')
+          browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.have.css('text-align').which.does.not.equal('right')
         browser.frame(null)
   
       browser.end()

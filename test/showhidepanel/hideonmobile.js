@@ -33,7 +33,7 @@ module.exports = {
         browser.resizeWindow(540,930)
        
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          browser.assert.elementPresent('.focused.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
+          browser.verify.elementPresent('.focused.bc-mobile-hidden.component-wrapper.bc-text-wrapper')
           browser.expect.element('.focused.bc-mobile-hidden.component-wrapper.bc-text-wrapper').to.have.css('display').which.equals('none')
         browser.frame(null)
 
