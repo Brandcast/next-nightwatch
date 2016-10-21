@@ -1,5 +1,5 @@
 module.exports = {
-  // 'disabled' : true,
+  'disabled' : true,
   '@tags' : ['grid'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -36,16 +36,16 @@ module.exports = {
     
     'Step 3: keep selection on first text component and select an additional text component' : function (browser) {
       browser.frame(0) //selects iframe - must call for 
-        .waitForElementPresent('[data-qa-id="/grid1"]', 1000)
+        .waitForElementPresent('[data-qa-id="/grid2"]', 1000)
         
-      //     .keys(browser.Keys.SHIFT, function(done) {
-      //       browser.click('[data-qa-id="/grid1"]');
-      //         browser.expect.element('.focused[data-qa-id="/grid"]').to.be.present
-      //         browser.expect.element('.focused[data-qa-id="/grid1"]').to.be.present
-      //       browser.keys(browser.Keys.NULL)//release shift key
-      //   });
+          .keys(browser.Keys.SHIFT, function(done) {
+            browser.click('[data-qa-id="/grid2"]');
+            browser.keys(browser.Keys.NULL)//release shift key
+            // browser.expect.element('.focused[data-qa-id="/grid"]').to.be.present
+            // browser.expect.element('.focused[data-qa-id="/grid1"]').to.be.present
+        });
       
-      // browser.frame(null) //closes iframe
+      browser.frame(null) //closes iframe
    // },   
     
   //     'Step 4: set border to all sides'  : function (browser) {

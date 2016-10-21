@@ -36,7 +36,7 @@ module.exports = {
         .mouseButtonDown(0)
         .pause(500)
          browser.frame(0) //selects iframe - must call to select anything within iframe
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.08)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.07)')
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="invert-slider"]', 15, 6)
@@ -49,7 +49,7 @@ module.exports = {
         .mouseButtonUp(0)
         .pause(300)
          browser.frame(0) //selects iframe - must call to select anything within iframe
-          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.83)')
+          .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.82)')
         browser.frame(null);
     },
       
