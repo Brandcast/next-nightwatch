@@ -5,9 +5,9 @@
 
   <testsuite name="rightsideborder"
     errors="2" failures="3" hostname="" id="" package="rightsideborder" skipped="0"
-    tests="5" time="31.72" timestamp="Thu, 20 Oct 2016 17:34:54 GMT">
+    tests="5" time="32.04" timestamp="Fri, 21 Oct 2016 17:28:59 GMT">
   
-    <testcase name="Step 1: page load" time="18.69" assertions="6">
+    <testcase name="Step 1: page load" time="18.57" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open stroke panel and select right side border" time="5.361" assertions="7">
+    <testcase name="Step 2: open stroke panel and select right side border" time="5.481" assertions="7">
 
     
 
@@ -40,14 +40,14 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component has right side border" time="2.568" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property border-right-width. Element or attribute could not be located.">    at Object.module.exports.Step 3: verify text component has right side border (/Users/kelli/Sites/nightwatch/test/strokepanel/rightsideborder.js:38:18)
+    <testcase name="Step 3: verify text component has right side border" time="3.510" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property border-right-width. Element or attribute could not be located.">    at Object.module.exports.Step 3: verify text component has right side border (/Users/kelli/Sites/nightwatch/test/strokepanel/rightsideborder.js:38:18)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
     at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 4: open stroke panel and deselect right side border" time="1.765" assertions="6">
+    <testcase name="Step 4: open stroke panel and deselect right side border" time="1.644" assertions="6">
 
     
 
@@ -62,7 +62,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: verify text component does not have right side border" time="3.337" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property border-right-width. Element or attribute could not be located.">    at Object.module.exports.Step 5: verify text component does not have right side border (/Users/kelli/Sites/nightwatch/test/strokepanel/rightsideborder.js:58:19)
+    <testcase name="Step 5: verify text component does not have right side border" time="2.831" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property border-right-width. Element or attribute could not be located.">    at Object.module.exports.Step 5: verify text component does not have right side border (/Users/kelli/Sites/nightwatch/test/strokepanel/rightsideborder.js:58:19)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
     at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 

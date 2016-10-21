@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="4">
 
   <testsuite name="filters.brightnessslider"
-    errors="0" failures="1" hostname="" id="" package="filters.brightnessslider" skipped="0"
-    tests="4" time="32.45" timestamp="Thu, 20 Oct 2016 19:08:09 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.brightnessslider" skipped="0"
+    tests="4" time="29.52" timestamp="Fri, 21 Oct 2016 17:11:30 GMT">
   
-    <testcase name="Step 1: page load" time="19.65" assertions="6">
+    <testcase name="Step 1: page load" time="18.13" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select brightness" time="4.024" assertions="5">
+    <testcase name="Step 2: open filters panel and select brightness" time="4.083" assertions="5">
 
     
 
@@ -35,13 +35,11 @@
     
     </testcase>
   
-    <testcase name="Step 3: select brightness via slider" time="5.985" assertions="5">
+    <testcase name="Step 3: select brightness via slider" time="4.137" assertions="5">
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: brightness(1)&quot;.">    at Object.module.exports.Step 3: select brightness via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessslider.js:49:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+    
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: brightness(4.15)&quot;.">    at Object.module.exports.Step 3: select brightness via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessslider.js:57:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+    
 
     
 
@@ -50,7 +48,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: clear filters and close panel" time="2.795" assertions="6">
+    <testcase name="Step 4: clear filters and close panel" time="3.172" assertions="6">
 
     
 

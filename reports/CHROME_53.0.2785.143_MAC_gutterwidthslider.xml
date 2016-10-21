@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="1"
+<testsuites errors="0"
+            failures="0"
             tests="4">
 
   <testsuite name="gutterwidthslider"
-    errors="1" failures="1" hostname="" id="" package="gutterwidthslider" skipped="2"
-    tests="4" time="25.67" timestamp="Thu, 20 Oct 2016 17:13:15 GMT">
+    errors="0" failures="0" hostname="" id="" package="gutterwidthslider" skipped="0"
+    tests="4" time="27.82" timestamp="Fri, 21 Oct 2016 18:30:45 GMT">
   
-    <testcase name="Step 1: page load" time="21.04" assertions="6">
+    <testcase name="Step 1: page load" time="20.00" assertions="6">
 
     
 
@@ -22,29 +22,43 @@
     
     </testcase>
   
-    <testcase name="Step 2: select text component (in iframe), click grid layout button, and open dimensions panel" time="4.625" assertions="3">
+    <testcase name="Step 2: select text component (in iframe), click grid layout button, and open dimensions panel" time="4.334" assertions="6">
 
-      <failure message="Testing if element &lt;.btn-sudo-dom-label[title=&quot;grid&quot;]&gt; is present.">    at Object.gridlayoutbtnCommands.gridlayoutbtn (/Users/kelli/Sites/nightwatch/pages/gridlayoutbtn.js:3:17)
-    at Object.module.exports.Step 2: select text component (in iframe), click grid layout button, and open dimensions panel (/Users/kelli/Sites/nightwatch/test/dimensionspanel/gutterwidthslider.js:26:16)</failure>
+    
 
-      <failure message="Expected element &lt;.btn-sudo-dom-label[title=&quot;grid&quot;]&gt; to be enabled - element was not found">    at Object.gridlayoutbtnCommands.gridlayoutbtn (/Users/kelli/Sites/nightwatch/pages/gridlayoutbtn.js:5:17)
-    at Object.module.exports.Step 2: select text component (in iframe), click grid layout button, and open dimensions panel (/Users/kelli/Sites/nightwatch/test/dimensionspanel/gutterwidthslider.js:26:16)</failure>
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 3: use slider to change gutter width" time="2.081" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 4: reset grid gutter width to 4 and close panel" time="1.404" assertions="3">
+
     
-    <testcase
-      name="Step 3: use slider to change gutter width">
-      <skipped />
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 4: reset grid gutter width to 4 and close panel">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

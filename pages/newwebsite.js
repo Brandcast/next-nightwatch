@@ -31,8 +31,8 @@ var newwebsiteCommands = {
   },
 
     closebtn: function() {
-     this.assert.elementPresent('[title="Close Panel"]')
-        this.api.click('[title="Close Panel"]')
+     this.assert.elementPresent('.panel-close')
+        this.api.click('.panel-close')
 
        this.verify.elementNotPresent('.window-area-wrapper.welcome-screen')
   },

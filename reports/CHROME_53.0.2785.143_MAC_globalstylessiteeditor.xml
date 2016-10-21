@@ -5,9 +5,9 @@
 
   <testsuite name="globalstylessiteeditor"
     errors="0" failures="0" hostname="" id="" package="globalstylessiteeditor" skipped="0"
-    tests="3" time="22.19" timestamp="Thu, 20 Oct 2016 17:23:14 GMT">
+    tests="3" time="21.97" timestamp="Fri, 21 Oct 2016 17:17:52 GMT">
   
-    <testcase name="step 1: load page" time="10.55" assertions="3">
+    <testcase name="step 1: load page" time="12.31" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map and site editor" time="4.988" assertions="3">
+    <testcase name="step 2: open site map and site editor" time="4.452" assertions="3">
 
     
 
@@ -25,7 +25,7 @@
     
     </testcase>
   
-    <testcase name="step 3: open gloabl styles menu" time="6.654" assertions="4">
+    <testcase name="step 3: open gloabl styles menu" time="5.214" assertions="4">
 
     
 

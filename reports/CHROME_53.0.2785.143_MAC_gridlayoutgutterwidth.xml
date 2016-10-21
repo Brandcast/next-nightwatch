@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="gridlayoutgutterwidth"
+    errors="0" failures="0" hostname="" id="" package="gridlayoutgutterwidth" skipped="0"
+    tests="3" time="27.44" timestamp="Fri, 21 Oct 2016 21:01:37 GMT">
+  
+    <testcase name="Step 1: page load" time="21.32" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: select grid layout and open dimensions panel" time="4.584" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: apply and verify 5 gutter width via slider" time="1.534" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

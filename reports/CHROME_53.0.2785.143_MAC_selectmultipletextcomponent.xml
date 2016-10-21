@@ -1,54 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="1"
+<testsuites errors="0"
+            failures="0"
             tests="6">
 
   <testsuite name="selectmultipletextcomponent"
-    errors="1" failures="1" hostname="" id="" package="selectmultipletextcomponent" skipped="5"
-    tests="6" time="25.37" timestamp="Thu, 20 Oct 2016 17:38:42 GMT">
+    errors="0" failures="0" hostname="" id="" package="selectmultipletextcomponent" skipped="0"
+    tests="6" time="30.41" timestamp="Fri, 21 Oct 2016 17:33:15 GMT">
   
-    <testcase name="Step 1: page load" time="25.37" assertions="5">
+    <testcase name="Step 1: page load" time="18.92" assertions="6">
 
     
 
-      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Open Website&quot;. Element could not be located.">    at Object.openwebsitebtnCommands.openwebsitebtn (/Users/kelli/Sites/nightwatch/pages/openwebsitebtn.js:7:17)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/textlayout/selectmultipletextcomponent.js:10:16)</failure>
+    
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/textlayout/selectmultipletextcomponent.js:13:12)</failure>
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 2: click-on text component" time="2.515" assertions="2">
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: keep selection on first text component and select an additional text component" time="2.650" assertions="3">
+
     
-    <testcase
-      name="Step 2: click-on text component">
-      <skipped />
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: set border to all sides" time="2.562" assertions="8">
+
     
-    <testcase
-      name="Step 3: keep selection on first text component and select an additional text component">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: open stroke panel and deselect 4 sided border" time="2.248" assertions="8">
+
     
-    <testcase
-      name="Step 4: set border to all sides">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: click on image and verify multiselect is disabled" time="1.511" assertions="3">
+
     
-    <testcase
-      name="Step 4: open stroke panel and deselect 4 sided border">
-      <skipped />
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 5: click on image and verify multiselect is disabled">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

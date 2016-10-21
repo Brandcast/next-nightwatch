@@ -1,107 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="5">
 
   <testsuite name="defaultcolorswatches"
-    errors="0" failures="1" hostname="" id="" package="defaultcolorswatches" skipped="0"
-    tests="5" time="35.06" timestamp="Thu, 20 Oct 2016 17:11:13 GMT">
+    errors="0" failures="0" hostname="" id="" package="defaultcolorswatches" skipped="5"
+    tests="5" time="0.000" timestamp="Fri, 21 Oct 2016 17:07:10 GMT">
   
-    <testcase name="Step 1: page load" time="21.86" assertions="6">
-
+  
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 2: background color set to black" time="5.096" assertions="8">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 2: background color set to black">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 3: stroke color set to white" time="2.053" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 3: stroke color set to white">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 4: text color set to transparent" time="1.566" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 4: text color set to transparent">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 7: reset text, background, and stroke color to default settings then close panel" time="4.476" assertions="15">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.swatch.selected[title=&quot;No Color&quot;]&gt; is present.">    at Object.colorswatchtransparentCommands.colorswatchtransparent (/Users/kelli/Sites/nightwatch/pages/colorswatchtransparent.js:7:21)
-    at Object.module.exports.Step 7: reset text, background, and stroke color to default settings then close panel (/Users/kelli/Sites/nightwatch/test/colorpanel/defaultcolorswatches.js:82:16)</failure>
-
-    
-
-    
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused[data-qa-id=&quot;/grid/column/text&quot;]&gt; has css property &quot;background-color: rgba(0, 0, 0, 0)&quot;.">    at Object.module.exports.Step 7: reset text, background, and stroke color to default settings then close panel (/Users/kelli/Sites/nightwatch/test/colorpanel/defaultcolorswatches.js:93:26)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 7: reset text, background, and stroke color to default settings then close panel">
+      <skipped />
     </testcase>
-  
+    
   
   </testsuite>
 </testsuites>

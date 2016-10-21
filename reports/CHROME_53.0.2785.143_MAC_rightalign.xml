@@ -5,9 +5,9 @@
 
   <testsuite name="rightalign"
     errors="0" failures="0" hostname="" id="" package="rightalign" skipped="0"
-    tests="5" time="22.81" timestamp="Thu, 20 Oct 2016 18:34:02 GMT">
+    tests="5" time="28.58" timestamp="Fri, 21 Oct 2016 17:06:17 GMT">
   
-    <testcase name="Step 1: page load" time="17.53" assertions="6">
+    <testcase name="Step 1: page load" time="22.26" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: click text component and then select grid layout" time="2.870" assertions="4">
+    <testcase name="Step 2: click text component and then select grid layout" time="4.013" assertions="4">
 
     
 
@@ -33,7 +33,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: open alignment panel and select right align" time="1.077" assertions="4">
+    <testcase name="Step 3: open alignment panel and select right align" time="0.9920" assertions="4">
 
     
 
@@ -44,12 +44,12 @@
     
     </testcase>
   
-    <testcase name="Step 4: verify grid has right alignment applied via css class" time="0.07600" assertions="1">
+    <testcase name="Step 4: verify grid has right alignment applied via css class" time="0.08700" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 5: reset to center aligned and close panel" time="1.257" assertions="5">
+    <testcase name="Step 5: reset to center aligned and close panel" time="1.235" assertions="5">
 
     
 

@@ -5,9 +5,9 @@
 
   <testsuite name="topsideborder"
     errors="2" failures="4" hostname="" id="" package="topsideborder" skipped="0"
-    tests="5" time="33.90" timestamp="Thu, 20 Oct 2016 17:35:53 GMT">
+    tests="5" time="38.65" timestamp="Fri, 21 Oct 2016 17:30:19 GMT">
   
-    <testcase name="Step 1: page load" time="17.67" assertions="6">
+    <testcase name="Step 1: page load" time="19.55" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open stroke panel and select top side border" time="4.211" assertions="7">
+    <testcase name="Step 2: open stroke panel and select top side border" time="5.155" assertions="7">
 
     
 
@@ -40,14 +40,14 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component has top side border" time="2.219" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property border-top-width. Element or attribute could not be located.">    at Object.module.exports.Step 3: verify text component has top side border (/Users/kelli/Sites/nightwatch/test/strokepanel/topsideborder.js:38:18)
+    <testcase name="Step 3: verify text component has top side border" time="2.656" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property border-top-width. Element or attribute could not be located.">    at Object.module.exports.Step 3: verify text component has top side border (/Users/kelli/Sites/nightwatch/test/strokepanel/topsideborder.js:38:18)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
     at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 4: open stroke panel and deselect top side border" time="6.955" assertions="10">
+    <testcase name="Step 4: open stroke panel and deselect top side border" time="7.785" assertions="10">
 
     
 
@@ -71,7 +71,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: verify text component does not have top side border" time="2.841" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property border-top-width. Element or attribute could not be located.">    at Object.module.exports.Step 5: verify text component does not have top side border (/Users/kelli/Sites/nightwatch/test/strokepanel/topsideborder.js:59:19)
+    <testcase name="Step 5: verify text component does not have top side border" time="3.509" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property border-top-width. Element or attribute could not be located.">    at Object.module.exports.Step 5: verify text component does not have top side border (/Users/kelli/Sites/nightwatch/test/strokepanel/topsideborder.js:59:19)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
     at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 

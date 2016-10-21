@@ -5,9 +5,9 @@
 
   <testsuite name="filters.invertslider"
     errors="0" failures="2" hostname="" id="" package="filters.invertslider" skipped="0"
-    tests="4" time="26.86" timestamp="Thu, 20 Oct 2016 19:16:06 GMT">
+    tests="4" time="26.33" timestamp="Fri, 21 Oct 2016 17:17:05 GMT">
   
-    <testcase name="Step 1: page load" time="18.49" assertions="6">
+    <testcase name="Step 1: page load" time="15.27" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select invert" time="3.358" assertions="5">
+    <testcase name="Step 2: open filters panel and select invert" time="6.292" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select invert via slider" time="3.156" assertions="3">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: invert(0.08)&quot;.">    at Object.module.exports.Step 3: select invert via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertslider.js:39:19)
+    <testcase name="Step 3: select invert via slider" time="2.978" assertions="3">  <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: invert(0.08)&quot;.">    at Object.module.exports.Step 3: select invert via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertslider.js:39:19)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
     at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
@@ -48,7 +48,7 @@
     
     </testcase>
   
-    <testcase name="Step 6: clear filters and close panel" time="1.861" assertions="4">
+    <testcase name="Step 6: clear filters and close panel" time="1.782" assertions="4">
 
       <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: none&quot;.">    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.invertslider.js:63:21)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)

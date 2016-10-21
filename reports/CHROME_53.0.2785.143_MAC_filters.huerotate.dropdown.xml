@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="20"
-            failures="4"
+<testsuites errors="0"
+            failures="0"
             tests="7">
 
   <testsuite name="filters.huerotate.dropdown"
-    errors="20" failures="4" hostname="" id="" package="filters.huerotate.dropdown" skipped="0"
-    tests="7" time="147.0" timestamp="Thu, 20 Oct 2016 19:12:35 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.huerotate.dropdown" skipped="0"
+    tests="7" time="34.62" timestamp="Fri, 21 Oct 2016 17:15:26 GMT">
   
-    <testcase name="Step 1: page load" time="18.58" assertions="6">
+    <testcase name="Step 1: page load" time="17.44" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select Hue Rotate" time="5.678" assertions="3">
+    <testcase name="Step 2: open filters panel and select Hue Rotate" time="5.980" assertions="3">
 
     
 
@@ -31,7 +31,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select Hue Rotate 50deg via drop-down-menu" time="1.991" assertions="4">
+    <testcase name="Step 3: select Hue Rotate 50deg via drop-down-menu" time="1.516" assertions="4">
 
     
 
@@ -42,93 +42,62 @@
     
     </testcase>
   
-    <testcase name="Step 4: select Hue Rotate 180deg via drop-down-menu" time="28.05" assertions="5">  <failure message="Testing if element &lt;[value=&quot;180deg&quot;]&gt; is present.">    at Object.module.exports.Step 4: select Hue Rotate 180deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:46:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    <testcase name="Step 4: select Hue Rotate 180deg via drop-down-menu" time="2.170" assertions="5">
 
-      <failure message="Testing if value of &lt;[title=&quot;Hue Rotate&quot;] input[type=text]&gt; contains: &quot;180deg&quot;. Element could not be located.">    at Object.module.exports.Step 4: select Hue Rotate 180deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:49:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property -webkit-filter. Element or attribute could not be located.">    at Object.module.exports.Step 4: select Hue Rotate 180deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:52:21)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if element &lt;.panel-body&gt; is present.">    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:3:17)
-    at Object.module.exports.Step 4: select Hue Rotate 180deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:56:16)</failure>
+    
 
     
 
     
     </testcase>
   
-    <testcase name="Step 5: select Hue Rotate 90deg via drop-down-menu" time="30.27" assertions="7">  <failure message="Testing if element &lt;div.ui-wrapper[title=&quot;Filters&quot;]&gt; is present.">    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:3:17)
-    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:61:16)</failure>
+    <testcase name="Step 5: select Hue Rotate 90deg via drop-down-menu" time="2.623" assertions="7">
 
-      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Filters&quot;. Element could not be located.">    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:5:15)
-    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:61:16)</failure>
+    
 
-      <failure message="Testing if element &lt;[value=&quot;90deg&quot;]&gt; is present.">    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:64:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if value of &lt;[title=&quot;Hue Rotate&quot;] input[type=text]&gt; contains: &quot;90deg&quot;. Element could not be located.">    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:67:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property -webkit-filter. Element or attribute could not be located.">    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:70:19)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if element &lt;.panel-body&gt; is present.">    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:3:17)
-    at Object.module.exports.Step 5: select Hue Rotate 90deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:74:16)</failure>
+    
 
     
 
     
     </testcase>
   
-    <testcase name="Step 6: select Hue Rotate 0deg via drop-down-menu" time="30.93" assertions="7">  <failure message="Testing if element &lt;div.ui-wrapper[title=&quot;Filters&quot;]&gt; is present.">    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:3:17)
-    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:79:16)</failure>
+    <testcase name="Step 6: select Hue Rotate 0deg via drop-down-menu" time="2.703" assertions="7">
 
-      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Filters&quot;. Element could not be located.">    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:5:15)
-    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:79:16)</failure>
+    
 
-      <failure message="Testing if element &lt;[value=&quot;0deg&quot;]&gt; is present.">    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:82:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if value of &lt;[title=&quot;Hue Rotate&quot;] input[type=text]&gt; contains: &quot;0deg&quot;. Element could not be located.">    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:85:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property -webkit-filter. Element or attribute could not be located.">    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:88:21)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if element &lt;.panel-body&gt; is present.">    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:3:17)
-    at Object.module.exports.Step 6: select Hue Rotate 0deg via drop-down-menu (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:92:18)</failure>
+    
 
     
 
     
     </testcase>
   
-    <testcase name="Step 6: clear filters and close panel" time="31.52" assertions="6">  <failure message="Testing if element &lt;div.ui-wrapper[title=&quot;Filters&quot;]&gt; is present.">    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:3:17)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:97:16)</failure>
+    <testcase name="Step 6: clear filters and close panel" time="2.191" assertions="6">
 
-      <failure message="Testing if element &lt;.overlay-label.drag-handle&gt; contains text: &quot;Filters&quot;. Element could not be located.">    at Object.openfilterspanelCommands.openfilterspanel (/Users/kelli/Sites/nightwatch/pages/openfilterspanel.js:5:15)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:97:16)</failure>
+    
 
-      <failure message="Testing if element &lt;[data-qa-id=&quot;clear-all-filters&quot;]&gt; is present.">    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:3:17)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:100:16)</failure>
+    
 
-      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property -webkit-filter. Element or attribute could not be located.">    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:105:21)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    
 
-      <failure message="Testing if element &lt;.panel-body&gt; is present.">    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:3:17)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.huerotate.dropdown.js:109:16)</failure>
+    
 
     
 

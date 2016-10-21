@@ -5,9 +5,9 @@
 
   <testsuite name="justifyright"
     errors="0" failures="1" hostname="" id="" package="justifyright" skipped="0"
-    tests="5" time="24.05" timestamp="Thu, 20 Oct 2016 17:37:57 GMT">
+    tests="5" time="26.21" timestamp="Fri, 21 Oct 2016 17:32:27 GMT">
   
-    <testcase name="step 1: load page" time="10.01" assertions="3">
+    <testcase name="step 1: load page" time="12.33" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="6.514" assertions="3">
+    <testcase name="step 2: open site map" time="7.326" assertions="3">
 
     
 
@@ -25,22 +25,23 @@
     
     </testcase>
   
-    <testcase name="step 3: select text component" time="3.754" assertions="1">
+    <testcase name="step 3: select text component" time="2.889" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 4: open text formatting panel" time="0.9490" assertions="2">
+    <testcase name="step 4: open text formatting panel" time="1.044" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step 5: disable/enable right justify" time="2.826" assertions="2">
+    <testcase name="step 5: disable/enable right justify" time="2.618" assertions="2">
 
       <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper.focused&gt; is present.">    at Object.module.exports.step 5: disable/enable right justify (/Users/kelli/Sites/nightwatch/test/textformattingpanel/justifyright.js:39:26)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
     </testcase>

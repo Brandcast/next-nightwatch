@@ -38,14 +38,14 @@ module.exports = {
       browser.frame(0) //selects iframe - must call for 
         .waitForElementPresent('[data-qa-id="/grid1"]', 1000)
         
-          .keys(browser.Keys.SHIFT, function(done) {
-            browser.click('[data-qa-id="/grid1"]');
-              browser.expect.element('.focused[data-qa-id="/grid"]').to.be.present
-              browser.expect.element('.focused[data-qa-id="/grid1"]').to.be.present
-            browser.keys(browser.Keys.NULL)//release shift key
-        });
+      //     .keys(browser.Keys.SHIFT, function(done) {
+      //       browser.click('[data-qa-id="/grid1"]');
+      //         browser.expect.element('.focused[data-qa-id="/grid"]').to.be.present
+      //         browser.expect.element('.focused[data-qa-id="/grid1"]').to.be.present
+      //       browser.keys(browser.Keys.NULL)//release shift key
+      //   });
       
-      browser.frame(null) //closes iframe
+      // browser.frame(null) //closes iframe
    // },   
     
   //     'Step 4: set border to all sides'  : function (browser) {
@@ -92,6 +92,6 @@ module.exports = {
   //         browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.not.be.present
   //       browser.frame(null) //closes iframe
 
-        browser.end();
+        // browser.end();
     }
 };
