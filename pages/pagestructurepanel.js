@@ -1,16 +1,16 @@
-var positionpanelCommands = {
-  openpositionpanel: function() {
-    this.verify.elementPresent('@positionpanelbtn')
-      .click('div.ui-wrapper[title="Position"]')
-      .verify.containsText('.overlay-label.drag-handle', 'Position')
+var pagestructurepanelCommands = {
+  openpagestructurepanel: function() {
+    this.verify.elementPresent('@pagestructurepanelbtn')
+      .click('div.ui-wrapper[title="Page Structure"]')
+      .verify.containsText('.overlay-label.drag-handle', 'Page Structure')
   }
 };
 
 module.exports = {
-  commands: [positionpanelCommands],
+  commands: [pagestructurepanelCommands],
   elements: {
-    positionpanelbtn: {
-    	selector: 'div.ui-wrapper[title="Position"]'
+    pagestructurepanelbtn: {
+    	selector: 'div.ui-wrapper[title="Page Structure"]'
     }
   }
 };

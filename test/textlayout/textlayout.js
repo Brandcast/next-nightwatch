@@ -30,7 +30,7 @@ module.exports = {
         page.textlayoutbtn();
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
+          .waitForElementVisible('[data-qa-id="/grid/column/text"]', 1000)
         browser.frame(null) //closes iframe
 
       browser.end();
