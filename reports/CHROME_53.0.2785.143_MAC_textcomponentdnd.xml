@@ -4,31 +4,21 @@
             tests="2">
 
   <testsuite name="textcomponentdnd"
-    errors="0" failures="0" hostname="" id="" package="textcomponentdnd" skipped="0"
-    tests="2" time="17.07" timestamp="Sat, 22 Oct 2016 02:06:30 GMT">
+    errors="0" failures="0" hostname="" id="" package="textcomponentdnd" skipped="2"
+    tests="2" time="0.000" timestamp="Mon, 24 Oct 2016 20:42:13 GMT">
   
-    <testcase name="step 1: load page" time="16.37" assertions="6">
-
+  
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="step 1: load page">
+      <skipped />
     </testcase>
-  
-    <testcase name="step 2: select textlayout and drag/drop a text component" time="0.7060" assertions="2">
-
     
-
-    
+    <testcase
+      name="step 2: select textlayout and drag/drop a text component">
+      <skipped />
     </testcase>
-  
+    
   
   </testsuite>
 </testsuites>

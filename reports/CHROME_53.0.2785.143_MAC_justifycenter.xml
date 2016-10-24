@@ -5,9 +5,9 @@
 
   <testsuite name="justifycenter"
     errors="0" failures="0" hostname="" id="" package="justifycenter" skipped="0"
-    tests="5" time="23.14" timestamp="Fri, 21 Oct 2016 21:19:18 GMT">
+    tests="5" time="22.57" timestamp="Mon, 24 Oct 2016 18:23:16 GMT">
   
-    <testcase name="step 1: load page" time="11.43" assertions="3">
+    <testcase name="step 1: load page" time="11.13" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="7.123" assertions="3">
+    <testcase name="step 2: open site map" time="7.347" assertions="3">
 
     
 
@@ -25,19 +25,19 @@
     
     </testcase>
   
-    <testcase name="step 3: select text component" time="1.900" assertions="1">
+    <testcase name="step 3: select text component" time="1.457" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 4: open text formatting panel" time="1.327" assertions="2">
+    <testcase name="step 4: open text formatting panel" time="1.278" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step 5: disable/enable center justify" time="1.366" assertions="6">
+    <testcase name="step 5: disable/enable center justify" time="1.354" assertions="6">
 
     
 

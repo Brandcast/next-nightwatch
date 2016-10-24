@@ -19,8 +19,8 @@ module.exports = {
 
     'Step 2: open stroke panel and select 4 sided border' : function (browser) {
        browser.frame(0) //selects iframe - must call to select anything within iframe
-        .waitForElementVisible('.bc-text', 1000)
-        .click('.bc-text')
+        .waitForElementPresent('[data-qa-id="/grid/column/text"]', 1000)
+        .click('[data-qa-id="/grid/column/text"]')
        browser.frame(null) //closes iframe
 
        page = browser.page.openstrokepanel();
@@ -46,16 +46,17 @@ module.exports = {
          page = browser.page.borderallsides();
             page.borderallsidesbtndisabled();
 
-          // page = browser.page.closepanel();  
-          //   page.closepanel();
-
-        browser.pause(500)
+          page = browser.page.closepanel();  
+            page.closepanel();
     },
 
       'Step 5: verify text component does not have border' : function (browser) {
         browser.frame(0) //selects iframe - must cright to select anything within iframe
           .verify.cssProperty('.focused.component-wrapper', 'border-width', '0px')
         browser.frame(null)
+
+         browser.pause(1000)
+
       browser.end();
     }
 };

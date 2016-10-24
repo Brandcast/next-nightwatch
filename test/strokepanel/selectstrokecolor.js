@@ -48,9 +48,6 @@ module.exports = {
       browser.frame(0) //selects iframe - must call to select anything within iframe
         .verify.cssProperty('.component-wrapper.bc-text-wrapper.focused', 'border-color', 'rgb(0, 0, 0)')
         browser.frame(null)
-
-       page = browser.page.colorswatchtransparent();  
-        page.colorswatchtransparent();
           
       page = browser.page.closepanel();  
         page.closepanel();
@@ -65,6 +62,8 @@ module.exports = {
 
           page = browser.page.closepanel();  
             page.closepanel();
+
+           browser.pause(1000)
           
       browser.end();
     }

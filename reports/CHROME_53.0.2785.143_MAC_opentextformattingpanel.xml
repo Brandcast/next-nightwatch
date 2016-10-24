@@ -5,9 +5,9 @@
 
   <testsuite name="opentextformattingpanel"
     errors="0" failures="0" hostname="" id="" package="opentextformattingpanel" skipped="0"
-    tests="3" time="19.08" timestamp="Fri, 21 Oct 2016 21:20:30 GMT">
+    tests="3" time="18.93" timestamp="Mon, 24 Oct 2016 20:41:05 GMT">
   
-    <testcase name="step 1: load page" time="10.65" assertions="3">
+    <testcase name="step 1: load page" time="10.83" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="6.819" assertions="3">
+    <testcase name="step 2: open site map" time="6.525" assertions="3">
 
     
 
@@ -25,7 +25,7 @@
     
     </testcase>
   
-    <testcase name="step 3: open transform panel" time="1.604" assertions="2">
+    <testcase name="step 3: open transform panel" time="1.574" assertions="2">
 
     
 

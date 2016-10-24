@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="2"
-            failures="4"
+<testsuites errors="0"
+            failures="0"
             tests="5">
 
   <testsuite name="topsideborder"
-    errors="2" failures="4" hostname="" id="" package="topsideborder" skipped="0"
-    tests="5" time="38.65" timestamp="Fri, 21 Oct 2016 17:30:19 GMT">
+    errors="0" failures="0" hostname="" id="" package="topsideborder" skipped="0"
+    tests="5" time="27.96" timestamp="Mon, 24 Oct 2016 21:46:58 GMT">
   
-    <testcase name="Step 1: page load" time="19.55" assertions="6">
+    <testcase name="Step 1: page load" time="19.97" assertions="6">
 
     
 
@@ -22,43 +22,11 @@
     
     </testcase>
   
-    <testcase name="Step 2: open stroke panel and select top side border" time="5.155" assertions="7">
+    <testcase name="Step 2: open stroke panel and select top side border" time="4.913" assertions="7">
 
     
 
     
-
-    
-
-      <failure message="Testing if element &lt;.ui-wrapper.current[title=&quot;Apply Stroke to Top&quot;&gt; is present.">    at Object.bordertopsideCommands.bordertopsidebtnenabled (/Users/kelli/Sites/nightwatch/pages/bordertopside.js:5:19)
-    at Object.module.exports.Step 2: open stroke panel and select top side border (/Users/kelli/Sites/nightwatch/test/strokepanel/topsideborder.js:30:18)</failure>
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 3: verify text component has top side border" time="2.656" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property border-top-width. Element or attribute could not be located.">    at Object.module.exports.Step 3: verify text component has top side border (/Users/kelli/Sites/nightwatch/test/strokepanel/topsideborder.js:38:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
-
-    
-    </testcase>
-  
-    <testcase name="Step 4: open stroke panel and deselect top side border" time="7.785" assertions="10">
-
-    
-
-    
-
-    
-
-    
-
-      <failure message="Testing if element &lt;.ui-wrapper.current[title=&quot;Apply Stroke to All Sides&quot;]&gt; is present.">    at Object.borderallsidesCommands.borderallsidesbtnenabled (/Users/kelli/Sites/nightwatch/pages/borderallsides.js:5:19)
-    at Object.module.exports.Step 4: open stroke panel and deselect top side border (/Users/kelli/Sites/nightwatch/test/strokepanel/topsideborder.js:50:18)</failure>
 
     
 
@@ -71,9 +39,27 @@
     
     </testcase>
   
-    <testcase name="Step 5: verify text component does not have top side border" time="3.509" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property border-top-width. Element or attribute could not be located.">    at Object.module.exports.Step 5: verify text component does not have top side border (/Users/kelli/Sites/nightwatch/test/strokepanel/topsideborder.js:59:19)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    <testcase name="Step 3: verify text component has top side border" time="0.1220" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: open stroke panel and deselect top side border" time="1.763" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: verify text component does not have top side border" time="1.195" assertions="1">
 
     
     </testcase>

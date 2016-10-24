@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="5">
 
   <testsuite name="justifyleft"
-    errors="0" failures="0" hostname="" id="" package="justifyleft" skipped="0"
-    tests="5" time="24.55" timestamp="Fri, 21 Oct 2016 21:19:41 GMT">
+    errors="0" failures="1" hostname="" id="" package="justifyleft" skipped="3"
+    tests="5" time="23.27" timestamp="Mon, 24 Oct 2016 18:23:38 GMT">
   
-    <testcase name="step 1: load page" time="13.25" assertions="3">
+    <testcase name="step 1: load page" time="12.64" assertions="3">
 
     
 
@@ -16,44 +16,31 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="6.845" assertions="3">
+    <testcase name="step 2: open site map" time="10.64" assertions="2">
 
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="step 3: select text component" time="1.515" assertions="1">
+      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
+    at Object.module.exports.step 2: open site map (/Users/kelli/Sites/nightwatch/test/textformattingpanel/justifyleft.js:15:14)</failure>
 
     
     </testcase>
   
-    <testcase name="step 4: open text formatting panel" time="1.364" assertions="2">
-
-    
-
-    
-    </testcase>
   
-    <testcase name="step 5: disable/enable left justify" time="1.579" assertions="7">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="step 3: select text component">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="step 4: open text formatting panel">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 5: disable/enable left justify">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

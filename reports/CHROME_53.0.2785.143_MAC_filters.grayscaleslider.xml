@@ -5,9 +5,9 @@
 
   <testsuite name="filters.grayscaleslider"
     errors="0" failures="1" hostname="" id="" package="filters.grayscaleslider" skipped="0"
-    tests="4" time="32.31" timestamp="Fri, 21 Oct 2016 17:14:54 GMT">
+    tests="4" time="30.95" timestamp="Mon, 24 Oct 2016 18:06:07 GMT">
   
-    <testcase name="Step 1: page load" time="19.94" assertions="6">
+    <testcase name="Step 1: page load" time="19.02" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select grayscale" time="4.582" assertions="5">
+    <testcase name="Step 2: open filters panel and select grayscale" time="4.526" assertions="5">
 
     
 
@@ -35,13 +35,12 @@
     
     </testcase>
   
-    <testcase name="Step 3: select grayscale via slider" time="4.977" assertions="5">
+    <testcase name="Step 3: select grayscale via slider" time="4.688" assertions="5">
 
     
 
       <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: grayscale(0.82)&quot;.">    at Object.module.exports.Step 3: select grayscale via slider (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleslider.js:55:19)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
     
 
@@ -50,7 +49,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: clear filters and close panel" time="2.813" assertions="6">
+    <testcase name="Step 4: clear filters and close panel" time="2.722" assertions="6">
 
     
 

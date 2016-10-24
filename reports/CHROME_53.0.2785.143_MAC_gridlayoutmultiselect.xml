@@ -4,47 +4,31 @@
             tests="4">
 
   <testsuite name="gridlayoutmultiselect"
-    errors="0" failures="0" hostname="" id="" package="gridlayoutmultiselect" skipped="0"
-    tests="4" time="21.87" timestamp="Fri, 21 Oct 2016 21:50:43 GMT">
+    errors="0" failures="0" hostname="" id="" package="gridlayoutmultiselect" skipped="4"
+    tests="4" time="0.000" timestamp="Mon, 24 Oct 2016 18:10:55 GMT">
   
-    <testcase name="Step 1: page load" time="16.64" assertions="6">
-
+  
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 2: click text component and then select grid layout" time="3.412" assertions="4">
-
     
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 2: click text component and then select grid layout">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 2: click-on grid component" time="0.1050" assertions="2">
-
     
-
-    
+    <testcase
+      name="Step 2: click-on grid component">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 3: keep selection on first text component and select an additional text component" time="1.717" assertions="1">
-
     
+    <testcase
+      name="Step 3: keep selection on first text component and select an additional text component">
+      <skipped />
     </testcase>
-  
+    
   
   </testsuite>
 </testsuites>

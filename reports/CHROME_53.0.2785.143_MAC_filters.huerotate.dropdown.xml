@@ -5,9 +5,9 @@
 
   <testsuite name="filters.huerotate.dropdown"
     errors="0" failures="0" hostname="" id="" package="filters.huerotate.dropdown" skipped="0"
-    tests="7" time="34.62" timestamp="Fri, 21 Oct 2016 17:15:26 GMT">
+    tests="7" time="38.95" timestamp="Mon, 24 Oct 2016 18:06:38 GMT">
   
-    <testcase name="Step 1: page load" time="17.44" assertions="6">
+    <testcase name="Step 1: page load" time="21.47" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select Hue Rotate" time="5.980" assertions="3">
+    <testcase name="Step 2: open filters panel and select Hue Rotate" time="3.473" assertions="3">
 
     
 
@@ -31,20 +31,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select Hue Rotate 50deg via drop-down-menu" time="1.516" assertions="4">
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 4: select Hue Rotate 180deg via drop-down-menu" time="2.170" assertions="5">
-
-    
+    <testcase name="Step 3: select Hue Rotate 50deg via drop-down-menu" time="2.004" assertions="4">
 
     
 
@@ -55,11 +42,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: select Hue Rotate 90deg via drop-down-menu" time="2.623" assertions="7">
-
-    
-
-    
+    <testcase name="Step 4: select Hue Rotate 180deg via drop-down-menu" time="2.868" assertions="5">
 
     
 
@@ -72,7 +55,7 @@
     
     </testcase>
   
-    <testcase name="Step 6: select Hue Rotate 0deg via drop-down-menu" time="2.703" assertions="7">
+    <testcase name="Step 5: select Hue Rotate 90deg via drop-down-menu" time="3.262" assertions="7">
 
     
 
@@ -89,7 +72,24 @@
     
     </testcase>
   
-    <testcase name="Step 6: clear filters and close panel" time="2.191" assertions="6">
+    <testcase name="Step 6: select Hue Rotate 0deg via drop-down-menu" time="3.033" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 6: clear filters and close panel" time="2.847" assertions="6">
 
     
 

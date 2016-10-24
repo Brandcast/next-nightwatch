@@ -4,10 +4,10 @@
             tests="2">
 
   <testsuite name="textlayout"
-    errors="0" failures="1" hostname="" id="" package="textlayout" skipped="0"
-    tests="2" time="22.77" timestamp="Fri, 21 Oct 2016 17:34:07 GMT">
+    errors="0" failures="1" hostname="" id="" package="textlayout" skipped="1"
+    tests="2" time="23.14" timestamp="Mon, 24 Oct 2016 20:42:13 GMT">
   
-    <testcase name="step 1: load page" time="18.50" assertions="6">
+    <testcase name="step 1: load page" time="23.14" assertions="5">
 
     
 
@@ -15,21 +15,19 @@
 
     
 
-    
-
-    
+      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
+    at Object.module.exports.step 1: load page (/Users/kelli/Sites/nightwatch/test/textlayout/textlayout.js:13:14)</failure>
 
     
     </testcase>
   
-    <testcase name="step 2: select textlayout" time="4.270" assertions="2">
-
-      <failure message="Timed out while waiting for element &lt;.btn-sudo-dom-label[title=&quot;grid&quot;]&gt; to be present for 1000 milliseconds.">    at Object.gridlayoutbtnCommands.gridlayoutbtn (/Users/kelli/Sites/nightwatch/pages/gridlayoutbtn.js:3:10)
-    at Object.module.exports.step 2: select textlayout (/Users/kelli/Sites/nightwatch/test/textlayout/textlayout.js:27:14)</failure>
-
-    
-    </testcase>
   
+    
+    <testcase
+      name="step 2: select textlayout">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

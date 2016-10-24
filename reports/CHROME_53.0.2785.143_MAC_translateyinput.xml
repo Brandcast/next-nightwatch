@@ -5,9 +5,9 @@
 
   <testsuite name="translateyinput"
     errors="0" failures="0" hostname="" id="" package="translateyinput" skipped="0"
-    tests="5" time="27.97" timestamp="Fri, 21 Oct 2016 17:35:24 GMT">
+    tests="5" time="29.77" timestamp="Mon, 24 Oct 2016 20:43:23 GMT">
   
-    <testcase name="step 1: load page and open site" time="21.18" assertions="6">
+    <testcase name="step 1: load page and open site" time="17.69" assertions="6">
 
     
 
@@ -22,30 +22,30 @@
     
     </testcase>
   
-    <testcase name="step 2: select text component" time="1.751" assertions="1">
+    <testcase name="step 2: select text component" time="6.242" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 3: open transform panel and select transform y input" time="1.673" assertions="4">
+    <testcase name="step 3: open transform panel and select transform y input" time="1.810" assertions="4">
 
     
 
     
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="step 4: enter Translate Y value via keystroke and verify css is applied" time="1.089" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="step 5: clear value and verify text component position is reset" time="2.281" assertions="3">
+    <testcase name="step 4: enter Translate Y value via keystroke and verify css is applied" time="1.241" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 5: clear value and verify text component position is reset" time="2.779" assertions="3">
 
     
 

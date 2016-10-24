@@ -19,17 +19,15 @@ module.exports = {
 
       'Step 2: open stroke panel and select left side border' : function (browser) {
         browser.frame(0) //selects iframe - must cleft to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
+         .waitForElementPresent('[data-qa-id="/grid/column/text"]', 1000)
+         .click('[data-qa-id="/grid/column/text"]')
         browser.frame(null) //closes iframe
 
         page = browser.page.openstrokepanel();
             page.openstrokepanel()
 
         page = browser.page.borderleftside();
-            page.borderleftsidebtnenabled()
-          //browser.verify.elementPresent('[data-qa-id="apply-stroke-to-left-sides"]')
-            //.click('[data-qa-id="apply-stroke-to-left-sides"]')
+            page.borderleftsidebtnenabled();
   
         page = browser.page.closepanel();  
           page.closepanel();
@@ -48,8 +46,6 @@ module.exports = {
 
         page = browser.page.borderleftside();
             page.borderleftsidebtndisabled()
-         //browser.verify.elementPresent('[data-qa-id="apply-stroke-to-left-sides"]')
-           //.click('[data-qa-id="apply-stroke-to-left-sides"]')
   
          page = browser.page.closepanel();  
           page.closepanel();
@@ -59,6 +55,8 @@ module.exports = {
         browser.frame(0) //selects iframe - must cleft to select anything within iframe
           .verify.cssProperty('.focused.component-wrapper', 'border-left-width', '0px')
         browser.frame(null)
+
+        browser.pause(1000)
       
       browser.end();
     }

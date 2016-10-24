@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="6">
 
   <testsuite name="filters.grayscaleinput"
-    errors="0" failures="0" hostname="" id="" package="filters.grayscaleinput" skipped="0"
-    tests="6" time="33.91" timestamp="Fri, 21 Oct 2016 17:14:20 GMT">
+    errors="0" failures="1" hostname="" id="" package="filters.grayscaleinput" skipped="0"
+    tests="6" time="36.82" timestamp="Mon, 24 Oct 2016 18:05:30 GMT">
   
-    <testcase name="Step 1: page load" time="18.74" assertions="6">
+    <testcase name="Step 1: page load" time="17.64" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select grayscale" time="3.449" assertions="5">
+    <testcase name="Step 2: open filters panel and select grayscale" time="7.339" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter grayscale via setvalue function" time="1.359" assertions="4">
+    <testcase name="Step 3: enter grayscale via setvalue function" time="1.697" assertions="4">
 
     
 
@@ -46,7 +46,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter grayscale via keystoke" time="2.203" assertions="4">
+    <testcase name="Step 4: enter grayscale via keystoke" time="2.446" assertions="4">
 
     
 
@@ -57,13 +57,15 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow" time="5.415" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow" time="4.978" assertions="7">
 
     
 
-    
+      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Grayscale&quot;] input[type=text]&gt; contains: &quot;26&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:82:17)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
-    
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: grayscale(0.26)&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease grayscale via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:85:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
     
 
@@ -74,7 +76,7 @@
     
     </testcase>
   
-    <testcase name="Step 6: clear filters and close panel" time="2.746" assertions="6">
+    <testcase name="Step 6: clear filters and close panel" time="2.722" assertions="6">
 
     
 

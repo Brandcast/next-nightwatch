@@ -5,9 +5,9 @@
 
   <testsuite name="openpositionpanel"
     errors="0" failures="0" hostname="" id="" package="openpositionpanel" skipped="0"
-    tests="3" time="18.23" timestamp="Fri, 21 Oct 2016 17:21:28 GMT">
+    tests="3" time="19.21" timestamp="Mon, 24 Oct 2016 18:13:11 GMT">
   
-    <testcase name="Step 1: page load" time="10.35" assertions="3">
+    <testcase name="Step 1: page load" time="10.91" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open site map" time="6.109" assertions="3">
+    <testcase name="Step 2: open site map" time="6.540" assertions="3">
 
     
 
@@ -25,7 +25,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: open stroke panel" time="1.765" assertions="4">
+    <testcase name="Step 3: open stroke panel" time="1.763" assertions="4">
 
     
 

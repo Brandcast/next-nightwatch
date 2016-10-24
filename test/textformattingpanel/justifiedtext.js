@@ -21,7 +21,7 @@ module.exports = {
     'step 3: select text component' : function (browser) {
       browser.frame(0) //selects iframe - must call to select anything within iframe
          .waitForElementPresent('[data-qa-id="/grid/column/text"]', 1000)
-        .click('[data-qa-id="/grid/column/text"]')
+         .click('[data-qa-id="/grid/column/text"]')
          .frame(null) //closes iframe
   },
 

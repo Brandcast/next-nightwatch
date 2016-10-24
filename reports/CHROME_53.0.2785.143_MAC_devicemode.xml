@@ -5,9 +5,9 @@
 
   <testsuite name="devicemode"
     errors="0" failures="0" hostname="" id="" package="devicemode" skipped="0"
-    tests="3" time="20.72" timestamp="Fri, 21 Oct 2016 17:17:32 GMT">
+    tests="3" time="20.52" timestamp="Mon, 24 Oct 2016 18:08:58 GMT">
   
-    <testcase name="step 1: load page" time="11.02" assertions="3">
+    <testcase name="step 1: load page" time="11.01" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map, site editor and global styles menu" time="9.001" assertions="5">
+    <testcase name="step 2: open site map, site editor and global styles menu" time="8.735" assertions="5">
 
     
 
@@ -29,7 +29,7 @@
     
     </testcase>
   
-    <testcase name="step 4: open device mode drop down menu" time="0.7050" assertions="2">
+    <testcase name="step 4: open device mode drop down menu" time="0.7760" assertions="2">
 
     
 

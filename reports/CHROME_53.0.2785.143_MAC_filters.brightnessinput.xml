@@ -5,9 +5,9 @@
 
   <testsuite name="filters.brightnessinput"
     errors="0" failures="1" hostname="" id="" package="filters.brightnessinput" skipped="0"
-    tests="6" time="38.02" timestamp="Fri, 21 Oct 2016 17:10:52 GMT">
+    tests="6" time="37.23" timestamp="Mon, 24 Oct 2016 18:01:37 GMT">
   
-    <testcase name="Step 1: page load" time="20.57" assertions="6">
+    <testcase name="Step 1: page load" time="20.23" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select brightness" time="3.852" assertions="5">
+    <testcase name="Step 2: open filters panel and select brightness" time="3.532" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter brightness via setvalue function" time="2.028" assertions="4">
+    <testcase name="Step 3: enter brightness via setvalue function" time="2.708" assertions="4">
 
     
 
@@ -46,7 +46,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter brightness via keystoke" time="1.780" assertions="4">
+    <testcase name="Step 4: enter brightness via keystoke" time="1.784" assertions="4">
 
     
 
@@ -57,26 +57,32 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease brightness via up/down arrow" time="7.264" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease brightness via up/down arrow" time="6.336" assertions="7">
 
       <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Brightness&quot;] input[type=text]&gt; contains: &quot;35&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease brightness via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessinput.js:80:17)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
       <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: brightness(0.35)&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease brightness via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessinput.js:85:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+
+      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Brightness&quot;] input[type=text]&gt; contains: &quot;30&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease brightness via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessinput.js:89:17)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
 
     
 
-    
-
-    
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: brightness(0.3)&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease brightness via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessinput.js:97:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 6: clear filters and close panel" time="2.525" assertions="6">
+    <testcase name="Step 6: clear filters and close panel" time="2.646" assertions="6">
 
     
 

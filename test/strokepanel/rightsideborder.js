@@ -19,8 +19,8 @@ module.exports = {
 
       'Step 2: open stroke panel and select right side border' : function (browser) {
         browser.frame(0) //selects iframe - must cright to select anything within iframe
-          .waitForElementVisible('.bc-text', 1000)
-          .click('.bc-text')
+         .waitForElementPresent('[data-qa-id="/grid/column/text"]', 1000)
+         .click('[data-qa-id="/grid/column/text"]')
         browser.frame(null) //closes iframe
 
         page = browser.page.openstrokepanel();
@@ -47,8 +47,6 @@ module.exports = {
          page = browser.page.borderrightside();
             page.borderrightsidebtndisabled();
 
-         browser.pause(600)
-
          page = browser.page.closepanel();  
            page.closepanel();
     },
@@ -58,6 +56,7 @@ module.exports = {
           .verify.cssProperty('.focused.component-wrapper', 'border-right-width', '0px')
         browser.frame(null)
 
+         browser.pause(1000)
       browser.end();
     }
 };

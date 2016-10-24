@@ -5,9 +5,9 @@
 
   <testsuite name="selectsingletextcomponent"
     errors="0" failures="0" hostname="" id="" package="selectsingletextcomponent" skipped="0"
-    tests="2" time="21.64" timestamp="Fri, 21 Oct 2016 17:33:45 GMT">
+    tests="2" time="20.25" timestamp="Mon, 24 Oct 2016 20:41:53 GMT">
   
-    <testcase name="Step 1: page load" time="19.46" assertions="6">
+    <testcase name="Step 1: page load" time="15.74" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: click-on text component" time="2.185" assertions="2">
+    <testcase name="Step 2: click-on text component" time="4.508" assertions="2">
 
     
 
