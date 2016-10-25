@@ -1,5 +1,5 @@
 module.exports = {
-//'disabled' : true,
+'disabled' : true,
   '@tags' : ['filterspanel', 'grayscale'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -74,22 +74,20 @@ module.exports = {
         .keys('5')
         //.keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
-        .keys(browser.Keys.ARROW_UP)
-        .pause(300)
-        .verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', '27')
-        .keys(browser.Keys.ARROW_DOWN)
+        //.keys(browser.Keys.ARROW_UP)
         .pause(300)
         .verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', '26')
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.26)')
         browser.frame(null)
-        
-        page = browser.page.closepanel();  
-          page.closepanel();
+  
+        browser.keys(browser.Keys.ARROW_DOWN)
+        .pause(300)
+        .verify.valueContains('.ui-wrapper[title="Grayscale"] input[type=text]', '25')
       
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.26)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'grayscale(0.25)')
         browser.frame(null);
     },
       

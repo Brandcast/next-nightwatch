@@ -74,17 +74,17 @@ module.exports = {
         .keys('5')
         //.keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
-        .keys(browser.Keys.ARROW_UP)
-        .verify.valueContains('.ui-wrapper[title="Invert"] input[type=text]', '27')
+        //.keys(browser.Keys.ARROW_UP)
+        .verify.valueContains('.ui-wrapper[title="Invert"] input[type=text]', '26')
         //.keys('\uE007')
         .pause(300)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.27)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.26)')
         browser.frame(null)
 
-        .keys(browser.Keys.ARROW_DOWN)
-        .verify.valueContains('.ui-wrapper[title="Invert"] input[type=text]', '26')
+        browser.keys(browser.Keys.ARROW_DOWN)
+        .verify.valueContains('.ui-wrapper[title="Invert"] input[type=text]', '25')
         .keys('\uE007')
         .pause(300)
         
@@ -92,7 +92,7 @@ module.exports = {
           page.closepanel();
       
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.26)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.25)')
         browser.frame(null);
     },
       

@@ -1,4 +1,5 @@
 module.exports = {
+  'disabled' : true,
   '@tags' : ['newwebsite'],
   'Step 1: load page' : function (browser) {
     var page = browser.page.pageload();

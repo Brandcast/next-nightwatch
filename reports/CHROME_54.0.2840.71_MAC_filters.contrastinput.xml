@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="6">
 
   <testsuite name="filters.contrastinput"
-    errors="0" failures="0" hostname="" id="" package="filters.contrastinput" skipped="0"
-    tests="6" time="35.99" timestamp="Tue, 25 Oct 2016 02:46:55 GMT">
+    errors="0" failures="1" hostname="" id="" package="filters.contrastinput" skipped="0"
+    tests="6" time="44.07" timestamp="Tue, 25 Oct 2016 21:19:28 GMT">
   
-    <testcase name="Step 1: page load" time="20.06" assertions="6">
+    <testcase name="Step 1: page load" time="25.51" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select contrast" time="3.574" assertions="5">
+    <testcase name="Step 2: open filters panel and select contrast" time="4.646" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: enter contrast via setvalue function" time="1.907" assertions="4">
+    <testcase name="Step 3: enter contrast via setvalue function" time="3.428" assertions="4">
 
     
 
@@ -46,7 +46,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter contrast via keystoke" time="1.919" assertions="4">
+    <testcase name="Step 4: enter contrast via keystoke" time="2.530" assertions="4">
 
     
 
@@ -57,7 +57,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease contrast via up/down arrow" time="5.659" assertions="7">
+    <testcase name="Step 5: enter incrementally inscrease/decrease contrast via up/down arrow" time="4.860" assertions="7">
 
     
 
@@ -74,13 +74,15 @@
     
     </testcase>
   
-    <testcase name="Step 6: clear filters and close panel" time="2.867" assertions="6">
+    <testcase name="Step 6: clear filters and close panel" time="3.100" assertions="6">
 
     
 
     
 
-    
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: none&quot;.">    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.contrastinput.js:112:21)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
 

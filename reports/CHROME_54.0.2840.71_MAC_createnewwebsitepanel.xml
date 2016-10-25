@@ -5,29 +5,14 @@
 
   <testsuite name="createnewwebsitepanel"
     errors="0" failures="0" hostname="" id="" package="createnewwebsitepanel" skipped="0"
-    tests="5" time="14.73" timestamp="Tue, 25 Oct 2016 01:36:17 GMT">
+    tests="5" time="13.54" timestamp="Tue, 25 Oct 2016 17:04:11 GMT">
   
-    <testcase name="Step 1: load page" time="10.92" assertions="1">
+    <testcase name="Step 1: load page" time="10.02" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 2: open &quot;new website&quot; panel and enter a value into website name and subdomain input fields" time="1.678" assertions="4">
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 3: close &quot;new website&quot; panel via close button, reopen and verify input fields are blank" time="0.8140" assertions="6">
-
-    
-
-    
+    <testcase name="Step 2: open &quot;new website&quot; panel and enter a value into website name and subdomain input fields" time="1.499" assertions="4">
 
     
 
@@ -38,14 +23,29 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter a value into website name and subdomain input fields" time="0.3890" assertions="2">
+    <testcase name="Step 3: close &quot;new website&quot; panel via close button, reopen and verify input fields are blank" time="0.7970" assertions="6">
+
+    
+
+    
+
+    
+
+    
 
     
 
     
     </testcase>
   
-    <testcase name="Step 5: close &quot;new website&quot; panel via close button, reopen and verify input fields are blank" time="0.9300" assertions="6">
+    <testcase name="Step 4: enter a value into website name and subdomain input fields" time="0.4040" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: close &quot;new website&quot; panel via close button, reopen and verify input fields are blank" time="0.8220" assertions="6">
 
     
 

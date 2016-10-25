@@ -4,31 +4,65 @@
             tests="4">
 
   <testsuite name="filters.sepiaslider"
-    errors="0" failures="0" hostname="" id="" package="filters.sepiaslider" skipped="4"
-    tests="4" time="0.000" timestamp="Tue, 25 Oct 2016 02:51:35 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.sepiaslider" skipped="0"
+    tests="4" time="31.44" timestamp="Tue, 25 Oct 2016 21:24:58 GMT">
   
+    <testcase name="Step 1: page load" time="19.23" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 2: open filters panel and select sepia" time="4.176" assertions="5">
+
     
-    <testcase
-      name="Step 1: page load">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 3: select sepia via slider and verify css has been applied" time="4.946" assertions="5">
+
     
-    <testcase
-      name="Step 2: open filters panel and select sepia">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: clear filters and close panel" time="3.091" assertions="6">
+
     
-    <testcase
-      name="Step 3: select sepia via slider and verify css has been applied">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 4: clear filters and close panel">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

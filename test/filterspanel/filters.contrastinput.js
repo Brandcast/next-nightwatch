@@ -1,5 +1,5 @@
 module.exports = {
-//'disabled' : true,
+'disabled' : true,
   '@tags' : ['filterspanel', 'contrast'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -77,18 +77,17 @@ module.exports = {
         .keys('5')
         //.keys('\uE007')
         .keys(browser.Keys.ARROW_UP)
-        .keys(browser.Keys.ARROW_UP)
-        .verify.valueContains('.ui-wrapper[title="Contrast"] input[type=text]', '35')
+        .verify.valueContains('.ui-wrapper[title="Contrast"] input[type=text]', '30')
         //.keys('\uE007')
         .pause(300)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(0.35)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(0.3)')
         browser.frame(null)
 
-        .keys(browser.Keys.ARROW_DOWN)
+        browser.keys(browser.Keys.ARROW_DOWN)
         .pause(200)
-        .verify.valueContains('.ui-wrapper[title="Contrast"] input[type=text]', '30')
+        .verify.valueContains('.ui-wrapper[title="Contrast"] input[type=text]', '25')
         .keys('\uE007')
         .pause(300)
         
@@ -96,7 +95,7 @@ module.exports = {
           page.closepanel();
       
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(0.3)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'contrast(0.25)')
         browser.frame(null);
     },
       

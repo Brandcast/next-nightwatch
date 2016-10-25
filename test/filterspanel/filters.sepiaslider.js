@@ -1,6 +1,4 @@
 module.exports = {
-'disabled' : true,
-  'disable' : true,
   '@tags' : ['filterspanel', 'sepia'],
     'Step 1: page load' : function (browser) {
       var page = browser.page.pageload();
@@ -44,14 +42,14 @@ module.exports = {
           browser.moveToElement('[data-qa-id="sepia-slider"]', 30,4)
           .pause(500)
           browser.frame(0) //selects iframe - must call to select anything within iframe
-            .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.47)')
+            .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.46)')
           browser.frame(null);
 
           browser.moveToElement('[data-qa-id="sepia-slider"]', 50,4)
           .mouseButtonDown(0)
           .pause(300)
           browser.frame(0) //selects iframe - must call to select anything within iframe
-            .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.83)')
+            .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'sepia(0.82)')
           browser.frame(null);
 
           page = browser.page.closepanel();  
@@ -65,7 +63,7 @@ module.exports = {
         page = browser.page.clearallfiltersbtn();
           page.clearallfiltersbtn();
 
-        browser.pause(200)
+        browser.pause(500)
 
           browser.frame(0) //selects iframe - must call to select anything within iframe
             .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'none')

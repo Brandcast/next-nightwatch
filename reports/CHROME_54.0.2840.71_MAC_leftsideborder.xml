@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="5">
 
   <testsuite name="leftsideborder"
-    errors="0" failures="0" hostname="" id="" package="leftsideborder" skipped="0"
-    tests="5" time="25.63" timestamp="Tue, 25 Oct 2016 01:45:36 GMT">
+    errors="0" failures="1" hostname="" id="" package="leftsideborder" skipped="3"
+    tests="5" time="17.75" timestamp="Tue, 25 Oct 2016 17:11:36 GMT">
   
-    <testcase name="Step 1: page load" time="17.72" assertions="6">
+    <testcase name="Step 1: page load" time="16.23" assertions="6">
 
     
 
@@ -22,48 +22,30 @@
     
     </testcase>
   
-    <testcase name="Step 2: open stroke panel and select left side border" time="4.606" assertions="7">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase name="Step 2: open stroke panel and select left side border" time="1.522" assertions="1">  <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;/grid/column/text&quot;]&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Step 2: open stroke panel and select left side border (/Users/kelli/Sites/nightwatch/test/strokepanel/leftsideborder.js:22:11)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
     </testcase>
   
-    <testcase name="Step 3: verify text component has left side border" time="0.09700" assertions="1">
-
-    
-    </testcase>
   
-    <testcase name="Step 4: open stroke panel and deselect left side border" time="2.024" assertions="6">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 3: verify text component has left side border">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 5: verify text component does not have left side border" time="1.181" assertions="1">
-
     
+    <testcase
+      name="Step 4: open stroke panel and deselect left side border">
+      <skipped />
     </testcase>
-  
+    
+    <testcase
+      name="Step 5: verify text component does not have left side border">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

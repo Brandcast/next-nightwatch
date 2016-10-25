@@ -5,37 +5,37 @@
 
   <testsuite name="createnewwebsite"
     errors="0" failures="0" hostname="" id="" package="createnewwebsite" skipped="0"
-    tests="5" time="15.36" timestamp="Tue, 25 Oct 2016 01:36:01 GMT">
+    tests="5" time="16.18" timestamp="Tue, 25 Oct 2016 17:03:55 GMT">
   
-    <testcase name="Step 1: load page" time="9.964" assertions="1">
+    <testcase name="Step 1: load page" time="10.95" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 2: open &quot;new website&quot; panel and enter a value into website name and subdomain input fields" time="1.712" assertions="4">
+    <testcase name="Step 2: open &quot;new website&quot; panel and enter a value into website name and subdomain input fields" time="1.679" assertions="4">
 
     
 
     
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 3: click &quot;new website&quot; button and verify user is navigated to the site map" time="1.806" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: verify page preview is present and double click to open site editor" time="0.3470" assertions="1">
+    <testcase name="Step 3: click &quot;new website&quot; button and verify user is navigated to the site map" time="1.993" assertions="2">
+
+    
 
     
     </testcase>
   
-    <testcase name="Step 5: verify user in in site editor and close editor tab" time="1.529" assertions="3">
+    <testcase name="Step 4: verify page preview is present and double click to open site editor" time="0.7610" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: verify user in in site editor and close editor tab" time="0.8020" assertions="3">
 
     
 

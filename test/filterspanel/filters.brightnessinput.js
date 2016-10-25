@@ -76,20 +76,20 @@ module.exports = {
         .keys('\uE007')
         .click('.ui-wrapper[title="Brightness"] input[type=text]')
         .keys(browser.Keys.ARROW_UP)
-        .pause(200)
-        .keys(browser.Keys.ARROW_UP)
-        .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', '35')
-        //.keys('\uE007')
-        .pause(300)
+        .keys('\uE007')
+        .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', '30')
+        .pause(500)
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0.35)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0.3)')
         browser.frame(null)
 
+        browser.click('.ui-wrapper[title="Brightness"] input[type=text]')
         .keys(browser.Keys.ARROW_DOWN)
-        .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', '30')
         .keys('\uE007')
-
+        .pause(300)
+        .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', '25')
+        
         
         page = browser.page.closepanel();  
           page.closepanel();
@@ -97,7 +97,7 @@ module.exports = {
         browser.pause(300)
       
         browser.frame(0) //selects iframe - must call to select anything within iframe
-         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0.3)')
+         .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0.25)')
         browser.frame(null);
     },
       

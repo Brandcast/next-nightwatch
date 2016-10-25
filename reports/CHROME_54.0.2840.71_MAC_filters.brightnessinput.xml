@@ -4,10 +4,10 @@
             tests="6">
 
   <testsuite name="filters.brightnessinput"
-    errors="0" failures="1" hostname="" id="" package="filters.brightnessinput" skipped="5"
-    tests="6" time="25.59" timestamp="Tue, 25 Oct 2016 02:44:36 GMT">
+    errors="0" failures="1" hostname="" id="" package="filters.brightnessinput" skipped="0"
+    tests="6" time="46.51" timestamp="Tue, 25 Oct 2016 21:16:02 GMT">
   
-    <testcase name="Step 1: page load" time="25.59" assertions="5">
+    <testcase name="Step 1: page load" time="24.70" assertions="6">
 
     
 
@@ -15,39 +15,82 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
-    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessinput.js:14:18)</failure>
+    
+
+    
 
     
     </testcase>
   
+    <testcase name="Step 2: open filters panel and select brightness" time="4.622" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: enter brightness via setvalue function" time="2.659" assertions="4">
+
     
-    <testcase
-      name="Step 2: open filters panel and select brightness">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 4: enter and delete brightness via keystoke" time="2.137" assertions="4">
+
     
-    <testcase
-      name="Step 3: enter brightness via setvalue function">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: enter incrementally inscrease/decrease brightness via up/down arrow" time="9.114" assertions="7">
+
     
-    <testcase
-      name="Step 4: enter and delete brightness via keystoke">
-      <skipped />
+
+    
+
+      <failure message="Testing if value of &lt;.ui-wrapper[title=&quot;Brightness&quot;] input[type=text]&gt; contains: &quot;25&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease brightness via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessinput.js:91:17)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: brightness(0.25)&quot;.">    at Object.module.exports.Step 5: enter incrementally inscrease/decrease brightness via up/down arrow (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessinput.js:100:18)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
     </testcase>
+  
+    <testcase name="Step 6: clear filters and close panel" time="3.277" assertions="6">
+
     
-    <testcase
-      name="Step 5: enter incrementally inscrease/decrease brightness via up/down arrow">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="Step 6: clear filters and close panel">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>
