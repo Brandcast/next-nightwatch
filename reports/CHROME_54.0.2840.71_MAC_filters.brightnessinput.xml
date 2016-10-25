@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="6">
+
+  <testsuite name="filters.brightnessinput"
+    errors="0" failures="1" hostname="" id="" package="filters.brightnessinput" skipped="5"
+    tests="6" time="25.59" timestamp="Tue, 25 Oct 2016 02:44:36 GMT">
+  
+    <testcase name="Step 1: page load" time="25.59" assertions="5">
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
+    at Object.module.exports.Step 1: page load (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.brightnessinput.js:14:18)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Step 2: open filters panel and select brightness">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: enter brightness via setvalue function">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 4: enter and delete brightness via keystoke">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 5: enter incrementally inscrease/decrease brightness via up/down arrow">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 6: clear filters and close panel">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

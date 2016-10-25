@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="backgroundcolorrgbinput"
+    errors="0" failures="0" hostname="" id="" package="backgroundcolorrgbinput" skipped="6"
+    tests="6" time="0.000" timestamp="Tue, 25 Oct 2016 01:21:32 GMT">
+  
+  
+    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 2: click on red input field, enter number and verify input value">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: click on green input field, enter number and verify input value">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 4: click on blue input field, enter number and verify input value">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 5: verify hex code in color panel and background color css value">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 6: clear background color and close panel">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

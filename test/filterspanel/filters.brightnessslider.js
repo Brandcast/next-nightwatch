@@ -50,15 +50,16 @@ module.exports = {
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="brightness-slider"]', 50, 6)
-        .mouseButtonUp(0)
+        .mouseButtonClick(0)
         .pause(500)
+
+         page = browser.page.closepanel();  
+          page.closepanel();
 
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(4.1)')
         browser.frame(null);
 
-         page = browser.page.closepanel();  
-          page.closepanel();
     },
       
       'Step 4: clear filters and close panel' : function (browser) { 

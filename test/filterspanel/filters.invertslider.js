@@ -40,7 +40,7 @@ module.exports = {
         browser.frame(null);
 
         browser.moveToElement('[data-qa-id="invert-slider"]', 15, 6)
-        .pause(500)
+        .pause(600)
          browser.frame(0) //selects iframe - must call to select anything within iframe
           .verify.cssProperty('.component-wrapper.bc-text-wrapper', '-webkit-filter', 'invert(0.2)')
         browser.frame(null);

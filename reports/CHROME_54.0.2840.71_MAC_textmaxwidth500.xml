@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="textmaxwidth500"
+    errors="0" failures="0" hostname="" id="" package="textmaxwidth500" skipped="2"
+    tests="2" time="0.000" timestamp="Tue, 25 Oct 2016 01:24:34 GMT">
+  
+  
+    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 2: open dimensions panel and select max width from drop down menu">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

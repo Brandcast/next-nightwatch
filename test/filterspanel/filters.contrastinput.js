@@ -87,6 +87,7 @@ module.exports = {
         browser.frame(null)
 
         .keys(browser.Keys.ARROW_DOWN)
+        .pause(200)
         .verify.valueContains('.ui-wrapper[title="Contrast"] input[type=text]', '30')
         .keys('\uE007')
         .pause(300)

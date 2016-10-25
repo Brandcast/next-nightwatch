@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="justifycenter"
+    errors="0" failures="0" hostname="" id="" package="justifycenter" skipped="0"
+    tests="5" time="23.47" timestamp="Tue, 25 Oct 2016 01:48:04 GMT">
+  
+    <testcase name="step 1: load page" time="10.90" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: open site map" time="7.717" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 3: select text component" time="1.977" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="step 4: open text formatting panel" time="1.463" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 5: disable/enable center justify" time="1.413" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

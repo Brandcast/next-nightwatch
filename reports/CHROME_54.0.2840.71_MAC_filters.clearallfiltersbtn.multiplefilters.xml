@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="6">
+
+  <testsuite name="filters.clearallfiltersbtn.multiplefilters"
+    errors="0" failures="1" hostname="" id="" package="filters.clearallfiltersbtn.multiplefilters" skipped="0"
+    tests="6" time="43.38" timestamp="Tue, 25 Oct 2016 02:45:32 GMT">
+  
+    <testcase name="Step 1: page load" time="17.95" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select sepia" time="3.398" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select saturate, hue rotate, and invert filters" time="9.027" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: verify saturate, hue rotate, and invert is applied via css on the text component" time="3.640" assertions="2">
+
+      <failure message="Testing if element &lt;.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: saturate(1.64) hue-rotate(50deg) invert(0.82)&quot;.">    at Object.module.exports.Step 4: verify saturate, hue rotate, and invert is applied via css on the text component (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.clearallfiltersbtn.multiplefilters.js:63:19)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: click &quot;clear all filters&quot; button" time="4.278" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 6: verify sepia input field is clear and css is no longer applied" time="5.086" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

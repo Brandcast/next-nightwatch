@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="filters.saturateinput"
+    errors="0" failures="0" hostname="" id="" package="filters.saturateinput" skipped="6"
+    tests="6" time="0.000" timestamp="Tue, 25 Oct 2016 02:51:35 GMT">
+  
+  
+    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 2: open filters panel and select saturate">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: enter saturate via setvalue function">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 4: enter saturate via keystoke">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 5: enter incrementally inscrease/decrease saturate via up/down arrow">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 6: clear filters and close panel">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

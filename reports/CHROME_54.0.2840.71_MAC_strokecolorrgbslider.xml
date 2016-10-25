@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="strokecolorrgbslider"
+    errors="0" failures="0" hostname="" id="" package="strokecolorrgbslider" skipped="6"
+    tests="6" time="0.000" timestamp="Tue, 25 Oct 2016 01:22:06 GMT">
+  
+  
+    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 2: click on red slider and verify hex code">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: click on green slider and verify hex code">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 4: click on blue slider and verify hex code">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 5: verify stroke color is set">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 6: remove stroke and close panel">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

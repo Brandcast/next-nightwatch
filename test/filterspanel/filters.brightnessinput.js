@@ -49,7 +49,7 @@ module.exports = {
          .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', "")
     },
 
-      'Step 4: enter brightness via keystoke' : function (browser) { 
+      'Step 4: enter and delete brightness via keystoke' : function (browser) { 
         browser.verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', "")
         .keys('2')
         .keys('5')
@@ -76,6 +76,7 @@ module.exports = {
         .keys('\uE007')
         .click('.ui-wrapper[title="Brightness"] input[type=text]')
         .keys(browser.Keys.ARROW_UP)
+        .pause(200)
         .keys(browser.Keys.ARROW_UP)
         .verify.valueContains('.ui-wrapper[title="Brightness"] input[type=text]', '35')
         //.keys('\uE007')
@@ -92,6 +93,8 @@ module.exports = {
         
         page = browser.page.closepanel();  
           page.closepanel();
+
+        browser.pause(300)
       
         browser.frame(0) //selects iframe - must call to select anything within iframe
          .verify.cssProperty('.focused.component-wrapper.bc-text-wrapper', '-webkit-filter', 'brightness(0.3)')

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="newwebsitesubdomainname"
+    errors="0" failures="0" hostname="" id="" package="newwebsitesubdomainname" skipped="3"
+    tests="3" time="0.000" timestamp="Tue, 25 Oct 2016 01:36:45 GMT">
+  
+  
+    
+    <testcase
+      name="step 1: load page">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 2: open &quot;new website&quot; panel and enter a website name">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 3: clear out website name and verify error message is displayed">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

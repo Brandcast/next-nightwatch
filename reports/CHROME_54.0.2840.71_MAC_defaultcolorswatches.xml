@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="defaultcolorswatches"
+    errors="0" failures="0" hostname="" id="" package="defaultcolorswatches" skipped="5"
+    tests="5" time="0.000" timestamp="Tue, 25 Oct 2016 01:21:32 GMT">
+  
+  
+    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 2: background color set to black">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 3: stroke color set to white">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 4: text color set to transparent">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 7: reset text, background, and stroke color to default settings then close panel">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

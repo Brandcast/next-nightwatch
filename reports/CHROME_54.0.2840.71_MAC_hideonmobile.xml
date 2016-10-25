@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="hideonmobile"
+    errors="0" failures="0" hostname="" id="" package="hideonmobile" skipped="0"
+    tests="3" time="25.03" timestamp="Tue, 25 Oct 2016 01:39:38 GMT">
+  
+    <testcase name="Step 1: page load" time="19.97" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: select hide on mobile" time="3.143" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify text component is hidden on mobile" time="1.922" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

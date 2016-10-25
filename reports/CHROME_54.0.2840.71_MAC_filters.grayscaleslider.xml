@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="filters.grayscaleslider"
+    errors="0" failures="0" hostname="" id="" package="filters.grayscaleslider" skipped="0"
+    tests="4" time="32.77" timestamp="Tue, 25 Oct 2016 02:48:39 GMT">
+  
+    <testcase name="Step 1: page load" time="20.55" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: open filters panel and select grayscale" time="4.580" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: select grayscale via slider" time="4.887" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: clear filters and close panel" time="2.744" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

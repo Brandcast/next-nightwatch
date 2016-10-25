@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="sitemapslider"
+    errors="0" failures="0" hostname="" id="" package="sitemapslider" skipped="2"
+    tests="2" time="0.000" timestamp="Tue, 25 Oct 2016 01:44:49 GMT">
+  
+  
+    
+    <testcase
+      name="step 1: page load and open sitemap">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 2: sitemap slider">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

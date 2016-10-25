@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="centeralign"
+    errors="0" failures="0" hostname="" id="" package="centeralign" skipped="0"
+    tests="4" time="20.06" timestamp="Tue, 25 Oct 2016 01:19:30 GMT">
+  
+    <testcase name="Step 1: page load" time="15.64" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2: click text component and then select grid layout" time="2.756" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: open alignment panel and select center align" time="1.027" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: verify grid has center alignment applied via css class" time="0.6360" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

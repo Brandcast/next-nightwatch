@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="8">
+
+  <testsuite name="customcolorswatch"
+    errors="0" failures="0" hostname="" id="" package="customcolorswatch" skipped="8"
+    tests="8" time="0.000" timestamp="Tue, 25 Oct 2016 01:21:32 GMT">
+  
+  
+    
+    <testcase
+      name="step 1: load page">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 2: select text component in iframe and open color panel">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 3: select text color, enter click onto color spectrem, and select color hue">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 4: verify text componet has css applied for selected color">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 5: create custom color swatch in color panel">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 6: duplicate custom color swatch in color panel">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="step 7: delete custom color swatch in color panel">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Step 6: clear text color and close panel">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
