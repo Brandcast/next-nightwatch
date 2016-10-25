@@ -11,7 +11,7 @@ module.exports = {
 
     },
   'step 2: open site map' : function (browser) {
-    var page = browser.page.opensitemap();
+    page = browser.page.opensitemap();
       page.opensitemap(); 
       
       browser.end()

@@ -5,14 +5,14 @@
 
   <testsuite name="newwebsitename"
     errors="0" failures="0" hostname="" id="" package="newwebsitename" skipped="0"
-    tests="3" time="13.90" timestamp="Mon, 24 Oct 2016 18:11:52 GMT">
+    tests="3" time="13.66" timestamp="Mon, 24 Oct 2016 22:01:16 GMT">
   
-    <testcase name="step 1: load page" time="12.14" assertions="1">
+    <testcase name="step 1: load page" time="11.65" assertions="1">
 
     
     </testcase>
   
-    <testcase name="step 2: open &quot;new website&quot; panel and enter a website name" time="1.626" assertions="4">
+    <testcase name="step 2: open &quot;new website&quot; panel and enter a website name" time="1.158" assertions="4">
 
     
 
@@ -23,7 +23,9 @@
     
     </testcase>
   
-    <testcase name="step 3: clear out website name and verify error message is displayed" time="0.1300" assertions="0">
+    <testcase name="step 3: clear out website name and verify error message is displayed" time="0.8500" assertions="1">
+
+    
     </testcase>
   
   

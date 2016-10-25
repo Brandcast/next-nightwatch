@@ -19,8 +19,6 @@ var newwebsiteCommands = {
     createwebsitebtn: function() {
       this.assert.elementPresent('[data-qa-id="create-website-button"]')
         this.api.click('[data-qa-id="create-website-button"]')
-
-       //this.verify.containsText('.overlay-label.drag-handle', 'New Website')
   },
 
     cancelbtn: function() {
