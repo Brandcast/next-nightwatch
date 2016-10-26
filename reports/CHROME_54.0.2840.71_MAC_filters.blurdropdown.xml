@@ -5,9 +5,9 @@
 
   <testsuite name="filters.blurdropdown"
     errors="0" failures="0" hostname="" id="" package="filters.blurdropdown" skipped="0"
-    tests="7" time="50.91" timestamp="Tue, 25 Oct 2016 21:14:31 GMT">
+    tests="7" time="36.44" timestamp="Tue, 25 Oct 2016 21:35:38 GMT">
   
-    <testcase name="Step 1: page load" time="28.07" assertions="6">
+    <testcase name="Step 1: page load" time="18.55" assertions="6">
 
     
 
@@ -21,43 +21,8 @@
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:99:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
-    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:104:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 2: open filters panel and select blur" time="5.305" assertions="3">
+    <testcase name="Step 2: open filters panel and select blur" time="2.534" assertions="3">
 
     
 
@@ -65,43 +30,8 @@ ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: cs
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:99:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
-    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:104:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 4: select blur 5px via drop-down-menu" time="3.501" assertions="6">
+    <testcase name="Step 4: select blur 5px via drop-down-menu" time="3.448" assertions="6">
 
     
 
@@ -115,43 +45,8 @@ ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: cs
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:99:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
-    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:104:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 3: select blur 0px via drop-down-menu" time="3.486" assertions="7">
+    <testcase name="Step 3: select blur 0px via drop-down-menu" time="3.182" assertions="7">
 
     
 
@@ -167,43 +62,8 @@ ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: cs
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:99:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
-    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:104:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 5: select blur 10px via drop-down-menu" time="3.472" assertions="7">
+    <testcase name="Step 5: select blur 10px via drop-down-menu" time="3.076" assertions="7">
 
     
 
@@ -219,43 +79,8 @@ ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: cs
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:99:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
-    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:104:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 6: select blur 20px via drop-down-menu" time="3.710" assertions="7">
+    <testcase name="Step 6: select blur 20px via drop-down-menu" time="3.135" assertions="7">
 
     
 
@@ -271,43 +96,8 @@ ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: cs
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:99:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
-    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:104:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
-    <testcase name="Step 7: clear filters" time="3.359" assertions="6">
+    <testcase name="Step 7: clear filters" time="2.516" assertions="6">
 
     
 
@@ -321,41 +111,6 @@ ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: cs
 
     
     </testcase>
-      <system-err>
-        ERROR: Unable to locate element: &quot;.overlay-label.drag-handle&quot; using: css selector
-    at command (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
-    at module.exports.BaseAssertion._scheduleAssertion (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:87:17)
-    at module.exports.BaseAssertion._executeCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:82:17)
-    at AssertionInstance.commandFn [as _commandFn] (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/assertion.js:180:21)
-    at AsyncTree.runCommand (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:154:30)
-    at AsyncTree.runChildNode (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:114:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:80:10)
-    at AsyncTree.walkUp (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:97:8)
-    at AsyncTree.walkDown (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.traverse (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/core/queue.js:73:8)
-ERROR: Unable to locate element: &quot;[data-qa-id=&quot;clear-all-filters&quot;]&quot; using: css selector
-    at Object.click (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Object.clearallfiltersbtnCommands.clearallfiltersbtn (/Users/kelli/Sites/nightwatch/pages/clearallfiltersbtn.js:4:9)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:99:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-ERROR: Unable to locate element: &quot;div.panel-close-container&quot; using: css selector
-    at Object.closepanelCommands.closepanel (/Users/kelli/Sites/nightwatch/pages/closepanel.js:4:16)
-    at Object.module.exports.Step 6: clear filters and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.grayscaleinput.js:104:16)
-    at Module.call (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at self.promiseDispatch.done (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
-    at Promise.promise.promiseDispatch (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/Users/kelli/.nvm/versions/node/v6.3.1/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-      </system-err>
   
   
   </testsuite>

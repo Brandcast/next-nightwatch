@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="5">
 
   <testsuite name="translateyinput"
-    errors="0" failures="1" hostname="" id="" package="translateyinput" skipped="3"
-    tests="5" time="17.67" timestamp="Tue, 25 Oct 2016 17:16:18 GMT">
+    errors="0" failures="0" hostname="" id="" package="translateyinput" skipped="0"
+    tests="5" time="28.05" timestamp="Tue, 25 Oct 2016 22:05:05 GMT">
   
-    <testcase name="step 1: load page and open site" time="16.41" assertions="6">
+    <testcase name="step 1: load page and open site" time="20.07" assertions="6">
 
     
 
@@ -18,33 +18,42 @@
     
 
     
-
-    
-    </testcase>
-  
-    <testcase name="step 2: select text component" time="1.264" assertions="1">  <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;/grid/column/text&quot;]&gt; to be present for 1000 milliseconds.">    at Object.module.exports.step 2: select text component (/Users/kelli/Sites/nightwatch/test/transformpanel/translateyinput.js:21:12)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
     
     </testcase>
   
+    <testcase name="step 2: select text component" time="1.862" assertions="1">
+
+    
+    </testcase>
   
+    <testcase name="step 3: open transform panel and select transform y input" time="2.147" assertions="4">
+
     
-    <testcase
-      name="step 3: open transform panel and select transform y input">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="step 4: enter Translate Y value via keystroke and verify css is applied" time="0.9450" assertions="2">
+
     
-    <testcase
-      name="step 4: enter Translate Y value via keystroke and verify css is applied">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="step 5: clear value and verify text component position is reset" time="3.030" assertions="3">
+
     
-    <testcase
-      name="step 5: clear value and verify text component position is reset">
-      <skipped />
+
+    
+
+    
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

@@ -4,10 +4,10 @@
             tests="5">
 
   <testsuite name="rightsideborder"
-    errors="0" failures="1" hostname="" id="" package="rightsideborder" skipped="3"
-    tests="5" time="18.64" timestamp="Tue, 25 Oct 2016 17:11:54 GMT">
+    errors="0" failures="1" hostname="" id="" package="rightsideborder" skipped="0"
+    tests="5" time="28.09" timestamp="Tue, 25 Oct 2016 21:58:39 GMT">
   
-    <testcase name="Step 1: page load" time="17.25" assertions="6">
+    <testcase name="Step 1: page load" time="20.57" assertions="6">
 
     
 
@@ -22,30 +22,50 @@
     
     </testcase>
   
-    <testcase name="Step 2: open stroke panel and select right side border" time="1.387" assertions="1">  <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;/grid/column/text&quot;]&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Step 2: open stroke panel and select right side border (/Users/kelli/Sites/nightwatch/test/strokepanel/rightsideborder.js:22:11)
+    <testcase name="Step 2: open stroke panel and select right side border" time="4.386" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: verify text component has right side border" time="0.09700" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 4: open stroke panel and deselect right side border" time="1.841" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 5: verify text component does not have right side border" time="1.198" assertions="1">  <failure message="Testing if element &lt;.focused.component-wrapper&gt; has css property &quot;border-right-width: 0px&quot;.">    at Object.module.exports.Step 5: verify text component does not have right side border (/Users/kelli/Sites/nightwatch/test/strokepanel/rightsideborder.js:56:19)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
     at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
     </testcase>
   
-  
-    
-    <testcase
-      name="Step 3: verify text component has right side border">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="Step 4: open stroke panel and deselect right side border">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="Step 5: verify text component does not have right side border">
-      <skipped />
-    </testcase>
-    
   
   </testsuite>
 </testsuites>

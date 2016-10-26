@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="5">
 
   <testsuite name="justifiedtext"
-    errors="0" failures="1" hostname="" id="" package="justifiedtext" skipped="2"
-    tests="5" time="18.05" timestamp="Tue, 25 Oct 2016 17:13:07 GMT">
+    errors="0" failures="0" hostname="" id="" package="justifiedtext" skipped="0"
+    tests="5" time="24.51" timestamp="Tue, 25 Oct 2016 22:00:31 GMT">
   
-    <testcase name="step 1: load page" time="11.75" assertions="3">
+    <testcase name="step 1: load page" time="11.91" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map and website" time="5.075" assertions="3">
+    <testcase name="step 2: open site map and website" time="7.587" assertions="3">
 
     
 
@@ -25,25 +25,33 @@
     
     </testcase>
   
-    <testcase name="step 3: select text component" time="1.225" assertions="1">  <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;/grid/column/text&quot;]&gt; to be present for 1000 milliseconds.">    at Object.module.exports.step 3: select text component (/Users/kelli/Sites/nightwatch/test/textformattingpanel/justifiedtext.js:23:11)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    <testcase name="step 3: select text component" time="1.911" assertions="1">
 
     
     </testcase>
   
+    <testcase name="step 4: open text formatting panel" time="1.471" assertions="2">
+
+    
+
+    
+    </testcase>
   
+    <testcase name="step 5: disable/enable justified text justify" time="1.631" assertions="6">
+
     
-    <testcase
-      name="step 4: open text formatting panel">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
-    <testcase
-      name="step 5: disable/enable justified text justify">
-      <skipped />
-    </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

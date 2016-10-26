@@ -5,9 +5,9 @@
 
   <testsuite name="medialibrarysiteeditor"
     errors="0" failures="0" hostname="" id="" package="medialibrarysiteeditor" skipped="0"
-    tests="3" time="24.14" timestamp="Tue, 25 Oct 2016 17:03:08 GMT">
+    tests="3" time="21.18" timestamp="Tue, 25 Oct 2016 21:45:40 GMT">
   
-    <testcase name="step 1: load page" time="12.01" assertions="3">
+    <testcase name="step 1: load page" time="10.55" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map and site editor" time="8.635" assertions="3">
+    <testcase name="step 2: open site map and site editor" time="7.768" assertions="3">
 
     
 
@@ -25,7 +25,7 @@
     
     </testcase>
   
-    <testcase name="step 3: open media library menu" time="3.492" assertions="2">
+    <testcase name="step 3: open media library menu" time="2.870" assertions="2">
 
     
 

@@ -3,9 +3,9 @@
             failures="0"
             tests="2">
 
-  <testsuite name="textcomponentdnd"
-    errors="0" failures="0" hostname="" id="" package="textcomponentdnd" skipped="2"
-    tests="2" time="0.000" timestamp="Tue, 25 Oct 2016 22:03:42 GMT">
+  <testsuite name="textcomponentexisting"
+    errors="0" failures="0" hostname="" id="" package="textcomponentexisting" skipped="2"
+    tests="2" time="0.000" timestamp="Wed, 26 Oct 2016 00:40:05 GMT">
   
   
     

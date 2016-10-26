@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="5">
 
   <testsuite name="showonmobilelandscape.hideonportraitdesktop"
-    errors="0" failures="1" hostname="" id="" package="showonmobilelandscape.hideonportraitdesktop" skipped="3"
-    tests="5" time="18.97" timestamp="Tue, 25 Oct 2016 17:08:47 GMT">
+    errors="0" failures="0" hostname="" id="" package="showonmobilelandscape.hideonportraitdesktop" skipped="0"
+    tests="5" time="28.04" timestamp="Tue, 25 Oct 2016 21:52:11 GMT">
   
-    <testcase name="Step 1: page load" time="17.34" assertions="6">
+    <testcase name="Step 1: page load" time="18.39" assertions="6">
 
     
 
@@ -18,34 +18,60 @@
     
 
     
-
-    
-    </testcase>
-  
-    <testcase name="Step 2: select hide on portrait and desktop" time="1.631" assertions="1">  <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;/grid/column/text&quot;]&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Step 2: select hide on portrait and desktop (/Users/kelli/Sites/nightwatch/test/showhidepanel/showonmobilelandscape.hideonportraitdesktop.js:21:12)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
     </testcase>
   
+    <testcase name="Step 2: select hide on portrait and desktop" time="3.797" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
   
+    <testcase name="Step 3: verify hidden not selected on mobile and landscape" time="0.1550" assertions="2">
+
     
-    <testcase
-      name="Step 3: verify hidden not selected on mobile and landscape">
-      <skipped />
+
+    
     </testcase>
+  
+    <testcase name="Step 4: resize to dekstop and landscape, verify dispaly none is on desktop but not landscape" time="2.572" assertions="4">
+
     
-    <testcase
-      name="Step 4: resize to dekstop and landscape, verify dispaly none is on desktop but not landscape">
-      <skipped />
+
+    
+
+    
+
+    
     </testcase>
+  
+    <testcase name="Step 5: resize to mobile and portrait, verify dispaly none is on mobile but not portrait" time="3.126" assertions="5">
+
     
-    <testcase
-      name="Step 5: resize to mobile and portrait, verify dispaly none is on mobile but not portrait">
-      <skipped />
+
+    
+
+    
+
+    
+
+    
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

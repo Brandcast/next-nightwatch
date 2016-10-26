@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="3">
 
   <testsuite name="hideonalldevices"
-    errors="0" failures="1" hostname="" id="" package="hideonalldevices" skipped="1"
-    tests="3" time="19.49" timestamp="Tue, 25 Oct 2016 17:06:18 GMT">
+    errors="0" failures="0" hostname="" id="" package="hideonalldevices" skipped="0"
+    tests="3" time="23.73" timestamp="Tue, 25 Oct 2016 21:48:53 GMT">
   
-    <testcase name="Step 1: page load" time="18.23" assertions="6">
+    <testcase name="Step 1: page load" time="18.67" assertions="6">
 
     
 
@@ -22,20 +22,40 @@
     
     </testcase>
   
-    <testcase name="Step 2: select hide on all devices" time="1.264" assertions="1">  <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;/grid/column/text&quot;]&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Step 2: select hide on all devices (/Users/kelli/Sites/nightwatch/test/showhidepanel/hideonalldevices.js:21:12)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)
-    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+    <testcase name="Step 2: select hide on all devices" time="4.325" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
   
-  
+    <testcase name="Step 3: verify text component is hidden on mobile" time="0.7370" assertions="3">
+
     
-    <testcase
-      name="Step 3: verify text component is hidden on mobile">
-      <skipped />
+
+    
+
+    
     </testcase>
-    
+  
   
   </testsuite>
 </testsuites>

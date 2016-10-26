@@ -4,10 +4,10 @@
             tests="5">
 
   <testsuite name="justifycenter"
-    errors="0" failures="1" hostname="" id="" package="justifycenter" skipped="2"
-    tests="5" time="19.35" timestamp="Tue, 25 Oct 2016 17:13:25 GMT">
+    errors="0" failures="1" hostname="" id="" package="justifycenter" skipped="3"
+    tests="5" time="20.58" timestamp="Tue, 25 Oct 2016 22:00:55 GMT">
   
-    <testcase name="step 1: load page" time="12.18" assertions="3">
+    <testcase name="step 1: load page" time="10.05" assertions="3">
 
     
 
@@ -16,22 +16,20 @@
     
     </testcase>
   
-    <testcase name="step 2: open site map" time="5.796" assertions="3">
+    <testcase name="step 2: open site map" time="10.52" assertions="2">
 
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="step 3: select text component" time="1.378" assertions="1">  <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;/grid/column/text&quot;]&gt; to be present for 1000 milliseconds.">    at Object.module.exports.step 3: select text component (/Users/kelli/Sites/nightwatch/test/textformattingpanel/justifycenter.js:23:11)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+      <failure message="Timed out while waiting for element &lt;[data-qa-id=&quot;page-item-preview&quot;]&gt; to be present for 10000 milliseconds.">    at Object.opensitemapCommands.opensitemap (/Users/kelli/Sites/nightwatch/pages/opensitemap.js:6:10)
+    at Object.module.exports.step 2: open site map (/Users/kelli/Sites/nightwatch/test/textformattingpanel/justifycenter.js:15:14)</failure>
 
     
     </testcase>
   
   
+    
+    <testcase
+      name="step 3: select text component">
+      <skipped />
+    </testcase>
     
     <testcase
       name="step 4: open text formatting panel">
