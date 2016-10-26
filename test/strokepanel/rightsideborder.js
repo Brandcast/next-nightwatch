@@ -49,6 +49,8 @@ module.exports = {
 
          page = browser.page.closepanel();  
            page.closepanel();
+
+          browser.pause(500)
     },
 
       'Step 5: verify text component does not have right side border' : function (browser) {

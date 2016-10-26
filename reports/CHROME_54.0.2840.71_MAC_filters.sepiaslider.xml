@@ -5,9 +5,9 @@
 
   <testsuite name="filters.sepiaslider"
     errors="0" failures="1" hostname="" id="" package="filters.sepiaslider" skipped="0"
-    tests="4" time="38.86" timestamp="Tue, 25 Oct 2016 21:43:12 GMT">
+    tests="4" time="30.67" timestamp="Wed, 26 Oct 2016 17:00:28 GMT">
   
-    <testcase name="Step 1: page load" time="25.01" assertions="6">
+    <testcase name="Step 1: page load" time="15.79" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select sepia" time="4.344" assertions="5">
+    <testcase name="Step 2: open filters panel and select sepia" time="5.996" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select sepia via slider and verify css has been applied" time="6.458" assertions="5">
+    <testcase name="Step 3: select sepia via slider and verify css has been applied" time="5.693" assertions="5">
 
     
 
@@ -50,7 +50,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: clear filters and close panel" time="3.048" assertions="6">
+    <testcase name="Step 4: clear filters and close panel" time="3.192" assertions="6">
 
     
 

@@ -5,9 +5,9 @@
 
   <testsuite name="filters.grayscaleslider"
     errors="0" failures="0" hostname="" id="" package="filters.grayscaleslider" skipped="0"
-    tests="4" time="34.20" timestamp="Tue, 25 Oct 2016 21:40:02 GMT">
+    tests="4" time="31.59" timestamp="Wed, 26 Oct 2016 16:58:19 GMT">
   
-    <testcase name="Step 1: page load" time="21.65" assertions="6">
+    <testcase name="Step 1: page load" time="20.77" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select grayscale" time="4.557" assertions="5">
+    <testcase name="Step 2: open filters panel and select grayscale" time="4.157" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 3: select grayscale via slider" time="5.047" assertions="5">
+    <testcase name="Step 3: select grayscale via slider" time="3.991" assertions="5">
 
     
 
@@ -48,7 +48,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: clear filters and close panel" time="2.949" assertions="6">
+    <testcase name="Step 4: clear filters and close panel" time="2.677" assertions="6">
 
     
 

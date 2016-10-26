@@ -5,9 +5,9 @@
 
   <testsuite name="undock:drag:dockshowhidepanel"
     errors="0" failures="0" hostname="" id="" package="undock:drag:dockshowhidepanel" skipped="0"
-    tests="4" time="22.45" timestamp="Tue, 25 Oct 2016 21:52:39 GMT">
+    tests="4" time="19.82" timestamp="Wed, 26 Oct 2016 17:10:53 GMT">
   
-    <testcase name="Step 1: page load" time="18.60" assertions="6">
+    <testcase name="Step 1: page load" time="16.73" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: Undock show/hide panel" time="2.120" assertions="5">
+    <testcase name="Step 2: Undock show/hide panel" time="1.578" assertions="5">
 
     
 
@@ -35,14 +35,14 @@
     
     </testcase>
   
-    <testcase name="Step 3: drag show/hide panel around screen and console log x/y values" time="1.316" assertions="2">
+    <testcase name="Step 3: drag show/hide panel around screen and console log x/y values" time="1.078" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 4: dock filters panel" time="0.4150" assertions="3">
+    <testcase name="Step 4: dock filters panel" time="0.4360" assertions="3">
 
     
 

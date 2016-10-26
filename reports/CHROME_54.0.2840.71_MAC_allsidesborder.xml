@@ -5,9 +5,9 @@
 
   <testsuite name="allsidesborder"
     errors="0" failures="0" hostname="" id="" package="allsidesborder" skipped="0"
-    tests="5" time="29.51" timestamp="Tue, 25 Oct 2016 21:57:41 GMT">
+    tests="5" time="25.93" timestamp="Wed, 26 Oct 2016 17:13:16 GMT">
   
-    <testcase name="Step 1: page load" time="21.73" assertions="6">
+    <testcase name="Step 1: page load" time="18.41" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open stroke panel and select 4 sided border" time="4.264" assertions="7">
+    <testcase name="Step 2: open stroke panel and select 4 sided border" time="4.532" assertions="7">
 
     
 
@@ -39,12 +39,12 @@
     
     </testcase>
   
-    <testcase name="Step 3: verify text component has 4 sided border" time="0.2200" assertions="1">
+    <testcase name="Step 3: verify text component has 4 sided border" time="0.1900" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 4: open stroke panel and deselect 4 sided border" time="2.070" assertions="6">
+    <testcase name="Step 4: open stroke panel and deselect 4 sided border" time="1.571" assertions="6">
 
     
 
@@ -59,7 +59,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: verify text component does not have border" time="1.226" assertions="1">
+    <testcase name="Step 5: verify text component does not have border" time="1.220" assertions="1">
 
     
     </testcase>

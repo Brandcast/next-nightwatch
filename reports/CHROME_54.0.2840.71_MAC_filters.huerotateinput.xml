@@ -4,91 +4,41 @@
             tests="6">
 
   <testsuite name="filters.huerotateinput"
-    errors="0" failures="0" hostname="" id="" package="filters.huerotateinput" skipped="0"
-    tests="6" time="40.54" timestamp="Tue, 25 Oct 2016 21:41:17 GMT">
+    errors="0" failures="0" hostname="" id="" package="filters.huerotateinput" skipped="6"
+    tests="6" time="0.000" timestamp="Wed, 26 Oct 2016 16:59:26 GMT">
   
-    <testcase name="Step 1: page load" time="22.86" assertions="6">
-
+  
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 1: page load">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 2: open filters panel and select hue-rotate" time="4.558" assertions="5">
-
     
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 2: open filters panel and select hue-rotate">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 3: enter hue-rotate via setvalue function" time="2.182" assertions="4">
-
     
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 3: enter hue-rotate via setvalue function">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 4: enter hue-rotate via keystoke" time="2.214" assertions="4">
-
     
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 4: enter hue-rotate via keystoke">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow" time="5.466" assertions="7">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 5: enter incrementally inscrease/decrease hue-rotate via up/down arrow">
+      <skipped />
     </testcase>
-  
-    <testcase name="Step 6: clear filters and close panel" time="3.259" assertions="6">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase
+      name="Step 6: clear filters and close panel">
+      <skipped />
     </testcase>
-  
+    
   
   </testsuite>
 </testsuites>

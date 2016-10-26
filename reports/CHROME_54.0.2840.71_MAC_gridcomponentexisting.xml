@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="gridcomponentexisting"
+    errors="0" failures="0" hostname="" id="" package="gridcomponentexisting" skipped="0"
+    tests="2" time="21.36" timestamp="Wed, 26 Oct 2016 17:03:59 GMT">
+  
+    <testcase name="step 1: load page" time="17.89" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="step 2: select existing image" time="3.469" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

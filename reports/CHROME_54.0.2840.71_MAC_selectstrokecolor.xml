@@ -5,9 +5,9 @@
 
   <testsuite name="selectstrokecolor"
     errors="0" failures="0" hostname="" id="" package="selectstrokecolor" skipped="0"
-    tests="6" time="32.09" timestamp="Tue, 25 Oct 2016 21:59:07 GMT">
+    tests="6" time="27.55" timestamp="Wed, 26 Oct 2016 17:14:32 GMT">
   
-    <testcase name="Step 1: page load" time="20.63" assertions="6">
+    <testcase name="Step 1: page load" time="17.58" assertions="6">
 
     
 
@@ -22,27 +22,12 @@
     
     </testcase>
   
-    <testcase name="Step 2: select stroke color" time="2.150" assertions="1">
+    <testcase name="Step 2: select stroke color" time="1.912" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 3: select stroke color" time="2.505" assertions="4">
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step 4: select stroke color" time="3.081" assertions="6">
-
-    
-
-    
+    <testcase name="Step 3: select stroke color" time="1.732" assertions="4">
 
     
 
@@ -53,7 +38,13 @@
     
     </testcase>
   
-    <testcase name="Step 5: verify color applied via css" time="0.7170" assertions="3">
+    <testcase name="Step 4: select stroke color" time="3.202" assertions="6">
+
+    
+
+    
+
+    
 
     
 
@@ -62,7 +53,16 @@
     
     </testcase>
   
-    <testcase name="Step 6: open stroke panel and deselect 4 sided border" time="3.015" assertions="6">
+    <testcase name="Step 5: verify color applied via css" time="0.4140" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 6: open stroke panel and deselect 4 sided border" time="2.709" assertions="6">
 
     
 

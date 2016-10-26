@@ -5,9 +5,9 @@
 
   <testsuite name="closetab"
     errors="0" failures="0" hostname="" id="" package="closetab" skipped="0"
-    tests="2" time="19.49" timestamp="Tue, 25 Oct 2016 21:53:49 GMT">
+    tests="2" time="21.21" timestamp="Wed, 26 Oct 2016 17:12:04 GMT">
   
-    <testcase name="step 1: load page" time="10.39" assertions="3">
+    <testcase name="step 1: load page" time="10.24" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="step 2: close tab" time="9.107" assertions="5">
+    <testcase name="step 2: close tab" time="10.97" assertions="5">
 
     
 

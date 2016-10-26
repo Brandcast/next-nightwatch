@@ -62,6 +62,8 @@ module.exports = {
           page = browser.page.borderallsides();
             page.borderallsidesbtndisabled();
           
+          browser.pause(300);
+          
           page = browser.page.closepanel();  
             page.closepanel();
 
@@ -80,6 +82,7 @@ module.exports = {
           browser.expect.element('.focused[data-qa-id="/grid/column1/text"]').to.not.be.present
           browser.expect.element('.focused[data-qa-id="/grid/column/text"]').to.not.be.present
         browser.frame(null) //closes iframe
+      browser.pause(1000);
       browser.end();
 
   },

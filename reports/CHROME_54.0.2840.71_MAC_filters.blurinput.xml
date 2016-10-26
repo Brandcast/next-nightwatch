@@ -5,9 +5,9 @@
 
   <testsuite name="filters.blurinput"
     errors="0" failures="1" hostname="" id="" package="filters.blurinput" skipped="0"
-    tests="5" time="30.50" timestamp="Tue, 25 Oct 2016 21:36:14 GMT">
+    tests="5" time="30.90" timestamp="Wed, 26 Oct 2016 16:54:56 GMT">
   
-    <testcase name="Step 1: page load" time="18.02" assertions="6">
+    <testcase name="Step 1: page load" time="18.21" assertions="6">
 
     
 
@@ -22,7 +22,7 @@
     
     </testcase>
   
-    <testcase name="Step 2: open filters panel and select blur" time="3.553" assertions="5">
+    <testcase name="Step 2: open filters panel and select blur" time="3.506" assertions="5">
 
     
 
@@ -35,7 +35,7 @@
     
     </testcase>
   
-    <testcase name="Step 4: enter blur via keystoke" time="2.251" assertions="3">
+    <testcase name="Step 4: enter blur via keystoke" time="2.105" assertions="3">
 
     
 
@@ -44,7 +44,7 @@
     
     </testcase>
   
-    <testcase name="Step 5: enter incrementally inscrease/decrease blur via up/down arrow" time="3.856" assertions="5">
+    <testcase name="Step 5: enter incrementally inscrease/decrease blur via up/down arrow" time="4.245" assertions="5">
 
     
 
@@ -57,10 +57,11 @@
     
     </testcase>
   
-    <testcase name="Step 6: clear input field and close panel" time="2.816" assertions="4">
+    <testcase name="Step 6: clear input field and close panel" time="2.828" assertions="4">
 
       <failure message="Testing if element &lt;.focused.component-wrapper.bc-text-wrapper&gt; has css property &quot;-webkit-filter: none&quot;.">    at Object.module.exports.Step 6: clear input field and close panel (/Users/kelli/Sites/nightwatch/test/filterspanel/filters.blurinput.js:88:18)
-    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
 
     
 

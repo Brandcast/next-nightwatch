@@ -1,6 +1,6 @@
 module.exports = {
   //'disabled' : true,
-  '@tags' : ['textcomponent'],
+  '@tags' : ['imagecomponent'],
   'step 1: load page' : function (browser) {
      var page = browser.page.pageload();
 
@@ -17,12 +17,12 @@ module.exports = {
         page.opensite();
     },
 
-    'step 2: select textlayout and drag/drop a text component' : function (browser) {
+    'step 2: select existing image' : function (browser) {
 
       browser.frame(0) //selects iframe - must call to select anything within iframe
-        .waitForElementPresent('[data-qa-id="/grid/column/text"]', 1000)
-        .click('[data-qa-id="/grid/column/text"]')
-        .verify.elementPresent('.focused[data-qa-id="/grid/column/text"]')
+        .waitForElementPresent('[data-qa-id="/grid/column/image"]', 1000)
+        .click('[data-qa-id="/grid/column/image"]')
+        .verify.elementPresent('.focused[data-qa-id="/grid/column/image"]')
         .frame(null) //closes iframe
 
       browser.end();
